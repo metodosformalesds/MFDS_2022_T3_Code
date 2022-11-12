@@ -1,4 +1,5 @@
 import requests
+#Get id, title, rating, price, language, url
 
 #Categories: Web Development, Data Science, Mobile Development, Programming Languages, Game Development, Database Design & Development
 #Software Testing, Software Engineering, Software Development Tools, No-Code Development
@@ -6,16 +7,16 @@ import requests
 def main():
   pageSize = str(10)
   pageNumber = str(1)
-  search = "sql"
-  category = "bases de datos"     #Esta no afecta en la busqueda
-  language = "es"     #es = español, en = english
-  level = "beginner"  #beginner, intermediate, expert
+  search = "frontend"
+  category = "WebDevelopment"     #Esta no afecta en la busqueda
+  language = "en"     #es = español, en = english
+  level = "beginner"  #beginner, intermediate, expert, all
 
-  results = getCourseDetails(pageNumber, pageSize, search, language, level)
+  results = getCourses(pageNumber, pageSize, search, language, level)
 
   data = results.json()
   getCount(data)
-  saveResultsCSV(data, category)
+  saveResultsCSV(data, category, language)
   
 
 def headers(url):
@@ -35,25 +36,37 @@ def headers(url):
     print("Error: ", str(response.status_code))
     return None
 
-def getCourseDetails(pageNumber, pageSize, search, language, level):
+def getCourses(pageNumber, pageSize, search, language, level):
   url = "https://www.udemy.com/api-2.0/courses/?page=" + pageNumber + "&page_size=" + pageSize + "&search=" + search + "&category=Development&price=price-paid&is_affiliate_agreed=True&is_deals_agreed=True&language=" + language + "&instructional_level=" + level + "&ordering=relevance"
   data = headers(url)
 
   return data
 
+def getCourseRating(id):
+  url2 = "https://www.udemy.com/api-2.0/courses/" + str(id) + "/?fields[course]=@all"
+  indData = headers(url2)
+
+  rating = indData.json()['rating']
+
+  return rating
+
 def getCount(data):
   count = data['count']
   return count
 
-def saveResultsCSV(data, category):
+def saveResultsCSV(data, category, language):
   with open('udemy.csv', 'r+') as f:
     if f.readline().startswith("id"):
       for course in data['results']:
-        f.write(str(course['id']) + ";" + course['title'] + ";" + str(course['price_detail']['amount']) + ";" + course['url'] +  ";" + category + "\n")
+        rating = getCourseRating(course['id'])
+        f.write(str(course['id']) + ";" + course['title'] + ";" 
+        + str(course['price_detail']['amount']) + ";" + course['url'] +  ";" + category + ";" + str(round(rating,1)) + ";" +  language + "\n")
     else:
-      f.write("id;title;price;url\n")
+      f.write("id;title;price;url;category;rating;language\n")
       for course in data['results']:
-        f.write(str(course['id']) + ";" + course['title'] + ";" + str(course['price_detail']['amount']) + ";" + course['url'] +  ";" + category + "\n")
+        rating = getCourseRating(course['id'])
+        f.write(str(course['id']) + ";" + course['title'] + ";" 
+        + str(course['price_detail']['amount']) + ";" + course['url'] +  ";" + category + ";" + str(round(rating,1)) + ";" + language + "\n")
   
 main()
 
