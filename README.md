@@ -8,7 +8,8 @@
 4. Como ya existe un archivo requeriments solo debemos poner *con el ambiente activado* el comando **pip install -r requirements.txt** 
 5. Ya está,  ahora solo corres la app usando **python manage.py runserver**
 
-**Versión de python utilizada: 3.8.10**
+## Versión de python utilizada: 7
+**python: 3.8.10**
 
 ### Credenciales para superusuario en DBSQLite
 **Usuario:** team3
