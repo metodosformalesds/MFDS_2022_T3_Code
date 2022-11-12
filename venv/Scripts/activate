@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\hrele\Desktop\MFDS\venv"
+VIRTUAL_ENV="C:\Users\hrele\Desktop\MFDS_2022_T3_Code\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
