@@ -1,0 +1,65 @@
+{% extends 'navbar.html' %} 
+{%  load static %}
+{% block tittle %} 
+Registro
+{% endblock %}
+
+{%  block content  %}
+
+<section class="vh-100">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card shadow-2-strong" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+  
+              <h3 class="mb-5">Crea una cuenta</h3>
+			  <form method="POST" action="">
+				{% csrf_token %}
+              <div class="form-outline mb-2">
+                <p class="text-left font-weight-bold">Correo electrónico</p>
+                <input type="email" name="email" class="form-control " placeholder="Correo electrónico" />
+              </div>
+  
+              <div class="form-outline mb-2">
+                <p class="text-left font-weight-bold">Usuario</p>
+                <input type="text" name="username" class="form-control " placeholder="Usuario" />
+
+              </div>
+
+              <div class="form-outline mb-2">
+                <p class="text-left font-weight-bold">Contraseña</p>
+                <input type="password" name="password1" class="form-control " placeholder="Contraseña" />
+              </div>
+
+              <div class="form-outline mb-2">
+                <p class="text-left font-weight-bold">Confirmar contraseña</p>
+                <input type="password" name="password2" class="form-control " placeholder="Confirma tu contraseña" />
+				
+              </div>
+  
+              <!-- Checkbox -->
+              <div class="form-check d-flex justify-content-start mb-2">
+              </div>
+  
+              <button class="btn  btn-block font-weight-bold" style="background-color: #21AC59;" type="submit">Registrarse</button>
+  
+              <hr class="my-4">
+
+              <button class="btn btn-block btn-primary mb-2" id="btn_redesociales" style="background-color: #3b5998;"
+                type="submit"><i class="fab fa-facebook-f me-2"></i> CONTINUAR CON FACEBOOK</button>
+              <button class="btn btn-block btn-outline-dark" id="btn_redesociales" 
+                type="submit"><i class="fab fa-google me-2"></i> CONTINUAR CON GOOGLE</button>
+            <div class="form-outline my-3">
+                <p>¿Ya tienes cuenta? <a href="{% url 'login' %}" class="text-success font-weight-bold">Inicia sesión</a></p>
+            </div>
+			{{form.errors}}
+		</form>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{%  endblock  %}

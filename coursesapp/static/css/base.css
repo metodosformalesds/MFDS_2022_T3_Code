@@ -1,0 +1,11 @@
+body{
+    background-color: #f3f3f3;
+}
+
+#btn_redesociales{
+    border-radius: 50px;
+}
+
+h1 a, h2 a {
+    color: #00ff62;
+}
