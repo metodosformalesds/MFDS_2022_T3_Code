@@ -9,3 +9,7 @@
 5. Ya está,  ahora solo corres la app usando **python manage.py runserver**
 
 **Versión de python utilizada: 3.8.10**
+
+### Credenciales para superusuario en DBSQLite
+**Usuario:** team3
+**Contraseña:** team3
