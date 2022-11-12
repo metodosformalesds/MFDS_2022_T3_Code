@@ -98,3 +98,47 @@ def logoutUser(request):
 	"""
 	logout(request)
 	return redirect('login')
+
+def profileUser(request): 
+	"""
+	Función profileUser: Lógica de la vista del perfil del usuario
+
+		Args:
+
+		Returns:
+			render: Renderización del archivo "profile.html"
+	"""
+	return render(request, 'profile.html')
+
+def profileConfig(request): 
+	"""
+	Función profileUser: Lógica de la vista de la configuración del perfil del usuario
+
+		Args:
+
+		Returns:
+			render: Renderización del archivo "profileConfig.html"
+	"""
+	return render(request, 'profileConfig.html')
+
+def courses(request): 
+	"""
+	Función profileUser: Lógica de la vista de los cursos buscados y obtenidos por medio de la API
+
+		Args:
+
+		Returns:
+			render: Renderización del archivo "courses.html"
+	"""
+	return render(request, 'courses.html')
+
+def jobs(request): 
+	"""
+	Función profileUser: Lógica de la vista de los trabajos buscados por el usuario. 
+
+		Args:
+
+		Returns:
+			render: Renderización del archivo "jobs.html"
+	"""
+	return render(request, 'jobs.html')
