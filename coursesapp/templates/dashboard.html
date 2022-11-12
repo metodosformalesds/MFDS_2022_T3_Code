@@ -1,12 +1,97 @@
 {%  extends 'main.html' %}
 
 {% block content %}
-<div>
-    <h1><a href="/">Homepage</a></h1>
-</div>
+<div class="main-banner px-4">
+      <div class="col-md-14 mx-auto col-lg-6">
+        <form class="p-4 p-md-5 border rounded main-form-search">
+          <div class="pb-3">
+            <label for="" class="mr-3 text-success"><strong>Cursos</strong></label>
+            <label for=""><strong>Trabajos</strong></label>
+          </div>  
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">
+                <i class="fas fa-search" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
 
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <h2 class="pb-5">Descubre Cursos</h2>
+      <div class="d-flex justify-content-between px-5">
 
-<!-- Esta linea importa lo que está dentro de Status{%  include 'status.html' %}-->
+        <div class="" style="width: 18rem;">
+          <img  class="card-img-top" src="../Images/students-course.jpg" alt="Card image">
+          <div class="card-body">
+            <h5 class=""><a href="#">Course Title</a></h5>
+            <p>Instructor's name</p>
+            <span>Platform</span>
+            <div>
+              <span>⭐</span><span>3.5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="" style="width: 18rem;">
+          <img  class="card-img-top" src="../Images/students-course.jpg" alt="Card image">
+          <div class="card-body">
+            <h5 class=""><a href="#">Course Title</a></h5>
+            <p>Instructor's name</p>
+            <span>Platform</span>
+            <div>
+              <span>⭐</span><span>3.5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="" style="width: 18rem;">
+          <img  class="card-img-top" src="../Images/students-course.jpg" alt="Card image">
+          <div class="card-body">
+            <h5 class=""><a href="#">Course Title</a></h5>
+            <p>Instructor's name</p>
+            <span>Platform</span>
+            <div>
+              <span>⭐</span><span>3.5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="" style="width: 18rem;">
+          <img  class="card-img-top" src="../Images/students-course.jpg" alt="Card image">
+          <div class="card-body">
+            <h5 class=""><a href="#">Course Title</a></h5>
+            <p>Instructor's name</p>
+            <span>Platform</span>
+            <div>
+              <span>⭐</span><span>3.5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="" style="width: 18rem;">
+          <img  class="card-img-top" src="../Images/students-course.jpg" alt="Card image">
+          <div class="card-body">
+            <h5 class=""><a href="#">Course Title</a></h5>
+            <p>Instructor's name</p>
+            <span>Platform</span>
+            <div>
+              <span>⭐</span><span>3.5</span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+<!-- Esta linea importa lo que está dentro de Status{%  include 'status.html' % } -->
 {% endblock %}
 

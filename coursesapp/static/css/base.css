@@ -9,3 +9,15 @@ body{
 h1 a, h2 a {
     color: #00ff62;
 }
+
+.main-banner{
+    background-image: url("../../Images/students-course.jpg");
+    background-color: #50ca7f;
+    background-size: 100% auto;
+    background-position: center top;
+    height: auto;
+}
+
+.main-form-search{
+    background-color: rgba(255, 255, 255, 0.700);
+}
