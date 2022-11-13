@@ -13,6 +13,8 @@ from django.contrib.auth.decorators import login_required #Importamos una funci�
 
 from .forms import CreateUserForm # Importamos del archivo forms.py la función que nos permite importar formularios
 
+from .models import Courses # Importamos los modelos que creamos en models.py
+
 #@login_required(login_url='login') #@login_required nos indica que, lo que está dentro de login_required se ejecutará únicamente cuando el usuario está con sesión activa.
 def home(request): #Definimos el nombre de la función home que será nuestra vista principal
 	"""
@@ -24,8 +26,9 @@ def home(request): #Definimos el nombre de la función home que será nuestra vi
 	Returns:
 		render: Renderiza lo que tenga el documento html dashboard.html
 	"""
+	courses = Courses.objects.all() #Obtenemos todos los cursos de la base de datos
 
-	return render(request, 'dashboard.html') #Renderizamos el contenido dentro de dashboard.html 
+	return render(request, 'dashboard.html', {'courses': courses}) #Renderizamos el contenido dentro de dashboard.html y le pasamos un diccionario con la consulta
 
 def registerPage(request): # Se define el nombre de la función registerPage
 	"""

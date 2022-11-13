@@ -27,66 +27,20 @@
       <h2 class="pb-5">Descubre Cursos</h2>
       <div class="d-flex justify-content-between px-5">
 
-        <div class="" style="width: 18rem;">
-          <img  class="card-img-top" src="../Images/students-course.jpg" alt="Card image">
-          <div class="card-body">
-            <h5 class=""><a href="#">Course Title</a></h5>
-            <p>Instructor's name</p>
-            <span>Platform</span>
-            <div>
-              <span>⭐</span><span>3.5</span>
+        {% for course in courses %}
+          <div class="" style="width: 18rem;">
+            <img  class="card-img-top" src="../Images/students-course.jpg" alt="Card image">
+            <div class="card-body">
+              <h5 class=""><a href="#">{{ course.title }}</a></h5>
+              <p>{{ course.instructor }}</p>
+              <span>{{ course.platform }}</span>
+              <div>
+                <span>⭐</span><span>{{course.rating}}</span>
+              </div>
             </div>
           </div>
-        </div>
+        {% endfor %}
 
-        <div class="" style="width: 18rem;">
-          <img  class="card-img-top" src="../Images/students-course.jpg" alt="Card image">
-          <div class="card-body">
-            <h5 class=""><a href="#">Course Title</a></h5>
-            <p>Instructor's name</p>
-            <span>Platform</span>
-            <div>
-              <span>⭐</span><span>3.5</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="" style="width: 18rem;">
-          <img  class="card-img-top" src="../Images/students-course.jpg" alt="Card image">
-          <div class="card-body">
-            <h5 class=""><a href="#">Course Title</a></h5>
-            <p>Instructor's name</p>
-            <span>Platform</span>
-            <div>
-              <span>⭐</span><span>3.5</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="" style="width: 18rem;">
-          <img  class="card-img-top" src="../Images/students-course.jpg" alt="Card image">
-          <div class="card-body">
-            <h5 class=""><a href="#">Course Title</a></h5>
-            <p>Instructor's name</p>
-            <span>Platform</span>
-            <div>
-              <span>⭐</span><span>3.5</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="" style="width: 18rem;">
-          <img  class="card-img-top" src="../Images/students-course.jpg" alt="Card image">
-          <div class="card-body">
-            <h5 class=""><a href="#">Course Title</a></h5>
-            <p>Instructor's name</p>
-            <span>Platform</span>
-            <div>
-              <span>⭐</span><span>3.5</span>
-            </div>
-          </div>
-        </div>
-        
       </div>
     </div>
   </div>
