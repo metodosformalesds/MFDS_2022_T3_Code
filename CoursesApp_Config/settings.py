@@ -74,10 +74,23 @@ WSGI_APPLICATION = "CoursesApp_Config.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+"""
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
+    }
+}
+"""
+
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "proyecto_db",                      #Nombre de la base de datos que estaremos usando 
+        "USER":"MFDST3",
+        "PASSWORD":"Letmein12345",
+        "HOST":"proyectomfds.postgres.database.azure.com",
+        "PORT":"5432"
     }
 }
 

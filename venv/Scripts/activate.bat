@@ -8,11 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-<<<<<<< HEAD
-set VIRTUAL_ENV=C:\Users\nadam\Documents\Proyectos\mf\MFDS_2022_T3_Code\venv
-=======
-set VIRTUAL_ENV=C:\Users\hrele\Desktop\MFDS_2022_T3_Code\venv
->>>>>>> 2f94f8221ea933f2524b27103dde6aa157bbb12f
+set VIRTUAL_ENV=C:\Users\andre\Documents\ProyectoMFDS\MFDS_2022_T3_Code\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
