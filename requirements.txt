@@ -5,3 +5,4 @@ django-filter==22.1
 sqlparse==0.4.3
 tzdata==2022.6
 psycopg2==2.9.5
+python-dotenv

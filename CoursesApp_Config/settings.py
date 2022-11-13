@@ -83,6 +83,11 @@ DATABASES = {
     }
 }
 """
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
 hostname = os.environ['DBHOST']
 
 DATABASES = {
