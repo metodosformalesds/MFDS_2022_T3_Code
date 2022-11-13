@@ -83,6 +83,7 @@ DATABASES = {
     }
 }
 """
+hostname = os.environ['DBHOST']
 
 DATABASES = {
     "default": {
@@ -90,7 +91,7 @@ DATABASES = {
         "NAME": os.environ['DBNAME'],                      #Nombre de la base de datos que estaremos usando 
         "USER": os.environ['DBUSER'],
         "PASSWORD": os.environ['DBPASS'],
-        "HOST": os.environ['DBHOST'],
+        "HOST": hostname + ".postgres.database.azure.com",
         "PORT":"5432"
     }
 }
