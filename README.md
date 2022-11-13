@@ -11,9 +11,9 @@
 ## Versión de python utilizada: 
 **python: 3.8.10**
 
-### Credenciales para superusuario en DBSQLite
-**Usuario:** team3
-**Contraseña:** team3
+### Credenciales para superusuario
+**Usuario:** 
+**Contraseña:** 
 
 ## Deploy
 https://t3metodos.azurewebsites.net/
