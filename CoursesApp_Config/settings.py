@@ -90,7 +90,7 @@ DATABASES = {
         "NAME": os.environ['DBNAME'],                      #Nombre de la base de datos que estaremos usando 
         "USER": os.environ['DBUSER'],
         "PASSWORD": os.environ['DBPASS'],
-        "HOST":"t3metodos-server.postgres.database.azure.com",
+        "HOST": os.environ['DBHOST'],
         "PORT":"5432"
     }
 }
