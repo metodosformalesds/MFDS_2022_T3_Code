@@ -14,3 +14,6 @@
 ### Credenciales para superusuario en DBSQLite
 **Usuario:** team3
 **Contraseña:** team3
+
+## Deploy
+https://t3metodos.azurewebsites.net/
