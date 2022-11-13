@@ -86,7 +86,7 @@ DATABASES = {
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "proyecto_db",                      #Nombre de la base de datos que estaremos usando 
+        "NAME": "db_prueba",                      #Nombre de la base de datos que estaremos usando 
         "USER":"MFDST3",
         "PASSWORD":"Letmein12345",
         "HOST":"proyectomfds.postgres.database.azure.com",
