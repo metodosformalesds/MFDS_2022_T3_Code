@@ -13,9 +13,6 @@ from time import sleep
 from datetime import date
 
 
-# In[2]:
-
-
 from selenium import webdriver
 import chromedriver_binary  # Adds chromedriver binary to path
 
@@ -24,13 +21,7 @@ driver.get("http://www.python.org")
 assert "Python" in driver.title
 
 
-# In[ ]:
-
-
 os.chdir(r'data/mfds/mx/ds/')
-
-
-# In[ ]:
 
 
 def get_url(position, location):
@@ -43,8 +34,6 @@ def get_url(position, location):
     return url
 
 
-# In[ ]:
-
 
 def save_data_to_file(records):
     """Save data to csv file"""
@@ -54,8 +43,6 @@ def save_data_to_file(records):
         writer.writerows(records)
     df = pd.DataFrame (records, columns = ['job_title', 'company', 'location', 'post_date', 'summary', 'job_url'])
 
-
-# In[ ]:
 
 
 def get_record(card):
@@ -69,9 +56,6 @@ def get_record(card):
     return (job_title, company, location, post_date, summary, job_url)
 
 
-# In[ ]:
-
-
 def get_page_records(cards, job_list, url_set):
     """Extract all cards from the page"""
     for card in cards:
@@ -80,9 +64,6 @@ def get_page_records(cards, job_list, url_set):
         if record[0] and record[-1] not in url_set:
             job_list.append(record)
             url_set.add(record[-1])
-
-
-# In[ ]:
 
 
 def main(position, location):
@@ -112,8 +93,6 @@ def main(position, location):
     driver.quit()
     save_data_to_file(scraped_jobs)
 
-
-# In[ ]:
 
 
 main('data science', 'remoto')
