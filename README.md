@@ -10,7 +10,7 @@
 
 ### Credenciales para superusuario
 **Usuario:** 
-**Contraseña:** 
+**Contraseña:** mfds_team3
 
 ## Deploy
 https://t3metodos.azurewebsites.net/
