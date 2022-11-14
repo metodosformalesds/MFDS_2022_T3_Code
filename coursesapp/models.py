@@ -13,7 +13,7 @@ class Perfil(models.Model):
 class Courses(models.Model):
     id = models.CharField(primary_key=True, max_length=10)
     title = models.CharField(max_length=100)
-    price = models.DecimalField(max_digits=10, decimal_places=1)
+    price = models.FloatField(max_length=5)
     url = models.URLField(max_length=255)
     category = models.CharField(max_length=50)
     rating = models.DecimalField(max_digits=5, decimal_places=1)

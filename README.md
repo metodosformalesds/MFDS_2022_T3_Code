@@ -9,7 +9,7 @@
 4. Ya está,  ahora solo corres la app usando **python manage.py runserver**
 
 ### Credenciales para superusuario
-**Usuario:** 
+**Usuario:** team3
 **Contraseña:** mfds_team3
 
 ## Deploy
