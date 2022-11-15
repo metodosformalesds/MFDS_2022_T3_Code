@@ -125,7 +125,7 @@ def profileConfig(request):
 	"""
 	return render(request, 'profileConfig.html')
 
-def courses(request): 
+def courses(request, category): 
 	"""
 	Función profileUser: Lógica de la vista de los cursos buscados y obtenidos por medio de la API
 
@@ -134,7 +134,20 @@ def courses(request):
 		Returns:
 			render: Renderización del archivo "courses.html"
 	"""
-	return render(request, 'courses.html')
+	#Depende de la categoría, realizamos la consulta a la base de datos
+	if category == 'backend':
+		courses = Courses.objects.filter(category='backend')
+	elif category == 'frontend':
+		courses = Courses.objects.filter(category='frontend')
+	elif category == 'fullstack':
+		courses = Courses.objects.filter(category='fullstack')
+	elif category == 'datascience':
+		courses = Courses.objects.filter(category='datascience')
+	elif category == 'cybersecurity':
+		courses = Courses.objects.filter(category='cybersecurity')
+
+	return render(request, 'courses.html', {'courses': courses})
+
 
 def jobs(request): 
 	"""

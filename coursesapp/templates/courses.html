@@ -8,5 +8,17 @@ Cursos
 {%  block content  %}
 <h1>Cursos</h1>
 
+{% for course in courses %}
+<div class="" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class=""><a href="#">{{ course.title }}</a></h5>
+    <p>{{ course.instructor }}</p>
+    <span>{{ course.platform }}</span>
+    <div>
+      <span>⭐</span><span>{{course.rating}}</span>
+    </div>
+  </div>
+</div>
+{% endfor %}
 
 {%  endblock  %}
