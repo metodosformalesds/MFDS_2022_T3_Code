@@ -26,7 +26,8 @@ def home(request): #Definimos el nombre de la función home que será nuestra vi
 	Returns:
 		render: Renderiza lo que tenga el documento html dashboard.html
 	"""
-	courses = Courses.objects.all() #Obtenemos todos los cursos de la base de datos
+
+	courses = Courses.objects.all()[:10] #Obtenemos 10 cursos de la base de datos 
 
 	return render(request, 'dashboard.html', {'courses': courses}) #Renderizamos el contenido dentro de dashboard.html y le pasamos un diccionario con la consulta
 
