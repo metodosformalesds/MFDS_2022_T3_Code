@@ -1,3 +1,4 @@
+#data science-remoto
 import time
 from selenium import webdriver
 import re
@@ -28,6 +29,7 @@ def get_url(position, location):
     """Generate url from position and location"""
     #template = 'https://ca.indeed.com/jobs?q={}&l={}'
     template = 'https://mx.indeed.com/jobs?q={}&l={}'
+#here you add the link where you are scrapping the data
     position = position.replace(' ', '+')
     location = location.replace(' ', '+')
     url = template.format(position, location)
@@ -37,7 +39,8 @@ def get_url(position, location):
 
 def save_data_to_file(records):
     """Save data to csv file"""
-    with open('results_2022_11_04.csv', 'w', newline='', encoding='utf-8') as f:
+#here is where you save the file as a csv
+    with open('results_2022_11_14.csv', 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerow(['JobTitle', 'Company', 'Location', 'PostDate', 'Summary', 'JobUrl'])
         writer.writerows(records)
