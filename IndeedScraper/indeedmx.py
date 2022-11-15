@@ -27,7 +27,6 @@ os.chdir(r'data/mfds/mx/ds/')
 
 def get_url(position, location):
     """Generate url from position and location"""
-    #template = 'https://ca.indeed.com/jobs?q={}&l={}'
     template = 'https://mx.indeed.com/jobs?q={}&l={}'
 #here you add the link where you are scrapping the data
     position = position.replace(' ', '+')
