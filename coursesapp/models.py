@@ -26,3 +26,14 @@ class Courses(models.Model):
     def __str__(self):
         return self.title
     
+class Job(models.Model):
+    id = models.AutoField(primary_key=True)
+    title = models.CharField(max_length=150)
+    company = models.CharField(max_length=150)
+    location = models.CharField(max_length=100)
+    postDate = models.CharField(max_length=100)
+    description = models.CharField(max_length=500)
+    url = models.URLField(max_length=255)
+
+    def __str__(self):
+        return self.title
