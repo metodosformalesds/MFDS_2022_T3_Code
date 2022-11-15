@@ -12,5 +12,5 @@
 **Usuario:** team3
 **Contraseña:** mfds_team3
 
-## Deploy
+## Deploy (detenido por el momento)
 https://t3metodos.azurewebsites.net/
