@@ -27,7 +27,7 @@ class Courses(models.Model):
         return self.title
     
 class Job(models.Model):
-    id = models.AutoField(primary_key=True)
+    id = models.CharField(primary_key=True, max_length=10)
     title = models.CharField(max_length=150)
     company = models.CharField(max_length=150)
     location = models.CharField(max_length=100)
