@@ -1,0 +1,906 @@
+﻿WEBVTT
+
+be9ffc84-baed-4715-a496-7a21a6770bfb-0
+00:00:06.660 --> 00:00:09.250
+A veces creo que ya estoy
+grabando sí ya.
+
+9ceb0c51-a9f1-4663-ac47-f2f0e158bbce-0
+00:00:10.950 --> 00:00:14.400
+Estoy pensando pintar lo que
+hiciste.
+
+a3ae328b-d038-4d4a-9cef-c64a6b0dc1f9-0
+00:00:15.480 --> 00:00:16.790
+Déjame compro tu pantalla.
+
+79d1fdb2-eab1-4256-bf17-a595858b12bc-0
+00:00:18.880 --> 00:00:23.094
+Lo de los repositorios no lo has
+no lo has actualizado el tuyo, o
+
+79d1fdb2-eab1-4256-bf17-a595858b12bc-1
+00:00:23.094 --> 00:00:23.350
+sea.
+
+89ad69c5-dda0-4a2a-ba25-dd9654e30463-0
+00:00:24.150 --> 00:00:26.080
+¿Los cambios que dice no, tú has
+visto?
+
+1b505e7b-ffdb-475b-aec6-db7f7f0aee67-0
+00:00:27.420 --> 00:00:32.040
+Ah, pues sí, pero haz de cuenta
+que.
+
+bdd96167-3563-4488-8600-63832ad39ccd-0
+00:00:33.170 --> 00:00:38.113
+Ayer, de hecho, le estaba
+comentando a saúl que hay un
+
+bdd96167-3563-4488-8600-63832ad39ccd-1
+00:00:38.113 --> 00:00:40.990
+problema con el entorno virtual.
+
+f18e3f2c-9b25-47ce-a170-67b5fbed5950-0
+00:00:41.650 --> 00:00:47.942
+Porque este él está manejando, o
+sea, ya es que la especie de que
+
+f18e3f2c-9b25-47ce-a170-67b5fbed5950-1
+00:00:47.942 --> 00:00:53.853
+estaba utilizando Python 3.8,
+este es saúl está utilizando el
+
+f18e3f2c-9b25-47ce-a170-67b5fbed5950-2
+00:00:53.853 --> 00:00:58.907
+3.10 y no sé tú si estás
+utilizando el 3.8, entonces
+
+f18e3f2c-9b25-47ce-a170-67b5fbed5950-3
+00:00:58.907 --> 00:01:01.100
+también tengo distinto.
+
+704bf658-35c3-4e74-a28b-72c4a0f9081e-0
+00:01:01.950 --> 00:01:06.678
+Ah, entonces ese va a ser un
+problema porque haz de cuenta
+
+704bf658-35c3-4e74-a28b-72c4a0f9081e-1
+00:01:06.678 --> 00:01:07.240
+que el.
+
+013fa32a-dfd2-48d3-82f1-8bed060bd78b-0
+00:01:08.030 --> 00:01:12.290
+Por ejemplo, yo estoy utilizando
+ese y si lo subo este, cuando lo
+
+013fa32a-dfd2-48d3-82f1-8bed060bd78b-1
+00:01:12.290 --> 00:01:15.840
+descargues tú tienes que crear
+otra vez otro ambiente.
+
+e5ed8128-80bc-454b-a47a-4e540868669b-0
+00:01:16.510 --> 00:01:19.772
+Y luego éste lo subes, actualiza
+lo descargo yo y se tienen que
+
+e5ed8128-80bc-454b-a47a-4e540868669b-1
+00:01:19.772 --> 00:01:21.760
+volver a crear otro ambiente
+entonces.
+
+b41bc815-dc41-491d-a023-74d5298d1a1b-0
+00:01:22.510 --> 00:01:28.580
+Este, pues no se conecto saúl
+para comentar eso, este.
+
+0a00310a-fae4-4d2c-a782-910d14b8a255-0
+00:01:29.550 --> 00:01:31.600
+Se me ocurre una que.
+
+289bce9c-0e13-4a7e-8148-98e32dde25e1-0
+00:01:32.310 --> 00:01:35.240
+Decidamos la versión en la que
+vamos a trabajar.
+
+e5747af3-540f-4623-a4c7-69aebcbdf5bd-0
+00:01:36.400 --> 00:01:41.200
+El de Python, para no tener ese
+problema, o si no este.
+
+76f0346b-a2fa-4051-9ab9-46f11341d780-0
+00:01:41.930 --> 00:01:45.738
+Pues eliminar la carpeta del
+entorno virtual para que cada
+
+76f0346b-a2fa-4051-9ab9-46f11341d780-1
+00:01:45.738 --> 00:01:49.224
+quien lo tenga local y al
+momento de subirlo, pues no
+
+76f0346b-a2fa-4051-9ab9-46f11341d780-2
+00:01:49.224 --> 00:01:52.130
+tengamos como que estarlo
+volviendo a crear.
+
+37dd517a-dee5-4a81-84c6-45b3e3e8d8c7-0
+00:01:53.840 --> 00:01:56.010
+Es que, de hecho ya la Subí aquí
+al.
+
+7540e6f1-8002-445c-82db-73615825eae4-0
+00:01:57.090 --> 00:01:59.400
+Ami ignoró para que no se suba.
+
+53bbb744-6150-42ce-ba69-d0a6f5b66840-0
+00:02:00.110 --> 00:02:04.690
+Ah, OK OK, este nomas falta que
+la eliminemos aquí.
+
+ce4c844b-be92-4371-9193-c656703979a9-0
+00:02:05.870 --> 00:02:07.200
+Ah, pues si quieres, elimina la.
+
+e5d9b397-79e4-4a62-8dd6-f787f10127fe-0
+00:02:09.700 --> 00:02:11.928
+Y también todas la base de
+Datos, también lo voy a
+
+e5d9b397-79e4-4a62-8dd6-f787f10127fe-1
+00:02:11.928 --> 00:02:13.240
+eliminar. Eliminar de una vez.
+
+85ed4160-8cbf-4a69-8bde-8f29d1db2782-0
+00:02:14.520 --> 00:02:15.230
+¿Eso por qie?
+
+84c858eb-3741-4749-bba8-273a652c30d1-0
+00:02:15.990 --> 00:02:16.260
+Pues.
+
+ef5c06e1-3c7c-4a69-b265-60afdddff991-0
+00:02:18.060 --> 00:02:23.414
+La de ese culito a porque ya la
+pusiste, no las ya no la estamos
+
+ef5c06e1-3c7c-4a69-b265-60afdddff991-1
+00:02:23.414 --> 00:02:24.650
+haciendo ahora.
+
+c0c15454-6c4f-474b-9e38-1a86e08aa8f0-0
+00:02:25.550 --> 00:02:27.600
+Este, pues sí, está bien.
+
+8c4f8da6-a628-4d70-934b-bc36d6efd427-0
+00:02:30.310 --> 00:02:33.984
+Sí, sí lo descargue, pero y si
+vi el mensaje que mandaste nada
+
+8c4f8da6-a628-4d70-934b-bc36d6efd427-1
+00:02:33.984 --> 00:02:37.192
+más que no he tenido como está
+haciendo tarea de otras
+
+8c4f8da6-a628-4d70-934b-bc36d6efd427-2
+00:02:37.192 --> 00:02:40.633
+materias. No tuve tiempo bien de
+de checarlo. Entonces, si
+
+8c4f8da6-a628-4d70-934b-bc36d6efd427-3
+00:02:40.633 --> 00:02:42.500
+quieres explicarme también para.
+
+c801e079-69bc-40c2-84aa-18c57adc5bba-0
+00:02:43.180 --> 00:02:46.560
+Para saber ahorita, en dado caso
+que haga cambios.
+
+b5ccbdb8-2a77-4a84-8fd5-62ef4553cd90-0
+00:02:49.920 --> 00:02:52.634
+Bueno, se supone que nada más
+tienes que estar ahí. Un
+
+b5ccbdb8-2a77-4a84-8fd5-62ef4553cd90-1
+00:02:52.634 --> 00:02:55.200
+requerimiento que añadí para que
+funcione posibles.
+
+ca08b297-da98-4480-bba9-b00ee29fddd7-0
+00:02:56.020 --> 00:02:57.610
+¿No sé, ya te lo instalaste?
+
+8813e231-938c-4335-854a-29be2bf7ebf0-0
+00:02:58.340 --> 00:03:03.673
+No descargue, pero no todavía no
+hago otra vez el el ambiente
+
+8813e231-938c-4335-854a-29be2bf7ebf0-1
+00:03:03.673 --> 00:03:05.910
+virtual para instalar eso.
+
+5cb7f71c-f49e-4889-83ea-7882a64478c8-0
+00:03:08.720 --> 00:03:12.131
+De hecho, este te iba a
+preguntar que si a TI te cargan
+
+5cb7f71c-f49e-4889-83ea-7882a64478c8-1
+00:03:12.131 --> 00:03:14.690
+las imágenes del home page que
+hizo saúl.
+
+fd0dccc8-9b0b-4bf6-a553-e750bac9a2f5-0
+00:03:15.810 --> 00:03:19.228
+No es que se me hace que a lo
+mejor él está usando una
+
+fd0dccc8-9b0b-4bf6-a553-e750bac9a2f5-1
+00:03:19.228 --> 00:03:22.957
+librería y no la puso en el
+recuerdo ment. Entonces también
+
+fd0dccc8-9b0b-4bf6-a553-e750bac9a2f5-2
+00:03:22.957 --> 00:03:24.200
+necesitaríamos este.
+
+330e0a87-837b-4f01-806d-7dd78c62b4e1-0
+00:03:26.130 --> 00:03:30.750
+Añadirla para que se se instale
+y que no salgan las imágenes.
+
+f25db449-d98c-4629-8665-8dbaedeaf26a-0
+00:03:31.570 --> 00:03:35.952
+Pero ahorita ahorita le mandamos
+un mensaje para ver que nos diga
+
+f25db449-d98c-4629-8665-8dbaedeaf26a-1
+00:03:35.952 --> 00:03:37.480
+si está utilizando una.
+
+21eb2a78-bcff-4f23-8638-490a1d4cb6eb-0
+00:03:43.100 --> 00:03:57.530
+
+
+6c889c5a-06bd-41bc-907b-4e5879e4cfb8-0
+00:04:49.520 --> 00:04:52.920
+De quien está en esta carpeta
+nada más modifique.
+
+ee622f14-2bc9-4e3b-bc7c-01d5f9d5ef9e-0
+00:04:54.310 --> 00:04:55.320
+D.
+
+6a1adbd2-e3a1-45eb-b797-95894113704a-0
+00:04:57.360 --> 00:04:58.690
+La vista principal.
+
+a78f20c9-4081-47d1-8848-1f1d9ce4c8a6-0
+00:04:59.590 --> 00:05:00.060
+Mhm.
+
+36747bd3-0adf-4f5b-a5d2-eb416f1a1de2-0
+00:05:05.080 --> 00:05:08.370
+¿Nada más para que muestre lo de
+la base de Datos, qué es esto?
+
+68ee0b70-f96d-4d62-9bbc-527a4ec4fea0-0
+00:05:09.790 --> 00:05:14.180
+Aunque aquí falta decir falta
+añadir el precio, nada más.
+
+dcacf3a7-6371-4278-9637-4c0b5660d0c3-0
+00:05:15.330 --> 00:05:18.740
+YY ansí lo demás, todo fue lo de
+la base de Datos.
+
+f9f50fde-e158-475a-aeba-06d1fce81af4-0
+00:05:32.190 --> 00:05:36.225
+Gritó, está conectada a una base
+que que tengo yo, como que como
+
+f9f50fde-e158-475a-aeba-06d1fce81af4-1
+00:05:36.225 --> 00:05:39.330
+quien dice localmente porque no
+la pude conectar.
+
+22ba7bb4-0ed9-4c11-84f0-a61b0b8f82b4-0
+00:05:40.050 --> 00:05:43.120
+A así, como ya ha dicho en el
+mensaje que ENVIE.
+
+84f7cedc-40c5-41f5-ae47-561504010de1-0
+00:05:43.770 --> 00:05:45.630
+Entonces, esta sí tiene algunos
+Datos.
+
+f98932af-9498-446d-9500-1f33bb72fc3f-0
+00:05:46.670 --> 00:05:48.700
+Pero, por ejemplo, ya cuando.
+
+ea807411-05db-4a28-850b-58c6cb60e4c6-0
+00:05:50.520 --> 00:05:53.290
+¿Ya cuando lo subes pues ya ves
+que te pide que bueno no?
+
+bda8a452-18f6-4c4f-b553-b27e7f4e806c-0
+00:05:54.330 --> 00:05:58.060
+Bueno, lo lo lo nee todo el
+repositorio.
+
+76e1234a-962c-4698-95a0-6ee46c7dcd87-0
+00:05:59.280 --> 00:06:00.350
+Y luego.
+
+fc5ab24c-15fa-454b-85fc-9aa30567f2c3-0
+00:06:01.830 --> 00:06:02.470
+¿Entonces?
+
+8ad60e33-5cc1-42a1-b5bf-b3143e8ea8dc-0
+00:06:16.470 --> 00:06:19.515
+Por ejemplo, aquí la diferencia
+es que ya ya va a manejar
+
+8ad60e33-5cc1-42a1-b5bf-b3143e8ea8dc-1
+00:06:19.515 --> 00:06:20.460
+variables entorno.
+
+789cf0a1-7b09-4a1d-9b18-b534174aeb13-0
+00:06:21.150 --> 00:06:25.412
+Que esto ya se configuró ahí en
+la misma nube y ia, sería este
+
+789cf0a1-7b09-4a1d-9b18-b534174aeb13-1
+00:06:25.412 --> 00:06:27.780
+el nombre que estamos usando
+para.
+
+541d73b0-472d-4311-a75c-e9eb7360bae5-0
+00:06:28.790 --> 00:06:31.841
+7. Sí, en caso de que alguien se
+quiera conectar, pero pues ya lo
+
+541d73b0-472d-4311-a75c-e9eb7360bae5-1
+00:06:31.841 --> 00:06:34.708
+vería más con con Alan, que es
+el que está trabajando también
+
+541d73b0-472d-4311-a75c-e9eb7360bae5-2
+00:06:34.708 --> 00:06:35.680
+con la base de Datos.
+
+20891cf1-b614-40d1-8433-58c1f788df21-0
+00:06:36.370 --> 00:06:36.910
+Mhm.
+
+8c292182-d3f0-45c3-92e7-9c163c1e6437-0
+00:06:37.570 --> 00:06:40.060
+Y de aquí, pues ya no se le
+tiene que mover nada, según yo.
+
+b3a94a4d-b7a5-4519-a048-448872073a03-0
+00:06:45.460 --> 00:06:49.103
+Y pues de este de repositorio
+como que más actual, nada más
+
+b3a94a4d-b7a5-4519-a048-448872073a03-1
+00:06:49.103 --> 00:06:49.650
+necesito.
+
+355ef9d6-7875-4c61-b2fd-0b5afdc48424-0
+00:06:50.930 --> 00:06:52.190
+Si tu.
+
+8dc0ea94-15ae-4e5b-b90d-1c0b04db37d8-0
+00:06:54.860 --> 00:06:59.129
+O sea, que se sincronice con el
+con este que estamos manejando,
+
+8dc0ea94-15ae-4e5b-b90d-1c0b04db37d8-1
+00:06:59.129 --> 00:07:00.330
+el del del equipo.
+
+26c21e7e-9435-4006-a42d-3518956d0474-0
+00:07:02.020 --> 00:07:04.240
+Menor Si puedo Mandar allá una
+vez la.
+
+a29fb1f3-18ca-4979-ae4a-eeda86ccd40f-0
+00:07:19.280 --> 00:07:21.600
+Y, por ejemplo, Sii.
+
+eeff23f0-fffa-434e-806a-8a25807a125f-0
+00:07:22.560 --> 00:07:28.872
+Al momento y es que cuando te
+metes en tu este de forma local
+
+eeff23f0-fffa-434e-806a-8a25807a125f-1
+00:07:28.872 --> 00:07:35.490
+lo que le DAS te metes al admin
+y ahí no debe de aparecer la de.
+
+c68411a3-2141-4e7f-a69c-36f268a436f7-0
+00:07:36.350 --> 00:07:42.290
+Ese ql Eh light, o sea la que
+estamos manejando la quite.
+
+779cf86b-330c-4446-a167-6d0fed3ddf35-0
+00:07:43.430 --> 00:07:45.190
+Y las credenciales son las
+mismas.
+
+51424ce0-3c6d-4dc8-ad07-6c32fa94aede-0
+00:07:46.840 --> 00:07:50.680
+¿Ah, no, de eso no, no hay, no?
+He añadido el sub de usuario.
+
+7f6db2a2-6cf4-4644-a673-956ddd37a723-0
+00:07:51.510 --> 00:07:52.440
+Ah ohh ohh.
+
+0cd78493-7da9-42b6-af13-c0c256e57185-0
+00:07:56.280 --> 00:07:59.524
+Bueno, ahorita le ahorita hago
+de esta cosa, no sé cómo
+
+0cd78493-7da9-42b6-af13-c0c256e57185-1
+00:07:59.524 --> 00:08:03.173
+funciona, nunca la he hecho, no
+sé si lo tengan que aceptar de
+
+0cd78493-7da9-42b6-af13-c0c256e57185-2
+00:08:03.173 --> 00:08:06.070
+ustedes o algo, pero no sé si ya
+bajaste ya este.
+
+969a44c6-db8b-4344-83fb-6d5a1d80cd65-0
+00:08:06.800 --> 00:08:08.070
+Si ya lo tienes localmente.
+
+bffac25c-f9bf-41ed-9fe5-cddf0a682063-0
+00:08:09.330 --> 00:08:10.860
+¿Y ante está funcionando bien?
+
+6c0ea6d6-0e53-443b-ad8d-e1e0e4380a00-0
+00:08:11.650 --> 00:08:13.480
+Ah, todavía no lo reviso.
+
+052336a9-a1f2-4983-8d7f-5a681aecaa88-0
+00:08:18.280 --> 00:08:20.250
+A ver, no sé si quieras deja.
+
+8c0d8c7c-360c-439b-b2d8-d063300a7805-0
+00:08:22.840 --> 00:08:27.170
+Deje creó rápidamente el el
+ambiente virtual para checarlo.
+
+2cc216aa-e83d-4640-9e7e-703b898d0360-0
+00:08:29.120 --> 00:08:32.220
+Nada más que todavía me sale la
+de.
+
+816147c1-7074-4056-b01e-e2295acc21dc-0
+00:08:35.140 --> 00:08:37.060
+La otra base de Datos que
+teníamos.
+
+f93b001a-742c-48ff-9977-c3adfdfa3e33-0
+00:08:38.990 --> 00:08:43.167
+Ah, es que tarde minuto
+totalmente. Nada más. La comenté
+
+f93b001a-742c-48ff-9977-c3adfdfa3e33-1
+00:08:43.167 --> 00:08:45.880
+a ver, espérame tantito, deja
+checo.
+
+11aebe4c-2395-4908-a4a4-f3cdd4e4f6f6-0
+00:08:50.630 --> 00:08:52.380
+Y aquí está el deployment, ya
+completo.
+
+eda6c91f-5d00-4bdd-8c81-3f7f59ad6b0c-0
+00:08:53.830 --> 00:08:57.419
+Que esto no se método Datos
+porque ahí tengo un problemita,
+
+eda6c91f-5d00-4bdd-8c81-3f7f59ad6b0c-1
+00:08:57.419 --> 00:09:00.590
+pero igual yo pienso que iaia
+hoy le meto más Datos.
+
+38dd1118-27af-4782-bce7-0b05f0da2d18-0
+00:09:01.670 --> 00:09:05.860
+Ese el curso que sale ahí lo
+tienes como en la base de Datos.
+
+5fef0f3c-fbe8-4d40-bc62-bd6bc5b41acb-0
+00:09:07.630 --> 00:09:09.360
+Sí. Ah, OK, OK.
+
+f17c60bb-2767-4fd6-a77b-7b7673339db8-0
+00:11:35.770 --> 00:11:40.198
+Espera, deja. Te comparto
+rápidamente pantalla para que me
+
+f17c60bb-2767-4fd6-a77b-7b7673339db8-1
+00:11:40.198 --> 00:11:42.600
+digas sí, sí se debe de ver así.
+
+82e074b1-bc59-4e1f-85ec-3bf78dba85f8-0
+00:11:46.910 --> 00:11:47.300
+¿Ok?
+
+1911a625-25a0-43b1-aa54-c5b206d2709f-0
+00:11:51.020 --> 00:11:52.070
+Mira ya.
+
+c20a6f30-58a8-4a71-9048-84c669c3dec4-0
+00:11:53.010 --> 00:11:53.820
+Ya se ve.
+
+d2b7df22-0d30-43aa-a8e7-d5b4d6c98f86-0
+00:11:56.140 --> 00:11:56.630
+Todavía no.
+
+dd3ecf25-6332-4e6c-a235-bba16a4412e3-0
+00:11:57.590 --> 00:11:58.220
+A ver.
+
+49c3dee5-9537-4c51-81c2-92ef19e20dc3-0
+00:12:13.000 --> 00:12:14.770
+¿Está muy lento, mi Wi-Fi?
+
+6d105576-4b55-4caf-836f-a8d12425169d-0
+00:12:16.730 --> 00:12:20.560
+¿OA ver si quiere? Bueno, es que
+aquí me sale, haz de cuenta.
+
+53f3b306-1579-491f-93cd-3dac26323fd8-0
+00:12:21.400 --> 00:12:24.650
+Nada más. Ya ves que si te metes
+al.
+
+82ac7af1-502b-484e-b2e5-45230f54a21e-0
+00:12:26.140 --> 00:12:32.367
+En alguien que pusiste cuando
+hiciste el doble de nature, este
+
+82ac7af1-502b-484e-b2e5-45230f54a21e-1
+00:12:32.367 --> 00:12:35.530
+nada sale como un este un curso.
+
+d32abac8-0b5b-4506-b9c2-9853933ee77d-0
+00:12:38.630 --> 00:12:44.306
+Sí, sí, es que es esta esta el
+local, pues son, son nuevos
+
+d32abac8-0b5b-4506-b9c2-9853933ee77d-1
+00:12:44.306 --> 00:12:47.000
+Datos que se que si le metí.
+
+8d5cf828-dd7f-4b36-9714-fcc663e5dd8f-0
+00:12:48.350 --> 00:12:51.989
+Y luego el que el deployment
+está, o sea, está usando otra
+
+8d5cf828-dd7f-4b36-9714-fcc663e5dd8f-1
+00:12:51.989 --> 00:12:55.751
+base de Datos, porque tuve que
+ir, hacer un modificaciones y
+
+8d5cf828-dd7f-4b36-9714-fcc663e5dd8f-2
+00:12:55.751 --> 00:12:56.060
+todo.
+
+4b31b345-7ec4-4e6e-95fc-9ae9ee02a654-0
+00:12:57.420 --> 00:13:01.155
+Entonces, o sea, sí, sí está
+funcionando este entonces,
+
+4b31b345-7ec4-4e6e-95fc-9ae9ee02a654-1
+00:13:01.155 --> 00:13:02.890
+ahorita acabo de hacer el.
+
+1e50ee57-55a5-4c87-9d6c-d18c670e2c77-0
+00:13:03.580 --> 00:13:07.087
+Esa es la combinación de los los
+repositorios que tengo, que uno
+
+1e50ee57-55a5-4c87-9d6c-d18c670e2c77-1
+00:13:07.087 --> 00:13:10.108
+es el del deployment. Se supone
+que ya se lo actualizas
+
+1e50ee57-55a5-4c87-9d6c-d18c670e2c77-2
+00:13:10.108 --> 00:13:13.129
+nuevamente. Llamaste debe salir
+el que lo había puesto.
+
+11fe475b-ec63-4a45-8c8c-3739429eaf8e-0
+00:13:14.850 --> 00:13:16.440
+O si bajas los cambios de hijab.
+
+d7982654-4d4a-440a-a83e-18eb230d19f2-0
+00:13:17.130 --> 00:13:21.852
+Mhm y esto es nuevo, ya nomas te
+ves salir uno como lo había
+
+d7982654-4d4a-440a-a83e-18eb230d19f2-1
+00:13:21.852 --> 00:13:25.800
+puesto, pero ahí está
+funcionando ya bien. Ah, OK,
+
+d7982654-4d4a-440a-a83e-18eb230d19f2-2
+00:13:25.800 --> 00:13:28.819
+entonces sí, sí está funcionando
+esto.
+
+b1fde62b-c94d-45eb-afcc-b178181fbc61-0
+00:13:31.190 --> 00:13:34.615
+Nada más, no sé si tú checaste,
+yo no he tenido tiempo de checar
+
+b1fde62b-c94d-45eb-afcc-b178181fbc61-1
+00:13:34.615 --> 00:13:37.620
+si están funcionando el inicio
+de sesión ni el registro.
+
+b2bd2e95-87a2-46d7-9a11-a9ce42381a65-0
+00:13:38.650 --> 00:13:40.600
+Ah, no, no, checado.
+
+f7efdbce-01c9-4a21-b4b3-0f7bd4afb2b6-0
+00:13:41.330 --> 00:13:44.648
+Sí, sí lo sé, que nada más que
+no funciona. Me Maracaibo el
+
+f7efdbce-01c9-4a21-b4b3-0f7bd4afb2b6-1
+00:13:44.648 --> 00:13:46.860
+token de esos que usan los
+formularios.
+
+db64c609-d898-4b44-b645-2f9e71ab47b5-0
+00:13:48.390 --> 00:13:53.113
+AO lo checado falta ver cómo
+cómo andamos a seguir avanzando
+
+db64c609-d898-4b44-b645-2f9e71ab47b5-1
+00:13:53.113 --> 00:13:54.740
+con las tareas y eso.
+
+78676d0a-5288-428e-98fb-a1db249811a7-0
+00:13:56.630 --> 00:14:00.420
+Pues mira, por ejemplo io este.
+
+ac44aae8-41e0-4a80-8b17-aea6c505344c-0
+00:14:01.130 --> 00:14:06.111
+Entre hoy y mañana intentaré
+avanzar lo más que pueda a las
+
+ac44aae8-41e0-4a80-8b17-aea6c505344c-1
+00:14:06.111 --> 00:14:11.093
+vistas, o sea, por ejemplo,
+intentaré hacer. Bueno sí voy a
+
+ac44aae8-41e0-4a80-8b17-aea6c505344c-2
+00:14:11.093 --> 00:14:12.919
+hacer la de el perfil.
+
+6baec542-21f2-461c-b328-1d887137061a-0
+00:14:13.780 --> 00:14:19.870
+En y luego voy a poner este los
+filtros de cursos y los de
+
+6baec542-21f2-461c-b328-1d887137061a-1
+00:14:19.870 --> 00:14:20.800
+trabajos.
+
+bd4a5c82-48de-4db4-9185-a952df2fa51c-0
+00:14:22.090 --> 00:14:24.270
+Y este.
+
+f705bea4-a94f-4cad-9003-422558d84b0c-0
+00:14:25.170 --> 00:14:27.860
+A lo mejor este para que no haya
+conflicto.
+
+e36f7ad9-aa0d-4975-8e10-7bd29df91259-0
+00:14:28.620 --> 00:14:33.818
+Yo intentaré solamente este
+moverle a lo que son las listas,
+
+e36f7ad9-aa0d-4975-8e10-7bd29df91259-1
+00:14:33.818 --> 00:14:36.290
+o sea, solamente usando html.
+
+4a05764f-1641-4896-9eaf-69178a58a59b-0
+00:14:36.980 --> 00:14:41.350
+Y CSS ajá. ¿Y este?
+
+d49448a2-56e8-4f3d-adfe-6e55bb1fe111-0
+00:14:42.150 --> 00:14:46.485
+No creo que vaya a ser cambios
+en el Pack, pero pero igual. En
+
+d49448a2-56e8-4f3d-adfe-6e55bb1fe111-1
+00:14:46.485 --> 00:14:49.100
+caso de que sí, pues ya yo les
+aviso.
+
+6a7d38a3-7e26-4850-a60e-456e661cfa05-0
+00:14:50.090 --> 00:14:54.910
+Este, saúl, la verdad es que no
+sé qué iba a hacer, yo creo que
+
+6a7d38a3-7e26-4850-a60e-456e661cfa05-1
+00:14:54.910 --> 00:14:57.020
+no iba a ser nada porque ya.
+
+6d84cd4f-99be-40fc-8bbc-4cd14686e10b-0
+00:14:57.930 --> 00:15:00.080
+O sea, nada más dijo que iba a
+ser el home page.
+
+9d884078-a748-4b7c-a79f-7a4465f5d3a2-0
+00:15:00.790 --> 00:15:04.413
+Iia, pues, es lo único que ha
+subido y no ha mencionado nada
+
+9d884078-a748-4b7c-a79f-7a4465f5d3a2-1
+00:15:04.413 --> 00:15:07.800
+de que vaya a cambiar algo que
+es pues en realidad este.
+
+c208cd20-3514-4b29-8be8-d24f6f58c594-0
+00:15:08.470 --> 00:15:13.924
+Hasta ahorita somos los únicos 3
+que hemos hecho este comics ahí
+
+c208cd20-3514-4b29-8be8-d24f6f58c594-1
+00:15:13.924 --> 00:15:18.960
+al repositorio entonces Adán no
+creo que vaya a ser algo y.
+
+dc4cc322-bb36-45f3-bf17-df279da83361-0
+00:15:19.660 --> 00:15:23.603
+Bueno, o sea, el repositorio y
+Alan. No sé si vaya a hacer algo
+
+dc4cc322-bb36-45f3-bf17-df279da83361-1
+00:15:23.603 --> 00:15:26.130
+de lo que está haciendo de web
+scraping.
+
+5fd368b0-a2e9-4f8d-9734-431c139f67e5-0
+00:15:27.470 --> 00:15:31.910
+Bueno, se supone que allí me
+comunicaré con conmigo, eso mhm.
+
+9139451b-5d2c-4d4c-8c59-bb8459f8e9de-0
+00:15:33.310 --> 00:15:36.601
+Entonces yo voy avanzando las
+Funciones, pues voy a ver cuál
+
+9139451b-5d2c-4d4c-8c59-bb8459f8e9de-1
+00:15:36.601 --> 00:15:40.000
+es como que la más principal,
+como que la la de búsqueda y eso
+
+9139451b-5d2c-4d4c-8c59-bb8459f8e9de-2
+00:15:40.000 --> 00:15:40.270
+para.
+
+94dd6c2b-6a08-449e-b472-44435e4ce1d6-0
+00:15:41.040 --> 00:15:43.140
+Ya tengo al menos 1 función así
+de.
+
+a3c19a66-2532-4b7a-ade1-0c9e18163eb9-0
+00:15:44.120 --> 00:15:47.649
+De las importantes y ya con eso,
+ya con lo que hagas también, tú
+
+a3c19a66-2532-4b7a-ade1-0c9e18163eb9-1
+00:15:47.649 --> 00:15:48.410
+ya podemos ir.
+
+ab8a2030-5d7a-48d3-82bd-a49b4dcee4b2-0
+00:15:49.320 --> 00:15:50.670
+Y de mañana.
+
+ad5ba7a4-b1db-43f7-b09e-96212670b14e-0
+00:15:51.580 --> 00:15:55.110
+Viendo definiendo, viendo las
+tareas de que no, pues ahora sí.
+
+6df5b4f4-25b1-48e2-8db9-e9d7ddf28f3f-0
+00:15:55.820 --> 00:15:59.299
+No diremos las Funciones y las
+tenemos listos para media semana
+
+6df5b4f4-25b1-48e2-8db9-e9d7ddf28f3f-1
+00:15:59.299 --> 00:16:00.550
+o para el jueves phone.
+
+54d5cb5d-6332-43d9-8a29-222d4286c607-0
+00:16:01.230 --> 00:16:04.530
+I ia trabajar con el sistema de
+recomendación.
+
+062c9686-028a-48aa-ab5e-fcdbaec212f4-0
+00:16:05.230 --> 00:16:08.560
+Oh, sí, está bien este.
+
+2cec3122-6463-4c8e-92b5-070474fe04fc-0
+00:16:10.810 --> 00:16:15.721
+También los de si quieres, si
+puedes ir viendo cómo lo del
+
+2cec3122-6463-4c8e-92b5-070474fe04fc-1
+00:16:15.721 --> 00:16:20.800
+este súper usuario en postres
+para que también nos explique.
+
+4404c508-b2e3-4af3-a915-c2ecddb03102-0
+00:16:21.960 --> 00:16:26.344
+¿Bueno, en mi caso yo no, no he
+trabajado con postres, entonces
+
+4404c508-b2e3-4af3-a915-c2ecddb03102-1
+00:16:26.344 --> 00:16:30.454
+también para, pero igual le doy
+una checada también para no
+
+4404c508-b2e3-4af3-a915-c2ecddb03102-2
+00:16:30.454 --> 00:16:34.153
+andar tan perdida, OK? Igual,
+ahí está el repositorio
+
+4404c508-b2e3-4af3-a915-c2ecddb03102-3
+00:16:34.153 --> 00:16:37.510
+actualizado con la últimos, con
+el último, dice.
+
+84c569bc-ded1-43b3-98a4-8082bc113ebf-0
+00:16:38.160 --> 00:16:40.310
+¿Ah, OK, entonces ahorita le
+hago PULL?
+
+373819c3-4a8b-4925-9851-acdb9d25f355-0
+00:16:41.190 --> 00:16:45.441
+¿Para checarlo otra vez o sale,
+pues sale, pues entonces hasta
+
+373819c3-4a8b-4925-9851-acdb9d25f355-1
+00:16:45.441 --> 00:16:49.220
+el jueves ya, ya no íbamos a
+comentar nada más, verdad?
+
+43494d7d-6df3-422e-94e2-8d9b78fa6dfb-0
+00:16:49.980 --> 00:16:53.642
+¿Pues lo da sur no? Ya no
+investigue de cómo se combinan
+
+43494d7d-6df3-422e-94e2-8d9b78fa6dfb-1
+00:16:53.642 --> 00:16:57.626
+las Cuentas, pero pues en sí
+nada más. Es una base de Datos y
+
+43494d7d-6df3-422e-94e2-8d9b78fa6dfb-2
+00:16:57.626 --> 00:17:00.390
+lo del el web Service o APP
+Service no sé.
+
+5f08355b-64d4-4b96-bc9d-05d720f8e290-0
+00:17:01.020 --> 00:17:05.530
+En IIA no siento que le deba
+mover mucho por el momento.
+
+c4838242-c45b-42b4-a6f1-f8cc8c6cf5e3-0
+00:17:06.270 --> 00:17:07.420
+Ah, okey, sí, está bien.
+
+f3889e3c-f871-4fc0-9073-340700a367b0-0
+00:17:08.610 --> 00:17:13.380
+Sale pues entonces hasta el
+martes sale, pues, bye bye.

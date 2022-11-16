@@ -1,0 +1,2616 @@
+﻿WEBVTT
+
+74d555aa-3b18-4b5b-bef6-bfd59f9675d0-0
+00:00:02.300 --> 00:00:05.681
+Que pues algunas dudas que
+teníamos y pues creo que salimos
+
+74d555aa-3b18-4b5b-bef6-bfd59f9675d0-1
+00:00:05.681 --> 00:00:06.470
+con más dudas.
+
+1501bbcd-9833-4a8f-8f84-2b06b8dd1c52-0
+00:00:07.330 --> 00:00:13.481
+Pero creo que podemos tuvimos
+otra idea de cómo gestionar este
+
+1501bbcd-9833-4a8f-8f84-2b06b8dd1c52-1
+00:00:13.481 --> 00:00:14.360
+diagrama.
+
+136e0aa8-1303-47cb-bea6-bc6e6beef859-0
+00:00:16.200 --> 00:00:20.470
+Ah, pues nada más vamos a
+enfocarnos en esto, no sé.
+
+352b96c7-199c-43ed-b87e-2257e4dbafee-0
+00:00:21.320 --> 00:00:24.597
+Creo que es conveniente que
+ahorita lo saquemos rápido, el
+
+352b96c7-199c-43ed-b87e-2257e4dbafee-1
+00:00:24.597 --> 00:00:26.930
+diagrama de clases para poder
+proceder a.
+
+a61df807-6cfa-4f7a-b370-05554a95b92d-0
+00:00:27.710 --> 00:00:30.590
+Al diagrama de entidad, relación
+y el de procesos.
+
+2fc5ec56-d835-44d2-a985-3582d2f631fc-0
+00:00:32.500 --> 00:00:38.240
+No sé cómo anden este tanto
+conocimiento traigan en ambos.
+
+49441621-f9dd-413e-a014-3c6d47c9bf77-0
+00:00:39.260 --> 00:00:41.850
+Poco hacerle feliz, facilite
+más.
+
+0db2ad27-9064-49a4-88e3-884dd97ca08b-0
+00:00:44.480 --> 00:00:45.250
+Todos en general.
+
+10f5eedf-a8d2-4c91-be74-504ef8a7bece-0
+00:00:49.660 --> 00:00:53.920
+Que yó el que más se me facilitó
+el semestre pasado fue el de
+
+10f5eedf-a8d2-4c91-be74-504ef8a7bece-1
+00:00:53.920 --> 00:00:54.470
+proceso.
+
+0bd508e0-5533-4a90-9f03-c9bda49510be-0
+00:00:55.930 --> 00:00:56.610
+¿Ok OK?
+
+bfd5542a-c0ed-4f79-a121-fed6cf1a715a-0
+00:00:58.960 --> 00:01:02.290
+Bien este dejemos compartir
+pantalla, nomás aquí rápido.
+
+1f56018c-b914-4951-bf2d-fd03a8f78e25-0
+00:01:08.840 --> 00:01:10.430
+Creo que ya lo están viendo la
+pantalla.
+
+0a7af60e-df08-4a00-b176-bc9ace983d76-0
+00:01:16.950 --> 00:01:21.134
+Bien. Comentarios, pues de aquí
+ya lo tenemos, prácticamente
+
+0a7af60e-df08-4a00-b176-bc9ace983d76-1
+00:01:21.134 --> 00:01:25.250
+esto, pues dijo el profe que me
+lo había mirado, pero pues.
+
+f0e58f78-54f0-47e0-9e41-adad1098f61b-0
+00:01:26.010 --> 00:01:29.590
+A lo que quiero entender y sería
+entender, esto ya estaba bien.
+
+50e2700c-5800-4227-bf87-2fbd17cd1e9e-0
+00:01:30.520 --> 00:01:32.150
+Nada más estas, pues sí.
+
+85562795-8e60-4a52-962a-83b6e765ac77-0
+00:01:33.110 --> 00:01:38.661
+¿Adán, pues éste sería, haría
+falta el recuadrito este de del
+
+85562795-8e60-4a52-962a-83b6e765ac77-1
+00:01:38.661 --> 00:01:40.990
+sistema y de los paquetes?
+
+a5225949-902f-4fef-8cc4-2f3ed88e875e-0
+00:01:42.870 --> 00:01:46.414
+Claro único, que nos falto a mi,
+pero si nos tiras para ello en
+
+a5225949-902f-4fef-8cc4-2f3ed88e875e-1
+00:01:46.414 --> 00:01:49.682
+hacerlo esto y pues tenerlos
+antes de la clase que creo lo
+
+a5225949-902f-4fef-8cc4-2f3ed88e875e-2
+00:01:49.682 --> 00:01:50.680
+único que faltaba.
+
+fc715339-d7ff-4709-bf68-359944546d58-0
+00:01:52.220 --> 00:01:57.123
+Se manera, pues esto es también
+aquí. Preguntaba Selena que que
+
+fc715339-d7ff-4709-bf68-359944546d58-1
+00:01:57.123 --> 00:02:01.720
+eran los mismos cada uno, o sea,
+este y este y el de abajo.
+
+69a43fc9-78bc-4a0e-b471-a4867980ea4a-0
+00:02:02.350 --> 00:02:07.576
+¿Pero si no, por qué? ¿Porque
+Alan era por la línea, no? O
+
+69a43fc9-78bc-4a0e-b471-a4867980ea4a-1
+00:02:07.576 --> 00:02:13.156
+sea, divisora de que se iba a
+resultar. Creo que si era, si tú
+
+69a43fc9-78bc-4a0e-b471-a4867980ea4a-2
+00:02:13.156 --> 00:02:18.648
+sí me dijo Este Alan que era por
+ejemplo, este es el de Edith
+
+69a43fc9-78bc-4a0e-b471-a4867980ea4a-3
+00:02:18.648 --> 00:02:19.180
+Email.
+
+aa797886-c723-47d4-ab4b-0036ee19afd5-0
+00:02:19.910 --> 00:02:23.995
+Pues es prácticamente el mismo
+proceso en los 3, sin embargo
+
+aa797886-c723-47d4-ab4b-0036ee19afd5-1
+00:02:23.995 --> 00:02:28.214
+aquí a la nueva resaltará si iba
+a ser como, pues sí, enmarcar
+
+aa797886-c723-47d4-ab4b-0036ee19afd5-2
+00:02:28.214 --> 00:02:32.032
+este de que arriba se iba
+resaltar este de email y en el
+
+aa797886-c723-47d4-ab4b-0036ee19afd5-3
+00:02:32.032 --> 00:02:36.385
+de arriba pues era lo mismo, no
+masiva es resaltar este cruce de
+
+aa797886-c723-47d4-ab4b-0036ee19afd5-4
+00:02:36.385 --> 00:02:38.060
+patchwork, no sé cuál es.
+
+ff478225-6227-459f-b6d7-6b3c216ee63e-0
+00:02:38.700 --> 00:02:41.950
+Pues así van a ser los 3 nomas,
+también si das perito en en eso.
+
+82a98800-0a50-4e6d-86a9-db4df51c10f7-0
+00:02:43.050 --> 00:02:44.330
+De resaltar los.
+
+8868b77a-81ac-4343-a736-86f286bef2c7-0
+00:02:45.250 --> 00:02:49.900
+A estos dijo que estaban bien,
+muy bien Félix.
+
+6489ec5a-5123-4e70-8c6e-a9ad3d8f396e-0
+00:02:51.370 --> 00:02:51.630
+Sí.
+
+1acad87f-cb72-4ba8-9432-c216ce08d1ea-0
+00:02:52.280 --> 00:02:53.390
+Claro que sí.
+
+1ed2e8ad-df97-4ed8-ab54-e92a43afb40b-0
+00:02:54.550 --> 00:02:59.270
+Eran estos y pues estén fuera
+de.
+
+2f4fe11a-2b1a-4778-a71c-0ae282f57e86-0
+00:03:00.140 --> 00:03:03.550
+De este trayecto que notábamos y
+de lo de que faltaba.
+
+3a90b1a6-6b82-4e4a-95cf-9dff8c8dabd8-0
+00:03:04.370 --> 00:03:08.123
+El recuadro del sistema y de los
+paquetes. Creo que los demás
+
+3a90b1a6-6b82-4e4a-95cf-9dff8c8dabd8-1
+00:03:08.123 --> 00:03:08.910
+estaban bien.
+
+2fb2f820-a6f1-4cd8-a89b-0e9a279b4bc5-0
+00:03:09.840 --> 00:03:14.000
+Mira algo así, va a ser, creo lo
+era esto de el cuadrito.
+
+a359a223-dc80-451e-a972-3e9c36a4d170-0
+00:03:15.430 --> 00:03:16.080
+No sé qué es eso.
+
+ff832df0-2b1e-45a5-915c-1e52d9674311-0
+00:03:16.910 --> 00:03:20.484
+Ah OK, si va a ser así como una
+línea resaltada, nomas que ahí
+
+ff832df0-2b1e-45a5-915c-1e52d9674311-1
+00:03:20.484 --> 00:03:22.470
+faltó, pero ya ya está en
+proceso.
+
+9e99fdaa-b702-4073-a941-e19f0bec2314-0
+00:03:23.680 --> 00:03:24.280
+Mhm.
+
+eff0f8e2-5da2-4ce4-ab8a-20afc711e596-0
+00:03:28.660 --> 00:03:31.620
+Del diagrama a la que está
+haciendo, pierde.
+
+cfd38de2-e88d-4018-adbf-e233eed888c2-0
+00:03:34.050 --> 00:03:35.320
+No estamos arriba.
+
+262bb53f-a956-4e00-9f15-5bca59efce03-0
+00:03:36.750 --> 00:03:37.280
+Acá está.
+
+866bc99b-eb62-4099-ab26-38b2aa48716c-0
+00:03:39.540 --> 00:03:44.656
+Del diagrama este de clase o el
+final, el profe nos dijo que era
+
+866bc99b-eb62-4099-ab26-38b2aa48716c-1
+00:03:44.656 --> 00:03:45.050
+como.
+
+37a475ac-1058-4ee5-a40e-c8fd02c62418-0
+00:03:47.830 --> 00:03:51.765
+Dependiendo del contexto de la
+lógica que tuviéramos cada uno,
+
+37a475ac-1058-4ee5-a40e-c8fd02c62418-1
+00:03:51.765 --> 00:03:55.700
+pues sí vamos a hacer el proceso
+de abstracción diferente, que
+
+37a475ac-1058-4ee5-a40e-c8fd02c62418-2
+00:03:55.700 --> 00:03:59.260
+pues hay muchas posibilidades de
+resolver este o de este
+
+37a475ac-1058-4ee5-a40e-c8fd02c62418-3
+00:03:59.260 --> 00:04:00.260
+diagramar el el.
+
+d12e5f03-bc0a-425e-bc85-be9ed30a758e-0
+00:04:01.350 --> 00:04:05.020
+Las clases dentro de que que
+forman parte de nuestro sistema.
+
+d79b40fd-9f88-42e3-8b76-a1c5fe8a197f-0
+00:04:06.670 --> 00:04:08.180
+Ah, creo que en este.
+
+fa552eee-625c-4df3-9a1b-72267a319fb1-0
+00:04:08.890 --> 00:04:12.014
+En esta parte del diagrama de
+clase podemos hacer un ejercicio
+
+fa552eee-625c-4df3-9a1b-72267a319fb1-1
+00:04:12.014 --> 00:04:15.040
+similar al que hicimos con el de
+caso de Uso general, que es
+
+fa552eee-625c-4df3-9a1b-72267a319fb1-2
+00:04:15.040 --> 00:04:17.620
+generar cada uno de nosotros un
+diagrama de clases.
+
+f4e7bd60-db68-4404-add1-4c1388cd2cc7-0
+00:04:18.230 --> 00:04:22.780
+A completo, por lo que Dios nos
+da a entender cada quien y por.
+
+e57f2e47-71cf-410e-972c-972cfd9655a7-0
+00:04:23.640 --> 00:04:25.290
+A él.
+
+e4d94483-f79a-4871-afff-3c090422faaf-0
+00:04:26.330 --> 00:04:30.521
+Métodos que vemos tutoriales,
+información y pues obviamente
+
+e4d94483-f79a-4871-afff-3c090422faaf-1
+00:04:30.521 --> 00:04:31.080
+nuestro.
+
+bbe1371f-849c-4946-9a32-f2dcde27a562-0
+00:04:32.120 --> 00:04:35.960
+Nuestra lógica de al momento de
+estructurar las clases.
+
+a78579b4-79fb-4d5f-897d-2447687efca7-0
+00:04:37.380 --> 00:04:40.460
+Es una opción que tengo o vi, la
+otra es.
+
+77d79d09-85c5-4b5e-bda6-c7cb65e36d69-0
+00:04:41.660 --> 00:04:45.804
+¿Trabajar uno, ahorita como
+todos, como lo hicimos a pues
+
+77d79d09-85c5-4b5e-bda6-c7cb65e36d69-1
+00:04:45.804 --> 00:04:47.520
+desde cero cómo empezar?
+
+605b0b81-b502-4347-90b5-f8cb4ba84c23-0
+00:04:50.630 --> 00:04:52.670
+Pues ahorita y terminarlo del
+mismo.
+
+cd0af151-0e81-48f9-b215-ec3c5bd9dec1-0
+00:04:56.830 --> 00:05:00.440
+Pero esto sí, lo tendríamos que
+tener para.
+
+fb013e30-7da8-4800-ada7-74b08f211dae-0
+00:05:01.450 --> 00:05:01.960
+Mañana.
+
+81906e18-170e-48f2-8835-a06ec2cd3fe5-0
+00:05:03.290 --> 00:05:06.870
+Para mañana más tarde, yo creo
+que el diagrama de clase.
+
+2ddded52-6a5a-4b1a-ba1c-3181ee8bf409-0
+00:05:08.440 --> 00:05:11.040
+Para mañana en la tarde noche
+que tengamos.
+
+bc68c3a6-8061-4e75-9f97-aba39d5ffa23-0
+00:05:12.360 --> 00:05:14.260
+No sería para mañana en la
+tarde.
+
+b3135ca1-7dbf-4e14-8850-9a9370c0a2c1-0
+00:05:15.990 --> 00:05:20.256
+A que cada quien suba su
+diagrama en la noche, pues este
+
+b3135ca1-7dbf-4e14-8850-9a9370c0a2c1-1
+00:05:20.256 --> 00:05:20.780
+unirlo.
+
+a4e31785-87ff-4eb2-8b70-e5e9564a2a10-0
+00:05:21.680 --> 00:05:25.243
+¿Y teniendo el diagrama de
+clase, les preguntaba qué con
+
+a4e31785-87ff-4eb2-8b70-e5e9564a2a10-1
+00:05:25.243 --> 00:05:29.182
+cuál con que están más? ¿Esté
+familiarizado? Si el diagrama de
+
+a4e31785-87ff-4eb2-8b70-e5e9564a2a10-2
+00:05:29.182 --> 00:05:30.370
+en Tierra, Luciano.
+
+377a929e-e4d2-4946-ad47-6faebbab542a-0
+00:05:31.060 --> 00:05:33.320
+El diagrama de procesos.
+
+ff23f918-f336-40fb-8930-810f8c4e636e-0
+00:05:34.460 --> 00:05:38.689
+Porque el diagrama de entidad
+relación, no lo puedo hacer yo
+
+ff23f918-f336-40fb-8930-810f8c4e636e-1
+00:05:38.689 --> 00:05:39.730
+creo que es un.
+
+9caa3385-5804-4c8c-af6b-8660f0f58713-0
+00:05:41.490 --> 00:05:44.429
+Algo que no se me complica y es
+pues realmente mi trabajo.
+
+9caa3385-5804-4c8c-af6b-8660f0f58713-1
+00:05:44.429 --> 00:05:47.617
+También trabajó con diagramas de
+entidad, relación así que pues
+
+9caa3385-5804-4c8c-af6b-8660f0f58713-2
+00:05:47.617 --> 00:05:50.357
+tengo un poquito más de la
+experiencia, pero igual. De
+
+9caa3385-5804-4c8c-af6b-8660f0f58713-3
+00:05:50.357 --> 00:05:53.246
+igual manera podemos hacer el
+mismo proceso de generar un
+
+9caa3385-5804-4c8c-af6b-8660f0f58713-4
+00:05:53.246 --> 00:05:56.384
+diagrama YY este comuni los qué
+es lo que nos ha resultado, al
+
+9caa3385-5804-4c8c-af6b-8660f0f58713-5
+00:05:56.384 --> 00:05:57.730
+menos nos resultó bien con.
+
+1e332fb9-20ee-44e8-a719-9cdf03a8aa2e-0
+00:05:58.420 --> 00:06:00.990
+La parte de de casos de Uso.
+
+992f8d54-ee26-4862-8442-c0189277a166-0
+00:06:02.250 --> 00:06:02.630
+General.
+
+ad146f04-1ad6-4184-9d7e-89a218a3210f-0
+00:06:05.790 --> 00:06:09.783
+Porque pues sí tuvimos así como
+un creo que el profe entendió
+
+ad146f04-1ad6-4184-9d7e-89a218a3210f-1
+00:06:09.783 --> 00:06:13.004
+esta parte, pero también
+quedaron pendientes unas
+
+ad146f04-1ad6-4184-9d7e-89a218a3210f-2
+00:06:13.004 --> 00:06:13.519
+cositas.
+
+415be992-9d85-4e41-b621-68e25ebb036f-0
+00:06:14.100 --> 00:06:17.730
+Y cosas que dijo que estaban mal
+de aquí porque pues creo que
+
+415be992-9d85-4e41-b621-68e25ebb036f-1
+00:06:17.730 --> 00:06:21.010
+mencionó que estaba mal. Este
+diagrama al final, en las
+
+415be992-9d85-4e41-b621-68e25ebb036f-2
+00:06:21.010 --> 00:06:21.830
+preguntas que.
+
+3cbc7f09-3a46-470f-b3c0-759591c29b57-0
+00:06:22.640 --> 00:06:25.622
+Le estamos haciendo el ni el
+profe nos dijo que pues
+
+3cbc7f09-3a46-470f-b3c0-759591c29b57-1
+00:06:25.622 --> 00:06:29.111
+prácticamente nos dio ejemplos
+de lo que estaba aquí, así que
+
+3cbc7f09-3a46-470f-b3c0-759591c29b57-2
+00:06:29.111 --> 00:06:31.700
+pues nos quedó, el digo más
+relajada la idea.
+
+1b89a691-9e22-4949-a22f-1dff5a11654b-0
+00:06:34.310 --> 00:06:37.719
+Pero no sé cómo quieren empezar
+a trabajar, esto ahorita que
+
+1b89a691-9e22-4949-a22f-1dff5a11654b-1
+00:06:37.719 --> 00:06:39.340
+empecemos todos hagamos como.
+
+fdc77996-6669-400b-b535-8f23fda16487-0
+00:06:40.820 --> 00:06:44.210
+El avancemos, lo terminemos o
+hacemos uno cada quien.
+
+3e064313-025d-4a04-a747-16f10f6fbcf1-0
+00:06:45.380 --> 00:06:46.770
+Y lo traemos para mañana.
+
+3c7f971b-5814-46a0-ba08-6f49217f310c-0
+00:06:49.570 --> 00:06:52.020
+Si se les complica un poco lo de
+los.
+
+fe2813ac-9e7f-40b4-ab3d-6bd8a85965bb-0
+00:06:53.620 --> 00:06:56.996
+Atributos, o sea, de manera
+conceptual, lo que es un
+
+fe2813ac-9e7f-40b4-ab3d-6bd8a85965bb-1
+00:06:56.996 --> 00:06:59.290
+atributo privado público
+protegido.
+
+8a082dea-45d7-4080-b440-8318b94b4b87-0
+00:06:59.930 --> 00:07:00.550
+A.
+
+b466dadc-2785-47b3-98a4-d677f87c1c3e-0
+00:07:01.990 --> 00:07:05.596
+¿Cómo se va a definir sobre la
+herencia? También igual este lo
+
+b466dadc-2785-47b3-98a4-d677f87c1c3e-1
+00:07:05.596 --> 00:07:07.200
+de composición y agregación.
+
+f1bb3092-c447-4d5b-9159-0f51771a821b-0
+00:07:08.480 --> 00:07:12.207
+Podemos hacer como iniciarlo
+ahorita como uno general
+
+f1bb3092-c447-4d5b-9159-0f51771a821b-1
+00:07:12.207 --> 00:07:12.760
+pequeño.
+
+8c4ad788-d25b-48af-944c-1a3510c48a56-0
+00:07:13.680 --> 00:07:15.510
+Para sacar todas estas dudas.
+
+f54388e3-4254-4754-8193-5f3d2abacec9-0
+00:07:16.260 --> 00:07:17.060
+Entre todos.
+
+3e2bf2e6-a0c2-4f18-a346-67c45e5485cb-0
+00:07:21.920 --> 00:07:25.552
+¿Dígame, cómo andan? Sobre todo
+en tiempos, porque sí sería muy
+
+3e2bf2e6-a0c2-4f18-a346-67c45e5485cb-1
+00:07:25.552 --> 00:07:28.730
+importante que ya para mañana
+tengamos todos completos.
+
+fdd15537-dd25-4d60-9ab1-1f5a65decb5f-0
+00:07:29.670 --> 00:07:33.984
+El diagrama y para trabajarlo en
+conjunto, el cada uno de
+
+fdd15537-dd25-4d60-9ab1-1f5a65decb5f-1
+00:07:33.984 --> 00:07:35.100
+nuestras ideas.
+
+d8818a27-d0ac-43dc-aee2-259f4cb3cad1-0
+00:07:38.550 --> 00:07:42.950
+Pero siento que si lo podemos
+empezar ahorita a ver cómo, o
+
+d8818a27-d0ac-43dc-aee2-259f4cb3cad1-1
+00:07:42.950 --> 00:07:44.490
+sea, si vemos que sí.
+
+924397c9-aa82-4c40-bd9b-a269d6477b2c-0
+00:07:45.300 --> 00:07:46.830
+Podemos sacarlo ahorita, pues.
+
+2967dcfe-6d25-4f73-a009-54ce0b0240aa-0
+00:07:47.670 --> 00:07:50.595
+Los los sabemos, si no, si la
+vemos así como que muy
+
+2967dcfe-6d25-4f73-a009-54ce0b0240aa-1
+00:07:50.595 --> 00:07:51.700
+complicado como que.
+
+09d9376b-5175-447a-b761-46b3fff12fb2-0
+00:07:52.580 --> 00:07:55.070
+Tenemos mucha duda, pues ya que
+cada quien haga el suyo.
+
+2b0d34ec-618d-43e1-81f5-8e985135df97-0
+00:07:58.130 --> 00:07:58.740
+Bien.
+
+dc63fe22-b605-49a3-81e4-f0f82afaab46-0
+00:07:59.970 --> 00:08:04.530
+Io ahorita en cuestión de
+tiempo, tendría que irme a las.
+
+d25bfb63-c870-4ba7-ba40-0e1003e4aa99-0
+00:08:05.550 --> 00:08:07.760
+Y es más tardar, pero.
+
+afc2d7d3-c5d6-42da-9195-286676b22b4f-0
+00:08:08.810 --> 00:08:11.580
+Pues yo digo que en este tiempo,
+si podemos seguir avanzando.
+
+4428ab90-dbd9-47af-bdc3-628d48c0bec5-0
+00:08:13.180 --> 00:08:17.364
+Bien, sobre todo para hacer el
+proceso este de sacar las clases
+
+4428ab90-dbd9-47af-bdc3-628d48c0bec5-1
+00:08:17.364 --> 00:08:18.410
+más importantes.
+
+30e630f4-d55b-49d1-a2a9-884a4933ac11-0
+00:08:20.160 --> 00:08:20.590
+A.
+
+b7fcace2-8528-423c-84e4-15af137ce7af-0
+00:08:22.750 --> 00:08:27.041
+I ia. En base a eso, pues se nos
+facilitaría todos el construir
+
+b7fcace2-8528-423c-84e4-15af137ce7af-1
+00:08:27.041 --> 00:08:31.132
+el diagrama de clases para,
+pues, como ia más completo en el
+
+b7fcace2-8528-423c-84e4-15af137ce7af-2
+00:08:31.132 --> 00:08:31.870
+individual.
+
+fae841ac-ce85-40c3-9da3-63bc582c9902-0
+00:08:33.050 --> 00:08:35.010
+Y hacer la revisión de todos
+mañana.
+
+f21fdd5c-84d2-4da1-85c1-87aeb2bec3fb-0
+00:08:35.720 --> 00:08:38.966
+Yo también sería breve, le digo
+esto ahorita, pues a las 10 se
+
+f21fdd5c-84d2-4da1-85c1-87aeb2bec3fb-1
+00:08:38.966 --> 00:08:40.770
+me hace buena hora que
+terminemos.
+
+0e847689-272c-4977-94c8-878d6edddc80-0
+00:08:41.340 --> 00:08:43.790
+También, para no extendernos
+tanto como en otras sesiones.
+
+c525550b-7633-4bce-897a-eb89aa79b595-0
+00:08:46.000 --> 00:08:49.845
+Y si no entiendo otra idea, un
+comentario, pues para ir a mi
+
+c525550b-7633-4bce-897a-eb89aa79b595-1
+00:08:49.845 --> 00:08:50.350
+empresa.
+
+4f76f2ab-e78e-4bc8-85d1-7103ca38878c-0
+00:09:01.370 --> 00:09:03.740
+¿Tiene alguna duda sobre este
+algún?
+
+c809d696-786a-430d-a070-20b9f2e92a14-0
+00:09:04.590 --> 00:09:07.190
+Un elemento de los diagramas de
+clase o algo así.
+
+bf3a4213-35eb-4dc6-b449-2445bc88c51a-0
+00:09:08.600 --> 00:09:11.093
+O mismo con lo que se va a
+modificar en la parte de arriba
+
+bf3a4213-35eb-4dc6-b449-2445bc88c51a-1
+00:09:11.093 --> 00:09:13.080
+de los diagramas de casos de Uso
+individuales.
+
+88b3e217-a791-4e7e-9430-12e76f82b46e-0
+00:09:21.140 --> 00:09:21.620
+¿Porque?
+
+c47ae301-e860-4984-9c28-da403fdf3022-0
+00:09:27.910 --> 00:09:28.300
+Versión.
+
+ef4853c7-0406-4954-9f6a-d38732c07627-0
+00:09:30.210 --> 00:09:48.330
+
+
+198102ef-57da-43ed-b423-01c5376e624e-0
+00:09:51.310 --> 00:09:54.820
+Bien, vamos a tomar, por ejemplo
+tengo.
+
+8f091232-8279-4561-9e49-6340d0c6ce5c-0
+00:09:56.970 --> 00:09:58.430
+El de.
+
+fffe3c75-c936-492f-990d-8b784cfb3e16-0
+00:10:03.130 --> 00:10:05.190
+Porque aquí nos podemos girar un
+poco.
+
+bfb1088c-49c9-4733-81ce-af9109767d2c-0
+00:10:14.270 --> 00:10:14.550
+Bien.
+
+f266265e-828c-4a38-a11a-fc8dca693a96-0
+00:10:15.650 --> 00:10:18.440
+La primera clase que pues vamos
+a identificar.
+
+44515721-8d65-45e8-b1c7-d3956c1b72f1-0
+00:10:21.200 --> 00:10:24.530
+Lo que puede ser ante el.
+
+f30a3284-826c-4f67-bb15-c191b82368e5-0
+00:10:27.090 --> 00:10:27.620
+Su.
+
+34b2226a-ae67-4a99-8a95-08d7f76bd5b9-0
+00:10:30.680 --> 00:10:32.670
+No teníamos en la parte de acá.
+
+e173ebd6-8e72-48e7-aa0c-03c31c6cbb26-0
+00:10:39.310 --> 00:10:42.150
+Sin embargo, hay que hacer ese
+proceso también de.
+
+6816d14e-9572-4ade-9a94-0ed53170392c-0
+00:10:43.750 --> 00:10:47.530
+Ventanas con los manejado
+anteriormente.
+
+6e27e60e-cbcf-44c1-88d1-c10dd1a1daac-0
+00:10:54.940 --> 00:10:55.830
+De igual manera.
+
+43b88091-4570-465f-98e0-6230189ec804-0
+00:10:57.330 --> 00:11:00.440
+¿Es que lo sacaste del el que
+hiciste?
+
+fe042073-ec50-4966-ad3f-e7a42c7e2896-0
+00:11:01.300 --> 00:11:02.810
+El documento que.
+
+a6cd3acc-0c00-4fed-9cea-8d0a5638cdbb-0
+00:11:03.920 --> 00:11:06.550
+Dice si se sigue creciendo.
+
+19798a43-d27b-4359-a2b6-0d4b43963966-0
+00:11:07.360 --> 00:11:07.700
+Plena.
+
+6466d0c0-05a9-499c-a0f0-0f7b2f27c492-0
+00:11:08.310 --> 00:11:12.120
+Ah, sí, sí, estuve basándome
+para hacerlo.
+
+818524b5-98dd-4e15-9baa-d37f6e9cdd62-0
+00:11:16.050 --> 00:11:19.230
+Está bien, está medio raro ese
+porque según io.
+
+7b7fe0ed-665f-4851-9792-f383c5b73e7a-0
+00:11:22.480 --> 00:11:26.350
+Si quieres este, pues vamos
+poniendo los atributos
+
+7b7fe0ed-665f-4851-9792-f383c5b73e7a-1
+00:11:26.350 --> 00:11:27.640
+principales para.
+
+162b54b6-a2cb-493f-a674-c9e9ac96461d-0
+00:11:28.270 --> 00:11:31.210
+Irle avanzando, no y luego ya
+checamos que.
+
+bf2678d9-3ac5-422a-a56e-77faaaf22d6c-0
+00:11:32.890 --> 00:11:34.730
+¿Qué métodos debe de llevar?
+
+b85d15c5-be95-4ab9-8320-52090ffab567-0
+00:11:37.210 --> 00:11:37.630
+No.
+
+9cb3c0df-df13-4361-9eb4-b68b4b2803b2-0
+00:11:38.460 --> 00:11:40.170
+Es que lo que me causa como.
+
+3092b284-ff00-49ed-9e9f-433b6b6bfee1-0
+00:11:40.920 --> 00:11:43.020
+Los conflictos en estas partes
+del menú.
+
+c658cc21-c5bb-4199-b67b-fd120cd5d7eb-0
+00:11:44.090 --> 00:11:45.110
+Y Juan Page.
+
+6da84eb5-913c-4d73-a638-1735d2ec4465-0
+00:11:46.010 --> 00:11:49.507
+Ya que tiene como atributos,
+pero creo que eso no, no, estos
+
+6da84eb5-913c-4d73-a638-1735d2ec4465-1
+00:11:49.507 --> 00:11:52.260
+son métodos, pero no dicen
+exactamente qué son.
+
+b177856a-694e-4160-8087-0567962f72a1-0
+00:11:55.010 --> 00:11:57.380
+Te dicen pleo solicitudes menú
+pero.
+
+99d6b435-fc8d-4e5f-b39f-b75c0cb9113d-0
+00:11:58.440 --> 00:12:01.286
+Creo que también este tiene
+pequeños errores que no se
+
+99d6b435-fc8d-4e5f-b39f-b75c0cb9113d-1
+00:12:01.286 --> 00:12:01.700
+notaron.
+
+7ddd1481-5bb3-4dee-a154-a29dcff71fac-0
+00:12:03.850 --> 00:12:05.690
+Porque aquí tiene como 2 Home
+Page.
+
+05b214df-fe9f-437d-8424-15806e7ee806-0
+00:12:07.580 --> 00:12:09.010
+¿Cómo es? Como 2 ventanas de.
+
+96a6c275-2d25-445b-82f8-d183b64dce08-0
+00:12:10.050 --> 00:12:11.770
+¿Estoy respirando estas empresa?
+
+ccbf425a-561b-4414-af9e-2d554b0e79a6-0
+00:12:13.500 --> 00:12:15.780
+Creo que esto lo podemos manejar
+algo así para los.
+
+bb0bafcf-5531-4dd4-8e1e-a4766bc4752b-0
+00:12:17.520 --> 00:12:20.250
+Usuarios no registrados y los
+registrados.
+
+c2ef1c0f-fd4d-4af0-88d2-057276a83862-0
+00:12:26.190 --> 00:12:26.440
+Bien.
+
+ba460eec-0dd6-4921-bbb3-1ed30c2e2995-0
+00:12:32.330 --> 00:12:33.950
+Que eran con modelos.
+
+0efefb2d-666a-441b-9a8e-ca85c297a93e-0
+00:12:37.090 --> 00:12:38.480
+Estoy manejando un paquete.
+
+64b91df5-7939-42f3-93ce-503106dd8981-0
+00:12:44.300 --> 00:12:47.330
+El usuario, pues básicamente va
+a tener una ID y.
+
+d20f4259-e43f-4cc1-8e80-9a1b7b064cd2-0
+00:12:51.260 --> 00:12:52.270
+¿Será indi?
+
+d848e0c5-cba4-4d4c-b760-ca7f3260a92e-0
+00:12:54.970 --> 00:12:55.520
+Mhm.
+
+6bcc8478-327b-4415-84a5-dc47e5a728c1-0
+00:12:56.640 --> 00:12:58.850
+Hacer único visibilidad privado.
+
+c4d82fe8-9f12-4033-9e12-7ef1eb4146bb-0
+00:12:59.680 --> 00:13:00.720
+No, esto va a ser.
+
+05469125-8311-40af-bc8c-4f3e8ab3195a-0
+00:13:01.470 --> 00:13:02.920
+Tejido inicialmente.
+
+b649f871-957b-4de1-a969-d9aa4444b5c8-0
+00:13:03.900 --> 00:13:04.470
+Iba a ser.
+
+6f095098-4cab-490c-817d-1fe044a0e3c4-0
+00:13:07.400 --> 00:13:08.510
+Si no tenemos ese.
+
+0190fc4e-e448-4136-8ce8-6c8281c9a099-0
+00:13:09.590 --> 00:13:13.260
+Después, en el formulario que
+habíamos definido.
+
+8b0ea8a2-b0e7-435c-98c1-e12e9602ace8-0
+00:13:14.960 --> 00:13:16.520
+En el registro de usuario.
+
+cbbde89e-be43-4835-99f6-0d8f89b2b9d6-0
+00:13:22.120 --> 00:13:25.565
+¿Se acuerdan quien lo hizo? Ese
+para ver los campos que se iban
+
+cbbde89e-be43-4835-99f6-0d8f89b2b9d6-1
+00:13:25.565 --> 00:13:26.050
+a llenar.
+
+13e78dfb-e090-4c89-b733-95d4d12a1ae2-0
+00:13:27.980 --> 00:13:28.850
+Y hoy os lo hice.
+
+ae04275e-b804-4b08-839d-9feb0f812b8f-0
+00:13:29.640 --> 00:13:34.010
+¿Cuáles son los cambios que ha?
+¿Pues en los niños?
+
+06ce75cb-c9c4-48e6-a2df-dd595588f6c3-0
+00:13:39.120 --> 00:13:40.590
+Se ponen diciendo.
+
+df068912-d708-4111-a9de-9211628150c8-0
+00:13:49.150 --> 00:13:50.200
+Seguros Teclado.
+
+6dfb358a-7685-47fd-b47e-4323304aabf6-0
+00:13:50.870 --> 00:13:51.260
+Víctor.
+
+a595903f-bd20-4d42-a572-e93dbabc43c2-0
+00:13:53.570 --> 00:13:57.190
+Ningún usuario privado este tema
+en privado.
+
+a2c1a0b8-bc9f-4e8e-89d7-4ec9dccbb2c0-0
+00:13:58.870 --> 00:14:00.140
+Y por hacer.
+
+309a7193-7976-41ee-92a3-0e9aca313280-0
+00:14:01.170 --> 00:14:01.490
+Sí.
+
+6548aba8-b387-413f-a905-e4c7ff4aa2bd-0
+00:14:03.470 --> 00:14:04.060
+Mhm.
+
+05ec8a76-6560-4235-a0d7-570cad329d3e-0
+00:14:08.890 --> 00:14:10.750
+¿Qué sientes? Lástima.
+
+4459059f-90c7-4e8f-a397-abf3cd801527-0
+00:14:13.480 --> 00:14:17.715
+No sé si se te hacen muchos,
+porque por ejemplo, es name,
+
+4459059f-90c7-4e8f-a397-abf3cd801527-1
+00:14:17.715 --> 00:14:19.030
+last name y luego.
+
+bc419ef9-a0aa-48bf-9b85-6d4b23038baa-0
+00:14:19.670 --> 00:14:22.010
+El nombre de usuario email.
+
+2c62f7bc-d5ca-4ce6-a9df-58a3f28ae2d9-0
+00:14:24.100 --> 00:14:28.024
+Se me hacen muchos, no sé como
+veas. O no sé en los demás, como
+
+2c62f7bc-d5ca-4ce6-a9df-58a3f28ae2d9-1
+00:14:28.024 --> 00:14:28.270
+ven.
+
+24fb2960-ea12-4605-807d-f36b7bf9459f-0
+00:14:29.210 --> 00:14:33.282
+Sí, nomás que nos quedamos con
+el nombre de usuario email o los
+
+24fb2960-ea12-4605-807d-f36b7bf9459f-1
+00:14:33.282 --> 00:14:34.300
+nombres o no sé.
+
+71d3c86a-667c-4ab8-9534-05c7208aa54f-0
+00:14:36.690 --> 00:14:42.190
+No, amiga mente, se me hace bien
+tenerlos todos, todos. ¿O key?
+
+f00f0e5e-a467-4318-b836-018219a8a8db-0
+00:14:50.470 --> 00:14:51.160
+Y mi.
+
+94042d4d-b8fc-496f-b1cd-d70452a25721-0
+00:14:54.380 --> 00:14:55.970
+Password, mineros.
+
+c4c2d0a9-bd4d-439d-8628-5e2e82583e83-0
+00:15:01.320 --> 00:15:03.150
+¿Más por seguridad?
+
+86006769-d5a8-46b0-9b08-4fd7bbfc9996-0
+00:15:11.150 --> 00:15:14.160
+¿El otro era en la foto de
+perfil, no?
+
+e83c34f2-2c48-4d37-b427-04896776f5e6-0
+00:15:17.480 --> 00:15:21.687
+¿No? Sí vamos a manejar, pero es
+que creo que eso no va dentro de
+
+e83c34f2-2c48-4d37-b427-04896776f5e6-1
+00:15:21.687 --> 00:15:25.130
+las clases porque no es
+contenido, eso ya iría dentro
+
+e83c34f2-2c48-4d37-b427-04896776f5e6-2
+00:15:25.130 --> 00:15:28.700
+del diagrama de entidad.
+Relación porque tú básicamente
+
+e83c34f2-2c48-4d37-b427-04896776f5e6-3
+00:15:28.700 --> 00:15:30.230
+sería como contenido de.
+
+946840fa-05b8-47ac-8804-84094c832f7d-0
+00:15:32.800 --> 00:15:35.600
+Porque no podemos definir aquí
+un tipo de como foto o algo así.
+
+91159022-0d01-47fa-a607-db762761de05-0
+00:15:38.170 --> 00:15:42.532
+Claro que esto es por mientras
+lo que se va a hacer, eso me
+
+91159022-0d01-47fa-a607-db762761de05-1
+00:15:42.532 --> 00:15:43.260
+hago esto.
+
+518c5db6-be06-4278-8e58-a41de2d27f45-0
+00:15:46.770 --> 00:15:50.118
+Pues creo que inicialmente
+podemos definir, les digo a los
+
+518c5db6-be06-4278-8e58-a41de2d27f45-1
+00:15:50.118 --> 00:15:50.800
+principales.
+
+f48b5434-ae41-4f74-8685-d05b05d0ebd4-0
+00:15:52.060 --> 00:15:53.100
+Que son.
+
+a8086139-c226-4445-9a4a-bf09d0b1617b-0
+00:15:54.490 --> 00:15:55.500
+Pues el curso.
+
+8fd51baa-93c5-4519-9c44-fa5b3b74491c-0
+00:15:56.170 --> 00:16:01.160
+¿Mi mi duda es, por ejemplo, no
+se manejarán también la clase?
+
+7a2fb6cc-d838-4a8c-82ed-1e141ef91f7a-0
+00:16:02.570 --> 00:16:08.200
+¿El login y register OO cómo se
+maneja? No entiendo muy bien.
+
+2d0a09b4-67cc-4a77-bdde-a2e0d23ade3e-0
+00:16:08.900 --> 00:16:11.760
+¿O sea, porque por ejemplo, de
+la de las register podemos?
+
+6874e8dd-9b7b-4eb4-ab18-c86d1435f4c0-0
+00:16:14.980 --> 00:16:17.250
+Oh, bueno, es que no entiendo
+muy bien cómo funciona.
+
+93aa4009-c262-4440-a622-e820c9b6caed-0
+00:16:20.900 --> 00:16:24.694
+Es lo que les digo, es que tenía
+duda, porque según yo voy al
+
+93aa4009-c262-4440-a622-e820c9b6caed-1
+00:16:24.694 --> 00:16:28.733
+registrarte y hacerlo bien es un
+método del usuario, sin embargo,
+
+93aa4009-c262-4440-a622-e820c9b6caed-2
+00:16:28.733 --> 00:16:32.159
+el profe creo que nos estaba
+mostrando aquí como en el.
+
+0cdb51c8-db69-4a55-a75d-8bc48723937c-0
+00:16:33.760 --> 00:16:35.530
+Diagrama de Elena.
+
+19817f38-f19c-45e0-904e-5bbd6b29c45b-0
+00:16:36.940 --> 00:16:39.920
+En esta mostrando algo aquí
+similar.
+
+b0969b19-2720-4904-a651-d377135c5f1f-0
+00:16:41.860 --> 00:16:45.011
+Pero esto de que el usuario y
+luego tenemos el registro aquí,
+
+b0969b19-2720-4904-a651-d377135c5f1f-1
+00:16:45.011 --> 00:16:47.350
+creo que lo único que estaba
+manera como que.
+
+2d99b35b-0829-43f8-be63-83aaf221f36b-0
+00:16:48.660 --> 00:16:53.390
+No tenía tantos métodos y aquí
+este.
+
+523b22f9-6baa-4d00-90cb-f92cf53a7c1e-0
+00:16:55.050 --> 00:16:57.030
+¿Profesión nos definió así como
+que?
+
+0e7a3876-bdf4-453f-bf95-a2ed00ec4ec1-0
+00:16:57.820 --> 00:17:01.168
+A actualizar la base de Datos,
+pero ya heredamos todo lo que
+
+0e7a3876-bdf4-453f-bf95-a2ed00ec4ec1-1
+00:17:01.168 --> 00:17:02.870
+eran los atributos del usuario.
+
+99b5f2ef-39e1-4d2c-a1e9-0a2f6c69389b-0
+00:17:04.890 --> 00:17:08.359
+Pero le digo que entra en mi
+duda, no sé si es común el
+
+99b5f2ef-39e1-4d2c-a1e9-0a2f6c69389b-1
+00:17:08.359 --> 00:17:12.138
+registrarse es un método del
+usuario o el registro sería una
+
+99b5f2ef-39e1-4d2c-a1e9-0a2f6c69389b-2
+00:17:12.138 --> 00:17:12.510
+clase.
+
+b44569bc-b2d1-44ee-abe1-f25c61114f69-0
+00:17:19.640 --> 00:17:23.353
+Porque se supone que conforme
+estamos manejando el sistema no
+
+b44569bc-b2d1-44ee-abe1-f25c61114f69-1
+00:17:23.353 --> 00:17:25.450
+sé si sí tenía algo que ver,
+pero.
+
+b02511da-a3e8-4ca7-be07-df1da65f3e70-0
+00:17:26.160 --> 00:17:28.512
+Conforme estamos manejando el
+sistema se supone que hay un
+
+b02511da-a3e8-4ca7-be07-df1da65f3e70-1
+00:17:28.512 --> 00:17:29.470
+usuario que es invitado.
+
+e54a8e33-6655-401a-afa3-07a756bc9f02-0
+00:17:30.190 --> 00:17:32.490
+Pero hay otro usuario que debe
+registrarse.
+
+6aaf8f3f-a4b7-441b-8627-bbcb596e7e48-0
+00:17:38.060 --> 00:17:38.310
+Sí.
+
+7d48bff7-df8c-4e4e-8797-5ce1fb9a1d72-0
+00:17:39.480 --> 00:17:40.170
+Pero.
+
+38421820-494a-44c8-a347-dd4a56a7c69e-0
+00:17:41.080 --> 00:17:44.848
+Lo que no entiendo o sea porque
+en la que estamos haciendo
+
+38421820-494a-44c8-a347-dd4a56a7c69e-1
+00:17:44.848 --> 00:17:45.360
+ahorita.
+
+657f3083-6f83-49ea-9f6f-2337d40e0287-0
+00:17:45.980 --> 00:17:49.536
+El usuario me bueno los
+atributos que estamos poniendo
+
+657f3083-6f83-49ea-9f6f-2337d40e0287-1
+00:17:49.536 --> 00:17:49.730
+es.
+
+5c2d6c2f-f465-4598-abfc-7634fb1f373b-0
+00:17:50.390 --> 00:17:53.741
+¿Ah, no estamos vendiendo los
+atributos como si fuera un para
+
+5c2d6c2f-f465-4598-abfc-7634fb1f373b-1
+00:17:53.741 --> 00:17:54.390
+el registro?
+
+202a04c1-b146-4d03-9644-91e0a0f7b3bf-0
+00:18:04.900 --> 00:18:06.390
+Pues sí, sería algo como.
+
+60c06bbf-ac2c-4861-842d-0fbb6642b89c-0
+00:18:08.900 --> 00:18:11.390
+Si es que si está medio
+complicado en realmente.
+
+e9aca87f-25fe-463f-a360-d1a2ff753f3b-0
+00:18:12.290 --> 00:18:14.220
+¿Cuatro p más con la
+explicación, profe, porque?
+
+a39d2465-6e7b-4bad-b150-ec85875f81d9-0
+00:18:15.170 --> 00:18:18.627
+Según yo, tenemos que definir,
+por ejemplo, tenemos un usuario
+
+a39d2465-6e7b-4bad-b150-ec85875f81d9-1
+00:18:18.627 --> 00:18:22.084
+y cada usuario tiene método, sea
+como el ejemplo, el profe nos
+
+a39d2465-6e7b-4bad-b150-ec85875f81d9-2
+00:18:22.084 --> 00:18:24.279
+dijo de los maestros de la uacj,
+o sea.
+
+7644d9f2-b544-4514-9a0f-3fcc1a045f79-0
+00:18:24.910 --> 00:18:29.724
+Un maestro tiene atributos y el
+maestro tiene nombre, tiene
+
+7644d9f2-b544-4514-9a0f-3fcc1a045f79-1
+00:18:29.724 --> 00:18:31.730
+curp. Tiene, pues varias.
+
+143d35c0-7676-44d7-8e45-ef738c0454ae-0
+00:18:32.500 --> 00:18:34.140
+Pues atributos así como base.
+
+86ed429e-d78d-4fdf-9222-4741220db852-0
+00:18:34.870 --> 00:18:38.643
+Y tiene varios métodos que son
+como tomar lista, subir
+
+86ed429e-d78d-4fdf-9222-4741220db852-1
+00:18:38.643 --> 00:18:41.320
+calificaciones, asesorías y
+cosas así.
+
+d6f2ddab-42e7-4a65-8a95-1516691d7b25-0
+00:18:41.950 --> 00:18:46.270
+Nosotros al momento de registrar
+un usuario.
+
+553e9146-a09c-434e-a477-0d7c692f1379-0
+00:18:47.230 --> 00:18:50.803
+El usuario ya tiene, ya tiene
+atributos, o sea, no podemos
+
+553e9146-a09c-434e-a477-0d7c692f1379-1
+00:18:50.803 --> 00:18:52.620
+definir los 2 atributos en el.
+
+43c46f25-a55c-4e43-949e-773f4146967e-0
+00:18:53.550 --> 00:18:56.870
+Registro porque ya existen
+dentro del.
+
+9fbaeefc-c5f3-4c8b-8366-3b949eec010d-0
+00:18:58.010 --> 00:18:58.510
+Usuario.
+
+362f8c17-5115-4198-a433-ea515b519f56-0
+00:18:59.930 --> 00:19:04.347
+Güey, es ahí donde entró, como
+en conflicto de que un usuario
+
+362f8c17-5115-4198-a433-ea515b519f56-1
+00:19:04.347 --> 00:19:05.060
+que tiene.
+
+2ca50a86-5cc1-4fb8-946e-32baaa6a0802-0
+00:19:05.660 --> 00:19:07.410
+¿Atributos ya definidos?
+
+e6b6b904-68b8-4b3d-a6c2-774ae8a20991-0
+00:19:09.610 --> 00:19:11.900
+Tiene la posibilidad de como
+comportamiento.
+
+1c73a013-7bae-4540-b864-b3fe8837afaa-0
+00:19:12.940 --> 00:19:13.970
+Registrarse.
+
+c1e3245c-b108-4efd-983b-860329b324a4-0
+00:19:15.680 --> 00:19:18.540
+¿O tiene que ir a otra clase?
+
+f77372ef-48fe-407f-9e5c-f742a3d57877-0
+00:19:19.920 --> 00:19:20.490
+De registro.
+
+4c830bf1-25db-4d44-88e1-8e856a31145f-0
+00:19:23.000 --> 00:19:24.050
+¿Entonces?
+
+92ae4234-db15-4f45-9aa9-1669d97fe8fb-0
+00:19:25.680 --> 00:19:29.710
+Entonces, si es así, yo no veo
+mal como la manera en que lo
+
+92ae4234-db15-4f45-9aa9-1669d97fe8fb-1
+00:19:29.710 --> 00:19:30.450
+puso Elena.
+
+de371872-5324-4689-baf1-a4239297b7ae-0
+00:19:31.310 --> 00:19:34.696
+Porque en la clase que tiene
+Elena de registro solamente puso
+
+de371872-5324-4689-baf1-a4239297b7ae-1
+00:19:34.696 --> 00:19:35.570
+los los métodos.
+
+c8ced99d-0bda-42a3-998c-d0e370a4a9b2-0
+00:19:36.270 --> 00:19:40.233
+Y esos métodos son los que van a
+hacer que tu ingreses el el
+
+c8ced99d-0bda-42a3-998c-d0e370a4a9b2-1
+00:19:40.233 --> 00:19:43.806
+usuario, pero obviamente
+heredándolo de la de la clase
+
+c8ced99d-0bda-42a3-998c-d0e370a4a9b2-2
+00:19:43.806 --> 00:19:46.470
+general o de la clase principal
+usuario.
+
+b572171f-6491-4d5b-8fc6-8b8120dda8de-0
+00:19:48.840 --> 00:19:52.889
+Pero guiándonos un poquito más
+en la programación orientada a
+
+b572171f-6491-4d5b-8fc6-8b8120dda8de-1
+00:19:52.889 --> 00:19:55.110
+objetos. Nosotros no tenemos
+una.
+
+2c29fa38-b045-49b2-8cea-6df6c3121c6d-0
+00:19:57.850 --> 00:20:00.000
+En la en la clase está registro
+que está aquí.
+
+51fb585d-9bf2-4e22-b7c3-0d797c7dc73b-0
+00:20:00.810 --> 00:20:01.870
+No tenemos.
+
+63dd950f-4a9e-4b73-b7a5-4cc6129557a4-0
+00:20:02.870 --> 00:20:05.560
+Una línea de Código que te haga
+cada cosa individual.
+
+181d2348-b0e9-4597-91c2-dab9b65dd884-0
+00:20:06.600 --> 00:20:11.176
+No sé si me explico o sea, el
+proceso de que nosotros hagamos
+
+181d2348-b0e9-4597-91c2-dab9b65dd884-1
+00:20:11.176 --> 00:20:15.457
+registro de un usuario es que ya
+hay un formulario que ya
+
+181d2348-b0e9-4597-91c2-dab9b65dd884-2
+00:20:15.457 --> 00:20:19.959
+nosotros hicimos en html y en
+base a un post, este mandé por
+
+181d2348-b0e9-4597-91c2-dab9b65dd884-3
+00:20:19.959 --> 00:20:20.550
+booking.
+
+4ec58ff7-2a63-407d-a7b3-167188ca0a42-0
+00:20:21.310 --> 00:20:25.019
+A la base de Datos del registro
+de usuario, o sea, el método de
+
+4ec58ff7-2a63-407d-a7b3-167188ca0a42-1
+00:20:25.019 --> 00:20:28.206
+booking que estaríamos
+utilizando junto con las clases
+
+4ec58ff7-2a63-407d-a7b3-167188ca0a42-2
+00:20:28.206 --> 00:20:31.742
+a siguiendo la metodología de
+promoción entre objetos, sería
+
+4ec58ff7-2a63-407d-a7b3-167188ca0a42-3
+00:20:31.742 --> 00:20:35.277
+el método post, que sería el
+hacer el registro en la base de
+
+4ec58ff7-2a63-407d-a7b3-167188ca0a42-4
+00:20:35.277 --> 00:20:37.770
+Datos. No estamos haciendo un
+método post.
+
+d022c0ef-bb17-425c-a4f1-1ddea62972cb-0
+00:20:38.400 --> 00:20:41.268
+Para el nombre no estamos este
+otro método post para la
+
+d022c0ef-bb17-425c-a4f1-1ddea62972cb-1
+00:20:41.268 --> 00:20:44.239
+dirección, no estamos haciendo
+otro método para contacto,
+
+d022c0ef-bb17-425c-a4f1-1ddea62972cb-2
+00:20:44.239 --> 00:20:44.700
+etcétera.
+
+d4cc22c3-5cef-45a6-8802-71f1b85c1088-0
+00:20:46.230 --> 00:20:49.070
+O sea, el registro no lo maneja
+de manera individual.
+
+79b0f61e-4c6d-4820-aade-4ab76b349e2d-0
+00:20:50.350 --> 00:20:50.900
+Y.
+
+d80e75ea-04cf-475c-9c9d-0f3beed2093b-0
+00:20:51.980 --> 00:20:53.890
+Sería como tienes todos los
+Datos.
+
+8f232dcb-1e8e-45cf-bc01-23a05979b77b-0
+00:20:55.180 --> 00:20:58.770
+De luz del usuario, simplemente
+haces como él.
+
+b400acbf-bf80-4247-8368-ce6374e23508-0
+00:21:00.160 --> 00:21:01.130
+Esta parte de.
+
+7072531d-2f61-46e0-9b7b-fee981abef3a-0
+00:21:01.770 --> 00:21:02.980
+¿Subirlo a la base de Datos?
+
+68916df7-cedc-40ad-800c-fb349fa469da-0
+00:21:06.030 --> 00:21:08.450
+O sea, porque a lo que voy con
+esto es que.
+
+9f6f1f02-d86f-4166-b7e3-6b8e1f5df75a-0
+00:21:09.630 --> 00:21:12.975
+Pongámoslo así que esta es una
+cada uno de estos, es una acción
+
+9f6f1f02-d86f-4166-b7e3-6b8e1f5df75a-1
+00:21:12.975 --> 00:21:13.550
+individual.
+
+f2b45763-1234-4172-9de1-444cf0f6c699-0
+00:21:14.550 --> 00:21:15.500
+Vamos a ver si.
+
+2b093d5f-5c50-407e-9215-6d71012feaf8-0
+00:21:16.290 --> 00:21:18.230
+Cada uno de estos es una acción
+individual.
+
+ee5e5d14-fb09-46be-8e0c-d61daab5647c-0
+00:21:19.030 --> 00:21:21.070
+¿Tú como usuario si te quieres
+registrar?
+
+3512e24b-0f02-42dd-b8b4-d5c490e1ab51-0
+00:21:21.880 --> 00:21:22.490
+Tienes que.
+
+41e3c0f3-bb00-4348-98e6-76e5c214b3ac-0
+00:21:23.060 --> 00:21:23.790
+Hacer un.
+
+c4475473-3c9a-4f5c-8cca-00fb71a9dee1-0
+00:21:24.890 --> 00:21:28.234
+Un tienes, únicamente tienes que
+hacer un comportamiento que es
+
+c4475473-3c9a-4f5c-8cca-00fb71a9dee1-1
+00:21:28.234 --> 00:21:29.750
+ingresar Datos y registrarte.
+
+ef321810-bffc-40b4-9e1b-6133e0ebec5b-0
+00:21:30.470 --> 00:21:36.270
+En este, siguiendo la lógica de
+esta clase, tú tienes el la
+
+ef321810-bffc-40b4-9e1b-6133e0ebec5b-1
+00:21:36.270 --> 00:21:37.720
+posibilidad de.
+
+5484ad7d-1e22-4166-bb20-fe9c8249c7a3-0
+00:21:38.410 --> 00:21:42.776
+¿Ingresar tu nombre y ya en el
+registro, sabes? Porque cada uno
+
+5484ad7d-1e22-4166-bb20-fe9c8249c7a3-1
+00:21:42.776 --> 00:21:46.870
+de estos es independiente, no
+tienes la posibilidad de cómo
+
+5484ad7d-1e22-4166-bb20-fe9c8249c7a3-2
+00:21:46.870 --> 00:21:49.600
+meter todos y hacer el registro,
+o sea.
+
+0a20d50f-7a78-4d40-92ef-248c0659e3ff-0
+00:21:50.360 --> 00:21:53.681
+Te abre la puerta y aquí dentro,
+que si se programará, así que
+
+0a20d50f-7a78-4d40-92ef-248c0659e3ff-1
+00:21:53.681 --> 00:21:56.739
+entraríamos dentro de un error
+que sería de que te puedes
+
+0a20d50f-7a78-4d40-92ef-248c0659e3ff-2
+00:21:56.739 --> 00:21:59.744
+registrar únicamente con el
+nombre. O te puedo registrar
+
+0a20d50f-7a78-4d40-92ef-248c0659e3ff-3
+00:21:59.744 --> 00:22:03.013
+únicamente con el apellido o con
+el email, o puedes crear una
+
+0a20d50f-7a78-4d40-92ef-248c0659e3ff-4
+00:22:03.013 --> 00:22:05.070
+cuenta con un puro password, o
+sea no.
+
+6141706e-44b5-4c08-97f4-4db4550d1a77-0
+00:22:06.600 --> 00:22:10.650
+Así me explico, o sea que no
+tiene sentido esta manera y está
+
+6141706e-44b5-4c08-97f4-4db4550d1a77-1
+00:22:10.650 --> 00:22:14.896
+bien esto, pero en esta parte se
+están utilizando como métodos y
+
+6141706e-44b5-4c08-97f4-4db4550d1a77-2
+00:22:14.896 --> 00:22:18.946
+son, sin embargo, atributos. Es
+la única confusión, les digo,
+
+6141706e-44b5-4c08-97f4-4db4550d1a77-3
+00:22:18.946 --> 00:22:23.192
+está bien esto, sin embargo, no
+se manejan de manera individual,
+
+6141706e-44b5-4c08-97f4-4db4550d1a77-4
+00:22:23.192 --> 00:22:26.850
+se engloba en un sólo que es
+actualizar el registrar el
+
+6141706e-44b5-4c08-97f4-4db4550d1a77-5
+00:22:26.850 --> 00:22:28.679
+usuario en la base de Datos.
+
+c65d6d8d-e0c7-4b72-b238-8a239fb801c7-0
+00:22:33.620 --> 00:22:34.470
+Pues me explique.
+
+263ff75a-6ce5-4035-b80c-f2db45d022fc-0
+00:22:39.210 --> 00:22:42.662
+Sí, sí, sí, entiendo lo que me
+quieres decir, pero sí mantiene,
+
+263ff75a-6ce5-4035-b80c-f2db45d022fc-1
+00:22:42.662 --> 00:22:43.310
+sí entiendo.
+
+9ca40c46-8b76-4c2a-8a7e-3b7f3ea1cbcb-0
+00:22:46.150 --> 00:22:47.220
+Bien pues digo por eso.
+
+22cf2c77-d1b7-4905-af2d-70365fb53a88-0
+00:22:48.270 --> 00:22:51.380
+¿Es que ahí es donde no
+encuentro como el sentido
+
+22cf2c77-d1b7-4905-af2d-70365fb53a88-1
+00:22:51.380 --> 00:22:52.500
+realmente, porque?
+
+f6a287a4-43be-4c1a-abbe-6e3bc29fda0c-0
+00:22:53.610 --> 00:22:57.010
+Estamos acá en la parte de
+registro y el registro.
+
+321f419b-2c6d-4b49-aea4-9aced448b8c0-0
+00:22:57.680 --> 00:23:00.090
+Siguiendo nuestro diagrama
+general.
+
+28d4a90a-a7f0-4348-8f6a-eb2c32bacf9a-0
+00:23:01.360 --> 00:23:06.770
+Tenemos la parte de llenar un
+formulario y verificar esto.
+
+2c448cc9-186b-4834-b614-6a716146f3f2-0
+00:23:07.460 --> 00:23:11.770
+O sea, dentro del registro
+tendríamos 2 métodos, que sería.
+
+b10186bb-0398-4212-9fdd-615b35a30e28-0
+00:23:15.630 --> 00:23:16.020
+No.
+
+d1cb2e2e-c9eb-4ef0-bbfd-c0747f458731-0
+00:23:17.080 --> 00:23:18.830
+Verificar usuario existente.
+
+17616094-bff4-4849-a3d5-3bf6f92c76a9-0
+00:23:21.820 --> 00:23:23.750
+El de desplegar un mensaje de
+error.
+
+4ce47d13-c7b7-4196-983c-bc1d6fdf4904-0
+00:23:25.140 --> 00:23:30.570
+Y la de crear cuenta, pero no sé
+si se maneja de esta manera.
+
+234d9096-a087-44d9-85ae-112d89154a3b-0
+00:23:31.510 --> 00:23:33.890
+Los 3 porque.
+
+c72b275e-1050-4172-ad8b-8cc5fac78c9f-0
+00:23:34.670 --> 00:23:35.460
+Pues no estoy seguro.
+
+86c59682-7965-4598-b0f9-889c68b4c457-0
+00:23:48.500 --> 00:23:52.349
+Y pues trataba de sacar como las
+dudas y pues también me genera
+
+86c59682-7965-4598-b0f9-889c68b4c457-1
+00:23:52.349 --> 00:23:52.590
+más.
+
+cba9fe20-f5ca-4874-9f25-26e51401962a-0
+00:23:53.560 --> 00:23:54.130
+A.
+
+877711bc-9fc1-4a73-955b-85ce41a39a7b-0
+00:23:57.060 --> 00:24:00.770
+Pues bueno, en ese caso en mi
+diagrama.
+
+d9af4907-a20a-4bf7-aa67-26c498f681a7-0
+00:24:02.520 --> 00:24:06.956
+El único que debería ir es el
+que dices tú no de subirlo a la
+
+d9af4907-a20a-4bf7-aa67-26c498f681a7-1
+00:24:06.956 --> 00:24:08.960
+base de Datos. Ahí es donde.
+
+f33df28e-0805-4937-b434-65a49afda963-0
+00:24:10.700 --> 00:24:14.605
+Sí, sí, sí, sí. O sea, a como yo
+lo comprendo, te digo, no sé si
+
+f33df28e-0805-4937-b434-65a49afda963-1
+00:24:14.605 --> 00:24:17.670
+es como correcto esto, pero a
+como yo lo entiendo.
+
+ea5f3dc1-40e5-4bba-9674-db875da7805d-0
+00:24:18.970 --> 00:24:22.375
+Pues me está dando a entender,
+pues todo lo que dice el profe,
+
+ea5f3dc1-40e5-4bba-9674-db875da7805d-1
+00:24:22.375 --> 00:24:25.890
+a que tendríamos nuestro usuario
+y tendríamos la clase registro.
+
+13e17123-68cc-45cf-ba78-7d2343add114-0
+00:24:26.980 --> 00:24:30.672
+Que tenía un solo método en este
+caso. Yo miro innecesario
+
+13e17123-68cc-45cf-ba78-7d2343add114-1
+00:24:30.672 --> 00:24:34.678
+entonces Hacer una clase, si lo
+único que te va a hacer o hacer
+
+13e17123-68cc-45cf-ba78-7d2343add114-2
+00:24:34.678 --> 00:24:35.430
+un registro.
+
+9891dde5-8530-4a19-9daf-ec74f61b68b5-0
+00:24:36.510 --> 00:24:39.895
+Porque dentro de mi lógica, yo
+lo pondría de que el usuario
+
+9891dde5-8530-4a19-9daf-ec74f61b68b5-1
+00:24:39.895 --> 00:24:40.460
+tiene sus.
+
+09a5c1ff-81ec-4a96-b806-9d7be11724e6-0
+00:24:41.360 --> 00:24:42.340
+Atributos.
+
+e349abf5-0513-409c-886f-0171b0b7f560-0
+00:24:43.250 --> 00:24:46.843
+Y dentro de de nuestros métodos
+directamente podemos obtener
+
+e349abf5-0513-409c-886f-0171b0b7f560-1
+00:24:46.843 --> 00:24:50.201
+estos atributos y hacer el
+registro de un nuevo usuario,
+
+e349abf5-0513-409c-886f-0171b0b7f560-2
+00:24:50.201 --> 00:24:53.795
+una base de Datos no necesario,
+crear otra clase registró un
+
+e349abf5-0513-409c-886f-0171b0b7f560-3
+00:24:53.795 --> 00:24:57.448
+aumento de registro, entonces el
+más bien registro sería como
+
+e349abf5-0513-409c-886f-0171b0b7f560-4
+00:24:57.448 --> 00:24:58.980
+método, no, no como clase.
+
+d3156877-1d53-4657-9948-41b3e31748ea-0
+00:25:00.090 --> 00:25:03.636
+O sea, te digo si dentro de mi
+lógica sí, pero como les comento
+
+d3156877-1d53-4657-9948-41b3e31748ea-1
+00:25:03.636 --> 00:25:07.127
+fuimos a preguntarle exactamente
+el profe y nos hizo una clase
+
+d3156877-1d53-4657-9948-41b3e31748ea-2
+00:25:07.127 --> 00:25:08.790
+registro y es lo que me causa.
+
+e7ea880f-4dca-4a88-b0dd-8bf206f8357c-0
+00:25:10.330 --> 00:25:11.780
+¿Conflicto de que no?
+
+73b5f3bb-6a52-4668-b84a-790c57f0cc80-0
+00:25:13.200 --> 00:25:15.846
+Porque lo que estábamos
+comentando Elena y yo, después
+
+73b5f3bb-6a52-4668-b84a-790c57f0cc80-1
+00:25:15.846 --> 00:25:18.590
+del Este, o sea, de la pregunta
+que hicimos el profesor.
+
+2e285d3e-885f-425e-a98a-1dab76be0c01-0
+00:25:19.360 --> 00:25:21.070
+Es justo lo que hizo Elena,
+pero.
+
+326293ac-d248-4ba7-8c69-6743d9177e54-0
+00:25:22.680 --> 00:25:25.934
+Previamente dijo que estaba mal
+y después el ejemplo que nos
+
+326293ac-d248-4ba7-8c69-6743d9177e54-1
+00:25:25.934 --> 00:25:28.496
+está dando era, pues
+prácticamente utilizar las
+
+326293ac-d248-4ba7-8c69-6743d9177e54-2
+00:25:28.496 --> 00:25:29.350
+mismas 2 clases.
+
+54e5e30f-3fde-4e7f-ada8-3fdf0c394a0a-0
+00:25:30.140 --> 00:25:30.360
+Mhm.
+
+eea8c85c-32af-4c91-98b6-dc7b3e363071-0
+00:25:31.910 --> 00:25:33.240
+Por eso es donde entra mi.
+
+11b15dd8-ba9a-4ec0-bf95-2d0a5b5f9a13-0
+00:25:36.540 --> 00:25:37.310
+Como conflicto.
+
+ecd8afbf-6f71-453a-a2ef-6912d7685663-0
+00:25:38.900 --> 00:25:41.030
+Si fijan acá. Bueno, por ejemplo
+en este.
+
+f8d6c357-d9f2-48ee-b97b-4f8d8a71a1d9-0
+00:25:42.610 --> 00:25:43.910
+Aunque creo que puede ser más
+grande.
+
+70524aae-cad5-4062-ada9-52cbe95433ff-0
+00:25:51.370 --> 00:25:51.680
+Sí.
+
+456a2c7f-2cee-4e87-8e1f-ff621330644b-0
+00:25:54.740 --> 00:25:55.610
+La versión.
+
+398bca33-56c3-4372-bd3e-d42d6425226b-0
+00:25:58.720 --> 00:26:00.230
+¿A cómo lo tengo yo?
+
+c3a2ed94-37dc-4d3d-a9c3-6358f5d816c0-0
+00:26:01.200 --> 00:26:02.150
+Previsto.
+
+dc9abcf7-0025-47d9-81fb-4b5a9b593db5-0
+00:26:04.130 --> 00:26:05.500
+El usuario tiene.
+
+fac54157-3ab0-4765-b7fd-175073ce59d3-0
+00:26:08.950 --> 00:26:10.010
+Este no lo entiendo.
+
+a1454ff9-99c9-46e8-8a93-1456ea987904-0
+00:26:13.640 --> 00:26:15.630
+Creo que está mal, está
+preguntando si.
+
+1cd58918-89a2-4488-ba9a-7f69a72b507c-0
+00:26:18.180 --> 00:26:20.360
+Sí, eso está mal registrada y
+eso.
+
+a63c4ff3-7aea-4f83-9bb0-a38dac34b08b-0
+00:26:38.550 --> 00:26:39.700
+En clase check in.
+
+45857447-d5b8-4619-8412-b633af873354-0
+00:26:46.630 --> 00:26:49.730
+Me gustaría ver un no que se
+pudiera.
+
+71f1da94-c5cd-48ac-844c-cdf8ca305ff6-0
+00:26:52.230 --> 00:26:55.382
+Login, base de Datos vienen
+hasta aquí, está la parte del
+
+71f1da94-c5cd-48ac-844c-cdf8ca305ff6-1
+00:26:55.382 --> 00:26:58.590
+base de Datos y creo que la base
+de Datos no es una clase.
+
+1c3fa6f5-cdd4-433e-858d-eeb503579f39-0
+00:27:00.250 --> 00:27:01.690
+Porque no dentro del Código.
+
+a88f2dc9-ba2b-4d07-bacc-25f35d213e01-0
+00:27:05.080 --> 00:27:07.190
+Está muy confuso todo esto en
+realidad.
+
+e8336105-ddd7-4857-b9a4-a7f2f738f777-0
+00:27:24.560 --> 00:27:28.037
+De hecho, se hacen de manera muy
+diferentes porque acabas de
+
+e8336105-ddd7-4857-b9a4-a7f2f738f777-1
+00:27:28.037 --> 00:27:30.830
+pasar uno donde en, por ejemplo,
+en user tenían.
+
+20c32558-6c8f-4cb3-aeb3-70d25752f58a-0
+00:27:31.670 --> 00:27:32.890
+First name last name.
+
+b1ff5580-ef5d-4f28-a693-d11fb8e27fe0-0
+00:27:33.640 --> 00:27:37.050
+Pero al momento de hacer el
+login a bueno en otra clase que
+
+b1ff5580-ef5d-4f28-a693-d11fb8e27fe0-1
+00:27:37.050 --> 00:27:37.960
+que decía Login.
+
+31ce4bd9-7a9f-4b8b-96bb-bb13346a948e-0
+00:27:38.880 --> 00:27:42.130
+Venía a user s venía user name
+in.
+
+6d832a96-3d88-40ea-b766-59828449c35a-0
+00:27:43.160 --> 00:27:47.290
+¿Y bueno, no entiendo, o sea,
+cómo vas a hacer un?
+
+277dcc17-5e25-48a4-b698-371dc56ad216-0
+00:27:48.230 --> 00:27:52.019
+In your name. ¿Si no lo tienes
+registrado, cómo vas a iniciar
+
+277dcc17-5e25-48a4-b698-371dc56ad216-1
+00:27:52.019 --> 00:27:55.320
+sesión con un user name? ¿Si no
+lo tienes registrado?
+
+356a363e-df18-4cfa-85fb-5ff7c913e2f5-0
+00:27:59.980 --> 00:28:00.470
+Mhm.
+
+b098f8db-38de-41ce-9779-5b18d0655411-0
+00:28:02.690 --> 00:28:04.840
+Está muy confuso todo esto.
+
+ff713bb2-6383-4bfb-afdf-0abaea8424f9-0
+00:28:15.090 --> 00:28:16.980
+Es que ni siquiera tienen
+métodos ni nada.
+
+fd30f214-b55d-459b-9c7b-94bc435cbf94-0
+00:28:43.100 --> 00:28:45.130
+En base a que lo que estoy
+viendo.
+
+7e1395a0-05b8-4667-899c-fbf42a5ee3f4-0
+00:28:55.860 --> 00:28:59.110
+Y yo no, lo más básico, porque
+le digo el primero sería como
+
+7e1395a0-05b8-4667-899c-fbf42a5ee3f4-1
+00:28:59.110 --> 00:29:00.070
+sacarlo del login.
+
+aa703dac-3c0d-4f90-9534-e32bf6d0d5da-0
+00:29:01.450 --> 00:29:02.980
+Es que todos están bien
+diferente.
+
+5f612abd-363b-490b-a03f-83446b1ee121-0
+00:29:05.320 --> 00:29:06.060
+¿Otro usuario?
+
+6ad2eefd-b534-463d-bb6b-7870b4da5fc6-0
+00:29:07.130 --> 00:29:07.990
+Tienen la ID.
+
+e32fd1b6-60f5-4dd3-9cb3-e14ae5f12126-0
+00:29:11.490 --> 00:29:15.096
+Ser information, o sea, aquí lo
+está manejando de 2 maneras
+
+e32fd1b6-60f5-4dd3-9cb3-e14ae5f12126-1
+00:29:15.096 --> 00:29:17.380
+diferentes. ¿Entiendo realmente
+este?
+
+e460520b-3301-4882-a911-ca2431223934-0
+00:29:37.880 --> 00:29:38.380
+Mhm.
+
+bf557e8b-0ca7-40c6-b919-4dd16bca18ac-0
+00:29:54.740 --> 00:29:56.920
+Pero que éste le agarró un
+poquito más de sentido.
+
+acb69673-7db6-4be2-b5cd-7c7e3954d15e-0
+00:30:00.030 --> 00:30:03.144
+Nada más que este tiene como
+usuario y password, como si
+
+acb69673-7db6-4be2-b5cd-7c7e3954d15e-1
+00:30:03.144 --> 00:30:06.476
+fueras a iniciar sesión. Si no
+te puedes venir a la clase de
+
+acb69673-7db6-4be2-b5cd-7c7e3954d15e-2
+00:30:06.476 --> 00:30:09.918
+registro donde ingresas todos
+tus Datos y aplicas el método de
+
+acb69673-7db6-4be2-b5cd-7c7e3954d15e-3
+00:30:09.918 --> 00:30:10.410
+registro.
+
+67d39582-cbc6-406a-b93c-1343e1ced45c-0
+00:30:11.290 --> 00:30:13.850
+No ya registrado, creo que
+puedes hacer login.
+
+601c99f3-2b6f-4c15-99cf-6711957fa986-0
+00:30:23.270 --> 00:30:25.040
+Después del Login.
+
+63cfacfb-622d-4e5f-8972-730fcc8d742d-0
+00:30:26.730 --> 00:30:27.910
+Puedes ver tu perfil.
+
+97b9a8aa-efd2-4bfb-ad03-686f850030a6-0
+00:30:30.130 --> 00:30:33.340
+Y pues editar perfil, pues ya
+estarías.
+
+c2cc36a8-e5d8-4798-972d-9ac9cd948670-0
+00:30:36.170 --> 00:30:38.874
+Bueno, también está medio raro
+esto todo está bien raro, todo
+
+c2cc36a8-e5d8-4798-972d-9ac9cd948670-1
+00:30:38.874 --> 00:30:39.790
+está bien, diferente.
+
+df38fd10-d67a-45b2-9865-3606508afbf8-0
+00:30:40.990 --> 00:30:41.550
+Espere.
+
+afbfcacf-1ced-4b6d-99fc-40ba93dfcc83-0
+00:30:52.300 --> 00:30:56.718
+Pues siento que lo único que
+podremos hacer es este, que
+
+afbfcacf-1ced-4b6d-99fc-40ba93dfcc83-1
+00:30:56.718 --> 00:31:01.524
+investiguemos como por nuestra
+cuenta ya este que les dijiste
+
+afbfcacf-1ced-4b6d-99fc-40ba93dfcc83-2
+00:31:01.524 --> 00:31:03.850
+como lo que nos dijo el profe.
+
+cbb45ec0-bccd-4eb5-9a1c-3446f2575b5b-0
+00:31:04.440 --> 00:31:07.120
+Los errores que teníamos este.
+
+84a584c3-da79-47ef-97bc-68896b77bd0c-0
+00:31:08.230 --> 00:31:08.860
+Con el otro.
+
+23cf5453-75a5-46b8-a3c4-ae56aa2ba2a4-0
+00:31:09.830 --> 00:31:15.691
+Y que cada quien intente hacer
+este uno que fue, como decimos,
+
+23cf5453-75a5-46b8-a3c4-ae56aa2ba2a4-1
+00:31:15.691 --> 00:31:16.250
+el de.
+
+67423cd1-68ce-4d46-90a3-52e50f5baa37-0
+00:31:17.690 --> 00:31:22.621
+Casos de Gozón ajá y pues
+mañana, conectarnos otra vez
+
+67423cd1-68ce-4d46-90a3-52e50f5baa37-1
+00:31:22.621 --> 00:31:25.760
+para revisarlo, ia para que
+quede.
+
+84bc1e7a-3c20-4f10-b61a-a20f375fd21a-0
+00:31:28.450 --> 00:31:31.594
+¿Sí, por qué le digo esto? Pues
+realmente sí, nos va a tomar un
+
+84bc1e7a-3c20-4f10-b61a-a20f375fd21a-1
+00:31:31.594 --> 00:31:34.837
+poquito de tiempo y sería más de
+análisis individual en cada uno.
+
+84bc1e7a-3c20-4f10-b61a-a20f375fd21a-2
+00:31:34.837 --> 00:31:35.280
+¿Por qué?
+
+56db57d1-8544-4400-9dae-21430c549448-0
+00:31:38.050 --> 00:31:42.037
+Sí creo que nos tardamos más en
+investigar, cada quien bueno
+
+56db57d1-8544-4400-9dae-21430c549448-1
+00:31:42.037 --> 00:31:43.410
+había dicho el profe.
+
+65cdbe7c-ba0c-429b-810c-da7a2df15d38-0
+00:31:45.000 --> 00:31:48.030
+¿Mhm me imagino que también debe
+llevar empaquetados, verdad?
+
+7409fb73-f5e1-4067-b1af-6a283c7438dc-0
+00:31:49.810 --> 00:31:51.270
+Tienes que hacer otros. ¿Ow?
+
+2f4226b2-aa55-4f90-a773-f91d57be6d64-0
+00:31:53.060 --> 00:31:56.490
+Porque, por ejemplo, hice un
+comentario de que en uno.
+
+ee511d39-8df5-43ca-acbf-2bd5d34f9f8b-0
+00:31:57.370 --> 00:32:00.829
+Por ejemplo, creo que fue el
+equipo 2. No recuerdo que les
+
+ee511d39-8df5-43ca-acbf-2bd5d34f9f8b-1
+00:32:00.829 --> 00:32:04.640
+comenté de que, por ejemplo, era
+un empaquetado para el usuario.
+
+c7e8470c-ebf4-4765-b3e2-26ce48ec35e7-0
+00:32:06.120 --> 00:32:09.905
+Por así decirlo, hay lo de
+usuarios y de pues ellos tienen
+
+c7e8470c-ebf4-4765-b3e2-26ce48ec35e7-1
+00:32:09.905 --> 00:32:12.600
+diferentes tipos de usuarios. Sí
+por eso.
+
+e464e397-3bcf-475d-8133-856ed038a817-0
+00:32:14.320 --> 00:32:15.960
+Lo que no aquí también aplica.
+
+f80850e4-3092-4c9e-9cb0-7e73a8c97e06-0
+00:32:17.890 --> 00:32:21.393
+Por ejemplo, ahí se ahí porque
+son 22 secciones, no si 1 = 2
+
+f80850e4-3092-4c9e-9cb0-7e73a8c97e06-1
+00:32:21.393 --> 00:32:24.840
+tipos de usuarios hacen a los
+usuarios que son empresas que
+
+f80850e4-3092-4c9e-9cb0-7e73a8c97e06-2
+00:32:24.840 --> 00:32:28.516
+pueden postularse y en la parte
+de abajo son los aspirantes que
+
+f80850e4-3092-4c9e-9cb0-7e73a8c97e06-3
+00:32:28.516 --> 00:32:32.250
+pues quieres un empleo, entonces
+por ejemplo, nosotros sería el.
+
+6f5268d1-b36f-42b7-998b-dbc13c40bc08-0
+00:32:34.530 --> 00:32:39.051
+Por ejemplo, un empaquetado, no
+sé, porque tampoco me lo imagino
+
+6f5268d1-b36f-42b7-998b-dbc13c40bc08-1
+00:32:39.051 --> 00:32:42.529
+muy bien. Este sería los
+usuarios invitados y los
+
+6f5268d1-b36f-42b7-998b-dbc13c40bc08-2
+00:32:42.529 --> 00:32:45.660
+usuarios registrados o no. No
+entiendo como.
+
+d6e0c51d-47b8-4e69-823c-490469948b1b-0
+00:32:48.200 --> 00:32:51.310
+¿Es que yo siento que en el
+nuestro no aplica tanto porque?
+
+b813c44c-11a6-40cc-b938-dc67f65edf78-0
+00:32:52.560 --> 00:32:56.437
+¿Pues un usuario, o sea bueno,
+no sé si estoy en lo correcto,
+
+b813c44c-11a6-40cc-b938-dc67f65edf78-1
+00:32:56.437 --> 00:32:57.250
+verdad? Pero.
+
+921e8dfc-9b7a-4bd8-8f5e-52267e74a52f-0
+00:32:57.970 --> 00:33:02.065
+O sea novio en un diagrama de
+clases, no puedes especificar
+
+921e8dfc-9b7a-4bd8-8f5e-52267e74a52f-1
+00:33:02.065 --> 00:33:06.433
+que un usuario esté como en el
+de casos de Uso que se registró,
+
+921e8dfc-9b7a-4bd8-8f5e-52267e74a52f-2
+00:33:06.433 --> 00:33:08.139
+no se registra solamente.
+
+30c82691-bf23-4a4c-999c-0cb0d273184d-0
+00:33:09.160 --> 00:33:13.025
+Pues sí se registró, pues hace
+Uso de los métodos, así no, pues
+
+30c82691-bf23-4a4c-999c-0cb0d273184d-1
+00:33:13.025 --> 00:33:13.750
+no, pero no.
+
+875fa730-7e57-4f40-a1d2-da8efe768ed4-0
+00:33:14.460 --> 00:33:15.870
+O sea, la verdad yo tampoco.
+
+8dd38cc1-9331-4569-a4e3-d416f1048c53-0
+00:33:17.600 --> 00:33:18.470
+De hecho.
+
+f6fdc376-7d7f-49b6-92e1-b5710b4ac6c1-0
+00:33:19.220 --> 00:33:22.607
+También tengo la idea, o sea,
+tengo pues la noción, según io,
+
+f6fdc376-7d7f-49b6-92e1-b5710b4ac6c1-1
+00:33:22.607 --> 00:33:22.990
+de que.
+
+ff494dbd-8410-4008-b4a6-f8d907f190a3-0
+00:33:23.920 --> 00:33:29.525
+Es únicamente manejas como
+usuarios registrados. Ia no
+
+ff494dbd-8410-4008-b4a6-f8d907f190a3-1
+00:33:29.525 --> 00:33:31.870
+manejas este gas users.
+
+47827b40-f4e6-424c-82ca-6d3f96a30cb3-0
+00:33:35.880 --> 00:33:40.056
+Digo, pues también ahí entra
+otra en cuenta que no sabemos,
+
+47827b40-f4e6-424c-82ca-6d3f96a30cb3-1
+00:33:40.056 --> 00:33:44.094
+eso sí, porque, por ejemplo, sui
+sólo dejamos. No sé, por
+
+47827b40-f4e6-424c-82ca-6d3f96a30cb3-2
+00:33:44.094 --> 00:33:48.480
+ejemplo, que un usuario esté,
+puedes poner el que es saúl por.
+
+fbd72396-6441-4cc8-8184-1fc156925095-0
+00:33:51.530 --> 00:33:55.810
+Por ejemplo, aquí quien la
+tenemos como home, Page, no, y.
+
+687772df-5fb4-4217-93d3-6392e9f60c7a-0
+00:33:56.620 --> 00:33:59.930
+Que está buscar y luego éste
+sale el de.
+
+41c9947c-b43b-4142-b64e-548618a75384-0
+00:34:00.800 --> 00:34:01.490
+El de menú.
+
+d511cdde-224e-45a6-99f3-76eeadc2345c-0
+00:34:03.380 --> 00:34:07.216
+Abajo en el método sea un
+usuario no registrado no puede
+
+d511cdde-224e-45a6-99f3-76eeadc2345c-1
+00:34:07.216 --> 00:34:10.650
+acceder a un menú porque no está
+registrado, pero.
+
+9a789c6e-eb60-4eec-94b9-1ac7032a2797-0
+00:34:11.910 --> 00:34:15.690
+O sea, estaría como raro hacer
+otra clase donde tenga
+
+9a789c6e-eb60-4eec-94b9-1ac7032a2797-1
+00:34:15.690 --> 00:34:19.120
+exactamente lo mismo, solo que
+no tenga el menú.
+
+3444e4cc-c1e8-470f-98a6-14316204a88c-0
+00:34:20.140 --> 00:34:23.563
+Por eso digo que pues yo digo
+que nada más en este caso no
+
+3444e4cc-c1e8-470f-98a6-14316204a88c-1
+00:34:23.563 --> 00:34:23.970
+aplica.
+
+f14cb074-b222-4852-8ba7-da537f54f40a-0
+00:34:26.680 --> 00:34:30.610
+Muchas preguntas sobre eso le
+digo, no, tampoco entiendo.
+
+2c55c7b3-3c9c-4a7f-979c-6da2bb8780ee-0
+00:34:31.890 --> 00:34:35.530
+Pues sí, se me hace bien que
+investiguemos esto para.
+
+d80f9fd0-3cf8-47de-a624-6caf287cb110-0
+00:34:36.820 --> 00:34:37.630
+Mañana.
+
+ece50cd9-1a60-4a4c-8f88-84391599de48-0
+00:34:39.470 --> 00:34:42.000
+El diagrama de entidad de
+relación, la neta.
+
+e69f19ad-28b3-4f29-a097-e1d9877623e8-0
+00:34:43.150 --> 00:34:44.280
+No va a estar tan.
+
+9282bbeb-3ada-423f-aa42-1b65dfd22290-0
+00:34:45.250 --> 00:34:47.400
+Bueno, a mí no, no creo que se
+nos complique.
+
+9cf704c3-bbd8-42ef-b182-5245b436550b-0
+00:34:48.900 --> 00:34:52.580
+De hecho, ya tengo una idea de
+cómo podría estar porque pues.
+
+57f40206-d661-42ea-86a4-a304cede27d9-0
+00:34:53.130 --> 00:34:55.180
+Independientemente de esto.
+
+0bb02f80-fd55-4478-80ee-16f78e15cb10-0
+00:34:56.490 --> 00:35:01.973
+A de cómo lo organizamos como
+métodos y todo esto, las clases
+
+0bb02f80-fd55-4478-80ee-16f78e15cb10-1
+00:35:01.973 --> 00:35:02.150
+y.
+
+a0431822-b40c-49e8-ba55-d157a4215e3b-0
+00:35:04.730 --> 00:35:07.318
+Las tablas principales ya las
+tengo identificadas que serían
+
+a0431822-b40c-49e8-ba55-d157a4215e3b-1
+00:35:07.318 --> 00:35:07.700
+les digo.
+
+1e656072-e5a3-4ca2-8cec-c2496e195864-0
+00:35:08.380 --> 00:35:11.390
+Categorías, pues prácticamente
+lo que registra aquí.
+
+748cb001-df1c-47ac-ac8a-127ab9725b3a-0
+00:35:14.840 --> 00:35:18.178
+Únicamente, pues cambiarían,
+como los atributos, ahora sí
+
+748cb001-df1c-47ac-ac8a-127ab9725b3a-1
+00:35:18.178 --> 00:35:19.790
+como registrarlos bien bien.
+
+379d7213-db51-4218-9ecc-652117d0c962-0
+00:35:21.540 --> 00:35:24.510
+Y hacer las entidades, las
+relaciones.
+
+114297e4-7e55-4145-a38f-90eff2a9adb8-0
+00:35:27.010 --> 00:35:29.909
+Y ahora tengo más o menos pre
+visualizado, le digo ya ese no
+
+114297e4-7e55-4145-a38f-90eff2a9adb8-1
+00:35:29.909 --> 00:35:32.903
+creo que nos tome mucho tiempo,
+realmente yo ya tengo una idea
+
+114297e4-7e55-4145-a38f-90eff2a9adb8-2
+00:35:32.903 --> 00:35:36.040
+de cómo podría ser, y siento que
+sale rápido, el de proceso es el
+
+114297e4-7e55-4145-a38f-90eff2a9adb8-3
+00:35:36.040 --> 00:35:38.750
+que creo que nos pudiera tomar
+un poquito más de tiempo.
+
+f9b2f4e7-e333-4d18-8490-7e8b97d32e5a-0
+00:35:41.290 --> 00:35:44.562
+Pero hay que tratar de sacar
+todo eso, pero pues este creo
+
+f9b2f4e7-e333-4d18-8490-7e8b97d32e5a-1
+00:35:44.562 --> 00:35:48.111
+que si no podemos sacarlo de en
+conjunto, porque si es como que
+
+f9b2f4e7-e333-4d18-8490-7e8b97d32e5a-2
+00:35:48.111 --> 00:35:49.720
+cada quien hacer su análisis.
+
+755befd3-013b-4fd3-b745-9dd89ca5ee80-0
+00:35:51.460 --> 00:35:55.144
+Y estar investigando, pero pues
+esto ya sería de urgencia para
+
+755befd3-013b-4fd3-b745-9dd89ca5ee80-1
+00:35:55.144 --> 00:35:57.660
+mañana para tenerlo para la
+próxima clase.
+
+5537cc00-bf38-4184-a26c-50d37de079f7-0
+00:35:58.580 --> 00:35:59.820
+Sé que cada quien traiga el
+suyo.
+
+65c28f76-1b95-4a2e-bbc8-f27c540a6346-0
+00:36:02.470 --> 00:36:05.080
+¿Que mañana es día festivo, no?
+
+1c7e3b82-f5ac-4773-8952-c15627472854-0
+00:36:06.630 --> 00:36:07.110
+Mañana.
+
+8ca45df0-d2e7-47f2-9159-c20507fe2f34-0
+00:36:08.480 --> 00:36:12.021
+Me acuerdo que habían dicho algo
+así, pero en el Calendario
+
+8ca45df0-d2e7-47f2-9159-c20507fe2f34-1
+00:36:12.021 --> 00:36:15.858
+dijeron que había un miércoles.
+No me acuerdo si voy, que sigue,
+
+8ca45df0-d2e7-47f2-9159-c20507fe2f34-2
+00:36:15.858 --> 00:36:18.810
+pero que es el 2 de septiembre
+de la otra semana.
+
+24b94cb9-9bf1-4ecc-a6a4-17a17e68a993-0
+00:36:19.560 --> 00:36:22.080
+No estoy pre.
+
+5d65ac67-5fef-4de4-a240-bc8b11a50254-0
+00:36:24.270 --> 00:36:26.280
+Mande, pero estamos en octubre.
+
+2c49f67a-a365-4f58-9be1-e29ae575c4a9-0
+00:36:27.670 --> 00:36:32.120
+Pues así por eso la próxima
+semana ya sería el día, el de.
+
+4fe99337-f69e-4a71-9846-bf2b911bfaa5-0
+00:36:33.490 --> 00:36:35.030
+Es la próxima semana de
+septiembre.
+
+8e6153ef-c72b-4694-ba66-5f0e8689ae30-0
+00:36:35.930 --> 00:36:37.940
+Sea noviembre.
+
+c97b19e1-6d82-4d81-a5cf-eda319a6eddd-0
+00:36:40.230 --> 00:36:41.790
+Estoy pensando en septiembre.
+
+a7ed8659-ffd3-4ef1-8acf-b0f9e0527ee3-0
+00:36:43.220 --> 00:36:43.960
+Mhm.
+
+10fba910-0d65-4264-a5e6-643316da7ffe-0
+00:36:44.920 --> 00:36:49.107
+Dónde está Dios inhábiles si
+están los de noviembre, el 22
+
+10fba910-0d65-4264-a5e6-643316da7ffe-1
+00:36:49.107 --> 00:36:50.030
+será también.
+
+173b0da5-ebcb-4d0e-b70f-569026b06cc5-0
+00:36:50.750 --> 00:36:51.580
+22, que fue.
+
+b9202a47-7c96-4c4d-8421-4e03264afd27-0
+00:36:53.100 --> 00:36:53.820
+Pisaba.
+
+952f7bc0-88aa-4b5b-89e7-9a95ac1a514b-0
+00:36:56.540 --> 00:37:00.825
+¿Pues entonces para mañana es de
+nuestra versión, verdad? Ya la
+
+952f7bc0-88aa-4b5b-89e7-9a95ac1a514b-1
+00:37:00.825 --> 00:37:01.830
+trabajamos acá.
+
+44563073-718d-4321-84ce-dbff03996674-0
+00:37:02.770 --> 00:37:06.070
+Mhm por la mañana, si le sí,
+sería esto también, pues sería
+
+44563073-718d-4321-84ce-dbff03996674-1
+00:37:06.070 --> 00:37:09.040
+el libro de urgencia traerlo lo
+más completo posible.
+
+2c647ceb-f76e-4857-a8b2-b48b87a3d9a0-0
+00:37:09.730 --> 00:37:11.460
+Para trabajar luego todos.
+
+2f1ea5c9-7828-4ad5-9e20-69317725940a-0
+00:37:12.430 --> 00:37:14.920
+Vamos a hacer uno solo, igual
+que con el de.
+
+a9723b16-c1ab-40d8-bcbf-005dc4fd844c-0
+00:37:15.990 --> 00:37:18.830
+Que hicimos anteriormente, el
+general de los casos de Uso.
+
+42f463d9-2552-4c66-8d57-5663e88d3164-0
+00:37:19.580 --> 00:37:20.910
+¿Ah OK, está bien?
+
+cb12124e-10a2-4999-b557-196b8fd98d8e-0
+00:37:21.580 --> 00:37:24.590
+¿Este a qué horas nos
+conectaríamos mañana?
+
+31da2c42-51cc-459d-be39-0e0e0894f029-0
+00:37:25.330 --> 00:37:31.100
+Mañana a las 9:30 no es hora, se
+podías, no, Gerardo, creo.
+
+5f3d6c85-063b-4983-a07c-e739245e0368-0
+00:37:32.460 --> 00:37:34.820
+Y Fíjate, así está mejor a las
+9:30.
+
+8b549f10-105a-4d26-ac90-d509bd18e16f-0
+00:37:35.790 --> 00:37:39.382
+Igual les digo, SIA, mañana
+todos tenemos el de nosotros, no
+
+8b549f10-105a-4d26-ac90-d509bd18e16f-1
+00:37:39.382 --> 00:37:42.740
+creo que nos tome mucho tiempo,
+de igual manera hacerlo.
+
+925376d4-9ef9-4ded-b52d-a68f260113fc-0
+00:37:43.310 --> 00:37:44.650
+O que está bien.
+
+ebcddfe3-ddbb-4324-b2cc-7f60c3866dbf-0
+00:37:45.660 --> 00:37:51.063
+Y entonces nada más sería estos.
+Los cambios en los casos de Uso
+
+ebcddfe3-ddbb-4324-b2cc-7f60c3866dbf-1
+00:37:51.063 --> 00:37:55.884
+individual les digo las líneas
+esas y el empaquetado y el
+
+ebcddfe3-ddbb-4324-b2cc-7f60c3866dbf-2
+00:37:55.884 --> 00:37:56.550
+sistema.
+
+ede7f0a9-d882-4e6a-bf07-ea296119c37b-0
+00:37:57.350 --> 00:37:58.260
+¿Las limitaciones?
+
+a8235e64-9972-492d-bc14-96c6e07c44bc-0
+00:37:58.920 --> 00:38:01.990
+Y pues el diagrama de clases.
+
+e6459d91-6f84-4d34-9719-bb698c8228f0-0
+00:38:02.680 --> 00:38:03.830
+De cada uno de nosotros.
+
+5fcb70ed-2ea2-491e-9451-367844d54617-0
+00:38:04.840 --> 00:38:08.121
+Y decir muy importante, que lo
+traigamos todos lo más completo
+
+5fcb70ed-2ea2-491e-9451-367844d54617-1
+00:38:08.121 --> 00:38:11.090
+posible para pues, tener una
+mejor idea e innovación de.
+
+abbe6435-b924-4db0-b233-95ea5318cf1b-0
+00:38:11.690 --> 00:38:12.830
+Detalles que se nos puedan ir.
+
+4445bcc1-7de1-4e44-9926-0d7c0b882082-0
+00:38:13.540 --> 00:38:15.470
+Igual cualquier duda, mañana la
+sacamos aquí.
+
+24681ea1-9434-464a-83d7-7297aed7db2f-0
+00:38:19.070 --> 00:38:19.560
+Sale.
+
+b1739325-c7e3-412e-a7e6-136cc09fa7e4-0
+00:38:20.930 --> 00:38:25.400
+¿Hacemos otra cosilla, entonces
+ya sería todo a mimir?
+
+a4010384-5029-42dc-8803-95dea8de4237-0
+00:38:26.380 --> 00:38:30.250
+Sale, pues, bye hasta mañana.
+Cuídense bye.
+
+f0b54d1e-fbe4-425a-8b2b-2a2a2099f9e8-0
+00:38:30.900 --> 00:38:32.400
+Bye bye.

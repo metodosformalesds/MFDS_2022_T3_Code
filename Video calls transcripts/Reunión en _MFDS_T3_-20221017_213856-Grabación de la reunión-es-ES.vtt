@@ -1,0 +1,3085 @@
+﻿WEBVTT
+
+a3cda271-b9f9-43ee-85b1-c0581ebc0497-0
+00:00:03.020 --> 00:00:05.500
+Sí, bueno, este solo lo hice.
+
+1fd3e733-240f-4f19-a240-3f84e8da67d5-0
+00:00:06.750 --> 00:00:08.900
+Algunas ediciones eran algunas.
+
+03d23526-3880-4d0d-a40d-369b5a81f446-0
+00:00:09.500 --> 00:00:11.320
+¿Pues es que les quitaron
+ustedes con?
+
+02ba26fa-0886-4ba2-bb13-c9dc45de57fe-0
+00:00:11.960 --> 00:00:12.600
+Producción.
+
+f79181ea-7318-4451-ad5d-521fb82167be-0
+00:00:15.910 --> 00:00:16.290
+¿Qué?
+
+313350b3-5452-4845-9826-a4485e73a49e-0
+00:00:17.020 --> 00:00:20.420
+Pues también metí esta
+información.
+
+e5ddcba0-c7c3-468b-85de-f33039a53179-0
+00:00:21.880 --> 00:00:22.610
+Luego.
+
+a26554ca-4483-45e1-bc8d-a67b117087b5-0
+00:00:25.850 --> 00:00:28.400
+Bueno, hice la edición del
+propósito.
+
+4c75e37a-2810-470d-8199-dba39ad285ba-0
+00:00:30.210 --> 00:00:32.990
+Está bien metido. Algunas
+definiciones y acrónimos.
+
+b48abb59-85ff-41eb-825c-51600e58efd1-0
+00:00:34.940 --> 00:00:36.710
+Este también parte.
+
+4e6c47f1-02a3-47f2-a75a-ecc081998791-0
+00:00:37.780 --> 00:00:42.364
+De lo de algunos. ¿Este
+requisitos principales? No sé si
+
+4e6c47f1-02a3-47f2-a75a-ecc081998791-1
+00:00:42.364 --> 00:00:47.029
+estén todos, este solamente,
+pues los principales, y pues
+
+4e6c47f1-02a3-47f2-a75a-ecc081998791-2
+00:00:47.029 --> 00:00:50.970
+esto que sería como una
+implementación a futuro.
+
+bddded07-38fa-4ad4-a78e-3142e71f323c-0
+00:00:52.640 --> 00:00:54.010
+Luego está en puse.
+
+05071fe1-3b16-4b23-bdcb-cd853a185496-0
+00:00:54.850 --> 00:00:59.915
+Las vistas que podríamos tener
+aquí tampoco se sea, puse como
+
+05071fe1-3b16-4b23-bdcb-cd853a185496-1
+00:00:59.915 --> 00:01:01.550
+las 10, son seguras.
+
+bdfac36a-dd3f-4ee0-8217-aae5ab69e6e5-0
+00:01:02.230 --> 00:01:06.662
+Y las más comunes que son las de
+contacto y acerca de nosotros,
+
+bdfac36a-dd3f-4ee0-8217-aae5ab69e6e5-1
+00:01:06.662 --> 00:01:08.740
+que usualmente, pues van este.
+
+17828ed4-0e11-4a69-bfbe-fa7df0501b9c-0
+00:01:09.710 --> 00:01:12.500
+Obligatoriamente en una en una
+plataforma web.
+
+ce020454-fb35-41e6-bf94-56060f41a83b-0
+00:01:13.140 --> 00:01:14.220
+Y luego pues.
+
+f54f897e-7225-43ba-a81e-2fd518a7661a-0
+00:01:15.700 --> 00:01:20.880
+Explicación pequeña. Luego puse
+este caso de uso general.
+
+5a90d30e-3f0f-46a9-b9d3-ad9050594fcd-0
+00:01:23.080 --> 00:01:24.070
+A 9. A ver, espérame.
+
+d027a966-4328-4432-aeaa-40d35f08bce2-0
+00:01:28.100 --> 00:01:31.522
+El caso de uso general es, como
+ya el diagrama de flujo de la
+
+d027a966-4328-4432-aeaa-40d35f08bce2-1
+00:01:31.522 --> 00:01:32.130
+aplicación.
+
+687b5734-2c45-4155-8651-27edab14b1ac-0
+00:01:33.350 --> 00:01:37.400
+No, no es él, no es el diagrama
+de flujo, es el.
+
+065e8105-651d-4fca-9e56-d11b4b0449ca-0
+00:01:38.970 --> 00:01:43.024
+Bueno, es el diagrama de casos
+de uso, se me hace que tú te
+
+065e8105-651d-4fca-9e56-d11b4b0449ca-1
+00:01:43.024 --> 00:01:46.470
+refieres al de procesos. Este
+todavía no lo tengo.
+
+d8258c2f-d5df-4d3d-8538-49bb140fa1be-0
+00:01:47.880 --> 00:01:52.382
+Este, pero hice este primero,
+había hecho este, pero se hizo
+
+d8258c2f-d5df-4d3d-8538-49bb140fa1be-1
+00:01:52.382 --> 00:01:55.040
+como muy confuso, así que mejor
+10.
+
+3d68e66e-730a-48d7-9244-763a82bf9a9f-0
+00:01:56.300 --> 00:02:00.158
+Y es este, o sea, ese. Tampoco
+sé si me falten algunas cosas.
+
+3d68e66e-730a-48d7-9244-763a82bf9a9f-1
+00:02:00.158 --> 00:02:03.457
+Según yo intenté cómo añadir
+todo lo que ya habíamos
+
+3d68e66e-730a-48d7-9244-763a82bf9a9f-2
+00:02:03.457 --> 00:02:04.080
+platicado.
+
+b8ab03a9-d62d-4b7a-b5ff-d07634e6089d-0
+00:02:04.750 --> 00:02:08.421
+Pero igual, o sea, si falta
+algo, pues se puede hacer como
+
+b8ab03a9-d62d-4b7a-b5ff-d07634e6089d-1
+00:02:08.421 --> 00:02:11.160
+la edición. Ahorita les paso o
+sea estable.
+
+745c7e7b-89a3-4521-8ac9-89cf2124a075-0
+00:02:12.570 --> 00:02:13.390
+A este.
+
+c3e1ba8b-405e-4d48-aef3-6c708d6e8b94-0
+00:02:14.210 --> 00:02:17.811
+Pues tengo una descripción, pero
+todavía no está completa. Le
+
+c3e1ba8b-405e-4d48-aef3-6c708d6e8b94-1
+00:02:17.811 --> 00:02:19.380
+estoy haciendo una edición.
+
+f2a28019-5ab1-4e62-97d4-d89720a12a64-0
+00:02:20.080 --> 00:02:21.670
+Y pues todavía me falta eso.
+
+8ee5c378-3150-41e5-b6fa-9dab8f2de13e-0
+00:02:22.470 --> 00:02:26.433
+Luego, pues, las está haciendo
+como las funcionalidades
+
+8ee5c378-3150-41e5-b6fa-9dab8f2de13e-1
+00:02:26.433 --> 00:02:29.690
+específicas, pero me faltan
+varias porque sí.
+
+13ebcfef-725f-4aa5-8db5-44cc49f9f341-0
+00:02:30.880 --> 00:02:36.230
+Son bastante, apenas tengo lo
+que es el login y el registro.
+
+bc209513-dbce-4b02-9da3-185fe904e897-0
+00:02:41.110 --> 00:02:44.940
+Pero también puse estas este.
+Los atributos del sistema de
+
+bc209513-dbce-4b02-9da3-185fe904e897-1
+00:02:44.940 --> 00:02:45.590
+seguridad.
+
+81575c9a-874e-4b61-a9e9-9217790ce054-0
+00:02:46.240 --> 00:02:49.794
+Y de portabilidad tampoco es
+así. Si sean como todos son los
+
+81575c9a-874e-4b61-a9e9-9217790ce054-1
+00:02:49.794 --> 00:02:51.310
+que se me ocurrieron a mí.
+
+aa1d9c4f-83c7-4888-b210-014cb3417bc6-0
+00:02:52.350 --> 00:02:56.686
+¿Y qué más, qué más a? ¿Pues el
+análisis foda y hasta quién
+
+aa1d9c4f-83c7-4888-b210-014cb3417bc6-1
+00:02:56.686 --> 00:02:57.120
+habla?
+
+480c7ded-f824-435a-987f-d9da4145c271-0
+00:02:58.210 --> 00:03:00.020
+Sí, según yo todo sí.
+
+4aab4df6-a498-4c27-8405-82f8a41b0b99-0
+00:03:01.130 --> 00:03:02.350
+Este.
+
+b0d68735-7965-4a4b-bf3a-2e59b5e237e6-0
+00:03:03.310 --> 00:03:05.640
+También estoy trabajando.
+
+7370d833-d7ae-47bf-9bc9-9c17d1e92c5e-0
+00:03:09.220 --> 00:03:11.010
+Así, si pueden ver, se me hace
+que no.
+
+4365305d-8ea0-44a3-9bad-52488fb0f7c8-0
+00:03:13.090 --> 00:03:13.640
+Aquí está.
+
+f5916bf0-7254-4b95-8cc6-921f0c0fb0fd-0
+00:03:14.370 --> 00:03:18.680
+Estoy drogando, el de clases,
+pero este me estaba basando en 1
+
+f5916bf0-7254-4b95-8cc6-921f0c0fb0fd-1
+00:03:18.680 --> 00:03:19.570
+que encontré.
+
+fc79a345-feba-4010-b175-b981ce3737fd-0
+00:03:20.910 --> 00:03:25.522
+Entonces no sé si esté correcto,
+según yo, así es como debe de ir
+
+fc79a345-feba-4010-b175-b981ce3737fd-1
+00:03:25.522 --> 00:03:27.340
+este y también ya tengo K.
+
+04586676-8112-4e47-bb7f-2efa153c11b4-0
+00:03:28.340 --> 00:03:28.890
+De la.
+
+2e957378-30e3-4a80-82f9-3177f21c5c9c-0
+00:03:30.830 --> 00:03:34.070
+Pues la explicación del
+diagrama, pero éste aún así,
+
+2e957378-30e3-4a80-82f9-3177f21c5c9c-1
+00:03:34.070 --> 00:03:37.310
+todo esto, y así como checando
+lo que esté correcto.
+
+a1139948-937f-472e-b5be-7c70b4c96820-0
+00:03:38.250 --> 00:03:40.520
+Y también tengo el de.
+
+26663d85-2889-41eb-85c1-e0b68d2a218c-0
+00:03:41.580 --> 00:03:42.290
+Base de datos.
+
+b1202f78-d2d9-430d-823e-6888737e23bd-0
+00:03:44.750 --> 00:03:45.880
+Entidad relación.
+
+0536b825-01a8-40ad-9929-96fa4df08a12-0
+00:03:47.000 --> 00:03:47.920
+A ver si lo abre aquí.
+
+40a3b49b-1971-473a-952a-0030b000a587-0
+00:03:52.080 --> 00:03:53.000
+¿Sería ese?
+
+90b9a204-9178-4e24-8b3d-b1d8c68c560a-0
+00:03:53.940 --> 00:03:58.590
+Pero este, pues no sé si dejarlo
+así o hacerlo como.
+
+87adecaf-97dd-4791-8a62-4863ebbb78bb-0
+00:03:59.240 --> 00:04:00.590
+Este de otra forma.
+
+9a9faab5-5afb-4e5b-9be5-e88a77a449c8-0
+00:04:01.610 --> 00:04:04.810
+Pero más o menos, pues es como
+que la idea completa de.
+
+49b09813-8061-43fa-9f77-c4ce26b55881-0
+00:04:05.670 --> 00:04:09.310
+De las tablas que van a ir y
+pues los atributos que tienen
+
+49b09813-8061-43fa-9f77-c4ce26b55881-1
+00:04:09.310 --> 00:04:10.730
+cada una de las tablas.
+
+eabb7801-c168-4fa6-a8ce-7c689b0a974c-0
+00:04:11.810 --> 00:04:16.522
+Si se me haría mejor que pues lo
+evitáramos como de otra forma,
+
+eabb7801-c168-4fa6-a8ce-7c689b0a974c-1
+00:04:16.522 --> 00:04:21.309
+porque donde lo estaba haciendo
+acá en visual Paradine está como
+
+eabb7801-c168-4fa6-a8ce-7c689b0a974c-2
+00:04:21.309 --> 00:04:25.138
+muy raro, muy raro, los
+elementos entonces como que
+
+eabb7801-c168-4fa6-a8ce-7c689b0a974c-3
+00:04:25.138 --> 00:04:29.482
+siento que no se entiende muy
+bien, pero pues está la idea
+
+eabb7801-c168-4fa6-a8ce-7c689b0a974c-4
+00:04:29.482 --> 00:04:30.440
+también este.
+
+b005de6f-a5eb-4ad3-af0a-acc376f3fd61-0
+00:04:32.070 --> 00:04:35.924
+No, no está completo. Ese no
+todavía no sabe si subirlo o no,
+
+b005de6f-a5eb-4ad3-af0a-acc376f3fd61-1
+00:04:35.924 --> 00:04:38.660
+porque pues fue lo que se me
+ocurrió, pero.
+
+23bca6d4-edea-47d5-b684-1dce5c554703-0
+00:04:39.330 --> 00:04:43.119
+Pues no sé si ahorita se los
+paso y a ustedes los checan, y
+
+23bca6d4-edea-47d5-b684-1dce5c554703-1
+00:04:43.119 --> 00:04:46.720
+pues no sé cómo se quieran
+dividir el trabajo que falta.
+
+714cf6e7-f58e-4152-a46d-3a33a88f6276-0
+00:04:49.680 --> 00:04:53.250
+Que no, pues es un muy buen
+avance este.
+
+9c8bc2ab-cf94-4a93-ac8b-ac0fec05ee24-0
+00:04:54.300 --> 00:04:57.522
+Yo creo que si tenemos que
+checar algunas otras cosas
+
+9c8bc2ab-cf94-4a93-ac8b-ac0fec05ee24-1
+00:04:57.522 --> 00:04:57.940
+porque.
+
+4a3a543e-bf42-48b3-b984-b79d0e3a8c17-0
+00:04:59.520 --> 00:05:03.519
+¿A la licitación del bueno los
+requisitos faltan, verdad?
+
+4a3a543e-bf42-48b3-b984-b79d0e3a8c17-1
+00:05:03.519 --> 00:05:06.830
+También hoy ya son todos. ¿Crees
+que son todos?
+
+564ef461-9e1b-4952-9f70-ebd7ea089dbf-0
+00:05:08.230 --> 00:05:13.500
+¿Pues acá en te refieres a los
+casos de uso específicos?
+
+54474360-a152-4662-92ac-1d5b46830d68-0
+00:05:14.580 --> 00:05:17.190
+No, los requisitos no están
+definidos.
+
+2f49f850-40fc-44b1-a370-5f46f8a9a257-0
+00:05:18.290 --> 00:05:20.980
+No, esos no están definidos, o
+sea.
+
+fbd3b709-af33-4b56-a93c-7f3b13a3a561-0
+00:05:22.610 --> 00:05:26.413
+Como me estaba gastando, no sé
+ustedes como la llevaron, yo me
+
+fbd3b709-af33-4b56-a93c-7f3b13a3a561-1
+00:05:26.413 --> 00:05:27.500
+estaba pasando en.
+
+92f390f1-e1dd-4d92-abc8-c913f6dc72f7-0
+00:05:28.400 --> 00:05:33.146
+Él es Reese, que hice cuando
+lleve la clase de requisitos.
+
+92f390f1-e1dd-4d92-abc8-c913f6dc72f7-1
+00:05:33.146 --> 00:05:37.490
+Ahí nosotros no pusimos los
+requisitos, así como tal.
+
+1eaf216d-f655-4930-a296-a90bf534e411-0
+00:05:38.260 --> 00:05:42.318
+Este IA ven que a veces los
+ponen como en una tabla de ref
+
+1eaf216d-f655-4930-a296-a90bf534e411-1
+00:05:42.318 --> 00:05:42.800
+cero 1.
+
+0c131be0-db3c-44ea-8075-2bef6277300c-0
+00:05:45.150 --> 00:05:48.840
+Nosotros no lo no los pusimos
+así. O sea, solo fue así como.
+
+707dc66c-7ce0-4ab5-9e0e-f840d46eb1bb-0
+00:05:49.660 --> 00:05:51.150
+¿Cómo están acá, que es?
+
+e565479c-0de0-4b72-a28f-2537304a7410-0
+00:05:51.800 --> 00:05:57.310
+Poniendo así como pues de forma
+como muy general y ya solamente.
+
+ee19acad-8dda-42fc-b6a2-7a652bcd40a7-0
+00:05:58.120 --> 00:06:02.068
+En funciones, pues los casos de
+uso, ieso entonces, pues como no
+
+ee19acad-8dda-42fc-b6a2-7a652bcd40a7-1
+00:06:02.068 --> 00:06:05.166
+sabía exactamente cómo
+añadirlos, pues esos no los
+
+ee19acad-8dda-42fc-b6a2-7a652bcd40a7-2
+00:06:05.166 --> 00:06:05.470
+puse.
+
+ac7311b8-8133-41a9-a661-6d32eb3ca53c-0
+00:06:06.770 --> 00:06:07.360
+Oh, OK, OK.
+
+fb4f5e64-ef4b-4fdd-9083-f8a575172355-0
+00:06:09.320 --> 00:06:10.730
+Pues ya falta eso.
+
+aca7ff58-06b1-4c98-9fa1-180b79059ed7-0
+00:06:12.120 --> 00:06:13.220
+Y.
+
+c287c487-d67d-4e3e-941e-d05df8ef35e8-0
+00:06:14.100 --> 00:06:16.430
+Falta, pues, es donde.
+
+c0f7a04c-704b-4cd8-a5b7-44f4543f0128-0
+00:06:17.100 --> 00:06:18.970
+3.5 3.6.
+
+d4f8e3c0-f5b6-47b0-b2f3-adf24d9d7a7f-0
+00:06:20.060 --> 00:06:24.050
+Ver la bilis, este esto también
+falta.
+
+959acd5c-1c13-44de-a8f3-152a08ebdd5e-0
+00:06:24.800 --> 00:06:26.750
+Y pues el diagrama de procesos.
+
+9bb475dc-01ac-4f10-be08-ba1bfca908d8-0
+00:06:28.500 --> 00:06:32.334
+Y el diagrama de clases les digo
+que ya lo tengo, pero no sé si
+
+9bb475dc-01ac-4f10-be08-ba1bfca908d8-1
+00:06:32.334 --> 00:06:35.210
+existe bien, si lo dejamos o le
+cambiamos algo.
+
+e7d30a6b-5e15-4933-91f2-53e034b01a00-0
+00:06:36.340 --> 00:06:39.860
+Pero De todos modos, les digo
+que ahorita se los pasó, este no
+
+e7d30a6b-5e15-4933-91f2-53e034b01a00-1
+00:06:39.860 --> 00:06:43.270
+me puedo quedar mucho porque
+estuvo como la estoy avanzando.
+
+191ccf45-ec18-4d9c-9152-0308b4b003cd-0
+00:06:44.060 --> 00:06:47.532
+Todo el día dejé de lado lo que
+tenía que hacer de mi trabajo
+
+191ccf45-ec18-4d9c-9152-0308b4b003cd-1
+00:06:47.532 --> 00:06:50.725
+hoy de otras tareas que tengo.
+Entonces necesito también
+
+191ccf45-ec18-4d9c-9152-0308b4b003cd-2
+00:06:50.725 --> 00:06:51.509
+avanzarle eso.
+
+cac5671a-b324-49f0-94b1-1147ee798f8a-0
+00:06:52.610 --> 00:06:54.330
+Pero ahí les paso los
+documentos.
+
+59a582d1-fd57-4fca-835d-698223a75365-0
+00:06:56.510 --> 00:06:56.800
+Bien.
+
+67740127-1c65-4f93-8b64-8ef6dc8d9163-0
+00:06:57.550 --> 00:06:59.500
+Sí, está bien este.
+
+d4288268-5239-4d33-b118-119dc5afc523-0
+00:07:00.890 --> 00:07:04.190
+Pues ahorita las tareas que
+faltan las dividimos aquí, me
+
+d4288268-5239-4d33-b118-119dc5afc523-1
+00:07:04.190 --> 00:07:07.490
+ciudad conectada, pero igual
+ahorita le mando un mensaje.
+
+5bed5cef-cf89-4c9e-8f75-42bc52b893fb-0
+00:07:09.210 --> 00:07:09.910
+También creo que le.
+
+fc544d02-9815-4fd3-a5c1-d146650fef21-0
+00:07:11.520 --> 00:07:14.550
+Pues todos hay que darle una
+visión general, la.
+
+00cbfa4a-a295-4eb4-a403-10341e1453fd-0
+00:07:15.320 --> 00:07:16.560
+A lo que es.
+
+8e33ccef-15b3-487c-8763-eedf7a266fec-0
+00:07:17.300 --> 00:07:19.370
+Levantaste estos días bueno,
+hoy.
+
+16ca0b35-b381-4b93-8953-478bf3e3f9d8-0
+00:07:20.230 --> 00:07:24.649
+Nada más para ver quién, pues si
+podemos encontrar algo más que
+
+16ca0b35-b381-4b93-8953-478bf3e3f9d8-1
+00:07:24.649 --> 00:07:25.340
+agregar o.
+
+ae5ba726-1a2f-47c5-bed4-32272c4f6e04-0
+00:07:26.720 --> 00:07:31.327
+Algo pues, externó que realmente
+no creo lo poquito que mire,
+
+ae5ba726-1a2f-47c5-bed4-32272c4f6e04-1
+00:07:31.327 --> 00:07:35.638
+pues sí son las funciones
+básicas del sitio, también como
+
+ae5ba726-1a2f-47c5-bed4-32272c4f6e04-2
+00:07:35.638 --> 00:07:40.171
+comentaste las interiores del
+sitio, pues si son la mayoría,
+
+ae5ba726-1a2f-47c5-bed4-32272c4f6e04-3
+00:07:40.171 --> 00:07:44.928
+creo que la de este avaros no,
+no va porque es un sitio como de
+
+ae5ba726-1a2f-47c5-bed4-32272c4f6e04-4
+00:07:44.928 --> 00:07:48.570
+uso, no tanto de una empresa,
+pero sí está bien.
+
+66db0da9-fe92-44fe-8f02-d086f748bf99-0
+00:07:50.300 --> 00:07:53.798
+Nada más ahorita, pues si las
+revisamos más a detalle y mañana
+
+66db0da9-fe92-44fe-8f02-d086f748bf99-1
+00:07:53.798 --> 00:07:56.020
+te decimos para no quitarte más
+tiempo.
+
+e71c55d2-344b-42e0-aca4-fddf1d5f462b-0
+00:07:59.440 --> 00:08:02.970
+¿Ah, OK, está bien? Este también
+debe comentar que Frank.
+
+04ff7f7b-995f-43ce-bf57-ad8479243522-0
+00:08:03.680 --> 00:08:08.086
+Me mandó un documento que tenía
+que llenar este ahorita te lo
+
+04ff7f7b-995f-43ce-bf57-ad8479243522-1
+00:08:08.086 --> 00:08:10.930
+paso. O sea, me dijo que lo
+llenara yo.
+
+442a3e14-d8af-43e8-a4ab-291fc1387758-0
+00:08:11.750 --> 00:08:14.340
+Como monitora, pero que lo
+consultará contigo.
+
+762f6dfa-d1e7-4ab3-af3c-bea770785bde-0
+00:08:15.150 --> 00:08:19.684
+Este entonces, Ahorita te lo
+mando para para que lo cheques y
+
+762f6dfa-d1e7-4ab3-af3c-bea770785bde-1
+00:08:19.684 --> 00:08:20.270
+IA este.
+
+5fc4c6f2-33b8-442b-9fef-7e33d19255e3-0
+00:08:20.950 --> 00:08:23.996
+Pero también que me diga si está
+bien o si le cambiamos algo o
+
+5fc4c6f2-33b8-442b-9fef-7e33d19255e3-1
+00:08:23.996 --> 00:08:24.190
+así.
+
+e656da64-8238-427a-a9b8-1afadd5d8292-0
+00:08:25.680 --> 00:08:30.540
+Aunque aquí si lo mandas y lo
+reviso, dale pues entonces, bye.
+
+e656da64-8238-427a-a9b8-1afadd5d8292-1
+00:08:30.540 --> 00:08:32.700
+Ahí les paso los documentos.
+
+d5883eed-0d88-4b1a-80e8-8961543e156d-0
+00:08:34.430 --> 00:08:35.990
+Oh, OK, gracias, bye.
+
+26a7a8e5-ecb5-4069-a5ca-f298617dcb9b-0
+00:08:37.250 --> 00:08:37.760
+De nada.
+
+25fdfce8-c7eb-41ce-9b94-185a5f092615-0
+00:09:15.210 --> 00:09:19.600
+Ahorita quien sabe, se conecte
+Adán para ver todo este rollo y.
+
+a5b42d9c-f7d2-4555-ac0a-8c9e1a55384b-0
+00:09:21.100 --> 00:09:21.510
+No.
+
+2962e10b-495f-4f1c-b3b6-07a77f2c02ea-0
+00:09:23.750 --> 00:09:26.655
+Siento que lo tengamos que mover
+en realidad mucho a lo que ya
+
+2962e10b-495f-4f1c-b3b6-07a77f2c02ea-1
+00:09:26.655 --> 00:09:29.653
+hizo Elena, porque pues sí, está
+bastante avanzado y creo que sí
+
+2962e10b-495f-4f1c-b3b6-07a77f2c02ea-2
+00:09:29.653 --> 00:09:31.360
+tenía bien la idea planteada a
+ella.
+
+a9bf1426-0fc3-4aa9-8bce-326502d7541a-0
+00:09:32.140 --> 00:09:35.710
+Así que, pues nada más
+dividiríamos los otros a.
+
+057e4f40-7892-477c-9daa-a270f516663b-0
+00:09:38.170 --> 00:09:40.600
+Temas que faltan.
+
+52cbd581-3bb2-4d0c-8ed7-5c2b2387a4a7-0
+00:09:43.040 --> 00:09:45.620
+¿Nos dejen revisó mi PC RS
+anterior?
+
+f074ea0b-90e2-45ad-b7ee-29433851c3cc-0
+00:10:37.780 --> 00:10:45.650
+
+
+b30f5eba-504f-4dba-9cb1-0da7a67034ab-0
+00:10:57.830 --> 00:11:00.156
+Usted ya trabajaron
+anteriormente, o sea, llevar un
+
+b30f5eba-504f-4dba-9cb1-0da7a67034ab-1
+00:11:00.156 --> 00:11:02.260
+requisitos. ¿Ya hicieron su
+deseo de regresar?
+
+38eabae4-5f65-4673-9922-f260f16167ee-0
+00:11:04.150 --> 00:11:04.540
+Soy yo.
+
+5f5f6b27-10ba-4089-835e-fa57fd72cd53-0
+00:11:06.620 --> 00:11:09.380
+¿Qué dices? Bueno, para poder
+guiarnos en esos.
+
+bc27c122-d3c2-432a-8edf-e76344e5f907-0
+00:11:10.860 --> 00:11:12.550
+Bien bien este.
+
+4ed26f7b-13ac-4e8e-9f31-3f0119c7616c-0
+00:11:14.850 --> 00:11:16.640
+Estoy leyendo aquí los puntos.
+
+07836d89-e4cc-4937-bf95-a2f526d6401f-0
+00:14:50.860 --> 00:14:55.850
+No sé si aquí en la parte del
+1.3 del Drs, este.
+
+fb3382e1-ea71-4531-bbb8-2271ba1f774d-0
+00:14:58.120 --> 00:15:03.761
+Vayan añadiendo los términos y
+las definiciones de sus este
+
+fb3382e1-ea71-4531-bbb8-2271ba1f774d-1
+00:15:03.761 --> 00:15:05.830
+entrevistas, nada más.
+
+d987307e-cd12-47ee-bd94-08fcf2aac672-0
+00:15:07.020 --> 00:15:10.591
+No, en serio, pendiente para
+todos acá en el 1.3, donde dice
+
+d987307e-cd12-47ee-bd94-08fcf2aac672-1
+00:15:10.591 --> 00:15:13.460
+término definiciones, acrónimos
+y abreviaciones.
+
+31d03b8a-1d07-4189-9961-9db8719bf2bc-0
+00:15:14.210 --> 00:15:17.280
+Este todos estos puntos que no
+queden claros.
+
+161910ad-df55-44a7-8628-a93ee1847a44-0
+00:15:18.180 --> 00:15:20.940
+O sean conceptos que no
+cualquiera puede entender.
+
+bb1c3859-d278-40ed-aa6f-61ccc74ffd96-0
+00:15:21.510 --> 00:15:24.252
+Aunque sean técnicos, vayan
+definiendo los en 1.3,
+
+bb1c3859-d278-40ed-aa6f-61ccc74ffd96-1
+00:15:24.252 --> 00:15:25.920
+dependiendo de pues entrevista.
+
+436c8392-9202-4e9a-9bb4-678fc52b8dd8-0
+00:15:27.330 --> 00:15:31.501
+A referencias, pues somos un
+cuadrito que tengo, eso creo que
+
+436c8392-9202-4e9a-9bb4-678fc52b8dd8-1
+00:15:31.501 --> 00:15:32.780
+se va a quedar así.
+
+2824fabe-6696-4be6-a46b-31aea19159bf-0
+00:15:34.210 --> 00:15:35.090
+Mhm.
+
+62653363-07b5-4211-8600-516a50224716-0
+00:15:38.990 --> 00:15:42.070
+Una revisión general de los.
+
+a7e95f14-1778-4438-86aa-27f43e849366-0
+00:15:42.850 --> 00:15:45.810
+Textos que añadió Elena, creo
+que lo va a revisar, halló nada
+
+a7e95f14-1778-4438-86aa-27f43e849366-1
+00:15:45.810 --> 00:15:46.240
+más para.
+
+c2178e3d-d13d-4a91-abd3-521824a19d71-0
+00:15:47.310 --> 00:15:49.850
+Leerlo si quieren leerlos
+también.
+
+8a05cc2b-a5ec-4534-be26-cbb45fb5218c-0
+00:15:50.580 --> 00:15:51.710
+Este.
+
+6677611e-848e-4ee9-9e63-30fa28b28760-0
+00:15:52.850 --> 00:15:54.930
+Está bien, nada más que no hagan
+ediciones aquí.
+
+c024202a-ec42-41c9-9a8b-8c00465dadd3-0
+00:15:55.820 --> 00:16:00.068
+Estaría bueno que pues lean todo
+el texto, o sea, desde de
+
+c024202a-ec42-41c9-9a8b-8c00465dadd3-1
+00:16:00.068 --> 00:16:04.676
+principio a fin de las RS todo
+lo que se añadió y hagan apuntes
+
+c024202a-ec42-41c9-9a8b-8c00465dadd3-2
+00:16:04.676 --> 00:16:06.980
+aparte y mañana los mencionamos.
+
+b88300f5-bc63-4127-bc05-5e6a9f85d3f4-0
+00:16:07.630 --> 00:16:10.941
+En la clase de, pues tal vez,
+eso sí, va tal vez esto no va, o
+
+b88300f5-bc63-4127-bc05-5e6a9f85d3f4-1
+00:16:10.941 --> 00:16:14.041
+sea, van apuntando ahí, por
+ejemplo en el 2.1 y al este yo
+
+b88300f5-bc63-4127-bc05-5e6a9f85d3f4-2
+00:16:14.041 --> 00:16:17.090
+encontré esto. ¿Creo que 1 va o
+se le puede agregar esto?
+
+bff354a5-202b-4026-bd50-76277f39f884-0
+00:16:18.930 --> 00:16:19.800
+Mhm.
+
+afb11e03-fb59-4eaf-8398-412da304e7bc-0
+00:16:22.300 --> 00:16:25.120
+Con las características de
+usuario también lo mismo, todo,
+
+afb11e03-fb59-4eaf-8398-412da304e7bc-1
+00:16:25.120 --> 00:16:26.220
+todo, todos los textos.
+
+3e855289-f580-48cd-80a0-df4b44b1fb64-0
+00:16:28.400 --> 00:16:31.492
+Y si hay algo que no creen que
+no va o no entienden, pues
+
+3e855289-f580-48cd-80a0-df4b44b1fb64-1
+00:16:31.492 --> 00:16:34.637
+también apúntense lo para
+hablarlo mañana en clase, porque
+
+3e855289-f580-48cd-80a0-df4b44b1fb64-2
+00:16:34.637 --> 00:16:36.450
+si mañana tenemos que sacar
+esto.
+
+09b8dc37-806e-43ca-8f24-59d36835d3f7-0
+00:16:38.650 --> 00:16:41.890
+¿Los casos de uso a que sí son?
+
+93fb91e3-c5eb-458b-8c9c-4560a44ae160-0
+00:16:50.550 --> 00:16:51.900
+Bastantitos.
+
+e6fc869d-8799-4635-86ce-fba1ece139cd-0
+00:17:06.470 --> 00:17:08.880
+Nada más sería que.
+
+7af1277b-d55b-44dc-8817-5e03773bc148-0
+00:17:17.760 --> 00:17:21.402
+Watching. Este hada no me
+contestó, Se me hace que no se
+
+7af1277b-d55b-44dc-8817-5e03773bc148-1
+00:17:21.402 --> 00:17:22.680
+va a poder conectar.
+
+82eb7439-001a-45b1-bd7f-4cd233b0f91a-0
+00:17:24.250 --> 00:17:28.813
+La carga de trabajo se le va a
+cargar un poquito, nada más
+
+82eb7439-001a-45b1-bd7f-4cd233b0f91a-1
+00:17:28.813 --> 00:17:29.200
+este.
+
+11e65318-2acb-4d2a-b221-71aaadd80589-0
+00:17:32.260 --> 00:17:34.040
+Nose, sii.
+
+1e6108de-52b7-4792-b575-be335b1d72c8-0
+00:17:34.840 --> 00:17:35.950
+Usted tiene mucha tarea.
+
+2271e0ff-31e7-42c1-83b0-5c16ffb84e40-0
+00:17:38.250 --> 00:17:39.480
+No pesado.
+
+771d4837-0814-4588-80d3-7fd6a8a0270a-0
+00:17:40.290 --> 00:17:41.460
+Yo sí puedo avanzar hoy.
+
+6939becd-f55a-4d4e-a19d-d7be70ce40eb-0
+00:17:42.580 --> 00:17:47.758
+¿Qué bueno, mañana vas a clases
+temprano o trabajas? OO también
+
+6939becd-f55a-4d4e-a19d-d7be70ce40eb-1
+00:17:47.758 --> 00:17:48.730
+para mañana.
+
+ee814add-144c-4820-a352-72fffc1b77c0-0
+00:17:49.650 --> 00:17:53.100
+Llegando mañana es muy poquito
+lo que puedo avanzada.
+
+fc306603-b541-4431-960d-c75b29fd4a0f-0
+00:17:55.150 --> 00:17:59.357
+Qué bueno para quitarles más
+tiempo tú. ¿Hola, cómo andas de
+
+fc306603-b541-4431-960d-c75b29fd4a0f-1
+00:17:59.357 --> 00:17:59.840
+tiempo?
+
+1cfadec2-4fe2-44dc-950b-dcfa0b01703a-0
+00:18:03.890 --> 00:18:07.546
+Pues de tarea, pues más o menos,
+pero pues es sencilla lo que
+
+1cfadec2-4fe2-44dc-950b-dcfa0b01703a-1
+00:18:07.546 --> 00:18:11.379
+tengo. Creo que esto pues, sería
+la que más me quita más tiempo.
+
+1cfadec2-4fe2-44dc-950b-dcfa0b01703a-2
+00:18:11.379 --> 00:18:14.976
+Entonces creo que le metería más
+tiempo aquí está, pues esta
+
+1cfadec2-4fe2-44dc-950b-dcfa0b01703a-3
+00:18:14.976 --> 00:18:15.330
+clase.
+
+e705133e-1f6c-4524-8dd0-d3473d865178-0
+00:18:16.070 --> 00:18:19.360
+Mañana creo que voy a las 11, a
+la Uni.
+
+07a15a3a-b982-4165-b6f9-e8e69eca0bd4-0
+00:18:20.160 --> 00:18:23.465
+Entonces igual creo que en la
+mañana le puedo meter más como
+
+07a15a3a-b982-4165-b6f9-e8e69eca0bd4-1
+00:18:23.465 --> 00:18:24.820
+una hora de trabajo aquí.
+
+7dd376b9-92eb-45d0-b8f2-e477987558f7-0
+00:18:25.520 --> 00:18:26.150
+Por lo que falta.
+
+83df18f0-b9c6-4f07-8b6c-49fb0d47ed93-0
+00:18:27.670 --> 00:18:30.874
+O que les iba a decir para que
+Washington, si quieren la
+
+83df18f0-b9c6-4f07-8b6c-49fb0d47ed93-1
+00:18:30.874 --> 00:18:34.246
+revisión, la dejamos me la
+aviento, ello, o sea, en general
+
+83df18f0-b9c6-4f07-8b6c-49fb0d47ed93-2
+00:18:34.246 --> 00:18:36.720
+ahora los apuntes mañana lo
+vamos en clase.
+
+a072239c-d566-43c6-aa84-f0e0134819d1-0
+00:18:37.840 --> 00:18:41.500
+Nada más tirarme paro con los
+este.
+
+458d17ae-ebb4-4d08-a1f7-3343d917fe68-0
+00:18:42.130 --> 00:18:42.860
+Casos de uso.
+
+7ecc0e63-5e36-45da-a365-52bfd2817c97-0
+00:18:43.640 --> 00:18:47.020
+Aquí ya tienen ejemplo, como
+quiera mandar mensaje a Elena.
+
+c0315ebb-9ae2-488a-9066-adace31f09dd-0
+00:18:50.070 --> 00:18:50.620
+Sí.
+
+a1e34c11-4964-4174-8240-e930625d678d-0
+00:18:56.840 --> 00:19:00.937
+Ok, este, aquí están los casos
+de uso no son tan complicados
+
+a1e34c11-4964-4174-8240-e930625d678d-1
+00:19:00.937 --> 00:19:04.833
+porque en realidad, como duelen
+las zonas, este funciones
+
+a1e34c11-4964-4174-8240-e930625d678d-2
+00:19:04.833 --> 00:19:05.640
+principales.
+
+991443e6-7a09-43b5-810b-58e6058a6db4-0
+00:19:07.520 --> 00:19:09.640
+¿Ah, es que usted también se
+tiene que checar?
+
+d8bc6e1e-2826-4cea-9ad4-1dcbcb130060-0
+00:19:12.080 --> 00:19:14.650
+Son las funciones principales.
+
+a4086c03-805a-462c-9fe7-809d3a22e276-0
+00:19:15.440 --> 00:19:19.512
+No amor, si me paro con las
+demás, o sea, realmente no son,
+
+a4086c03-805a-462c-9fe7-809d3a22e276-1
+00:19:19.512 --> 00:19:23.721
+no. Son complicadas porque creo
+que lo que más les se pudiera
+
+a4086c03-805a-462c-9fe7-809d3a22e276-2
+00:19:23.721 --> 00:19:27.590
+complicar sería el diagramado,
+pero en sí lo importante.
+
+fd28d0be-1b2a-4258-aa68-9b19111324ba-0
+00:19:28.210 --> 00:19:29.840
+No es que si tiene que
+complementarse.
+
+de2d9550-f661-4c6a-a558-6de1a930a23c-0
+00:19:32.010 --> 00:19:34.600
+Y bueno, si no más, tiene paro
+con las.
+
+1e792a84-8b23-4a63-9df6-fb1b379814a4-0
+00:19:35.310 --> 00:19:38.739
+Con los casos de uso no son
+complicados, por ejemplo, aquí
+
+1e792a84-8b23-4a63-9df6-fb1b379814a4-1
+00:19:38.739 --> 00:19:42.052
+lo que estoy viendo en el
+documento de CRS, por ejemplo,
+
+1e792a84-8b23-4a63-9df6-fb1b379814a4-2
+00:19:42.052 --> 00:19:42.750
+search Jobs.
+
+9304d81f-de9c-4df0-8d2f-4132d9348de9-0
+00:19:43.350 --> 00:19:47.563
+Pues aquí se avientan el de que
+un usuario o usuario registrado
+
+9304d81f-de9c-4df0-8d2f-4132d9348de9-1
+00:19:47.563 --> 00:19:50.460
+nada más accede al a sea,
+ingresa al sitio.
+
+d5aa7d92-0352-40ca-b03e-8e10e83bb590-0
+00:19:51.460 --> 00:19:53.020
+Este busca el.
+
+c8ee624e-88bb-40cc-82fd-1e6510ce9eb7-0
+00:19:53.780 --> 00:19:54.990
+Hace un, pues sí.
+
+83679806-1843-45a4-92c6-a2266afc5a81-0
+00:19:56.160 --> 00:20:00.430
+Una entrada de streams y pues
+sea redirige o.
+
+ada15522-2d88-4dc8-b99a-b2c30e029f60-0
+00:20:01.540 --> 00:20:06.730
+Éste se conecta a la base de
+datos, se hace esto y.
+
+2c4e190f-2902-462e-a258-da0c9bf8ad07-0
+00:20:07.350 --> 00:20:09.890
+Hacer el scrap y no cosas así
+que ya tengamos.
+
+b8d4c6cd-d495-4c1f-8e9f-a8804b673a81-0
+00:20:10.560 --> 00:20:12.920
+Registraron la base de datos y
+pues muestra la vista.
+
+4a61ac15-9f70-4c3b-a700-2c462b286ad2-0
+00:20:14.370 --> 00:20:18.003
+Que se unen los casos de uso,
+digo, no son muy complicados.
+
+4a61ac15-9f70-4c3b-a700-2c462b286ad2-1
+00:20:18.003 --> 00:20:21.576
+Ssl search este los cursos
+también es lo mismo, actualizar
+
+4a61ac15-9f70-4c3b-a700-2c462b286ad2-2
+00:20:21.576 --> 00:20:25.027
+información personal, pues
+también el mismo de que tiene
+
+4a61ac15-9f70-4c3b-a700-2c462b286ad2-3
+00:20:25.027 --> 00:20:28.540
+que ser usuario y luego tiene
+que ser usuario registrado.
+
+86f918ee-fdb3-426f-9276-33ab1bb40441-0
+00:20:29.250 --> 00:20:32.300
+Y ingresar al panel de.
+
+f8135c65-7a39-49a9-be01-888e49a2dd0d-0
+00:20:33.000 --> 00:20:36.438
+De usuario y actualización
+formación o sea, una opción que
+
+f8135c65-7a39-49a9-be01-888e49a2dd0d-1
+00:20:36.438 --> 00:20:38.070
+diga actualizar información.
+
+4de903d5-d873-4b8d-b3d0-8d3ffef8ceba-0
+00:20:39.750 --> 00:20:44.053
+Esto pues, me gustaría que me
+ayudaran con los casos de uso
+
+4de903d5-d873-4b8d-b3d0-8d3ffef8ceba-1
+00:20:44.053 --> 00:20:44.340
+mhm.
+
+ad1eb8f3-dd75-43be-ba25-11709da02e6e-0
+00:20:46.180 --> 00:20:51.487
+En lo que le avanzó lo de la
+revisión general y el diagrama
+
+ad1eb8f3-dd75-43be-ba25-11709da02e6e-1
+00:20:51.487 --> 00:20:56.530
+de entidad, relación porque el
+que hizo Elena está bien.
+
+55e1dc49-000e-43b4-916e-f1bd99e0a903-0
+00:20:59.600 --> 00:21:02.410
+Pero no creo que vaya a la parte
+de arriba.
+
+539bd908-27d3-4ff4-9086-cf37d3d3658e-0
+00:21:03.070 --> 00:21:07.937
+Isshi la manera o la herramienta
+que utilizo no está gráficamente
+
+539bd908-27d3-4ff4-9086-cf37d3d3658e-1
+00:21:07.937 --> 00:21:09.560
+chido, no se entiende.
+
+56f81321-8caf-4454-a358-9e54c217f500-0
+00:21:10.730 --> 00:21:12.070
+Porque está como muy cruzado.
+
+e59d2884-c12e-45c1-82e0-a02473c7e4d5-0
+00:21:13.560 --> 00:21:15.090
+Terry Diseñaré eso.
+
+b34bed30-bf57-43da-9ac5-9589e29e4fe6-0
+00:21:16.180 --> 00:21:19.639
+Aparte, que también estaría
+trabajando en las vistas. Estas
+
+b34bed30-bf57-43da-9ac5-9589e29e4fe6-1
+00:21:19.639 --> 00:21:22.868
+que les comenté para que todos
+tengamos como una visión
+
+b34bed30-bf57-43da-9ac5-9589e29e4fe6-2
+00:21:22.868 --> 00:21:23.330
+general.
+
+ca54930e-fe7b-49a2-bc60-aa135abd8b4e-0
+00:21:26.380 --> 00:21:27.310
+Y.
+
+0dc688bd-ac49-4a55-ab05-35c8f085e853-0
+00:21:29.320 --> 00:21:32.500
+Dicen con streams Déjame ver qué
+más puede faltar.
+
+2504d02b-9f10-4ac1-b259-3a25a164e019-0
+00:21:38.570 --> 00:21:40.140
+Con tus casos de buzos.
+
+6e987638-4d50-4bd4-86ff-d7dab609192b-0
+00:21:43.810 --> 00:21:48.517
+Elena hizo el de login y el de
+registro, que sería el de search
+
+6e987638-4d50-4bd4-86ff-d7dab609192b-1
+00:21:48.517 --> 00:21:49.400
+search Jobs.
+
+fcffa405-29f1-4cea-ae1e-1dbb8ad28969-0
+00:21:58.210 --> 00:22:03.386
+App de user del user creativo. O
+es que esto también, no creo que
+
+fcffa405-29f1-4cea-ae1e-1dbb8ad28969-1
+00:22:03.386 --> 00:22:03.700
+sea.
+
+af4e6e98-78f5-4d09-ac61-fa47772d89b2-0
+00:22:19.980 --> 00:22:21.680
+No es que viendo aquí el.
+
+e6673ae1-9c02-4ffa-bec7-cda10e20df5d-0
+00:22:23.170 --> 00:22:24.980
+Diagrama de casos de uso.
+
+e60c40d8-3714-472f-a762-b3460e95eb6d-0
+00:22:26.910 --> 00:22:29.010
+Es que ni siquiera vamos a tener
+ministrador.
+
+4fac9b1f-4e37-492f-846a-b60358b6fe49-0
+00:22:35.660 --> 00:22:36.700
+Está haciendo aquí.
+
+12511f16-edda-40f3-855b-e27eb5e9b109-0
+00:22:41.880 --> 00:22:43.810
+Manejamos muy general.
+
+cae959b3-33ac-4bce-a2d4-2b7b20bae2f5-0
+00:22:49.720 --> 00:22:54.651
+Que onda ya ando aquí no, no se
+están viendo lo de los, lo que
+
+cae959b3-33ac-4bce-a2d4-2b7b20bae2f5-1
+00:22:54.651 --> 00:22:56.530
+mandó Elena ahí al chat.
+
+99287dec-e428-4115-9a0d-9cfe108f5b8e-0
+00:22:58.390 --> 00:23:01.896
+En este si este allí no se
+viste. En el documento de que se
+
+99287dec-e428-4115-9a0d-9cfe108f5b8e-1
+00:23:01.896 --> 00:23:05.110
+le avanzo bastante. Pero pues,
+prácticamente fue lana.
+
+729fabf1-f079-42e5-8a16-fbafae5dc8cc-0
+00:23:06.050 --> 00:23:10.306
+Estela, que levantó todo esto
+nada más que, pues sí estoy
+
+729fabf1-f079-42e5-8a16-fbafae5dc8cc-1
+00:23:10.306 --> 00:23:10.820
+viendo.
+
+229865fb-0b99-428d-a379-70bfcb274392-0
+00:23:12.250 --> 00:23:14.550
+Les comparto pantalla porque no
+sé si también.
+
+7d611d08-7470-4749-b967-571dd88792bf-0
+00:23:16.360 --> 00:23:20.110
+Entonces, si Marcelo eso les
+llaman dar un.
+
+0b356623-54d7-4a7c-8150-3e581749222a-0
+00:23:20.920 --> 00:23:22.520
+Un video es.
+
+cf0c7d69-f037-40bb-974f-c223fc76fc24-0
+00:23:23.420 --> 00:23:26.810
+Estuve buscando estos días de
+cómo hacer el.
+
+0c4f79d6-d05c-4179-ab56-2613053cabe5-0
+00:23:27.580 --> 00:23:30.760
+¿A de una vez avanzando, cómo
+hacer el web scraping y?
+
+e16dbe12-20aa-4cce-811b-212b9b402329-0
+00:23:31.440 --> 00:23:34.786
+Y ahí encontré un par de vídeos,
+este que se me hicieron
+
+e16dbe12-20aa-4cce-811b-212b9b402329-1
+00:23:34.786 --> 00:23:35.550
+interesantes.
+
+091f82cd-231c-41e2-bc64-a682d9b2d3ed-0
+00:23:36.290 --> 00:23:38.220
+Entonces no sé si quieran que se
+los pase.
+
+e32de64c-5697-4337-b9c6-04b2a69600b1-0
+00:23:39.700 --> 00:23:41.940
+Mon Mándalo. Si quieres al Grupo
+de Whatsapp.
+
+ebf8477e-68f5-4dad-9e19-420715e07fe9-0
+00:23:42.670 --> 00:23:43.340
+Oh.
+
+8a598867-a266-417b-a51f-00d5a9798eac-0
+00:23:44.760 --> 00:23:47.539
+Bueno, si quieres el Grupo de
+Whatsapp y aquí en el chat para
+
+8a598867-a266-417b-a51f-00d5a9798eac-1
+00:23:47.539 --> 00:23:48.750
+que que registrado también.
+
+239025f9-1285-4c2d-8d60-3adbe65ced27-0
+00:24:03.980 --> 00:24:09.050
+Éste les digo que si la puedo
+avanzar mucho esto.
+
+176ab020-ad82-4849-a4cd-0d0fc9dd1011-0
+00:24:11.410 --> 00:24:12.330
+¿También mi pantalla, verdad?
+
+1e483072-27bc-43d8-8d27-bd24921ded82-0
+00:24:15.230 --> 00:24:15.780
+Simón.
+
+ecf9e4e6-ef71-4583-8eda-8151bb3bf567-0
+00:24:16.970 --> 00:24:22.930
+Para un ejemplo es que en sí
+siento que está bien, pero no.
+
+6955cec6-5f0f-4d9d-adfb-c63497629ff4-0
+00:24:26.560 --> 00:24:27.870
+Por ejemplo, todo esto está
+bien.
+
+81786e8d-96ad-4942-831e-ac7f5cacb82b-0
+00:24:28.880 --> 00:24:30.220
+Funcionalidades del producto.
+
+0df9261a-58eb-4bcb-bbf7-21811c7e33dd-0
+00:24:31.210 --> 00:24:37.730
+Login sign in local search for
+curse your search los filtros
+
+0df9261a-58eb-4bcb-bbf7-21811c7e33dd-1
+00:24:37.730 --> 00:24:38.800
+todo esto.
+
+f1239bf1-e6a7-4291-b1d0-820c99ffbcde-0
+00:24:39.400 --> 00:24:42.730
+Porque esto, todo esto se puede
+resumir por sistema de filtrado.
+
+47c8cae3-3f1e-41a3-a705-40bb5206982f-0
+00:24:44.290 --> 00:24:48.575
+¿Recomendación? Todo eso y
+ahora, mis favoritos. Su
+
+47c8cae3-3f1e-41a3-a705-40bb5206982f-1
+00:24:48.575 --> 00:24:51.460
+recurso, un juez, rankin and
+fire.
+
+6bc546b1-72c5-4246-b01d-f870be358042-0
+00:24:53.480 --> 00:24:56.927
+Está bien, creo que deberíamos
+ser un poquito más específicos,
+
+6bc546b1-72c5-4246-b01d-f870be358042-1
+00:24:56.927 --> 00:24:57.530
+no sé cómo.
+
+b13d3b41-76fc-4bb7-bd7a-bea18f98ad61-0
+00:24:58.140 --> 00:24:59.850
+Creo que lo podemos añadir más
+cosas.
+
+67b5dfde-11fd-4184-86fc-6811324b3a02-0
+00:25:01.290 --> 00:25:05.234
+Administrador, esto es lo único
+que me causa conflicto, porque
+
+67b5dfde-11fd-4184-86fc-6811324b3a02-1
+00:25:05.234 --> 00:25:07.990
+realmente es una plataforma de
+un servicio.
+
+0ebf5559-d82e-4d59-9f8d-65531785d21f-0
+00:25:08.650 --> 00:25:09.510
+O sea, no es.
+
+14503d7f-62ad-45c1-b04f-b412cfb276a1-0
+00:25:11.160 --> 00:25:13.330
+No es como que nosotros vayamos
+estar.
+
+78b1e928-81db-47a0-9d2c-b314a617c52d-0
+00:25:14.740 --> 00:25:18.694
+Añadiendo, borrando usuarios
+como algo de mercado, así tal
+
+78b1e928-81db-47a0-9d2c-b314a617c52d-1
+00:25:18.694 --> 00:25:20.370
+cual de que compra venta.
+
+41967c70-90f6-4168-a6bb-3e2ef7aeaeb8-0
+00:25:21.330 --> 00:25:24.500
+Cuando él esté usuarios es como
+una plataforma libre.
+
+02b6c079-4d8f-49df-af3c-231cf6a1f839-0
+00:25:27.580 --> 00:25:32.005
+¿Sí, De hecho, creo que ya
+habíamos comentado eso de quitar
+
+02b6c079-4d8f-49df-af3c-231cf6a1f839-1
+00:25:32.005 --> 00:25:36.578
+el administrador y dejar puro
+invitado, y el y el usuario que
+
+02b6c079-4d8f-49df-af3c-231cf6a1f839-2
+00:25:36.578 --> 00:25:40.708
+se registre? Sí, porque
+prácticamente sin un sistema no
+
+02b6c079-4d8f-49df-af3c-231cf6a1f839-3
+00:25:40.708 --> 00:25:44.470
+sería tanto como, pues, algo de
+control, algo así.
+
+898b0b3b-6d64-456c-b329-51fc80c261d7-0
+00:25:45.270 --> 00:25:48.188
+Por ejemplo, el caso de
+Facebook, pues no hay un
+
+898b0b3b-6d64-456c-b329-51fc80c261d7-1
+00:25:48.188 --> 00:25:51.465
+administrador que te empiece a
+borrar cuentas o te las
+
+898b0b3b-6d64-456c-b329-51fc80c261d7-2
+00:25:51.465 --> 00:25:52.180
+modifique o.
+
+a718a2e2-390a-41ae-8a16-5a9f5d000482-0
+00:25:53.090 --> 00:25:54.180
+Haga algo.
+
+36386818-8ffc-4ef8-bc05-5b0e96449b04-0
+00:25:55.180 --> 00:25:55.790
+¿Asi?
+
+7fd62cd5-5065-4be9-95a1-cb8ede3a668a-0
+00:25:57.200 --> 00:25:57.970
+Y.
+
+2f11ae04-6ca2-4cc5-ac50-fb8a5cdcb6c0-0
+00:25:59.410 --> 00:26:01.530
+Si le hacemos una plataforma.
+
+d43c3cb4-ae93-46fc-a3eb-d5f4cd3a0796-0
+00:26:02.320 --> 00:26:03.260
+General.
+
+d9874f20-7ce2-44fb-b5e8-dac860408a53-0
+00:26:06.640 --> 00:26:09.540
+Y aquí estoy viendo que tiene la
+descripción está administrador.
+
+676b7ca1-e29e-4a9a-bfa1-34b1dcf61500-0
+00:26:13.490 --> 00:26:14.540
+Me encanta.
+
+2bfaebba-13ec-42a3-9fa5-b34222b0623c-0
+00:26:19.100 --> 00:26:22.844
+Pues tampoco creo que va a ser
+la el administrador, pues
+
+2bfaebba-13ec-42a3-9fa5-b34222b0623c-1
+00:26:22.844 --> 00:26:25.670
+tampoco creería las bases de
+datos porque.
+
+56178c21-10cb-4bc2-b5a3-5fa2b23dc908-0
+00:26:26.790 --> 00:26:30.349
+Osea esta parte del desarrollo
+no sería un usuario que seríamos
+
+56178c21-10cb-4bc2-b5a3-5fa2b23dc908-1
+00:26:30.349 --> 00:26:33.130
+nosotros como programadores,
+pero no sería tanto.
+
+b3f239ec-8a10-45c6-bb9f-832e6c58033b-0
+00:26:33.830 --> 00:26:36.420
+¿Un actor dentro del sistema?
+
+4667ea56-004f-4ada-a599-2f1251436f01-0
+00:26:37.320 --> 00:26:37.960
+Sería.
+
+db7e2f55-8e7a-4a36-9eff-9361353ac613-0
+00:26:38.730 --> 00:26:40.440
+Nosotros, externos al sistema.
+
+84016cda-aae4-4f2c-b6d7-bf158160a907-0
+00:26:42.220 --> 00:26:47.836
+En las 8 principales vistas, que
+son página principal si página
+
+84016cda-aae4-4f2c-b6d7-bf158160a907-1
+00:26:47.836 --> 00:26:50.030
+de búsqueda de cursos de.
+
+b7561aba-496c-4740-8d25-735decbc4334-0
+00:26:50.700 --> 00:26:52.910
+Trabajos, registro y login view.
+
+716fbec8-ad92-4a44-824b-20209bb9e7e3-0
+00:26:54.080 --> 00:26:57.380
+¿Bien este perfil de usuario?
+
+f48fdb8b-0d3b-486c-96b2-bf163fccdba5-0
+00:26:58.270 --> 00:27:01.540
+Este creo que tampoco va el de
+contacto, no creo que vaya
+
+f48fdb8b-0d3b-486c-96b2-bf163fccdba5-1
+00:27:01.540 --> 00:27:04.923
+tampoco y elaboras tampoco,
+porque porque tampoco somos una
+
+f48fdb8b-0d3b-486c-96b2-bf163fccdba5-2
+00:27:04.923 --> 00:27:07.912
+empresa dedicada a dar un
+servicio. Hacemos como una
+
+f48fdb8b-0d3b-486c-96b2-bf163fccdba5-3
+00:27:07.912 --> 00:27:09.040
+plataforma tal cual.
+
+c7f435c6-7f61-4fef-bc54-88d1613f2318-0
+00:27:09.780 --> 00:27:13.200
+No necesitamos que alguien que
+va a tomar un curso nos contacte
+
+c7f435c6-7f61-4fef-bc54-88d1613f2318-1
+00:27:13.200 --> 00:27:16.459
+a nosotros. Si tiene alguna
+duda, creo que podemos hacer una
+
+c7f435c6-7f61-4fef-bc54-88d1613f2318-2
+00:27:16.459 --> 00:27:18.170
+sección de preguntas frecuentes.
+
+0286f2af-89c9-495a-98b5-0e9752392b24-0
+00:27:19.780 --> 00:27:24.013
+Y en about US, pues no somos una
+compañía de Víctor porque no, no
+
+0286f2af-89c9-495a-98b5-0e9752392b24-1
+00:27:24.013 --> 00:27:27.734
+necesitamos que sepan sobre
+nosotros, es una plataforma y
+
+0286f2af-89c9-495a-98b5-0e9752392b24-2
+00:27:27.734 --> 00:27:31.775
+IA. Creo que esto si queremos
+dar algo de información sobre el
+
+0286f2af-89c9-495a-98b5-0e9752392b24-3
+00:27:31.775 --> 00:27:35.559
+sitio, lo podemos mostrar
+directamente aquí. Este mensaje.
+
+72e45b13-639e-4c51-88de-3e9ae34c454f-0
+00:27:36.370 --> 00:27:40.190
+¿Como cuál es este?
+
+6828f0e8-a3e9-44be-b1fa-d44aee19d07e-0
+00:27:42.070 --> 00:27:45.970
+Se me ocurre 1, por ejemplo,
+Bootstrap.
+
+a3814ac0-cd2d-424e-a4ff-87c45bedfbcf-0
+00:27:46.840 --> 00:27:48.650
+Aunque tiene su pagina, sí.
+
+8393c2fd-432d-4536-9917-271b6322dc06-0
+00:27:49.920 --> 00:27:54.086
+Significan aquí este ellos no
+son una compañía que te venda
+
+8393c2fd-432d-4536-9917-271b6322dc06-1
+00:27:54.086 --> 00:27:57.974
+algo tal cual, o sea, no
+necesitas saber sobre ellos. A
+
+8393c2fd-432d-4536-9917-271b6322dc06-2
+00:27:57.974 --> 00:28:02.349
+no, quienes buscan cuando nació.
+Y todo esto en comparación de
+
+8393c2fd-432d-4536-9917-271b6322dc06-3
+00:28:02.349 --> 00:28:06.931
+compañías como yo que sé, Bimbo,
+yo supongo que bien puede tener,
+
+8393c2fd-432d-4536-9917-271b6322dc06-4
+00:28:06.931 --> 00:28:08.390
+mire nosotros, Bimbo.
+
+53aec1b8-7c25-4b6c-9c5f-89c703dc951e-0
+00:28:09.070 --> 00:28:11.948
+Pues sí, es una compañía como
+que necesita saber más de ellos
+
+53aec1b8-7c25-4b6c-9c5f-89c703dc951e-1
+00:28:11.948 --> 00:28:13.620
+o ellos quieren dar su
+información.
+
+5490d346-53c0-4a8c-a57b-fb1ea0f1f21b-0
+00:28:14.530 --> 00:28:18.907
+¿Quieres saber cuándo iniciaron,
+qué hacen, qué cultura tienen
+
+5490d346-53c0-4a8c-a57b-fb1ea0f1f21b-1
+00:28:18.907 --> 00:28:22.660
+sus procesos para filosofía, su
+propósito? Creencias.
+
+cf26013b-fba6-4dd4-8003-43e65d657e34-0
+00:28:23.210 --> 00:28:25.340
+¿Los más como para que?
+
+df8457d9-b91e-4b64-bbf9-78084d7ecb8b-0
+00:28:26.830 --> 00:28:27.450
+El.
+
+aa36dd84-0b0b-455c-99a3-00c767acb68c-0
+00:28:28.310 --> 00:28:31.698
+Usuario nos tenga confianza al
+contratar un servicio o
+
+aa36dd84-0b0b-455c-99a3-00c767acb68c-1
+00:28:31.698 --> 00:28:34.840
+producto, nosotros que es
+importante es relevante.
+
+8bbf9ead-4368-4af0-bd08-5526faff2084-0
+00:28:35.630 --> 00:28:39.330
+Sin embargo, acá este creo que
+no aplica porque pues es un
+
+8bbf9ead-4368-4af0-bd08-5526faff2084-1
+00:28:39.330 --> 00:28:43.030
+servicio tal cual, o sea el de
+nosotros es sería algo como
+
+8bbf9ead-4368-4af0-bd08-5526faff2084-2
+00:28:43.030 --> 00:28:46.918
+vuestra, pues un servicio que
+ahí usas y ya, o sea, no tienes
+
+8bbf9ead-4368-4af0-bd08-5526faff2084-3
+00:28:46.918 --> 00:28:50.556
+que saber de qué y nosotros
+quiénes somos y por qué somos
+
+8bbf9ead-4368-4af0-bd08-5526faff2084-4
+00:28:50.556 --> 00:28:54.193
+esto sería esto y si podremos
+poner una parte de esto sea
+
+8bbf9ead-4368-4af0-bd08-5526faff2084-5
+00:28:54.193 --> 00:28:57.894
+sobre nosotros, pero no sería
+sobre nosotros como compañía
+
+8bbf9ead-4368-4af0-bd08-5526faff2084-6
+00:28:57.894 --> 00:29:00.841
+sería sobre nosotros como
+servicio, o sea como
+
+8bbf9ead-4368-4af0-bd08-5526faff2084-7
+00:29:00.841 --> 00:29:04.541
+plataformas, miren, aquí les
+dicen, o sea buscar APP te lo
+
+8bbf9ead-4368-4af0-bd08-5526faff2084-8
+00:29:04.541 --> 00:29:05.420
+está diciendo.
+
+2bf0809d-60a8-4ddf-acf7-c1516a33a387-0
+00:29:05.580 --> 00:29:06.100
+Kike.
+
+5db77e8f-200f-483b-a3c5-993e0e5526f7-0
+00:29:07.020 --> 00:29:08.130
+Está hablando sobre la.
+
+044df4ae-7338-4f5d-8007-96b42e9acf10-0
+00:29:08.780 --> 00:29:11.734
+Pues sí, sobre el framework no
+te está hablando sobre quienes
+
+044df4ae-7338-4f5d-8007-96b42e9acf10-1
+00:29:11.734 --> 00:29:14.783
+crearon un booster, ni siquiera
+sale aquí. Si la misma compañía
+
+044df4ae-7338-4f5d-8007-96b42e9acf10-2
+00:29:14.783 --> 00:29:17.500
+se llama Bootstrap. Bueno, si se
+llama Bush Street Team.
+
+8e07320d-aaa0-44a7-b7e0-4ca5b9698cd3-0
+00:29:18.330 --> 00:29:22.007
+Pero no te habla sobre el gustan
+bastante habla sobre el
+
+8e07320d-aaa0-44a7-b7e0-4ca5b9698cd3-1
+00:29:22.007 --> 00:29:26.007
+producto, creo que es igual con
+nosotros aquí. Entonces estas
+
+8e07320d-aaa0-44a7-b7e0-4ca5b9698cd3-2
+00:29:26.007 --> 00:29:27.040
+creo que no van.
+
+9e55b1e4-0df6-4136-820f-c65186e4975a-0
+00:29:28.110 --> 00:29:30.983
+¿Digo ahorita, no me voy a
+modificar nada, lo voy a dejar
+
+9e55b1e4-0df6-4136-820f-c65186e4975a-1
+00:29:30.983 --> 00:29:34.005
+así, este nada más voy a hacer
+apuntes, dónde se puede hacer
+
+9e55b1e4-0df6-4136-820f-c65186e4975a-2
+00:29:34.005 --> 00:29:34.650
+apuntes aquí?
+
+9cc01e25-86e4-44dd-bb47-3ea4d6ce5f47-0
+00:29:37.290 --> 00:29:37.650
+¿Ok?
+
+aa6b1021-18d8-4726-83a8-4aed1d2afb2d-0
+00:29:40.860 --> 00:29:41.780
+Pask.
+
+fdb6799e-7316-44af-a0b1-556791d75023-0
+00:29:43.290 --> 00:29:46.148
+Hay 1 que se queda aquí a pues
+en observaciones aquí creo que
+
+fdb6799e-7316-44af-a0b1-556791d75023-1
+00:29:46.148 --> 00:29:47.070
+se le puede agregar.
+
+91b2efe1-3a36-4da7-bb05-eafd676776a8-0
+00:29:48.130 --> 00:29:51.120
+Por favor, los agregar
+comentarios.
+
+6a2be939-cc21-4774-9824-dab98083be52-0
+00:29:52.150 --> 00:29:53.980
+Que iba a estar haciendo
+observaciones.
+
+e43fecf9-4b63-47f2-b1f1-adb0a7e460c1-0
+00:29:56.990 --> 00:29:58.440
+No es necios.
+
+7c21d385-00f8-4549-9b33-56db0bf58490-0
+00:30:08.650 --> 00:30:10.000
+IA que son.
+
+54b34b63-2e5c-46ff-b24a-178809e23946-0
+00:30:20.650 --> 00:30:22.120
+¿Una plataforma?
+
+cb00ce5c-f81f-4f78-8b3e-77e85c741296-0
+00:30:26.920 --> 00:30:27.730
+Y no.
+
+5669bcfb-c3b4-44a1-97a1-5c7f50ab182f-0
+00:30:29.530 --> 00:30:31.010
+Lo dejaré así, nada más.
+
+2031a91a-a14a-49c5-9dc9-ef8c8330e055-0
+00:30:32.270 --> 00:30:36.950
+Comentar aquí también que era el
+que habíamos dicho ahorita que
+
+2031a91a-a14a-49c5-9dc9-ef8c8330e055-1
+00:30:36.950 --> 00:30:38.340
+nos iba a estar de.
+
+fb330cd2-040c-4746-8d19-d80ac45e5f29-0
+00:30:39.430 --> 00:30:43.090
+Ah, bueno, aquí este no sé si
+alcanzaste a escuchar esto, nada
+
+fb330cd2-040c-4746-8d19-d80ac45e5f29-1
+00:30:43.090 --> 00:30:46.635
+más este de tu entrevista, la
+que hiciste, ir agregando aquí
+
+fb330cd2-040c-4746-8d19-d80ac45e5f29-2
+00:30:46.635 --> 00:30:49.250
+las definiciones, acrónimos o
+abreviaciones.
+
+d8cece56-420b-4742-8f9d-56244d4157af-0
+00:30:50.890 --> 00:30:54.924
+De lo tuyo y también, pues fijar
+si alguien más antes no lo
+
+d8cece56-420b-4742-8f9d-56244d4157af-1
+00:30:54.924 --> 00:30:57.480
+repitió, por ejemplo, a ver,
+déjenme.
+
+1d1c4089-e698-4043-86cc-1e34fd038b6c-0
+00:30:58.710 --> 00:31:02.109
+Acá fuerza y responsiva, por
+ejemplo, Responsiva es una, pues
+
+1d1c4089-e698-4043-86cc-1e34fd038b6c-1
+00:31:02.109 --> 00:31:05.619
+una definición es un término que
+tenemos que agregar. Hoy se me
+
+1d1c4089-e698-4043-86cc-1e34fd038b6c-2
+00:31:05.619 --> 00:31:06.990
+pierden rápido esta cosa.
+
+d61d6b1f-4080-4f08-95ac-252ea29363ba-0
+00:31:09.850 --> 00:31:13.189
+Si, por ejemplo, aquí no está,
+entonces, aquí ya se agregarían
+
+d61d6b1f-4080-4f08-95ac-252ea29363ba-1
+00:31:13.189 --> 00:31:13.560
+cierto.
+
+aac3b6a4-2ec1-4282-9276-a1033b0b2c94-0
+00:31:15.710 --> 00:31:19.593
+Responsivo que es responsivo
+todo esto, todos los términos y
+
+aac3b6a4-2ec1-4282-9276-a1033b0b2c94-1
+00:31:19.593 --> 00:31:23.222
+cosas así que pues no se
+entiendan a primera, o sea, que
+
+aac3b6a4-2ec1-4282-9276-a1033b0b2c94-2
+00:31:23.222 --> 00:31:26.978
+no cualquier a menos que no
+tengan que tengan conocimiento
+
+aac3b6a4-2ec1-4282-9276-a1033b0b2c94-3
+00:31:26.978 --> 00:31:27.359
+sobre.
+
+4ae07d52-6fee-461f-8667-e3ad23fa1e0c-0
+00:31:28.270 --> 00:31:32.731
+Pues software este todos estos
+términos y cosas así los tenemos
+
+4ae07d52-6fee-461f-8667-e3ad23fa1e0c-1
+00:31:32.731 --> 00:31:36.845
+que definir arriba cada 1 por
+favor ponerle sea como tarea
+
+4ae07d52-6fee-461f-8667-e3ad23fa1e0c-2
+00:31:36.845 --> 00:31:38.170
+ahorita para todas.
+
+e2a7c78a-8a96-4a93-aa6c-b23eb8bb5c2e-0
+00:31:39.050 --> 00:31:41.240
+Definir aquí todo esto.
+
+cc78d90a-033f-4cbb-9e34-da9b7e523224-0
+00:31:42.500 --> 00:31:44.930
+Déjenme nomas, hago el
+comentario, no sé por qué no se
+
+cc78d90a-033f-4cbb-9e34-da9b7e523224-1
+00:31:44.930 --> 00:31:45.770
+están aquí al lado.
+
+ddaae362-3485-4741-8a4d-f323081cfa19-0
+00:31:46.940 --> 00:31:47.950
+Acertar.
+
+49e868a9-3501-4e01-8ddf-574659adc053-0
+00:31:50.200 --> 00:31:53.370
+Está bueno, o sea, esto ya lo
+saben. Preferencia es un
+
+49e868a9-3501-4e01-8ddf-574659adc053-1
+00:31:53.370 --> 00:31:57.058
+cuadrito que tengo acá también,
+pero te lo ponemos, esto lo voy
+
+49e868a9-3501-4e01-8ddf-574659adc053-2
+00:31:57.058 --> 00:32:00.344
+a dar una revisión general,
+bueno, ahorita se lo estamos
+
+49e868a9-3501-4e01-8ddf-574659adc053-3
+00:32:00.344 --> 00:32:01.670
+dando de una vez, pero.
+
+eb6b653e-f65c-45a6-ad2b-20f454c319a4-0
+00:32:02.530 --> 00:32:07.010
+Ahorita más tarde, esto también
+agregar comentario.
+
+538c9543-2f8b-4f5a-b720-2c3edcad65e6-0
+00:32:08.270 --> 00:32:10.330
+No tendremos.
+
+6f329589-9418-42f9-bf90-2465f295b959-0
+00:32:11.430 --> 00:32:12.500
+Mis.
+
+ed643846-15e8-4538-a56d-b4675038b174-0
+00:32:13.150 --> 00:32:16.750
+Pero Lores en la forma.
+
+87539df2-dc4b-44d8-9985-607e6e2b510f-0
+00:32:20.090 --> 00:32:21.180
+Mhm.
+
+122e0407-1365-461a-8201-7e690a5fc083-0
+00:32:22.220 --> 00:32:23.350
+¿De aquí, quien más es?
+
+cd800206-44c1-4c35-a9e7-46531de3e0b2-0
+00:32:30.460 --> 00:32:33.205
+Sigo viendo otra cosa. O que se
+acuerden a mí me van diciendo
+
+cd800206-44c1-4c35-a9e7-46531de3e0b2-1
+00:32:33.205 --> 00:32:33.870
+también, porfa.
+
+99d4cd4b-622c-4b1c-a5dd-ec2bca36bfd2-0
+00:32:37.730 --> 00:32:41.819
+¿Yo no juegos los truenos, les
+digo, esto también les le estaba
+
+99d4cd4b-622c-4b1c-a5dd-ec2bca36bfd2-1
+00:32:41.819 --> 00:32:45.396
+comentando a Dana, Gerardo y
+Alan, que sí, pues, y a ti
+
+99d4cd4b-622c-4b1c-a5dd-ec2bca36bfd2-2
+00:32:45.396 --> 00:32:49.485
+también te comentare que si me
+van a poder ayudar? Por mientras
+
+99d4cd4b-622c-4b1c-a5dd-ec2bca36bfd2-3
+00:32:49.485 --> 00:32:53.511
+terminando los casos de uso de
+cada 1 de estos, o sea, este es
+
+99d4cd4b-622c-4b1c-a5dd-ec2bca36bfd2-4
+00:32:53.511 --> 00:32:55.300
+como el caso de uso general.
+
+8a7dda43-184a-4e7b-b678-a2483dd53648-0
+00:32:56.200 --> 00:32:58.430
+Por ejemplo, aquí la Elena ya
+hizo el D.
+
+8dc8c145-3ab2-4e32-9cd6-b9524a746042-0
+00:32:59.300 --> 00:33:01.140
+El de registro creo que no se
+alcanza a ver.
+
+6b03a539-a5e0-426d-9d77-b147c112a6e7-0
+00:33:02.950 --> 00:33:04.020
+A ver, ahí está.
+
+06ef9216-baf7-4a0a-a55a-2c844040aa41-0
+00:33:05.150 --> 00:33:08.440
+Tiene el de registro y el de
+Login.
+
+ca2a6838-6e95-4c56-8724-71ba1f53ebb8-0
+00:33:09.220 --> 00:33:12.131
+Que acá estoy, mira, es el de
+login, es el registro de
+
+ca2a6838-6e95-4c56-8724-71ba1f53ebb8-1
+00:33:12.131 --> 00:33:15.254
+ciudades ir a este que si me
+podían apoyar con esto mínimo
+
+ca2a6838-6e95-4c56-8724-71ba1f53ebb8-2
+00:33:15.254 --> 00:33:15.890
+para mañana.
+
+5113f6bd-0e93-4f31-9e4f-e67a0a080b8b-0
+00:33:16.780 --> 00:33:21.389
+Para tenerlos a dividirnos y yo
+también a avanzarle a la base de
+
+5113f6bd-0e93-4f31-9e4f-e67a0a080b8b-1
+00:33:21.389 --> 00:33:24.510
+datos. Bueno, el diagrama
+entidad relación.
+
+0afd240f-0d50-4dbf-ae90-1a8b708bba68-0
+00:33:25.970 --> 00:33:29.122
+Pero lo que estoy viendo es que
+pues también aquí, mira tenemos
+
+0afd240f-0d50-4dbf-ae90-1a8b708bba68-1
+00:33:29.122 --> 00:33:30.650
+el administrador barbies admin.
+
+1723db90-3b43-4673-92f8-45d54289f7fd-0
+00:33:31.390 --> 00:33:34.638
+Que no entran tal cual esté,
+usuarios de la plataforma, o
+
+1723db90-3b43-4673-92f8-45d54289f7fd-1
+00:33:34.638 --> 00:33:37.998
+sea, seríamos por parte de
+nosotros de los desarrolladores,
+
+1723db90-3b43-4673-92f8-45d54289f7fd-2
+00:33:37.998 --> 00:33:40.630
+pero no es algo que nosotros
+estemos haciendo.
+
+4aea8349-7cc4-475f-90df-7c395f4f5c3d-0
+00:33:42.230 --> 00:33:45.251
+Que esté implementado en la
+plataforma de que nosotros
+
+4aea8349-7cc4-475f-90df-7c395f4f5c3d-1
+00:33:45.251 --> 00:33:48.383
+podamos este actualizar
+usuarios, borrar los usuarios, o
+
+4aea8349-7cc4-475f-90df-7c395f4f5c3d-2
+00:33:48.383 --> 00:33:51.240
+sea, esto únicamente lo hace
+aquí, en la parte del.
+
+381842bc-13f5-4f5a-8e48-d23fb9bbf311-0
+00:33:52.290 --> 00:33:53.900
+Del usuario, o sea, él mismo lo
+hace.
+
+7f63a81e-dacc-4f20-82ad-76fce0f59fec-0
+00:33:56.220 --> 00:33:59.230
+Eso, añadir categorías también
+creo que no sería algo de un
+
+7f63a81e-dacc-4f20-82ad-76fce0f59fec-1
+00:33:59.230 --> 00:34:01.990
+administrador, sería parte del
+desarrollo del sistema.
+
+1ba7e1fb-2821-4c91-9463-001025ed9816-0
+00:34:04.440 --> 00:34:05.750
+Creo que estos no van.
+
+f75a5fdc-7f87-46f8-82d4-416fe4042601-0
+00:34:06.560 --> 00:34:09.092
+Y sí pues, hasta el momento creo
+que es él. ¿Se nos podemos
+
+f75a5fdc-7f87-46f8-82d4-416fe4042601-1
+00:34:09.092 --> 00:34:09.810
+limitar a search?
+
+563db50c-8f76-4f08-95b4-d4dbcc6985ef-0
+00:34:10.910 --> 00:34:12.710
+Updates personal INFO.
+
+f3d6d336-9d01-4c23-8e85-f8b6be897bf2-0
+00:34:14.550 --> 00:34:15.530
+Las vistas.
+
+b15ac3e1-343d-4288-a846-c3eb9add37b6-0
+00:34:22.160 --> 00:34:24.740
+Esto sería el sistema de
+recomendación también.
+
+421bfeff-9e30-4e19-80eb-44dd195621dc-0
+00:34:26.420 --> 00:34:27.430
+Pues no serían.
+
+55943f72-476c-450c-af17-9f4c1dd65e7d-0
+00:34:29.100 --> 00:34:30.150
+Sí, ósea seguiría.
+
+a06934ac-1127-4df0-87f7-69394b01d24e-0
+00:34:31.230 --> 00:34:33.140
+Necesito que me ayudaran con
+estos.
+
+903d97de-f8e3-4c6b-9f60-89d0252cf407-0
+00:34:34.490 --> 00:34:36.480
+Este, pero sí descartar esto de
+acá.
+
+a684ebf2-6187-4d79-b12a-58fadb1d1d66-0
+00:34:39.450 --> 00:34:44.429
+Financiar las tablitas y de los
+casos de uso y los diagramas.
+
+a684ebf2-6187-4d79-b12a-58fadb1d1d66-1
+00:34:44.429 --> 00:34:47.240
+Creo que ahí está el en
+Amándolos.
+
+ca40ff22-a207-43e3-815a-f74a5bf34550-0
+00:34:49.230 --> 00:34:50.140
+En donde lo hizo.
+
+f8b4bde7-8225-464c-88ea-a0f1f09351a9-0
+00:34:50.870 --> 00:34:53.856
+Igual si ustedes no es que si se
+va a ver muy feo, si cada quien
+
+f8b4bde7-8225-464c-88ea-a0f1f09351a9-1
+00:34:53.856 --> 00:34:56.246
+lo hace en diferentes
+herramientas, ahí está visual
+
+f8b4bde7-8225-464c-88ea-a0f1f09351a9-2
+00:34:56.246 --> 00:34:56.660
+para ahí.
+
+48ecca1a-18f9-4dee-9966-a5aa085f9459-0
+00:34:57.520 --> 00:34:58.100
+Faltan.
+
+afec9b47-8751-4d2c-9d0c-229c77dc1fea-0
+00:34:59.290 --> 00:35:02.440
+Si se hacen en visual paradine
+tan facilista.
+
+63613192-d544-481d-9cc8-c2b332b8a6dc-0
+00:35:03.350 --> 00:35:05.936
+Este, pues no más, necesitaría
+que me dieran eso creo que
+
+63613192-d544-481d-9cc8-c2b332b8a6dc-1
+00:35:05.936 --> 00:35:08.566
+también nos mandó la base de
+datos, nomas que, mira, deja,
+
+63613192-d544-481d-9cc8-c2b332b8a6dc-2
+00:35:08.566 --> 00:35:09.280
+les muestro hoy.
+
+7a409a42-b67b-482f-ab93-e720e8674f89-0
+00:35:10.670 --> 00:35:13.620
+Acá esta la base de datos que
+también mandó bueno el diagrama,
+
+7a409a42-b67b-482f-ab93-e720e8674f89-1
+00:35:13.620 --> 00:35:16.196
+nada más que pues si como nos
+comentó Helena, que pues
+
+7a409a42-b67b-482f-ab93-e720e8674f89-2
+00:35:16.196 --> 00:35:19.054
+también, no se mira, chido,
+osea, como que está todo cruzado
+
+7a409a42-b67b-482f-ab93-e720e8674f89-3
+00:35:19.054 --> 00:35:21.911
+y no tiene tanta relación y
+aparte creo que no estoy seguro,
+
+7a409a42-b67b-482f-ab93-e720e8674f89-4
+00:35:21.911 --> 00:35:23.410
+pero según yo esto no va en una.
+
+9b51b7e0-ff81-4479-b789-48132eb2da3c-0
+00:35:24.710 --> 00:35:28.144
+Esto no es de la base de datos
+de relación, también faltan los
+
+9b51b7e0-ff81-4479-b789-48132eb2da3c-1
+00:35:28.144 --> 00:35:29.180
+diagramas de clase.
+
+1bc3a15e-5a68-4400-8669-0c267540cc06-0
+00:35:32.660 --> 00:35:35.565
+Pues si quieren nos dividimos
+por mientras en eso, o sea, le
+
+1bc3a15e-5a68-4400-8669-0c267540cc06-1
+00:35:35.565 --> 00:35:38.090
+termine de dar la revisión
+general yo del documento.
+
+31c0f237-f02f-4528-a034-c97adf3f17fc-0
+00:35:38.760 --> 00:35:41.915
+A sigo haciendo anotaciones aquí
+para marcarle, o sea, para
+
+31c0f237-f02f-4528-a034-c97adf3f17fc-1
+00:35:41.915 --> 00:35:43.020
+trabajar las mañanas.
+
+7842af99-adda-4795-8306-b504a8a35f24-0
+00:35:43.770 --> 00:35:46.860
+Este nada más tiene paro, Daniel
+y.
+
+9a5bc3c3-4912-45c8-b4a5-3b6cf33fd728-0
+00:35:48.010 --> 00:35:51.838
+Y Gerardo en hacer los casos de
+uso en esto de estos, nada más
+
+9a5bc3c3-4912-45c8-b4a5-3b6cf33fd728-1
+00:35:51.838 --> 00:35:55.363
+ahí, pues se ponen de acuerdo
+para la cómo se los quieren
+
+9a5bc3c3-4912-45c8-b4a5-3b6cf33fd728-2
+00:35:55.363 --> 00:35:55.850
+dividir.
+
+1fe52b68-f85c-4f4d-9e41-b924f44b991d-0
+00:35:57.390 --> 00:36:01.111
+¿Este sería con la tablita y
+todo, tú que tienes un poquito
+
+1fe52b68-f85c-4f4d-9e41-b924f44b991d-1
+00:36:01.111 --> 00:36:05.018
+más de experiencia programando
+este Adán, me puedes ayudar con
+
+1fe52b68-f85c-4f4d-9e41-b924f44b991d-2
+00:36:05.018 --> 00:36:08.553
+el diagrama de clase? Los
+diagramas de clase no creo que
+
+1fe52b68-f85c-4f4d-9e41-b924f44b991d-3
+00:36:08.553 --> 00:36:12.336
+sean tantos realmente igual. 7
+complicado Si crees que o sea
+
+1fe52b68-f85c-4f4d-9e41-b924f44b991d-4
+00:36:12.336 --> 00:36:16.120
+isiah en el proceso de miras,
+que si está demasiado extenso.
+
+c4f6a174-7c52-494b-9f94-dedc79a23809-0
+00:36:17.370 --> 00:36:18.540
+Este.
+
+5a2f3a68-ce3c-40e8-903c-70f20020d0ed-0
+00:36:19.260 --> 00:36:22.876
+Pues es bastante, no no los
+termina nomas como avance lo
+
+5a2f3a68-ce3c-40e8-903c-70f20020d0ed-1
+00:36:22.876 --> 00:36:26.873
+posible y yo termino aquí, la de
+El diagrama, este de entidad,
+
+5a2f3a68-ce3c-40e8-903c-70f20020d0ed-2
+00:36:26.873 --> 00:36:30.870
+relación y el chequeo general y
+ver hacia las anotaciones para
+
+5a2f3a68-ce3c-40e8-903c-70f20020d0ed-3
+00:36:30.870 --> 00:36:34.423
+mañana también ya estuve
+trabajando en el la vista está
+
+5a2f3a68-ce3c-40e8-903c-70f20020d0ed-4
+00:36:34.423 --> 00:36:38.167
+que les hice que les comenté la
+semana pasada de los de la
+
+5a2f3a68-ce3c-40e8-903c-70f20020d0ed-5
+00:36:38.167 --> 00:36:41.720
+navegación, cómo va a ser las
+vistas y todo este rollo.
+
+f632dd1f-127c-4dd6-b456-6fb152b2ca69-0
+00:36:42.540 --> 00:36:44.920
+También para que cada 1 de
+nosotros tengamos la.
+
+b482ea05-8465-4e1c-a004-48e138e847fe-0
+00:36:45.560 --> 00:36:47.400
+¿Certeza de cómo va a ser?
+
+eabbc42c-967f-4e64-bf2f-af61192ce8a1-0
+00:36:48.050 --> 00:36:50.643
+El sistema, al menos de manera
+visual, les digo porque por
+
+eabbc42c-967f-4e64-bf2f-af61192ce8a1-1
+00:36:50.643 --> 00:36:53.500
+ejemplo Ahorita Elena puso esto,
+lo del administrador y pues no,
+
+eabbc42c-967f-4e64-bf2f-af61192ce8a1-2
+00:36:53.500 --> 00:36:53.940
+no, no va.
+
+8e94f5a1-93bc-4610-a7c5-f2e8f2d2e9ee-0
+00:36:55.710 --> 00:36:59.610
+Y ya no más para tener el avance
+para mañana también el terminar
+
+8e94f5a1-93bc-4610-a7c5-f2e8f2d2e9ee-1
+00:36:59.610 --> 00:37:00.810
+el avance de mañana.
+
+4ac0cafd-ed0c-4777-a5ea-2ce18963e2fb-0
+00:37:03.590 --> 00:37:04.800
+No sé sui.
+
+e026656d-efe9-44cd-b1df-2ee6124f9537-0
+00:37:05.530 --> 00:37:08.683
+Tengan un comentario, o sea que
+está con las tareas de que pues
+
+e026656d-efe9-44cd-b1df-2ee6124f9537-1
+00:37:08.683 --> 00:37:10.950
+no puedan si no pueden, pues
+también decirlo.
+
+34a2b0d0-f0e7-48bd-9179-5129ab5c3d5a-0
+00:37:12.180 --> 00:37:15.892
+Eso sí, un rollo, o sea,
+cualquier comentario ahorita IA
+
+34a2b0d0-f0e7-48bd-9179-5129ab5c3d5a-1
+00:37:15.892 --> 00:37:19.280
+para darle, porque ahorita pues
+ya son las 10:00 H.
+
+251e3634-4a01-4365-b219-fc048a757454-0
+00:37:19.990 --> 00:37:23.637
+Puede llegar después de mi
+parte, la verdad. No, nunca he
+
+251e3634-4a01-4365-b219-fc048a757454-1
+00:37:23.637 --> 00:37:27.411
+hecho diagramas de clase. La vez
+pasada no, no pude hacerlo
+
+251e3634-4a01-4365-b219-fc048a757454-2
+00:37:27.411 --> 00:37:31.499
+porque pues no. No, no he sabido
+cómo hacerlos, pero como quiera
+
+251e3634-4a01-4365-b219-fc048a757454-3
+00:37:31.499 --> 00:37:34.896
+ahí me pongo a buscarle para
+hacerlos nada más. Estoy
+
+251e3634-4a01-4365-b219-fc048a757454-4
+00:37:34.896 --> 00:37:38.670
+esperando porque estoy teniendo
+un poquito con mi laptop y.
+
+f91da86a-23c1-410b-9bba-b24c1447ac64-0
+00:37:39.280 --> 00:37:44.192
+Y no he podido iniciar bien.
+Entonces este me ha retrasado
+
+f91da86a-23c1-410b-9bba-b24c1447ac64-1
+00:37:44.192 --> 00:37:49.521
+poquito de eso, porque este si
+estoy batallando, pero en cuanto
+
+f91da86a-23c1-410b-9bba-b24c1447ac64-2
+00:37:49.521 --> 00:37:54.766
+la tenga me pongo a darle, ya
+sea ahorita mañana en la mañana,
+
+f91da86a-23c1-410b-9bba-b24c1447ac64-3
+00:37:54.766 --> 00:37:58.430
+desde temprano bien este si se
+te complica.
+
+98f5f076-12b6-423a-9b3c-4ac60e37f316-0
+00:38:00.490 --> 00:38:04.882
+No deja ver de entidad relación
+supongo, si estás un poquito
+
+98f5f076-12b6-423a-9b3c-4ac60e37f316-1
+00:38:04.882 --> 00:38:05.170
+más.
+
+87bc2cc2-4f1c-4116-bfa8-b74557b15dc2-0
+00:38:05.840 --> 00:38:06.600
+Entra a entrar.
+
+a328d7e3-3fc7-4759-9fa9-6d7ffb38d007-0
+00:38:09.610 --> 00:38:09.900
+A.
+
+54c7098c-29c8-421e-b300-82ab66b8f14f-0
+00:38:11.510 --> 00:38:15.751
+Más bien bueno, los que los
+únicos que había hecho eran los
+
+54c7098c-29c8-421e-b300-82ab66b8f14f-1
+00:38:15.751 --> 00:38:20.133
+de caso de uso entre relación y
+los de clases. La verdad, no,
+
+54c7098c-29c8-421e-b300-82ab66b8f14f-2
+00:38:20.133 --> 00:38:24.374
+OK, OK, Este, entonces no hay
+bronca. ¿O sea, si me pongo a
+
+54c7098c-29c8-421e-b300-82ab66b8f14f-3
+00:38:24.374 --> 00:38:28.050
+buscarle, cómo hacerlo? Pues sí,
+si me los aviento.
+
+108b799a-4a81-45d6-8866-b7ec51ee10d9-0
+00:38:28.920 --> 00:38:32.468
+Bueno, si usted tampoco es como
+la los diagramas finales que van
+
+108b799a-4a81-45d6-8866-b7ec51ee10d9-1
+00:38:32.468 --> 00:38:35.580
+a quedar, o sea, como ahorita
+por ejemplo nos mandó este
+
+108b799a-4a81-45d6-8866-b7ec51ee10d9-2
+00:38:35.580 --> 00:38:39.020
+Elena, pues no, no es el final,
+digo, esta parte se va a tener
+
+108b799a-4a81-45d6-8866-b7ec51ee10d9-3
+00:38:39.020 --> 00:38:39.730
+que eliminar.
+
+a48dae71-bbc3-471b-b998-bd5a8e3929a7-0
+00:38:40.720 --> 00:38:43.371
+Bueno, también hay que
+comentarlo. En clase. Se halló
+
+a48dae71-bbc3-471b-b998-bd5a8e3929a7-1
+00:38:43.371 --> 00:38:46.318
+siento ahorita que no va, pero
+pues mañana lo comentamos en
+
+a48dae71-bbc3-471b-b998-bd5a8e3929a7-2
+00:38:46.318 --> 00:38:49.313
+clase, también el diagrama de
+clase hoy no sé si me apaga la
+
+a48dae71-bbc3-471b-b998-bd5a8e3929a7-3
+00:38:49.313 --> 00:38:49.510
+lap.
+
+177cf92e-28a5-4348-9c38-7d5e6d6d42fd-0
+00:38:52.260 --> 00:38:56.166
+Este el diagrama de clase,
+también te digo, no va a ser el
+
+177cf92e-28a5-4348-9c38-7d5e6d6d42fd-1
+00:38:56.166 --> 00:38:59.940
+final, ahorita nomás es como el
+para llevar algo mañana.
+
+9b5df47e-eb5f-4d39-88b8-c41ef5eb9d66-0
+00:39:00.820 --> 00:39:04.584
+Y pues, para que todos tengamos
+un avance, porque si se me hizo
+
+9b5df47e-eb5f-4d39-88b8-c41ef5eb9d66-1
+00:39:04.584 --> 00:39:07.760
+mala onda lo de Elena de que
+pues si se ven toda esta
+
+9b5df47e-eb5f-4d39-88b8-c41ef5eb9d66-2
+00:39:07.760 --> 00:39:08.290
+cartilla.
+
+45d2d21c-a8b0-42e0-bba8-1bb5f91663e8-0
+00:39:09.140 --> 00:39:10.430
+Este.
+
+494df031-4e60-42b4-8c43-2e50736db102-0
+00:39:11.520 --> 00:39:15.330
+Pues sería eso digo, no va a ser
+final, pero pues si si puedes.
+
+78707a3c-0208-4039-a105-b1bd7171a0b1-0
+00:39:16.070 --> 00:39:19.053
+Tiene no, o sea, mejor dicho,
+pues sí, tratar de entregar
+
+78707a3c-0208-4039-a105-b1bd7171a0b1-1
+00:39:19.053 --> 00:39:19.980
+algo, te digo, no.
+
+9a0e1575-5d92-4dcb-8ac6-9cb6dc991629-0
+00:39:21.990 --> 00:39:23.200
+Nuestra entregar algo bien.
+
+0b6a2550-b1a8-4ab4-8139-96041b937042-0
+00:39:24.160 --> 00:39:27.353
+¿No? Pues sí, sería esto le
+digo, no para no quitarnos más
+
+0b6a2550-b1a8-4ab4-8139-96041b937042-1
+00:39:27.353 --> 00:39:29.410
+tiempo y que no se extienda esto
+más.
+
+7114b445-c3fb-4e84-9bb0-7bb0aa1fd2b1-0
+00:39:30.440 --> 00:39:33.445
+Estoy levantando, no sé también
+como Andes en tiempos, ahorita
+
+7114b445-c3fb-4e84-9bb0-7bb0aa1fd2b1-1
+00:39:33.445 --> 00:39:36.450
+le pregunté a Gerardo y a Alan,
+y pues dicen que pueden hoy y.
+
+7ae04f87-8438-455b-89de-09ae83d99cad-0
+00:39:37.050 --> 00:39:38.700
+Mañana en la mañana. ¿También
+darle un ratillo?
+
+27920454-c908-4f9a-894e-dd0e2fa50fba-0
+00:39:41.680 --> 00:39:45.049
+Dioh, más bien puedo mañana en
+la mañana porque ahorita estoy
+
+27920454-c908-4f9a-894e-dd0e2fa50fba-1
+00:39:45.049 --> 00:39:48.527
+terminando de arreglar lo de la
+laptop este y ya para mañana en
+
+27920454-c908-4f9a-894e-dd0e2fa50fba-2
+00:39:48.527 --> 00:39:51.787
+la mañana ya tenerla y darle
+mañana en la mañana no, pero o
+
+27920454-c908-4f9a-894e-dd0e2fa50fba-3
+00:39:51.787 --> 00:39:55.157
+sea, me refiero que si tienes
+chance de si vas a tener tiempo
+
+27920454-c908-4f9a-894e-dd0e2fa50fba-4
+00:39:55.157 --> 00:39:58.146
+de darle al los diagramas de
+clase, no son complicados
+
+27920454-c908-4f9a-894e-dd0e2fa50fba-5
+00:39:58.146 --> 00:40:01.461
+realmente, o sea, si ya está
+programando como en programa se
+
+27920454-c908-4f9a-894e-dd0e2fa50fba-6
+00:40:01.461 --> 00:40:04.830
+ha utilizado la metodología de
+orientada a objetos, realmente
+
+27920454-c908-4f9a-894e-dd0e2fa50fba-7
+00:40:04.830 --> 00:40:08.308
+no más es basarte de que OK esto
+donde los usuarios, el tipo de
+
+27920454-c908-4f9a-894e-dd0e2fa50fba-8
+00:40:08.308 --> 00:40:11.732
+usuario, pues va a heredar el
+usuario, no registrar el usuario
+
+27920454-c908-4f9a-894e-dd0e2fa50fba-9
+00:40:11.732 --> 00:40:12.329
+registrado.
+
+55c5c8d5-9e14-4379-9079-f94de9e44ae0-0
+00:40:12.440 --> 00:40:12.570
+Hola.
+
+76b2790d-0f85-4043-9ba2-25eb76504830-0
+00:40:13.270 --> 00:40:16.878
+Este lo ya las funcionalidades
+de por la clase de cursos, la
+
+76b2790d-0f85-4043-9ba2-25eb76504830-1
+00:40:16.878 --> 00:40:20.724
+clase de alomejor categoría, se
+me ocurre ahorita, pues ya es un
+
+76b2790d-0f85-4043-9ba2-25eb76504830-2
+00:40:20.724 --> 00:40:24.510
+proceso más así, pero pues sería
+un modelado, o sea en tanto en
+
+76b2790d-0f85-4043-9ba2-25eb76504830-3
+00:40:24.510 --> 00:40:26.640
+programación sería más un
+modelado.
+
+beccc1e3-d702-44dc-96f9-87680e7b4c16-0
+00:40:27.340 --> 00:40:30.105
+Ahí que te avientes en, no sé si
+también se pueda en mi sol
+
+beccc1e3-d702-44dc-96f9-87680e7b4c16-1
+00:40:30.105 --> 00:40:30.520
+paradine.
+
+b70eba19-0b6d-4533-9801-d9352f197fe3-0
+00:40:31.810 --> 00:40:32.540
+Pero algo así.
+
+e013a8c3-7cab-4055-8bb4-b81dc76fe402-0
+00:40:36.770 --> 00:40:41.242
+Simón Simón, si puedo con eso te
+digo mañana en la en la mañana
+
+e013a8c3-7cab-4055-8bb4-b81dc76fe402-1
+00:40:41.242 --> 00:40:42.850
+le empiezo a dar a eso.
+
+02e6185f-2f10-4f98-aec5-5b7286e2ee03-0
+00:40:44.330 --> 00:40:48.730
+Va ahí, está, no se hablan ni
+Gerardo que ondas sí.
+
+ee89ab70-9237-4262-800c-3dac1f53df32-0
+00:40:50.000 --> 00:40:54.550
+Por un comentario con un Harías
+para mañana o si pueden o no.
+
+66e0dfbe-abbc-4146-926c-7c7827bc61b0-0
+00:40:56.210 --> 00:40:59.460
+No, pues ahorita lanzó ya haz lo
+que pueda, igual ahí.
+
+46c55091-f0e3-4353-89e2-b2b626c6d87a-0
+00:41:01.780 --> 00:41:04.180
+Está ahí cualquier duda, pero
+ahí te comento.
+
+334def70-324e-45ac-9362-13f7df7f4550-0
+00:41:05.000 --> 00:41:08.058
+Más si no, si cualquier dudilla
+tiene un paro tampoco estoy tan
+
+334def70-324e-45ac-9362-13f7df7f4550-1
+00:41:08.058 --> 00:41:11.116
+familiarizado con los casos de
+uso. Si lo soy sincero, pues así
+
+334def70-324e-45ac-9362-13f7df7f4550-2
+00:41:11.116 --> 00:41:14.078
+los he desarrollado y todo eso,
+pero pues no es algo como que
+
+334def70-324e-45ac-9362-13f7df7f4550-3
+00:41:14.078 --> 00:41:15.990
+nomas los desarrolló una vez en
+el SRS.
+
+695835e0-277c-478e-92cf-994f4203ae50-0
+00:41:16.700 --> 00:41:20.250
+Este, pero igual si coméntenme
+cualquier cosa igualada y si te
+
+695835e0-277c-478e-92cf-994f4203ae50-1
+00:41:20.250 --> 00:41:23.856
+atoras en cualquier cosa y ya,
+pues mañana yo voy a estar en el
+
+695835e0-277c-478e-92cf-994f4203ae50-2
+00:41:23.856 --> 00:41:27.294
+jale, pero la neta ahorita él
+está tranquilo, igual. Sí pues
+
+695835e0-277c-478e-92cf-994f4203ae50-3
+00:41:27.294 --> 00:41:30.901
+este no puedo estar mucho tiempo
+así, les puedo dedicar ahí un,
+
+695835e0-277c-478e-92cf-994f4203ae50-4
+00:41:30.901 --> 00:41:32.310
+un, unos 1020 minutillos.
+
+20ac8748-6c7b-41ed-a40d-b4a2ac5744a4-0
+00:41:33.190 --> 00:41:36.176
+Pero igual mañana voy a estar a
+hillo trabajando, le digo
+
+20ac8748-6c7b-41ed-a40d-b4a2ac5744a4-1
+00:41:36.176 --> 00:41:39.419
+ahorita jalo no está tan pesado
+si puedo desviarme un poquillo
+
+20ac8748-6c7b-41ed-a40d-b4a2ac5744a4-2
+00:41:39.419 --> 00:41:42.663
+por si necesitan alguna duda o
+tienen algo que comentarme ahí,
+
+20ac8748-6c7b-41ed-a40d-b4a2ac5744a4-3
+00:41:42.663 --> 00:41:44.619
+no más, este mande un mensajillo
+ahí.
+
+90ef3308-3c83-45fc-b413-b210ef93d8fe-0
+00:41:45.480 --> 00:41:49.510
+En Whatsapp este y.
+
+60b61bcf-106c-4d7b-a9b6-119b61dc00ed-0
+00:41:51.130 --> 00:41:55.128
+Pues sí, darle nada más. Eso les
+digo, ahí Nomas pónganse de
+
+60b61bcf-106c-4d7b-a9b6-119b61dc00ed-1
+00:41:55.128 --> 00:41:57.620
+acuerdo tú y tú y Alan, este
+Gerardo.
+
+bd46a88f-1665-4212-bb38-a02243834918-0
+00:41:58.330 --> 00:42:01.582
+Para, como se lo quieren
+dividir, les digo, pues a mí se
+
+bd46a88f-1665-4212-bb38-a02243834918-1
+00:42:01.582 --> 00:42:05.235
+me hace pesada saber cómo cada
+quien un search este look de ahí
+
+bd46a88f-1665-4212-bb38-a02243834918-2
+00:42:05.235 --> 00:42:05.919
+se lo rifan.
+
+cdfb33d1-682f-43e5-b6ac-0129472c25b7-0
+00:42:06.760 --> 00:42:09.815
+Igual pues, el poder cursis en
+la otra persona. No sé cómo
+
+cdfb33d1-682f-43e5-b6ac-0129472c25b7-1
+00:42:09.815 --> 00:42:12.974
+usted recomendación, siquiera 1
+y 1, también echarse la mano
+
+cdfb33d1-682f-43e5-b6ac-0129472c25b7-2
+00:42:12.974 --> 00:42:16.185
+entre ustedes de que a ver cómo
+lo está haciendo tú para que,
+
+cdfb33d1-682f-43e5-b6ac-0129472c25b7-3
+00:42:16.185 --> 00:42:19.189
+por ejemplo, el search los dos
+van a ser prácticamente lo
+
+cdfb33d1-682f-43e5-b6ac-0129472c25b7-4
+00:42:19.189 --> 00:42:19.500
+mismo.
+
+d183eb17-6a95-4f4d-9a77-feb6cb17f9d3-0
+00:42:20.200 --> 00:42:23.310
+Este no lo vayan a hacer, pues
+diferente o.
+
+b4b73767-8f8d-4d4d-860f-c7b7d9039c1c-0
+00:42:24.150 --> 00:42:26.190
+Vayan a quedar muy diferentes
+porque pues no.
+
+97c38b24-514f-4156-9846-0f3453656383-0
+00:42:27.990 --> 00:42:30.432
+Sí, sí, mire a medio
+Frankenstein. El documento al
+
+97c38b24-514f-4156-9846-0f3453656383-1
+00:42:30.432 --> 00:42:30.720
+final.
+
+cc859d8b-a23b-4b93-b080-92b9aa3ba7dd-0
+00:42:31.740 --> 00:42:34.510
+Este, pero si tú, Alan, sí.
+
+cc5685ce-0758-46dd-bf99-f9e455757483-0
+00:42:36.090 --> 00:42:37.890
+¿Alguna duda o cualquier
+cosilla?
+
+68759f48-9058-4aa4-879c-d3dca3193289-0
+00:42:39.650 --> 00:42:43.177
+No, pues mañana vi que tengo
+examen de este estadística.
+
+68759f48-9058-4aa4-879c-d3dca3193289-1
+00:42:43.177 --> 00:42:46.767
+Entonces ir a la Uni desde las
+8, pero de 8 a 10 tengo el
+
+68759f48-9058-4aa4-879c-d3dca3193289-2
+00:42:46.767 --> 00:42:50.666
+examen y de 10 a 12 tengo libre,
+pues ahí le voy a dar a eso y
+
+68759f48-9058-4aa4-879c-d3dca3193289-3
+00:42:50.666 --> 00:42:54.565
+luego también tengo libre de 2 a
+cuatro, entonces ahí también,
+
+68759f48-9058-4aa4-879c-d3dca3193289-4
+00:42:54.565 --> 00:42:56.360
+pues tengo cuatro horas para.
+
+5b9a5769-8b65-4cb0-9638-efe12fd149cd-0
+00:42:57.180 --> 00:42:58.180
+Para hacer todo ese rollo.
+
+c6f99565-cfb7-49cc-b826-775cdada03ed-0
+00:42:59.140 --> 00:43:01.670
+Oh, OK, bien les digo, ahora
+esto es como un trabajo más.
+
+8472707e-8ca6-4c62-89de-471a4b5f31e2-0
+00:43:03.330 --> 00:43:06.140
+Osea, me cuesta mucho que sea
+más individual.
+
+a481be6b-44da-4139-a327-2b96fb8a88c6-0
+00:43:15.360 --> 00:43:18.090
+Pero hay que tratar de
+adaptarnos de la manera.
+
+d40a2bf7-620c-496b-8998-b1bf2e99ac8c-0
+00:43:19.030 --> 00:43:22.410
+¿Más posible que sea como que
+siempre no hacerlo tan
+
+d40a2bf7-620c-496b-8998-b1bf2e99ac8c-1
+00:43:22.410 --> 00:43:26.365
+individual, me refiero más a que
+sí tengo una duda, o ya hice
+
+d40a2bf7-620c-496b-8998-b1bf2e99ac8c-2
+00:43:26.365 --> 00:43:28.790
+esto? Este comunicarme con el
+equipo.
+
+ae0e8825-c6df-43fd-b57f-ed8238752714-0
+00:43:29.460 --> 00:43:32.681
+¿Le digo porque pues sí, es un
+trabajo en conjunto de que todos
+
+ae0e8825-c6df-43fd-b57f-ed8238752714-1
+00:43:32.681 --> 00:43:35.952
+tenemos que tener la misma idea
+YY centralizada a lo que vamos a
+
+ae0e8825-c6df-43fd-b57f-ed8238752714-2
+00:43:35.952 --> 00:43:38.771
+dirigir y qué va a hacer el
+sitio, les digo ahorita por
+
+ae0e8825-c6df-43fd-b57f-ed8238752714-3
+00:43:38.771 --> 00:43:41.941
+ejemplo, Elena tenía tenía esta
+duda y no dudo que yo la tenga
+
+ae0e8825-c6df-43fd-b57f-ed8238752714-4
+00:43:41.941 --> 00:43:44.709
+con ustedes y ustedes conmigo y
+ustedes entre ustedes?
+
+bf082881-21ac-447e-9fbb-829c9451f787-0
+00:43:45.310 --> 00:43:48.637
+Porque, pues aún no tenemos algo
+visual, les digo, yo siento que
+
+bf082881-21ac-447e-9fbb-829c9451f787-1
+00:43:48.637 --> 00:43:51.452
+con el diagrama que ya les
+muestre mañana bueno con el
+
+bf082881-21ac-447e-9fbb-829c9451f787-2
+00:43:51.452 --> 00:43:54.677
+modelado así, de las vistas que
+les muestre mañana ya nos va a
+
+bf082881-21ac-447e-9fbb-829c9451f787-3
+00:43:54.677 --> 00:43:57.902
+quedar más claro, pero por el
+momento hay que darle a esto que
+
+bf082881-21ac-447e-9fbb-829c9451f787-4
+00:43:57.902 --> 00:44:01.075
+pues ya nos da una idea de con
+menos con las gráficas que nos
+
+bf082881-21ac-447e-9fbb-829c9451f787-5
+00:44:01.075 --> 00:44:01.690
+mandó Elena.
+
+38c0c0a6-89fa-4fae-876a-202d3f639d7c-0
+00:44:02.490 --> 00:44:04.220
+Y les digo, pues nada más.
+
+f929a3cf-dfbb-4ba7-8532-4ccf73fcad9c-0
+00:44:05.180 --> 00:44:05.600
+Para.
+
+bb71e8b4-c81a-492a-ac44-9f094fe55b0c-0
+00:44:06.320 --> 00:44:09.413
+Tarde ya mañana AA esto, igual
+mañana en clase lo vamos a
+
+bb71e8b4-c81a-492a-ac44-9f094fe55b0c-1
+00:44:09.413 --> 00:44:12.613
+comentar otra vez, vamos a ver
+cada 1 de nuestros diagramas
+
+bb71e8b4-c81a-492a-ac44-9f094fe55b0c-2
+00:44:12.613 --> 00:44:12.880
+idef.
+
+6a739108-d126-4c33-ab57-834be838e12a-0
+00:44:13.600 --> 00:44:16.235
+Y todo el documento en general,
+pero sí ahorita para darle el
+
+6a739108-d126-4c33-ab57-834be838e12a-1
+00:44:16.235 --> 00:44:17.850
+libro ya para que no se vea tan,
+tan.
+
+a783790b-a544-4fcb-a63d-f242d8db3a30-0
+00:44:20.340 --> 00:44:24.760
+No hemos ahí, en el caso de uso
+no sé exactamente qué significa
+
+a783790b-a544-4fcb-a63d-f242d8db3a30-1
+00:44:24.760 --> 00:44:25.520
+lo de onda.
+
+c7fa85d3-932e-4f09-9d03-356a4d999cb0-0
+00:44:28.360 --> 00:44:32.350
+Under curses and a. Supongo que
+es lo de.
+
+b4b47196-74ba-45b9-9c35-3c0bde9192bb-0
+00:44:33.250 --> 00:44:37.046
+La, o sea la manera que lo vamos
+a visualizar. Esto que les
+
+b4b47196-74ba-45b9-9c35-3c0bde9192bb-1
+00:44:37.046 --> 00:44:41.097
+comenté de que primero vamos a
+hacer el o sea, vamos a arrancar
+
+b4b47196-74ba-45b9-9c35-3c0bde9192bb-2
+00:44:41.097 --> 00:44:45.020
+por vamos a ordenarlos por el la
+valoración, eso creo que es,
+
+b4b47196-74ba-45b9-9c35-3c0bde9192bb-3
+00:44:45.020 --> 00:44:45.780
+creo que sí.
+
+4c23b3be-4404-445f-9e21-336af868b37d-0
+00:44:47.260 --> 00:44:48.110
+Sí, pues, ponderar.
+
+b9f8a83e-cd18-4c02-878a-883a20dd0717-0
+00:44:49.650 --> 00:44:52.800
+Igual pues para sacarnos de
+dudas les preguntó a Elena.
+
+4f59af1c-973a-4945-b3d3-04a00bc16775-0
+00:44:55.820 --> 00:44:57.730
+Igual lo que me contesta y te
+confirmo.
+
+3081173b-5ec2-4a87-adaf-e322a0d35a67-0
+00:44:58.520 --> 00:44:59.920
+Bueno, ahí lo voy a mandar al
+Grupo de Whatsapp.
+
+53e7bd5e-39af-4c56-a866-1e5af42b1c36-0
+00:45:01.420 --> 00:45:02.530
+Pero sí.
+
+f6b2e5e6-eab3-4bac-b3da-3b189ee0831b-0
+00:45:04.060 --> 00:45:07.870
+Ya está en shows, pues este ahí
+la minuta me lo habían toyo.
+
+ecab6119-a7c1-4908-a9da-e020d24e5b4c-0
+00:45:09.350 --> 00:45:10.200
+Y ya.
+
+ae9641b8-fc9b-4ecd-b541-7dd33ec88304-0
+00:45:15.030 --> 00:45:16.600
+Una cosilla ahí que quiero
+comentar último.
+
+13546591-4b66-4419-8292-f94aebfd8333-0
+00:45:18.040 --> 00:45:21.093
+Sí, man nada. Pues nada más yo.
+En caso de que si me atrevo
+
+13546591-4b66-4419-8292-f94aebfd8333-1
+00:45:21.093 --> 00:45:24.095
+poquillo, pues ahí te mando
+mensaje porque te digo así, si
+
+13546591-4b66-4419-8292-f94aebfd8333-2
+00:45:24.095 --> 00:45:26.944
+nunca había hecho, pero pues
+ahorita me pongo también a
+
+13546591-4b66-4419-8292-f94aebfd8333-3
+00:45:26.944 --> 00:45:30.099
+investigar cómo lo hago y todo
+eso. Ballestas, sí, sí, no hay
+
+13546591-4b66-4419-8292-f94aebfd8333-4
+00:45:30.099 --> 00:45:31.829
+problema y mándale un
+mensajillo.
+
+e4d93214-eeae-4b94-86bb-4d4e60f73e18-0
+00:45:37.930 --> 00:45:42.688
+Sale pues chavos, sino que en
+otro día y éste le avanzamos a
+
+e4d93214-eeae-4b94-86bb-4d4e60f73e18-1
+00:45:42.688 --> 00:45:46.120
+eso y este me manda mensaje
+cualquier cosa.
+
+35c9c728-d321-488b-bb83-f84b8910cb3b-0
+00:45:47.110 --> 00:45:50.490
+Y ya nos vemos mañana ahí para
+ahora sí que trabajarlo.
+
+fef824ee-73df-4a98-bf23-6dbfa3de0ac4-0
+00:45:53.060 --> 00:45:54.500
+Solo, pues nos vemos.
+
+2b7da08c-343d-4443-890c-3d575b8f9b0c-0
+00:45:55.270 --> 00:45:56.660
+Vale, pensé.
+
+fcf1c88e-ed36-45eb-ba9f-1a8a091d3575-0
+00:45:57.380 --> 00:45:57.710
+Bye.
