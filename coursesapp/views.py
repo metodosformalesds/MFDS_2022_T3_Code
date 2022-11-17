@@ -15,6 +15,9 @@ from .forms import CreateUserForm # Importamos del archivo forms.py la función 
 
 from .models import Courses # Importamos los modelos que creamos en models.py
 
+from django.views.decorators.csrf import csrf_exempt  #
+
+
 #@login_required(login_url='login') #@login_required nos indica que, lo que está dentro de login_required se ejecutará únicamente cuando el usuario está con sesión activa.
 def home(request): #Definimos el nombre de la función home que será nuestra vista principal
 	"""
@@ -125,7 +128,7 @@ def profileConfig(request):
 	"""
 	return render(request, 'profileConfig.html')
 
-def courses(request, category): 
+def courses(request): 
 	"""
 	Función profileUser: Lógica de la vista de los cursos buscados y obtenidos por medio de la API
 
@@ -134,6 +137,10 @@ def courses(request, category):
 		Returns:
 			render: Renderización del archivo "courses.html"
 	"""
+	return render(request, 'courses.html')
+
+def courses(request, category): 
+
 	#Depende de la categoría, realizamos la consulta a la base de datos
 	if category == 'backend':
 		courses = Courses.objects.filter(category='backend')
@@ -180,3 +187,15 @@ def skills(request):
 			render: Renderización del archivo "skills.html"
 	"""
 	return render(request, 'skills.html')
+
+@csrf_exempt
+def searchBar(request): 
+
+	if request.method == 'POST':
+		search = request.POST.get('search')
+		courses = Courses.objects.filter(title__icontains=search)
+
+		return render(request, 'courses.html', {'courses': courses})
+
+	else:
+		return render(request, 'courses.html')
