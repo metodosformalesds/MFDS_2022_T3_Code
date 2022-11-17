@@ -10,5 +10,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls), #URL del administrador de Django,
-    path('', include('coursesapp.urls')) #El método include nos indica que importaremos las URL de "coursesapp.url" a este archivo
+    path('', include('coursesapp.urls')), #El método include nos indica que importaremos las URL de "coursesapp.url" a este archivo
+    path('accounts/', include('allauth.urls')),
 ]
