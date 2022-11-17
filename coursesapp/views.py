@@ -15,6 +15,9 @@ from .forms import CreateUserForm # Importamos del archivo forms.py la función 
 
 from .models import Courses # Importamos los modelos que creamos en models.py
 
+from django.views.decorators.csrf import csrf_exempt  #
+
+
 #@login_required(login_url='login') #@login_required nos indica que, lo que está dentro de login_required se ejecutará únicamente cuando el usuario está con sesión activa.
 def home(request): #Definimos el nombre de la función home que será nuestra vista principal
 	"""
@@ -174,6 +177,7 @@ def skills(request):
 	"""
 	return render(request, 'skills.html')
 
+@csrf_exempt
 def searchBar(request): 
 
 	if request.method == 'POST':
