@@ -159,9 +159,13 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 SITE_ID = 1
-
+#GOOGLE
 #971631264991-7gnegik52q44khicc1njk32mvgqj6dv5.apps.googleusercontent.com
 #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
+
+#FACEBOOK
+#3527631147523541
+#f7ed73d00ac780e8bd59a61c22670c6c
 
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
@@ -171,8 +175,29 @@ SOCIALACCOUNT_PROVIDERS = {
         ],
         'AUTH_PARAMS': {
             'access_type': 'online',
-        },
-        'OAUTH_PKCE_ENABLED': True,
+        }
+    },
+
+    'facebook': {
+        'METHOD': 'oauth2',
+        'SDK_URL': '//connect.facebook.net/{locale}/sdk.js',
+        'SCOPE': ['email', 'public_profile'],
+        'AUTH_PARAMS': {'auth_type': 'reauthenticate'},
+        'INIT_PARAMS': {'cookie': True},
+        'FIELDS': [
+            'id',
+            'first_name',
+            'last_name',
+            'middle_name',
+            'name',
+            'name_format',
+            'picture',
+            'short_name'
+        ],
+        'EXCHANGE_TOKEN': True,
+        'LOCALE_FUNC': 'path.to.callable',
+        'VERIFIED_EMAIL': False,
+        'VERSION': 'v13.0',
     }
 }
 

@@ -1,4 +1,6 @@
 {% extends 'main.html' %} 
+{% load socialaccount %}
+{% providers_media_js %}
 {%  load static %}
 {% block tittle %} 
 Registro
@@ -45,10 +47,10 @@ Registro
   
               <hr class="my-4">
 
-              <button class="btn btn-block btn-primary mb-2" id="btn_redesociales" style="background-color: #3b5998;"
-                type="submit"><i class="fab fa-facebook-f me-2"></i> CONTINUAR CON FACEBOOK</button>
-              <button class="btn btn-block btn-outline-dark" id="btn_redesociales" 
-                type="submit"><i class="fab fa-google me-2"></i> CONTINUAR CON GOOGLE</button>
+              <a class="btn btn-block btn-primary mb-2" id="btn_redesociales" style="background-color: #4f77ce;"
+                type="submit" href="{% provider_login_url "facebook" method="oauth2" %}"><i class="fab fa-facebook-f me-2"></i>  Continuar con Facebook  </a>
+              <a class="btn btn-block btn-primary" id="btn_redesociales" style="background-color: #e94747;"
+                type="submit" href="{%provider_login_url "google" %}"><i class="fab fa-google me-2"></i>  Continuar con Google  </a>
             <div class="form-outline my-3">
                 <p>¿Ya tienes cuenta? <a href="{% url 'login' %}" class="text-success font-weight-bold">Inicia sesión</a></p>
             </div>

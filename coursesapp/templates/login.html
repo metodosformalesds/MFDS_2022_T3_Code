@@ -40,11 +40,13 @@ Login
               <hr class="my-4">
 
               <a class="btn btn-block btn-primary mb-2" id="btn_redesociales" style="background-color: #4f77ce;"
-                type="submit"><i class="fab fa-facebook-f me-2"></i>  Continuar con Facebook  </a>
+                type="submit" href="{% provider_login_url "facebook" method="oauth2" %}"><i class="fab fa-facebook-f me-2"></i>  Continuar con Facebook  </a>
 
               <a class="btn btn-block btn-primary" id="btn_redesociales" style="background-color: #e94747;"
-              type="submit" href="{%provider_login_url "google" %}"><i class="fab fa-google me-2"></i>  Continuar con Google  </a>
-
+              type="submit" href="{% provider_login_url "google" %}"><i class="fab fa-google me-2"></i>  Continuar con Google  </a>
+              {% if user.is_authenticated %}
+                Usuario autenticado
+              {% endif %}
                 
             <div class="form-outline my-3">
                 <p>¿No tienes cuenta? <a href="{% url 'register' %}" class="text-success font-weight-bold">Registrate</a></p>
