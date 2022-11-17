@@ -159,3 +159,13 @@ def jobs(request):
 			render: Renderización del archivo "jobs.html"
 	"""
 	return render(request, 'jobs.html')
+def skills(request): 
+	"""
+	Función skills: Muestra la lógica para la edición de skills
+
+		Args:
+
+		Returns:
+			render: Renderización del archivo "skills.html"
+	"""
+	return render(request, 'skills.html')

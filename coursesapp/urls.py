@@ -13,6 +13,7 @@ urlpatterns = [
 	path('courses/', views.courses, name='courses'),
 	path('courses/<str:category>', views.courses, name='courses'),		#Filtrado por categorias 
 	path('jobs/', views.jobs, name='jobs'),
+	path('skills/', views.skills, name='skills'),
     path('', views.home, name="home") #Se crea la URL de home que tendrá lo que la view home
 
 
