@@ -16,7 +16,7 @@
               </div>
           </li>
           <li class="nav-item ml-5">
-          <form class="p-4 p-md-5 border rounded main-form-search" method="POST" action="{% url 'search' %}">
+          <form class="form-inline ml-3 border rounded main-form-search" method="POST" action="{% url 'search' %}">
             {% csrf_token %}
             <div class="input-group">
               <input type="text" name="search" class="form-control " placeholder="buscar">
