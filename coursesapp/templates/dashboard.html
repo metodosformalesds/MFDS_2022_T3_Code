@@ -3,17 +3,18 @@
 {% block content %}
 <div class="main-banner px-4">
       <div class="col-md-14 mx-auto col-lg-6">
-        <form class="p-4 p-md-5 border rounded main-form-search">
+        <form class="p-4 p-md-5 border rounded main-form-search" method="POST" action="{% url 'search' %}">
+          {% csrf_token %}
           <div class="pb-3">
             <label for="" class="mr-3 text-success"><strong>Cursos</strong></label>
             <label for=""><strong>Trabajos</strong></label>
           </div>  
           <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon2">
+            <input type="text" name="search" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon2">
             <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button">
-                <i class="fas fa-search" aria-hidden="true"></i>
-              </button>
+                <button class="btn btn-outline-secondary" type="submit">
+                  <i class="fas fa-search" aria-hidden="true"></i>
+                </button>
             </div>
           </div>
         </form>
