@@ -12,5 +12,9 @@
 **Usuario:** team3
 **Contraseña:** mfds_team3
 
+### Usuario prueba
+**username:** prueba
+**contraseña:** metodos1
+
 ## Deploy 
 https://t3metodos.azurewebsites.net/
