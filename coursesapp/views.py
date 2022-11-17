@@ -17,6 +17,8 @@ from .models import Courses # Importamos los modelos que creamos en models.py
 
 from django.views.decorators.csrf import csrf_exempt  #
 
+from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance
+
 
 #@login_required(login_url='login') #@login_required nos indica que, lo que está dentro de login_required se ejecutará únicamente cuando el usuario está con sesión activa.
 def home(request): #Definimos el nombre de la función home que será nuestra vista principal
@@ -188,13 +190,14 @@ def skills(request):
 	"""
 	return render(request, 'skills.html')
 
+
 @csrf_exempt
 def searchBar(request): 
 
 	if request.method == 'POST':
 		search = request.POST.get('search')
 		courses = Courses.objects.filter(title__icontains=search)
-
+	
 		return render(request, 'courses.html', {'courses': courses})
 
 	else:
