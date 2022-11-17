@@ -1,17 +1,26 @@
 #data science-remoto
 import time
+#allows to work with time in Python. It allows functionality like getting the current time, pausing the Program from executing
 from selenium import webdriver
+#Selenium WebDriver is an automation testing tool. When I say automation, it means it automates test scripts written in Selenium. Webdriver Install. Chrome
 import re
+#A regular expression (or RE) specifies a set of strings that matches it; the functions in this module let you check if a particular string matches a given regular expression (or if a given regular expression matches a particular string
 import os
+#The OS module in Python provides functions for creating and removing a directory (folder), fetching its contents, changing and identifying the current directory, etc. You first need to import the os module to interact with the underlying operating system
 import csv
+#The Import-Csv cmdlet creates table-like custom objects from the items in CSV files.
 from datetime import datetime
+#imports all the content from the datetime module, but requires you to precede names that are imported from that module with the datetime. qualifier in your code.
 from msedge.selenium_tools import Edge, EdgeOptions
 from selenium.common.exceptions import NoSuchElementException, ElementNotInteractableException
 import pandas as pd
+#The import pandas portion of the code tells Python to bring the pandas data analysis library into your current environment
 from pandas_profiling import ProfileReport
 
 from time import sleep
+#Python time sleep function is used to add delay in the execution of a program
 from datetime import date
+#datetime in Python is the combination between dates and times.
 
 
 from selenium import webdriver
