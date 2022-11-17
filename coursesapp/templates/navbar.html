@@ -40,8 +40,9 @@
           {% endif %}
           {% if request.user.is_authenticated %}
           <li class="nav-item"></li>
-          <span class="nav-link text-dark text-uppercase font-weight-bold px-3 ml-5">¡Hola, {{request.user}}</span>
-        </li>
+          <a href="{% url 'profile' %}">
+            <span class="nav-link text-dark text-uppercase font-weight-bold px-3 ml-5">¡Hola, {{request.user}}</span>
+         </a>
         <li class="nav-item"></li>
           <span ><a  class="nav-link text-dark text-uppercase font-weight-bold px-3 btn btn-outline-success my-2 my-sm-0 ml-5" href="{% url 'logout' %}">Cerrar sesión</a></span>
         </li>          
