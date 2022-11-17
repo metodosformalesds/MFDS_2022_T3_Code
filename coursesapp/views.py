@@ -173,3 +173,14 @@ def skills(request):
 			render: Renderización del archivo "skills.html"
 	"""
 	return render(request, 'skills.html')
+
+def searchBar(request): 
+
+	if request.method == 'POST':
+		search = request.POST.get('search')
+		courses = Courses.objects.filter(title__icontains=search)
+
+		return render(request, 'courses.html', {'courses': courses})
+
+	else:
+		return render(request, 'courses.html')

@@ -15,4 +15,5 @@ urlpatterns = [
 	path('jobs/', views.jobs, name='jobs'),
     path('', views.home, name="home"), #Se crea la URL de home que tendrá lo que la view home
 	path('skills/', views.skills, name='skills'),
+	path('search/', views.searchBar, name='search') #Barra de búsqueda
 ]
