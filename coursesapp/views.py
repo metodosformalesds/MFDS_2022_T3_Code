@@ -163,15 +163,13 @@ def jobs(request):
 			render: Renderización del archivo "jobs.html"
 	"""
 	return render(request, 'jobs.html')
+def skills(request): 
+	"""
+	Función skills: Muestra la lógica para la edición de skills
 
-def searchBar(request): 
+		Args:
 
-	if request.method == 'POST':
-		search = request.POST.get('search')
-		courses = Courses.objects.filter(title__icontains=search)
-
-		return render(request, 'courses.html', {'courses': courses})
-
-	else:
-		return render(request, 'courses.html')
-
+		Returns:
+			render: Renderización del archivo "skills.html"
+	"""
+	return render(request, 'skills.html')

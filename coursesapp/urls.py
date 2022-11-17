@@ -14,7 +14,5 @@ urlpatterns = [
 	path('courses/<str:category>', views.courses, name='courses'),		#Filtrado por categorias 
 	path('jobs/', views.jobs, name='jobs'),
     path('', views.home, name="home"), #Se crea la URL de home que tendrá lo que la view home
-	path('search/', views.searchBar, name='search') #Barra de búsqueda
-
-
+	path('skills/', views.skills, name='skills'),
 ]
