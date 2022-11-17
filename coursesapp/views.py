@@ -27,7 +27,7 @@ def home(request): #Definimos el nombre de la función home que será nuestra vi
 		render: Renderiza lo que tenga el documento html dashboard.html
 	"""
 
-	courses = Courses.objects.all()[:10] #Obtenemos 10 cursos de la base de datos 
+	courses = Courses.objects.all()[:5] #Obtenemos 10 cursos de la base de datos 
 
 	return render(request, 'dashboard.html', {'courses': courses}) #Renderizamos el contenido dentro de dashboard.html y le pasamos un diccionario con la consulta
 
@@ -148,6 +148,17 @@ def courses(request, category):
 
 	return render(request, 'courses.html', {'courses': courses})
 
+
+def courseView(request): 
+	"""
+	Función courseView: Lógica de la vista individual de los cursos
+
+		Args:
+
+		Returns:
+			render: Renderización del archivo "courseView.html"
+	"""
+	return render(request, 'courseView.html')
 
 def jobs(request): 
 	"""
