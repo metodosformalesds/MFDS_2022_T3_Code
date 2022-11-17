@@ -32,6 +32,7 @@ assert "Python" in driver.title
 
 
 os.chdir(r'data/mfds/mx/ds/')
+#where the data is going to be saved
 
 
 def get_url(position, location):
@@ -53,6 +54,7 @@ def save_data_to_file(records):
         writer.writerow(['JobTitle', 'Company', 'Location', 'PostDate', 'Summary', 'JobUrl'])
         writer.writerows(records)
     df = pd.DataFrame (records, columns = ['job_title', 'company', 'location', 'post_date', 'summary', 'job_url'])
+    #this is the data that we want to get for  our csv
 
 
 
@@ -65,6 +67,7 @@ def get_record(card):
     summary = card.find_element_by_class_name('job-snippet').text
     job_url = card.find_element_by_class_name('jcs-JobTitle').get_attribute('href')
     return (job_title, company, location, post_date, summary, job_url)
+#Extracts the data from the card
 
 
 def get_page_records(cards, job_list, url_set):
