@@ -36,6 +36,7 @@ def home(request): #Definimos el nombre de la función home que será nuestra vi
 
 	return render(request, 'dashboard.html', {'courses': courses}) #Renderizamos el contenido dentro de dashboard.html y le pasamos un diccionario con la consulta
 
+@csrf_exempt
 def registerPage(request): # Se define el nombre de la función registerPage
 	"""
 	Función registerPage: Vista de la página de registro
@@ -67,6 +68,7 @@ def registerPage(request): # Se define el nombre de la función registerPage
 		context = {'form':form}
 		return render(request, 'register.html', context)
 
+@csrf_exempt
 def loginPage(request): #Se crea la funcion loginPage para crear la vista de login
 	"""
  Función loginPage: Vista de la página de login
@@ -199,7 +201,7 @@ def searchBar(request):
 		search = request.POST.get('search', '')
 		#courses = Courses.objects.filter(url__icontains=search)
 		#courses = Courses.objects.annotate(search=SearchVector('title', 'category'),).filter(search=search)  
-		courses = (Courses.objects.annotate(similarity=TrigramSimilarity('url', search)).filter(similarity__gte=0.1))
+		courses = (Courses.objects.annotate(similarity=TrigramSimilarity('url', search)).filter(similarity__gte=0.1).order_by('-similarity'))
 
 		#print(Courses.objects.filter(title__trigram_similar=search))
 
