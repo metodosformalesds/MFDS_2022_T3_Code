@@ -117,7 +117,8 @@ def profileUser(request):
 		Returns:
 			render: Renderización del archivo "profile.html"
 	"""
-	return render(request, 'profile.html')
+	courses = Courses.objects.all()[:3] #Obtenemos 10 cursos de la base de datos
+	return render(request, 'profile.html', {'courses': courses})
 
 def profileConfig(request): 
 	"""
