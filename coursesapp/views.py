@@ -17,7 +17,7 @@ from .models import Courses # Importamos los modelos que creamos en models.py
 
 from django.views.decorators.csrf import csrf_exempt  #
 
-from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance
+from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance, SearchVector
 
 
 #@login_required(login_url='login') #@login_required nos indica que, lo que está dentro de login_required se ejecutará únicamente cuando el usuario está con sesión activa.
@@ -195,9 +195,14 @@ def skills(request):
 def searchBar(request): 
 
 	if request.method == 'POST':
-		search = request.POST.get('search')
-		courses = Courses.objects.filter(title__icontains=search)
-	
+
+		search = request.POST.get('search', '')
+		#courses = Courses.objects.filter(url__icontains=search)
+		#courses = Courses.objects.annotate(search=SearchVector('title', 'category'),).filter(search=search)  
+		courses = (Courses.objects.annotate(similarity=TrigramSimilarity('url', search)).filter(similarity__gte=0.1))
+
+		#print(Courses.objects.filter(title__trigram_similar=search))
+
 		return render(request, 'courses.html', {'courses': courses})
 
 	else:
