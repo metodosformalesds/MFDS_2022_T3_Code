@@ -119,12 +119,13 @@ def profileUser(request):
 		Returns:
 			render: Renderización del archivo "profile.html"
 	"""
-	courses = Courses.objects.all()[:3] #Obtenemos 10 cursos de la base de datos
-	return render(request, 'profile.html', {'courses': courses})
+	courses = Courses.objects.all()[:3]
+	courses1 = Courses.objects.all()[4:7] 
+	return render(request, 'profile.html', {'courses': courses,'courses1': courses1})
 
 def profileConfig(request): 
 	"""
-	Función profileUser: Lógica de la vista de la configuración del perfil del usuario
+	Función profileConfig: Lógica de la vista de la configuración del perfil del usuario
 
 		Args:
 
@@ -135,17 +136,29 @@ def profileConfig(request):
 
 def courses(request): 
 	"""
-	Función profileUser: Lógica de la vista de los cursos buscados y obtenidos por medio de la API
+	Función courses: Lógica de la vista de los cursos buscados y obtenidos por medio de la API
 
 		Args:
 
 		Returns:
 			render: Renderización del archivo "courses.html"
+			return: Retona los cursos buscados. 
 	"""
-	return render(request, 'courses.html')
+	courses = Courses.objects.all()[::] 
+	return render(request, 'courses.html', {'courses': courses})
 
-def courses(request, category): 
+def courses_for_category(request, category): 
+	"""
+	Función courses_for_category: Lógica de la vista de los cursos de cada categoría
 
+		Args:
+		category: Indica la categoria que se está buscando.
+
+		Returns:
+			render: Renderización del archivo "courses.html"
+			return: retorna los cursos filtrados por categoría.
+	"""
+	courses = Courses.objects.all()[:3]
 	#Depende de la categoría, realizamos la consulta a la base de datos
 	if category == 'backend':
 		courses = Courses.objects.filter(category='backend')
@@ -174,7 +187,7 @@ def courseView(request):
 
 def jobs(request): 
 	"""
-	Función profileUser: Lógica de la vista de los trabajos buscados por el usuario. 
+	Función jobs: Lógica de la vista de los trabajos buscados por el usuario. 
 
 		Args:
 
