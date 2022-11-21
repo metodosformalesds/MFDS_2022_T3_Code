@@ -7,12 +7,12 @@ Configuración
 
 {%  block content  %}
 
-<div class="p-5"> 
-    <div id="" class="carousel slide" > 
-        <div class="carousel-inner"> 
+<div class="p-5 rounded-lg"> 
+    <div id="" class="carousel slide"> 
+        <div class="carousel-inner "> 
             <div class="carousel-item active"> 
-                <div class="card"> 
-                    <div class="path">Categoria: {{ course.category }}</a></div> 
+                <div class="card p-5"> 
+                    <!-- <div class="path">Categoria: {{ course.category }}</a></div>  -->
                     <div class="row"> 
                         <div class="col-md-6 text-center align-self-center"> 
                             <img class="img-fluid" src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"> 
@@ -22,28 +22,23 @@ Configuración
                                 <div class="col">
                                     <h2>{{ course.title}}</h2>
                                 </div> 
-                                <div class="col text-right">
-                                    <a href="#"><i class="fa fa-heart-o"></i></a>
-                                </div> 
                             </div> 
-                            <p>Course's platform</p> 
+                            <p>{{ course.instructor }}</p>
+                            <p>{{ course.platform }}</p> 
                             <span class="fa fa-star checked"></span> 
-                            <span class="fa fa-star checked"></span> 
-                            <span class="fa fa-star checked"></span> 
-                            <span class="fa fa-star checked"></span> 
-                            <span class="fa fa-star-half-full"></span> 
-                            <span id="reviews">1590 Reviews</span> 
-                            <div class=""> 
-                                <h2>$10.99</h2> 
+                            <span id="reviews">{{ course.rating }}</span> 
+                            <div class="pt-3 pb-5">
+                                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+                            </div>
+                            <div class="row justify-content-between pr-5 mr-5"> 
+                                <div class="d-flex"><h2>${{ course.price }}</h2><span class="align-item-bottom">mxn</span></div>
+                                <a target="_blank" href="https://udemy.com{{ course.url }}" class="text-white">
+                                    <button type="button" class="btn btn-success px-5">Ir al curso</button>
+                                </a>
+                                <button type="button" class="btn btn-success px-5">Añadir a favoritos</button>
                             </div> 
                         </div> 
                     </div> 
-                </div> 
-            </div> 
-            
-            <div class="row lower p-5"> 
-                <div class="col text-right align-self-center"> 
-                    <button class="btn">Add to favorites</button> 
                 </div> 
             </div> 
         </div> 
