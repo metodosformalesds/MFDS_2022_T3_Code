@@ -174,7 +174,7 @@ def courses_for_category(request, category):
 	return render(request, 'courses.html', {'courses': courses})
 
 
-def courseView(request): 
+def courseView(request, id): 
 	"""
 	Función courseView: Lógica de la vista individual de los cursos
 
@@ -183,7 +183,8 @@ def courseView(request):
 		Returns:
 			render: Renderización del archivo "courseView.html"
 	"""
-	return render(request, 'courseView.html')
+	course = Courses.objects.get(id=id)
+	return render(request, 'courseView.html', {'course': course})
 
 def jobs(request): 
 	"""
