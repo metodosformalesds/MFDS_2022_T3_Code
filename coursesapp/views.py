@@ -209,17 +209,34 @@ def skills(request):
 
 @csrf_exempt
 def searchBar(request): 
+	"""
+	Función searchBar: Muestra la lógica para la búsqueda de cursos
+
+		Args:
+
+		Returns:
+			render: Renderización del archivo "courses.html"
+	"""
 
 	if request.method == 'POST':
-
 		search = request.POST.get('search', '')
-		#courses = Courses.objects.filter(url__icontains=search)
-		#courses = Courses.objects.annotate(search=SearchVector('title', 'category'),).filter(search=search)  
+		
 		courses = (Courses.objects.annotate(similarity=TrigramSimilarity('url', search)).filter(similarity__gte=0.1).order_by('-similarity'))
 
-		#print(Courses.objects.filter(title__trigram_similar=search))
-
-		return render(request, 'courses.html', {'courses': courses})
+		#save queries by user in the database
+		'''
+		query = Query()
+		query.user = request.user
+		query.query = search
+		query.save()
+		'''
+		#Keep a record of unsuccessful queries in the database
+		if not courses:
+			#search = Search.objects.create(search=search)
+			#search.save()
+			pass
+		else:
+			return render(request, 'courses.html', {'courses': courses})
 
 	else:
 		return render(request, 'courses.html')
