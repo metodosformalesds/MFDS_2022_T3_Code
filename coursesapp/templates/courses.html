@@ -7,7 +7,7 @@ Cursos
 
 {%  block content  %}
 <section style="background-color: #eee;">
-    <div class="container py-5" style="margin-left: 20px;">
+    <div class="container py-5 style="margin-left: 20px;">
   
       <div class="row" style="width: 1300px;">
         <div class="col-lg-3" style="max-width: 23%;">
@@ -89,7 +89,7 @@ Cursos
         </div>
         <div class="col-lg-9" style="position: relative;"> 
           <div class="row" style= "width: auto;">
-            <div class="col-lg-12" ">
+            <div class="col-lg-12">
             <div class="card mb-4 ">
               <div class="card-header ">
               <h5 class="card-title ">Resultados de busqueda</h5>
@@ -100,14 +100,14 @@ Cursos
                       {% for course in courses %}
                       
                       <div class="col-9 mx-auto col-md-6 col-lg-3">
-                          <div class="card mb-4 box-shadow" style="border-color: transparent;"" > <!--margen del fondo-->
+                          <div class="card mb-4 box-shadow" style="border-color: transparent;" > <!--margen del fondo-->
 
                                   <a href="https://udemy.com{{ course.url }}">
                                       <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" class="card-img-top" alt="{{course.title}}"></a>
                                  
 
                               <div class="card-body">
-                                <h6 class=""><a href="https://udemy.com{{ course.url }}">{{ course.title }}</a></h6>
+                                <h6 class=""><a href="{% url 'courseView' course.id %}">{{ course.title }}</a></h6>
                                 <span>{{course.instructor}}</span> <br>
                                 <span>{{ course.platform }}</span> <br>
                                 <span>⭐</span><span>{{course.rating}}</span>
