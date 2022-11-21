@@ -18,3 +18,9 @@ h1 a, h2 a {
 .main-form-search{
     background-color: rgba(255, 255, 255, 0.700);
 }
+
+.comment-user-image
+{
+    object-fit: cover;
+    object-position: center;
+}

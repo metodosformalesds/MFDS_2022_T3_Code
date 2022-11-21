@@ -25,7 +25,7 @@ Configuración
                             </div> 
                             <p>{{ course.instructor }}</p>
                             <p>{{ course.platform }}</p> 
-                            <span class="fa fa-star checked"></span> 
+                            <span>⭐</span>
                             <span id="reviews">{{ course.rating }}</span> 
                             <div class="pt-3 pb-5">
                                 <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
@@ -33,9 +33,11 @@ Configuración
                             <div class="row justify-content-between pr-5 mr-5"> 
                                 <div class="d-flex"><h2>${{ course.price }}</h2><span class="align-item-bottom">mxn</span></div>
                                 <a target="_blank" href="https://udemy.com{{ course.url }}" class="text-white">
-                                    <button type="button" class="btn btn-success px-5">Ir al curso</button>
+                                    <button type="button" class="btn btn-success px-5 py-2">Ir al curso</button>
                                 </a>
-                                <button type="button" class="btn btn-success px-5">Añadir a favoritos</button>
+                                <a href="#">
+                                <button type="button" class="btn btn-success px-5 py-2">Añadir a favoritos</button>
+                                </a>
                             </div> 
                         </div> 
                     </div> 
@@ -44,6 +46,41 @@ Configuración
         </div> 
     </div> 
 </div> 
-</div> 
+
+<div class="mx-5 my-4 p-5 rounded-lg card">
+    <h3 class="pb-2">Comentarios</h3>
+
+    <div class="d-flex bg-light p-3 my-2 rounded-lg border">
+        <div class="ratio ratio-1x1 rounded-circle overflow-hidden border border-dark">
+        <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png" alt="user" width="100" class="comment">
+        </div>
+        <div class="align-self-center">
+            <h4>Usuario</h4>
+            <span>22/10/2021</span>
+        </div>
+        <div class="py-3 px-5">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ratione voluptatum quam expedita, earum tempore cupiditate, a sapiente dolorem exercitationem quia ipsum debitis dolores officiis excepturi dicta? Error, magnam esse.</p>
+        </div>
+    </div>
+
+    <div class="d-flex bg-light p-3 my-2 rounded-lg border">
+        <div class="ratio ratio-1x1 rounded-circle overflow-hidden border border-dark">
+        <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png" alt="user" width="100" class="comment">
+        </div>
+        <div class="align-self-center">
+            <h4>Usuario</h4>
+            <span>22/10/2021</span>
+        </div>
+        <div class="py-3 px-5">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ratione voluptatum quam expedita, earum tempore cupiditate, a sapiente dolorem exercitationem quia ipsum debitis dolores officiis excepturi dicta? Error, magnam esse.</p>
+        </div>
+    </div>
+</div>
+
+<h3 class="ml-5 mt-5 pl-5 pb-3">Escribir comentario</h3>
+<div class="mb-5">
+    <form action="" class="mx-5 rounded-lg card">
+        <input type="text" name="search" class="form-control p-3" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon2">
+    </form>
 </div>
 {%  endblock  %}
