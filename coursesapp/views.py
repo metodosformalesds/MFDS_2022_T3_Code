@@ -19,6 +19,7 @@ from django.views.decorators.csrf import csrf_exempt  #
 
 from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance, SearchVector
 
+from .forms import  UpdateUserFormAvatar
 
 #@login_required(login_url='login') #@login_required nos indica que, lo que está dentro de login_required se ejecutará únicamente cuando el usuario está con sesión activa.
 def home(request): #Definimos el nombre de la función home que será nuestra vista principal
@@ -241,3 +242,21 @@ def searchBar(request):
 
 	else:
 		return render(request, 'courses.html')
+
+def profileConfigAvatar(request):
+
+	if request.user.is_authenticated:
+		if request.method == 'POST': 
+			profile_form = UpdateUserFormAvatar(request.POST, request.FILES, instance=request.user.perfil)
+
+			if profile_form.is_valid():
+				profile_form.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			profile_form = UpdateUserFormAvatar(instance=request.user.perfil)
+
+		return render(request, 'profileConfigAvatar.html', {'profile_form': profile_form})
+	else:
+		return redirect('home')
