@@ -17,3 +17,14 @@ class UpdateUserFormAvatar(forms.ModelForm):
     class Meta:
         model = Perfil
         fields = ['avatar']
+
+class UpdateProfileForm(forms.ModelForm): #Se define el formulario de registro
+	class Meta:
+		model = Perfil #Se utiliza el modelo de Usuario ya predefinido de la base de datos
+		fields = ['pais'] #Se ingresan las variables a utilizar en el formulario de registro
+
+class UpdateUserForm(forms.ModelForm):
+
+    class Meta:
+        model = User
+        fields = ['first_name', 'last_name']

@@ -21,6 +21,10 @@ from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance, S
 
 from .forms import  UpdateUserFormAvatar
 
+from .forms import UpdateProfileForm
+
+from .forms import UpdateUserForm
+
 #@login_required(login_url='login') #@login_required nos indica que, lo que está dentro de login_required se ejecutará únicamente cuando el usuario está con sesión activa.
 def home(request): #Definimos el nombre de la función home que será nuestra vista principal
 	"""
@@ -133,7 +137,25 @@ def profileConfig(request):
 		Returns:
 			render: Renderización del archivo "profileConfig.html"
 	"""
-	return render(request, 'profileConfig.html')
+	if request.user.is_authenticated: #Si el usuario esta loggeado
+		if request.method == 'POST': #si el método que se recibe es POST 
+			user_form = UpdateUserForm(request.POST, instance=request.user)
+			profile_form = UpdateProfileForm(request.POST, request.FILES, instance=request.user.perfil)
+
+			if user_form.is_valid() and profile_form.is_valid(): #si son validos ambos formularios
+				user_form.save()
+				profile_form.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile') #te manda al perfil 
+				
+		else:
+			user_form = UpdateUserForm(instance=request.user)
+			profile_form = UpdateProfileForm(instance=request.user.perfil)
+
+
+		return render(request, 'profileConfig.html', {'user_form': user_form, 'profile_form': profile_form})
+	else:
+		return redirect('home')
 
 def courses(request): 
 	"""
