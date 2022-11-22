@@ -257,14 +257,7 @@ def searchBar(request):
 		query.query = search
 		query.save()
 		'''
-		#Keep a record of unsuccessful queries in the database
-		if not courses:
-			#search = Search.objects.create(search=search)
-			#search.save()
-			pass
-		else:
-			return render(request, 'courses.html', {'courses': courses})
-
+		return render(request, 'courses.html', {'courses': courses})
 	else:
 		return render(request, 'courses.html')
 
