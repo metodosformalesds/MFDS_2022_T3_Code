@@ -36,14 +36,17 @@ os.chdir(r'data/mfds/mx/ds/')
 
 
 def get_url(position, location):
-    """Generate url from position and location"""
     template = 'https://mx.indeed.com/jobs?q={}&l={}'
-#here you add the link where you are scrapping the data
     position = position.replace(' ', '+')
     location = location.replace(' ', '+')
     url = template.format(position, location)
     return url
 
+
+"""
+    This function simply goes to the position and location part of the website to find the designaded postions and location and the 
+    Generates url postion and location 
+ """
 
 
 def save_data_to_file(records):
@@ -56,7 +59,10 @@ def save_data_to_file(records):
     df = pd.DataFrame (records, columns = ['job_title', 'company', 'location', 'post_date', 'summary', 'job_url'])
     #this is the data that we want to get for  our csv
 
-
+"""
+    This function save the data in a csv file with the name that we already pretermined 
+    with the records that we choose to get like for example ´company´
+"""
 
 def get_record(card):
     """Extract job data from single card"""
@@ -69,6 +75,10 @@ def get_record(card):
     return (job_title, company, location, post_date, summary, job_url)
 #Extracts the data from the card
 
+"""
+    This function extracts the job data from the single card and find the element from that selected card
+"""
+
 
 def get_page_records(cards, job_list, url_set):
     """Extract all cards from the page"""
@@ -79,7 +89,11 @@ def get_page_records(cards, job_list, url_set):
             job_list.append(record)
             url_set.add(record[-1])
 
+"""
+    This function extracts the job data from the single card and find the element from that selected card
+"""
 
+            
 def main(position, location):
     """Run the main program routine"""
     scraped_jobs = []
@@ -87,7 +101,7 @@ def main(position, location):
     
     url = get_url(position, location)
     
-    # setup web driver
+    #setup web driver
     driver = webdriver.Chrome()
     driver.get(url)        
     driver.implicitly_wait(10)
@@ -107,6 +121,12 @@ def main(position, location):
     driver.quit()
     save_data_to_file(scraped_jobs)
 
-
+"""
+    This function runs the main program  
+"""
 
 main('data science', 'remoto')
+
+"""
+this function takes this selected jobs that we want and put it in the postirion and location     
+"""
