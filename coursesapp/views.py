@@ -212,6 +212,32 @@ def courseView(request, id):
 	course = Curso.objects.get(id=id)
 	return render(request, 'courseView.html', {'course': course})
 
+
+def jobs_for_title(request, title): 
+	"""
+	Función jobs_for_title: Lógica de la vista de los trabajos de cada title
+		Args:
+		title: Indica el title que se está buscando.
+		Returns:
+			render: Renderización del archivo "jobs.html"
+			return: retorna los trabajos filtrados por title.
+	"""
+	jobs = Title.objects.all()[:3]
+	#Depende de la categoría, realizamos la consulta a la base de datos
+	if title == 'backend':
+		jobs = Title.objects.filter(title='backend')
+	elif title == 'frontend':
+		jobs = Title.objects.filter(title='frontend')
+	elif title == 'fullstack':
+		jobs = Title.objects.filter(title='fullstack')
+	elif title == 'datascience':
+		jobs = Title.objects.filter(title='datascience')
+	elif title == 'cybersecurity':
+		jobs = Title.objects.filter(title='cybersecurity')
+
+	return render(request, 'jobs.html', {'jobs': jobs})
+
+
 def jobs(request): 
 	"""
 	Función jobs: Lógica de la vista de los trabajos buscados por el usuario. 
@@ -222,6 +248,8 @@ def jobs(request):
 			render: Renderización del archivo "jobs.html"
 	"""
 	return render(request, 'jobs.html')
+
+
 def skills(request): 
 	"""
 	Función skills: Muestra la lógica para la edición de skills
