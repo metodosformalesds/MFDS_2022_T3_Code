@@ -17,7 +17,7 @@ from .models import Courses, Curso # Importamos los modelos que creamos en model
 
 from django.views.decorators.csrf import csrf_exempt  #
 
-from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance, SearchVector
+from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance, SearchVector, SearchQuery, SearchRank
 
 from .forms import  UpdateUserFormAvatar, UpdateUserFormEmail, SetPasswordForm
 
@@ -247,8 +247,13 @@ def searchBar(request):
 
 	if request.method == 'POST':
 		search = request.POST.get('search', '')
+
+	
+		courses = Curso.objects.annotate(similarity=TrigramSimilarity('url', search),).filter(similarity__gte=0.1).order_by('-similarity')
 		
-		courses = (Curso.objects.annotate(similarity=TrigramSimilarity('url', search)).filter(similarity__gte=0.1).order_by('-similarity'))
+
+		return render(request, 'courses.html', {'courses': courses})
+
 
 		#save queries by user in the database
 		'''
@@ -257,7 +262,6 @@ def searchBar(request):
 		query.query = search
 		query.save()
 		'''
-		return render(request, 'courses.html', {'courses': courses})
 	else:
 		return render(request, 'courses.html')
 
