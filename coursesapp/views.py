@@ -248,7 +248,7 @@ def searchBar(request):
 	if request.method == 'POST':
 		search = request.POST.get('search', '')
 		
-		courses = (Curso.objects.annotate(similarity=TrigramSimilarity('description', search)).filter(similarity__gte=0.1).order_by('-similarity'))
+		courses = (Curso.objects.annotate(similarity=TrigramSimilarity('url', search)).filter(similarity__gte=0.1).order_by('-similarity'))
 
 		#save queries by user in the database
 		'''
