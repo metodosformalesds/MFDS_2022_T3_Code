@@ -45,6 +45,7 @@ class Curso(models.Model):
     description = models.TextField(null=True)
     tags = models.TextField(null=True)
     platform = models.CharField(max_length=50, null=True)
+    favorite = models.ManyToManyField(User, related_name='course_favorite')
 
     def __str__(self):
         return self.title

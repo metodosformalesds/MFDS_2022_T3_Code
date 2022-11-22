@@ -29,5 +29,7 @@ urlpatterns = [
 	path('skills/', views.skills, name='skills'),
     path('', views.home, name="home"), #Se crea la URL de home que tendrá lo que la view home
 
-	path('search/', views.searchBar, name='search') #Barra de búsqueda
+	path('search/', views.searchBar, name='search'), #Barra de búsqueda
+	path('addToFavorite/<int:pk>', views.addToFavorite, name='addFavorite'),
+	path('accounts/', include('allauth.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

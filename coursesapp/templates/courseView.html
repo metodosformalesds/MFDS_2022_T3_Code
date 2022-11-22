@@ -35,7 +35,7 @@ Configuración
                                 <a target="_blank" href="https://udemy.com{{ course.url }}" class="text-white">
                                     <button type="button" class="btn btn-success px-5 py-2">Ir al curso</button>
                                 </a>
-                                <a href="#">
+                                <a href="{% url 'addFavorite' course.id %}">
                                 <button type="button" class="btn btn-success px-5 py-2">Añadir a favoritos</button>
                                 </a>
                             </div> 
