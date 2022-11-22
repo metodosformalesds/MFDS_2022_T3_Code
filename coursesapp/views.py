@@ -19,7 +19,7 @@ from django.views.decorators.csrf import csrf_exempt  #
 
 from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance, SearchVector
 
-from .forms import  UpdateUserFormAvatar, UpdateUserFormEmail
+from .forms import  UpdateUserFormAvatar, UpdateUserFormEmail, SetPasswordForm
 
 from .forms import UpdateProfileForm
 
@@ -124,10 +124,14 @@ def profileUser(request):
 		Returns:
 			render: Renderización del archivo "profile.html"
 	"""
-	courses = Courses.objects.all()[:3]
-	courses1 = Courses.objects.all()[4:7] 
-	return render(request, 'profile.html', {'courses': courses,'courses1': courses1})
+	if request.user.is_authenticated: #Si el usuario esta loggeado
 
+		courses = Courses.objects.all()[:3]
+		courses1 = Courses.objects.all()[4:7] 
+		return render(request, 'profile.html', {'courses': courses,'courses1': courses1})
+	else : 
+		return redirect('home')
+		
 def profileConfig(request): 
 	"""
 	Función profileConfig: Lógica de la vista de la configuración del perfil del usuario
@@ -299,3 +303,18 @@ def profileConfigEmail(request):
 		return render(request, 'profileConfigEmail.html', {'user_form': user_form})
 	else:
 		return redirect('home')
+
+def password_change(request):
+    user = request.user
+    if request.method == 'POST':
+        form = SetPasswordForm(user, request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Your password has been changed")
+            return redirect('login')
+        else:
+            for error in list(form.errors.values()):
+                messages.error(request, error)
+
+    form = SetPasswordForm(user)
+    return render(request, 'profileConfigPassword.html', {'form': form})

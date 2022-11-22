@@ -4,6 +4,7 @@ Este archivo contiene los formularios creados para el registro
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from .models import Perfil
+from django.contrib.auth import get_user_model
 
 from django import forms
 
@@ -34,3 +35,10 @@ class UpdateUserFormEmail(forms.ModelForm):
     class Meta:
         model = User
         fields = ['email']
+
+from django.contrib.auth.forms import SetPasswordForm
+
+class SetPasswordForm(SetPasswordForm):
+    class Meta:
+        model = get_user_model()
+        fields = ['new_password1', 'new_password2']
