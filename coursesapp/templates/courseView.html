@@ -14,7 +14,7 @@ Configuración
                 <div class="card p-5"> 
                     <!-- <div class="path">Categoria: {{ course.category }}</a></div>  -->
                     <div class="row"> 
-                        <div class="col-md-6 text-center align-self-center"> 
+                        <div class="col-md-6 text-center align-items-start align-self-start"> 
                             <img class="img-fluid" src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"> 
                         </div> 
                         <div class="col-md-6 info p-5"> 
@@ -27,10 +27,7 @@ Configuración
                             <p>{{ course.platform }}</p> 
                             <span>⭐</span>
                             <span id="reviews">{{ course.rating }}</span> 
-                            <div class="pt-3 pb-5">
-                                {{course.description | safe}}
-                            </div>
-                            <div class="row justify-content-between pr-5 mr-5"> 
+                            <div class="row justify-content-between pr-5 mx-1 mt-3"> 
                                 <div class="d-flex"><h2>${{ course.price }}</h2><span class="align-item-bottom">mxn</span></div>
                                 <a target="_blank" href="https://udemy.com{{ course.url }}" class="text-white">
                                     <button type="button" class="btn btn-success px-5 py-2">Ir al curso</button>
@@ -39,6 +36,9 @@ Configuración
                                 <button type="button" class="btn btn-success px-5 py-2">Añadir a favoritos</button>
                                 </a>
                             </div> 
+                            <div class="pt-3 pb-5">
+                                {{course.description | safe}}
+                            </div>
                         </div> 
                     </div> 
                 </div> 

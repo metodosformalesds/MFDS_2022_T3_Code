@@ -13,7 +13,7 @@ from django.contrib.auth.decorators import login_required #Importamos una funci√
 
 from .forms import CreateUserForm # Importamos del archivo forms.py la funci√≥n que nos permite importar formularios
 
-from .models import Courses, Curso # Importamos los modelos que creamos en models.py, Courses es el modelo anterior
+from .models import Curso # Importamos los modelos que creamos en models.py, Courses es el modelo anterior
 
 from django.views.decorators.csrf import csrf_exempt  #
 
