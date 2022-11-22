@@ -19,6 +19,7 @@ urlpatterns = [
 	path('profile/', views.profileUser, name='profile'),
 	path('profileConfig/', views.profileConfig, name='profileConfig'),
 	path('profileConfigAvatar/', views.profileConfigAvatar, name='profileConfigAvatar'),
+	path('profileConfigEmail/', views.profileConfigEmail, name='profileConfigEmail'),
 	path('courses/', views.courses, name='courses'),
 	path('courseView/<int:id>', views.courseView, name='courseView'), #Se crea el la URL de la vista para un curso 
 	path('courses/<str:category>', views.courses_for_category, name='courses'),		#Filtrado por categorias 
