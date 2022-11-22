@@ -15,6 +15,8 @@ from .forms import CreateUserForm # Importamos del archivo forms.py la función 
 
 from .models import Curso # Importamos los modelos que creamos en models.py, Courses es el modelo anterior
 
+from .models import Job
+
 from django.views.decorators.csrf import csrf_exempt  #
 
 from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance, SearchVector, SearchQuery, SearchRank
@@ -247,7 +249,10 @@ def jobs(request):
 		Returns:
 			render: Renderización del archivo "jobs.html"
 	"""
-	return render(request, 'jobs.html')
+	jobs = Job.objects.all()[::]
+	result = jobs.order_by('postDate')
+
+	return render(request, 'jobs.html', {'jobs': result})
 
 
 def skills(request): 

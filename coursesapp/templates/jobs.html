@@ -78,7 +78,7 @@ Trabajos
         </div>
         <div class="col-lg-9" style="position: relative;"> 
           <div class="row" style= "width: auto;">
-            <div class="col-lg-12" ">
+            <div class="col-lg-12">
             <div class="card mb-4 ">
               <div class="card-header ">
               <h5 class="card-title ">Resultados de busqueda</h5>
@@ -86,19 +86,31 @@ Trabajos
               <div class="card-body d-flex justify-content-between" style="overflow-y: hidden;">  
                 <div class="row"> 
                       <!--TRABAJOS-->
-                          <div class="card mb-6 ml-2 box-shadow " style="border-color: transparent;"" > <!--margen del fondo-->
+                      {% if jobs %}
+                      {% for job in jobs %}
+                      <div class="col-9 mx-auto col-md-6 col-lg-3">
+                            <div class="card mb-4 ml-2 box-shadow " style="border-color: transparent;"" > <!--margen del fondo-->
 
-                                  <a href="">
-                                      <img src="" class="card-img-top" alt="trabajo_titulo"></a>
-                                 
+                                    <a href="">
+                                        <img src="https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1730&q=80" class="card-img-top" alt="trabajo_titulo"></a>
+                                  
 
-                              <div class="card-body">
-                                <h6 class=""><a href="">Titulo</a></h6>
-                                <span>Puesto</span> <br>
-                                <span>Empresa</span> <br>
-                                <span>$</span><span>Sueldo</span>
-                                </div>
+                                <div class="card-body">
+                                  <h6 class=""><a target="_blank" href="{{job.url}}">{{ job.title }}</a></h6>
+                                  <span>{{job.location}}</span> <br>
+                                  <span>{{job.company}}</span> <br>
+                                  <span>{{ job.postDate }}</span>
+                                  </div>
+                            </div>
                           </div>
+                          {% endfor %}
+                          {% else %}
+                      <!--<div style="display: flex; align-items:center; justify-content: center;">
+                        <img src="https://tutomex.com/error-404.png" alt=""> </div>-->
+                      <h6>Lo sentimos :( no encontramos trabajos para tu busqueda. Puedes ir a <a href="{% url 'jobs' %}">AQUÍ</a> 
+                        para ir a todos los trabajos</h6>
+                   
+                      {% endif %}
                       </div>
                   </div>
           </div>
