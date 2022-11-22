@@ -1,7 +1,7 @@
 """
 Las vistas nos permiten a nosotros definir la lógica que tendrá nuestra aplicación. Aquí también añadimos información lógica de los modelos.
 """
-from django.shortcuts import render, redirect #Importamos funciones para renderizar páginas y también reedirigir usuarios
+from django.shortcuts import render, redirect, get_object_or_404 #Importamos funciones para renderizar páginas y también reedirigir usuarios
 from django.http import HttpResponse
 
 
@@ -309,3 +309,8 @@ def password_change(request):
 
     form = SetPasswordForm(user)
     return render(request, 'profileConfigPassword.html', {'form': form})
+
+def addToFavorite(request, pk):
+	course = get_object_or_404(Courses, id=pk)
+	course.favorite.add(request.user.id)
+	return render(request, 'courseView.html')
