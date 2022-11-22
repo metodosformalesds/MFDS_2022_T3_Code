@@ -248,20 +248,15 @@ def searchBar(request):
 	if request.method == 'POST':
 		search = request.POST.get('search', '')
 
-	
 		courses = Curso.objects.annotate(similarity=TrigramSimilarity('url', search),).filter(similarity__gte=0.1).order_by('-similarity')
-		
 
-		return render(request, 'courses.html', {'courses': courses})
-
+		if courses:
+			return render(request, 'courses.html', {'courses': courses})
+		else:
+			courses = Curso.objects.annotate(search=SearchVector('title', 'description', 'url')).filter(search=search) 
+			return render(request, 'courses.html', {'courses': courses})
 
 		#save queries by user in the database
-		'''
-		query = Query()
-		query.user = request.user
-		query.query = search
-		query.save()
-		'''
 	else:
 		return render(request, 'courses.html')
 
