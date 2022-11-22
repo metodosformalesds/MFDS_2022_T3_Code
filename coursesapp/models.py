@@ -17,6 +17,8 @@ class Perfil(models.Model):
     def __str__(self): 
         return self.user.username
 
+#Modelo anterior, el nuevo es Curso
+'''
 class Courses(models.Model):
     id = models.CharField(primary_key=True, max_length=10)
     title = models.CharField(max_length=100)
@@ -28,10 +30,7 @@ class Courses(models.Model):
     platform = models.CharField(max_length=20, null = True)
     instructor = models.CharField(max_length=100, null = True)
     level = models.CharField(max_length=20, null = True)
-
-
-    def __str__(self):
-        return self.title
+'''
 
 class Curso(models.Model):
     id = models.CharField(primary_key=True, max_length=10)
@@ -49,6 +48,15 @@ class Curso(models.Model):
 
     def __str__(self):
         return self.title
+
+class Comment(models.Model):
+    id = models.AutoField(primary_key=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    course = models.ForeignKey(Curso, on_delete=models.CASCADE)
+    comment = models.TextField(max_length=500)
+
+    def __str__(self):
+        return self.user.username
     
 class Job(models.Model):
     id = models.CharField(primary_key=True, max_length=10)
