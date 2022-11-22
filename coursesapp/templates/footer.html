@@ -4,6 +4,7 @@
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: CTA -->
+        {% if not request.user.is_authenticated %}
         <section class="">
           <p class="d-flex justify-content-center align-items-center">
             <span class="me-3">¿Ya tienes cuenta?</span>
@@ -12,6 +13,8 @@
             </button>
           </p>
         </section>
+        {% endif %}
+
         <!-- Section: CTA -->
       </div>
       <!-- Grid container -->

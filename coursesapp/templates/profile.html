@@ -16,13 +16,18 @@ Perfil
               <img src="{{user.perfil.avatar.url}}" alt="avatar"
                 class="rounded-circle img-fluid" style="width: 150px; height: 150px;">
                 <br>
-                <a class="" style="color: black;" href="{% url 'profileConfigAvatar' %}">
-                  Editar Imagen de Perfil</a>
+                <a class="font-weight-bold" style="color: #158f46;" href="{% url 'profileConfigAvatar' %}">
+                  Editar imagen de perfil</a>
               <h5 class="my-3">{{user.first_name}} {{user.last_name}}</h5>
               <p class="text-muted mb-4">{{user.perfil.pais}}</p>
               <div class="d-flex justify-content-center mb-2">
                 <a class="nav-link text-white text-uppercase font-weight-bold btn  shadow-sm rounded" style="background-color:#158f46;" href="{% url 'profileConfig' %}">
-                  Editar perfil
+                  Editar información personal
+               </a>
+              </div>
+              <div class="d-flex justify-content-center mb-2">
+                <a class="nav-link text-white text-uppercase font-weight-bold btn  shadow-sm rounded" style="background-color:#158f46;" href="{% url 'profileConfigPassword' %}">
+                  Cambiar contraseña
                </a>
               </div>
             </div>
@@ -76,8 +81,8 @@ Perfil
                 </div>
                 <div class="col-sm-9">
                   <p class="text-muted mb-0">{{request.user.email}}</p>
-                  <a class="" style="color: black;" href="{% url 'profileConfigEmail' %}">
-                    Editar Correo Electrónico
+                  <a class="font-weight-bold" style="color: #158f46;" href="{% url 'profileConfigEmail' %}">
+                    Editar correo electrónico
                  </a>
                 </div>
               </div>
