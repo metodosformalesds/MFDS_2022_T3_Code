@@ -293,6 +293,7 @@ def searchBar(request):
 	else:
 		return render(request, 'courses.html')
 
+@csrf_exempt
 def profileConfigAvatar(request):
 
 	if request.user.is_authenticated:
@@ -311,6 +312,7 @@ def profileConfigAvatar(request):
 	else:
 		return redirect('home')
 
+@csrf_exempt
 def profileConfigEmail(request):
 
 	if request.user.is_authenticated: 
@@ -328,6 +330,7 @@ def profileConfigEmail(request):
 	else:
 		return redirect('home')
 
+@csrf_exempt
 def password_change(request):
     user = request.user
     if request.method == 'POST':
