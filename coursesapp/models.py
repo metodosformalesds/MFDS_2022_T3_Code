@@ -1,14 +1,21 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+
+from django.db.models.signals import post_save
+from django.contrib.auth.models import User
+from django.dispatch import receiver
+from django.db.models.signals import post_save
+
 class Perfil(models.Model):
-    usuario = models.OneToOneField(User, on_delete=models.CASCADE)
-    bio = models.CharField(max_length=255, blank=True)
-    web = models.URLField(blank=True)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    skills = models.CharField(max_length=255, blank=True)
+    pais = models.CharField(max_length=255, blank=True)
+    avatar = models.ImageField(upload_to='profile_images', null=True, default='default')
 
     # Python 3
     def __str__(self): 
-        return self.usuario.username
+        return self.user.username
 
 class Courses(models.Model):
     id = models.CharField(primary_key=True, max_length=10)
@@ -37,3 +44,9 @@ class Job(models.Model):
 
     def __str__(self):
         return self.title
+
+@receiver(post_save, sender=User)
+def create_profile(sender, instance, **kwargs):
+    if kwargs.get('created', False):
+        Perfil.objects.get_or_create(user=instance)
+        print("Se acaba de enlazar el usuario con su perfil")

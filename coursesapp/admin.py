@@ -7,7 +7,7 @@ from .models import Perfil, Courses
 
 @admin.register(Perfil)
 class PerfilAdmin(admin.ModelAdmin):
-    list_display = ('usuario', 'bio', 'web')
+    list_display = ('user', 'skills', 'pais','avatar')
 
 @admin.register(Courses)
 class CoursesAdmin(admin.ModelAdmin):

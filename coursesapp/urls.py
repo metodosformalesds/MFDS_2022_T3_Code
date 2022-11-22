@@ -3,6 +3,13 @@ El archivo url.py será el encargado de mandarle a urls.py dentro de CoursesAppC
 """
 from django.urls import path #Utilizamos la funcion path para guardar la dirección de las vistas
 from . import views # se importa el archivo views
+#from .views import profileConfigEmail
+from django.conf.urls.static import static
+from django.conf import settings
+from django.contrib import admin
+from django.urls import path, include
+from django.contrib.auth import views as auth_views
+from django.urls import path, include
 
 
 urlpatterns = [
@@ -11,6 +18,8 @@ urlpatterns = [
 	path('logout/', views.logoutUser, name="logout"), 
 	path('profile/', views.profileUser, name='profile'),
 	path('profileConfig/', views.profileConfig, name='profileConfig'),
+	path('profileConfigAvatar/', views.profileConfigAvatar, name='profileConfigAvatar'),
+	path('profileConfigEmail/', views.profileConfigEmail, name='profileConfigEmail'),
 	path('courses/', views.courses, name='courses'),
 	path('courseView/<int:id>', views.courseView, name='courseView'), #Se crea el la URL de la vista para un curso 
 	path('courses/<str:category>', views.courses_for_category, name='courses'),		#Filtrado por categorias 
@@ -20,4 +29,4 @@ urlpatterns = [
     path('', views.home, name="home"), #Se crea la URL de home que tendrá lo que la view home
 
 	path('search/', views.searchBar, name='search') #Barra de búsqueda
-]
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -13,10 +13,13 @@ Perfil
         <div class="col-lg-4">
           <div class="card mb-4">
             <div class="card-body text-center">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
-                class="rounded-circle img-fluid" style="width: 150px;">
-              <h5 class="my-3">Nombre usuario</h5>
-              <p class="text-muted mb-4">País</p>
+              <img src="{{user.perfil.avatar.url}}" alt="avatar"
+                class="rounded-circle img-fluid" style="width: 150px; height: 150px;">
+                <br>
+                <a class="" style="color: black;" href="{% url 'profileConfigAvatar' %}">
+                  Editar Imagen de Perfil</a>
+              <h5 class="my-3">{{user.first_name}} {{user.last_name}}</h5>
+              <p class="text-muted mb-4">{{user.perfil.pais}}</p>
               <div class="d-flex justify-content-center mb-2">
                 <a class="nav-link text-white text-uppercase font-weight-bold btn  shadow-sm rounded" style="background-color:#158f46;" href="{% url 'profileConfig' %}">
                   Editar perfil
@@ -73,6 +76,9 @@ Perfil
                 </div>
                 <div class="col-sm-9">
                   <p class="text-muted mb-0">{{request.user.email}}</p>
+                  <a class="" style="color: black;" href="{% url 'profileConfigEmail' %}">
+                    Editar Correo Electrónico
+                 </a>
                 </div>
               </div>
               <hr>
@@ -90,7 +96,7 @@ Perfil
                   <p class="mb-0">País</p>
                 </div>
                 <div class="col-sm-9">
-                  <p class="text-muted mb-0">Mi país</p>
+                  <p class="text-muted mb-0">{{user.perfil.pais}}</p>
                 </div>
               </div>
             </div>
