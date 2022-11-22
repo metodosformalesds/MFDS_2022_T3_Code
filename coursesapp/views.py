@@ -19,7 +19,7 @@ from django.views.decorators.csrf import csrf_exempt  #
 
 from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance, SearchVector
 
-from .forms import  UpdateUserFormAvatar
+from .forms import  UpdateUserFormAvatar, UpdateUserFormEmail
 
 from .forms import UpdateProfileForm
 
@@ -280,5 +280,22 @@ def profileConfigAvatar(request):
 			profile_form = UpdateUserFormAvatar(instance=request.user.perfil)
 
 		return render(request, 'profileConfigAvatar.html', {'profile_form': profile_form})
+	else:
+		return redirect('home')
+
+def profileConfigEmail(request):
+
+	if request.user.is_authenticated: 
+		if request.method == 'POST': 
+			user_form = UpdateUserFormEmail(request.POST, instance=request.user)
+			if user_form.is_valid():
+				user_form.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			user_form = UpdateUserFormEmail(instance=request.user)
+
+		return render(request, 'profileConfigEmail.html', {'user_form': user_form})
 	else:
 		return redirect('home')
