@@ -11,7 +11,7 @@ class Perfil(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     skills = models.CharField(max_length=255, blank=True)
     pais = models.CharField(max_length=255, blank=True)
-    avatar = models.ImageField(upload_to='profile_images', null=True, default='default')
+    avatar = models.ImageField(upload_to='profile_images', null=True, default='profile_images/default.png')
 
     # Python 3
     def __str__(self): 
