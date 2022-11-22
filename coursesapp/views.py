@@ -131,7 +131,7 @@ def profileUser(request):
 		return render(request, 'profile.html', {'courses': courses,'courses1': courses1})
 	else : 
 		return redirect('home')
-		
+
 def profileConfig(request): 
 	"""
 	Función profileConfig: Lógica de la vista de la configuración del perfil del usuario
@@ -149,7 +149,6 @@ def profileConfig(request):
 			if user_form.is_valid() and profile_form.is_valid(): #si son validos ambos formularios
 				user_form.save()
 				profile_form.save()
-				messages.success(request, 'Your profile is updated successfully')
 				return redirect('profile') #te manda al perfil 
 				
 		else:
