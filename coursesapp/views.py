@@ -13,7 +13,7 @@ from django.contrib.auth.decorators import login_required #Importamos una funci�
 
 from .forms import CreateUserForm # Importamos del archivo forms.py la función que nos permite importar formularios
 
-from .models import Courses # Importamos los modelos que creamos en models.py
+from .models import Courses, Curso # Importamos los modelos que creamos en models.py, Courses es el modelo anterior
 
 from django.views.decorators.csrf import csrf_exempt  #
 
@@ -37,7 +37,7 @@ def home(request): #Definimos el nombre de la función home que será nuestra vi
 		render: Renderiza lo que tenga el documento html dashboard.html
 	"""
 
-	courses = Courses.objects.all()[:5] #Obtenemos 10 cursos de la base de datos 
+	courses = Curso.objects.all()[:5] #Obtenemos 10 cursos de la base de datos 
 
 	return render(request, 'dashboard.html', {'courses': courses}) #Renderizamos el contenido dentro de dashboard.html y le pasamos un diccionario con la consulta
 
@@ -126,8 +126,8 @@ def profileUser(request):
 	"""
 	if request.user.is_authenticated: #Si el usuario esta loggeado
 
-		courses = Courses.objects.all()[:3]
-		courses1 = Courses.objects.all()[4:7] 
+		courses = Curso.objects.all()[:3]
+		courses1 = Curso.objects.all()[4:7] 
 		return render(request, 'profile.html', {'courses': courses,'courses1': courses1})
 	else : 
 		return redirect('home')
@@ -170,7 +170,7 @@ def courses(request):
 			render: Renderización del archivo "courses.html"
 			return: Retona los cursos buscados. 
 	"""
-	courses = Courses.objects.all()[::] 
+	courses = Curso.objects.all()[::] 
 	return render(request, 'courses.html', {'courses': courses})
 
 def courses_for_category(request, category): 
@@ -184,18 +184,18 @@ def courses_for_category(request, category):
 			render: Renderización del archivo "courses.html"
 			return: retorna los cursos filtrados por categoría.
 	"""
-	courses = Courses.objects.all()[:3]
+	courses = Curso.objects.all()[:3]
 	#Depende de la categoría, realizamos la consulta a la base de datos
 	if category == 'backend':
-		courses = Courses.objects.filter(category='backend')
+		courses = Curso.objects.filter(category='backend')
 	elif category == 'frontend':
-		courses = Courses.objects.filter(category='frontend')
+		courses = Curso.objects.filter(category='frontend')
 	elif category == 'fullstack':
-		courses = Courses.objects.filter(category='fullstack')
+		courses = Curso.objects.filter(category='fullstack')
 	elif category == 'datascience':
-		courses = Courses.objects.filter(category='datascience')
+		courses = Curso.objects.filter(category='datascience')
 	elif category == 'cybersecurity':
-		courses = Courses.objects.filter(category='cybersecurity')
+		courses = Curso.objects.filter(category='cybersecurity')
 
 	return render(request, 'courses.html', {'courses': courses})
 
@@ -209,7 +209,7 @@ def courseView(request, id):
 		Returns:
 			render: Renderización del archivo "courseView.html"
 	"""
-	course = Courses.objects.get(id=id)
+	course = Curso.objects.get(id=id)
 	return render(request, 'courseView.html', {'course': course})
 
 def jobs(request): 
@@ -248,7 +248,7 @@ def searchBar(request):
 	if request.method == 'POST':
 		search = request.POST.get('search', '')
 		
-		courses = (Courses.objects.annotate(similarity=TrigramSimilarity('url', search)).filter(similarity__gte=0.1).order_by('-similarity'))
+		courses = (Curso.objects.annotate(similarity=TrigramSimilarity('description', search)).filter(similarity__gte=0.1).order_by('-similarity'))
 
 		#save queries by user in the database
 		'''

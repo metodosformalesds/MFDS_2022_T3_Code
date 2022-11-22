@@ -32,6 +32,22 @@ class Courses(models.Model):
 
     def __str__(self):
         return self.title
+
+class Curso(models.Model):
+    id = models.CharField(primary_key=True, max_length=10)
+    title = models.CharField(max_length=150)
+    price = models.DecimalField(max_digits=8, decimal_places=2)
+    url = models.URLField(max_length=255)
+    category = models.TextField()
+    rating = models.DecimalField(max_digits=5, decimal_places=1)
+    language = models.CharField(max_length=4)
+    instructor = models.CharField(max_length=200, null=True)
+    description = models.TextField(null=True)
+    tags = models.TextField(null=True)
+    platform = models.CharField(max_length=50, null=True)
+
+    def __str__(self):
+        return self.title
     
 class Job(models.Model):
     id = models.CharField(primary_key=True, max_length=10)
