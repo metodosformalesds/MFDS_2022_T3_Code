@@ -40,8 +40,9 @@ def home(request): #Definimos el nombre de la función home que será nuestra vi
 	"""
 
 	courses = Curso.objects.all()[:5] #Obtenemos 10 cursos de la base de datos 
+	jobs = Job.objects.all()[:5]
 
-	return render(request, 'dashboard.html', {'courses': courses}) #Renderizamos el contenido dentro de dashboard.html y le pasamos un diccionario con la consulta
+	return render(request, 'dashboard.html', {'courses': courses, 'jobs': jobs}) #Renderizamos el contenido dentro de dashboard.html y le pasamos un diccionario con la consulta
 
 @csrf_exempt
 def registerPage(request): # Se define el nombre de la función registerPage

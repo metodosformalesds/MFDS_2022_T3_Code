@@ -51,6 +51,35 @@
       </div>
     </div>
   </div>
+
+
+  <div class="album px-5 bg-light">
+    <div class="px-5">
+      <h2 class="pb-5">Mira algunos Trabajos</h2>
+      <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+
+        {% for job in jobs %}
+            <div class="col"> 
+              
+                <div class=" h-100"> 
+                  <img src="https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1730&q=80" class="card-img-top" alt="..."> 
+                <div class="card-body"> 
+                  <a target="_blank" href="{{ job.url }}">
+                  <h5 class="card-title">{{ job.title }}</h5> 
+              </a>
+                <span>{{job.location}}</span> <br>
+                <span>{{ job.company }}</span>
+                <div>
+                  <span>{{job.postDate}}</span>
+                </div>
+              </div> 
+            </div> 
+          </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
   
 {% endblock %}
 
