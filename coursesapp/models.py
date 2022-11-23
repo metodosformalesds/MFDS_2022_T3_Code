@@ -85,10 +85,6 @@ class Skills(models.Model):
     hard_skill4 = models.CharField(max_length=255, blank=True)
     hard_skill5 = models.CharField(max_length=255, blank=True)
 
-    # Python 3
-    def __str__(self): 
-        return self.user.username 
-
 @receiver(post_save, sender=User)
 def create_profile(sender, instance, **kwargs):
     if kwargs.get('created', False):

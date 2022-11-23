@@ -12,3 +12,5 @@ class PerfilAdmin(admin.ModelAdmin):
 @admin.register(Curso)
 class CoursesAdmin(admin.ModelAdmin):
     list_display = ('id', 'title')
+
+
