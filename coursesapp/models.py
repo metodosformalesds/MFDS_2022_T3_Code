@@ -85,10 +85,19 @@ class Skills(models.Model):
     hard_skill3 = models.CharField(max_length=255, blank=True)
     hard_skill4 = models.CharField(max_length=255, blank=True)
     hard_skill5 = models.CharField(max_length=255, blank=True)
+    # Python 3
+    def __str__(self): 
+        return self.user.username
 
 @receiver(post_save, sender=User)
 def create_profile(sender, instance, **kwargs):
     if kwargs.get('created', False):
         Perfil.objects.get_or_create(user=instance)
+
+        print("Se enlaza el objeto Skills y Perfil con el usuario")
+
+@receiver(post_save, sender=User)
+def create_profile(sender, instance, **kwargs):
+    if kwargs.get('created', False):
         Skills.objects.get_or_create(user=instance)
-        print("Se acaba de enlazar el usuario con su perfil")
+        print("Se enlaza el objeto Skills de usuario")

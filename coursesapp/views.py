@@ -10,13 +10,13 @@ from django.contrib import messages #Importamos funciones para mostrar mensajes 
 from django.contrib.auth.decorators import login_required #Importamos una función que nos permite revisar si el usuario está con sesión activa
 from .forms import CreateUserForm # Importamos del archivo forms.py la función que nos permite importar formularios
 from .models import Curso # Importamos los modelos que creamos en models.py, Courses es el modelo anterior
-from .models import Job
+from .models import Job, Skills
 from django.views.decorators.csrf import csrf_exempt  #
 from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance, SearchVector, SearchQuery, SearchRank
-from .forms import  UpdateUserFormAvatar, UpdateUserFormEmail, SetPasswordForm
+from .forms import  UpdateUserFormAvatar, UpdateUserFormEmail, SetPasswordForm, SoftSkill1_form, SoftSkill2_form
 from .forms import UpdateProfileForm
-from .forms import UpdateUserForm
-
+from .forms import UpdateUserForm, SoftSkill3_form, SoftSkill4_form, SoftSkill5_form
+from .forms import HardSkill1_form,HardSkill2_form,HardSkill3_form,HardSkill4_form,HardSkill5_form
 #@login_required(login_url='login') #@login_required nos indica que, lo que está dentro de login_required se ejecutará únicamente cuando el usuario está con sesión activa.
 def home(request): #Definimos el nombre de la función home que será nuestra vista principal
 	"""
@@ -117,6 +117,7 @@ def profileUser(request):
 		Returns:
 			render: Renderización del archivo "profile.html"
 	"""
+
 	if request.user.is_authenticated: #Si el usuario esta loggeado
 
 		courses = Curso.objects.all()[:3]
@@ -179,6 +180,7 @@ def courses_for_category(request, category):
 			return: retorna los cursos filtrados por categoría.
 	"""
 	courses = Curso.objects.all()[:3]
+
 	#Depende de la categoría, realizamos la consulta a la base de datos
 	if category == 'backend':
 		courses = Curso.objects.filter(category='backend')
@@ -347,3 +349,188 @@ def favorite_add(request, id):
 	else:
 		course.favorites.add()
 	return HttpResponseRedirect(request.META['HTTP_REFERER'])
+
+@csrf_exempt
+def SoftSkill1(request):
+
+	if request.user.is_authenticated: 
+		if request.method == 'POST': 
+			skills_forms = SoftSkill1_form(request.POST, instance=request.user.skills)
+			if skills_forms.is_valid():
+				skills_forms.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			skills_forms = SoftSkill1_form(instance=request.user.skills)
+
+		return render(request, 'softskill1.html', {'skills_forms': skills_forms})
+	else:
+		return redirect('home')
+
+
+
+
+@csrf_exempt
+def SoftSkill2(request):
+
+	if request.user.is_authenticated: 
+		if request.method == 'POST': 
+			skills_forms = SoftSkill2_form(request.POST, instance=request.user.skills)
+			if skills_forms.is_valid():
+				skills_forms.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			skills_forms = SoftSkill2_form(instance=request.user.skills)
+
+		return render(request, 'softskill2.html', {'skills_forms': skills_forms})
+	else:
+		return redirect('home')
+
+
+@csrf_exempt
+def SoftSkill3(request):
+
+	if request.user.is_authenticated: 
+		if request.method == 'POST': 
+			skills_forms = SoftSkill3_form(request.POST, instance=request.user.skills)
+			if skills_forms.is_valid():
+				skills_forms.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			skills_forms = SoftSkill3_form(instance=request.user.skills)
+
+		return render(request, 'softskill3.html', {'skills_forms': skills_forms})
+	else:
+		return redirect('home')
+
+@csrf_exempt
+def SoftSkill4(request):
+
+	if request.user.is_authenticated: 
+		if request.method == 'POST': 
+			skills_forms = SoftSkill4_form(request.POST, instance=request.user.skills)
+			if skills_forms.is_valid():
+				skills_forms.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			skills_forms = SoftSkill4_form(instance=request.user.skills)
+
+		return render(request, 'softskill4.html', {'skills_forms': skills_forms})
+	else:
+		return redirect('home')
+
+@csrf_exempt
+def SoftSkill5(request):
+
+	if request.user.is_authenticated: 
+		if request.method == 'POST': 
+			skills_forms = SoftSkill5_form(request.POST, instance=request.user.skills)
+			if skills_forms.is_valid():
+				skills_forms.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			skills_forms = SoftSkill5_form(instance=request.user.skills)
+
+		return render(request, 'softskill5.html', {'skills_forms': skills_forms})
+	else:
+		return redirect('home')
+
+
+@csrf_exempt
+def HardSkill1(request):
+
+	if request.user.is_authenticated: 
+		if request.method == 'POST': 
+			skills_forms = HardSkill1_form(request.POST, instance=request.user.skills)
+			if skills_forms.is_valid():
+				skills_forms.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			skills_forms = HardSkill1_form(instance=request.user.skills)
+
+		return render(request, 'hardskill1.html', {'skills_forms': skills_forms})
+	else:
+		return redirect('home')
+
+@csrf_exempt
+def HardSkill2(request):
+
+	if request.user.is_authenticated: 
+		if request.method == 'POST': 
+			skills_forms = HardSkill2_form(request.POST, instance=request.user.skills)
+			if skills_forms.is_valid():
+				skills_forms.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			skills_forms = HardSkill2_form(instance=request.user.skills)
+
+		return render(request, 'hardskill2.html', {'skills_forms': skills_forms})
+	else:
+		return redirect('home')
+
+@csrf_exempt
+def HardSkill3(request):
+
+	if request.user.is_authenticated: 
+		if request.method == 'POST': 
+			skills_forms = HardSkill3_form(request.POST, instance=request.user.skills)
+			if skills_forms.is_valid():
+				skills_forms.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			skills_forms = HardSkill3_form(instance=request.user.skills)
+
+		return render(request, 'hardskill3.html', {'skills_forms': skills_forms})
+	else:
+		return redirect('home')
+
+@csrf_exempt
+def HardSkill4(request):
+
+	if request.user.is_authenticated: 
+		if request.method == 'POST': 
+			skills_forms = HardSkill4_form(request.POST, instance=request.user.skills)
+			if skills_forms.is_valid():
+				skills_forms.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			skills_forms = HardSkill4_form(instance=request.user.skills)
+
+		return render(request, 'hardskill4.html', {'skills_forms': skills_forms})
+	else:
+		return redirect('home')
+
+@csrf_exempt
+def HardSkill5(request):
+
+	if request.user.is_authenticated: 
+		if request.method == 'POST': 
+			skills_forms = HardSkill5_form(request.POST, instance=request.user.skills)
+			if skills_forms.is_valid():
+				skills_forms.save()
+				messages.success(request, 'Your profile is updated successfully')
+				return redirect('profile')
+				#return render(request,'profile.html')
+		else:
+			skills_forms = HardSkill5_form(instance=request.user.skills)
+
+		return render(request, 'hardskill5.html', {'skills_forms': skills_forms})
+	else:
+		return redirect('home')
