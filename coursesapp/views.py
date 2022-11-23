@@ -125,6 +125,7 @@ def profileUser(request):
 	else : 
 		return redirect('home')
 
+@csrf_exempt
 def profileConfig(request): 
 	"""
 	Función profileConfig: Lógica de la vista de la configuración del perfil del usuario
@@ -217,6 +218,7 @@ def jobs_for_title(request, title):
 	"""
 	jobs = Title.objects.all()[:3]
 	#Depende de la categoría, realizamos la consulta a la base de datos
+	#Cambiar Title por Job
 	if title == 'backend':
 		jobs = Title.objects.filter(title='backend')
 	elif title == 'frontend':
