@@ -3,7 +3,7 @@ from django.contrib import admin
 # Register your models here.
 from .models import *
 
-from .models import Perfil, Curso
+from .models import Perfil, Curso, Skills
 
 @admin.register(Perfil)
 class PerfilAdmin(admin.ModelAdmin):

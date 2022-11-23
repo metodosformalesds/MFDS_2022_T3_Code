@@ -62,6 +62,7 @@ class Comment(models.Model):
     
 class Job(models.Model):
     id = models.CharField(primary_key=True, max_length=10)
+    category = models.CharField(max_length=100, null=True)
     title = models.CharField(max_length=150)
     company = models.CharField(max_length=150)
     location = models.CharField(max_length=100)
