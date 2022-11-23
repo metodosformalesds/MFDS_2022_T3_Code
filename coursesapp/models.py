@@ -90,4 +90,5 @@ class Skills(models.Model):
 def create_profile(sender, instance, **kwargs):
     if kwargs.get('created', False):
         Perfil.objects.get_or_create(user=instance)
+        Skills.objects.get_or_create(user=instance)
         print("Se acaba de enlazar el usuario con su perfil")
