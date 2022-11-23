@@ -2,29 +2,19 @@
 Las vistas nos permiten a nosotros definir la lógica que tendrá nuestra aplicación. Aquí también añadimos información lógica de los modelos.
 """
 from django.shortcuts import render, redirect, get_object_or_404 #Importamos funciones para renderizar páginas y también reedirigir usuarios
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 
 
 from django.contrib.auth import authenticate, login, logout #Importamos funciones para revisar el login de usuarios 
-
 from django.contrib import messages #Importamos funciones para mostrar mensajes dependiendo de acciones
-
 from django.contrib.auth.decorators import login_required #Importamos una función que nos permite revisar si el usuario está con sesión activa
-
 from .forms import CreateUserForm # Importamos del archivo forms.py la función que nos permite importar formularios
-
 from .models import Curso # Importamos los modelos que creamos en models.py, Courses es el modelo anterior
-
 from .models import Job
-
 from django.views.decorators.csrf import csrf_exempt  #
-
 from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance, SearchVector, SearchQuery, SearchRank
-
 from .forms import  UpdateUserFormAvatar, UpdateUserFormEmail, SetPasswordForm
-
 from .forms import UpdateProfileForm
-
 from .forms import UpdateUserForm
 
 #@login_required(login_url='login') #@login_required nos indica que, lo que está dentro de login_required se ejecutará únicamente cuando el usuario está con sesión activa.
@@ -347,7 +337,11 @@ def password_change(request):
     form = SetPasswordForm(user)
     return render(request, 'profileConfigPassword.html', {'form': form})
 
-def addToFavorite(request, pk):
-	course = get_object_or_404(Courses, id=pk)
-	course.favorite.add(request.user.id)
-	return render(request, 'courseView.html')
+@login_required
+def favorite_add(request, id):
+	course = get_object_or_404(Curso, id=id)
+	if course.favorites.filter(id=request.user.id).exists():
+		course.favorites.remove()
+	else:
+		course.favorites.add()
+	return HttpResponseRedirect(request.META['HTTP_REFERER'])

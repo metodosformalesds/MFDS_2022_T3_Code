@@ -27,14 +27,16 @@ Configuración
                             <p>{{ course.platform }}</p> 
                             <span>⭐</span>
                             <span id="reviews">{{ course.rating }}</span> 
-                            <div class="row justify-content-between pr-5 mx-1 mt-3"> 
+                            <div class="row justify-content-between pr-4 mx-1 mt-2"> 
                                 <div class="d-flex"><h2>${{ course.price }}</h2><span class="align-item-bottom">mxn</span></div>
                                 <a target="_blank" href="https://udemy.com{{ course.url }}" class="text-white">
-                                    <button type="button" class="btn btn-success px-5 py-2">Ir al curso</button>
+                                    <button type="button" class="btn btn-success px-2 py-1"> Ir al curso </button>
                                 </a>
-                                <a href="{% url 'addFavorite' course.id %}">
-                                <button type="button" class="btn btn-success px-5 py-2">Añadir a favoritos</button>
+                                {% if request.user.is_authenticated %}
+                                <a href="{% url 'favorite_add' course.id %}">
+                                <button type="button" class="btn btn-danger px-2 py-1"> <i class="fa-sharp fa-solid fa-bookmark"></i>  Añadir a favoritos  </button>
                                 </a>
+                                {% endif %}
                             </div> 
                             <div class="pt-3 pb-5">
                                 {{course.description | safe}}

@@ -23,6 +23,7 @@ urlpatterns = [
 	path("profileConfigPassword/", views.password_change, name="profileConfigPassword"),
 	path('courses/', views.courses, name='courses'),
 	path('courseView/<int:id>', views.courseView, name='courseView'), #Se crea el la URL de la vista para un curso 
+	path('fav/<int:id>', views.favorite_add, name='favorite_add'), # Se crea la URL de la funcion añadir a favoritos
 	path('courses/<str:category>', views.courses_for_category, name='courses'),		#Filtrado por categorias 
 	path('jobs/', views.jobs, name='jobs'),
     path('', views.home, name="home"), #Se crea la URL de home que tendrá lo que la view home
@@ -30,6 +31,5 @@ urlpatterns = [
     path('', views.home, name="home"), #Se crea la URL de home que tendrá lo que la view home
 
 	path('search/', views.searchBar, name='search'), #Barra de búsqueda
-	path('addToFavorite/<int:pk>', views.addToFavorite, name='addFavorite'),
 	path('accounts/', include('allauth.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
