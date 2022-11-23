@@ -18,7 +18,6 @@ class Perfil(models.Model):
         return self.user.username
 
 #Modelo anterior, el nuevo es Curso
-'''
 class Courses(models.Model):
     id = models.CharField(primary_key=True, max_length=10)
     title = models.CharField(max_length=100)
@@ -30,7 +29,7 @@ class Courses(models.Model):
     platform = models.CharField(max_length=20, null = True)
     instructor = models.CharField(max_length=100, null = True)
     level = models.CharField(max_length=20, null = True)
-'''
+
 
 class Curso(models.Model):
     id = models.CharField(primary_key=True, max_length=10)
@@ -46,8 +45,10 @@ class Curso(models.Model):
     platform = models.CharField(max_length=50, null=True)
     favorites = models.ManyToManyField(User, related_name='favorite')
 
+
     def __str__(self):
         return self.title
+
 
 class Comment(models.Model):
     id = models.AutoField(primary_key=True)
@@ -57,6 +58,7 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.user.username
+
     
 class Job(models.Model):
     id = models.CharField(primary_key=True, max_length=10)
