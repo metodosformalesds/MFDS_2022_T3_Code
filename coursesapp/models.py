@@ -23,7 +23,13 @@ class Perfil(models.Model):
         return self.user.username
 
 #Modelo anterior, el nuevo es Curso
+
 class Courses(models.Model):
+    """
+    Por Gerardo Andrés Félix Irigoyen
+    Se crea una clase con el nombre de Courses, esta clase servirá para crear la tabla de base de datos "Courses", la cual contiene todos los cursos 
+    extraidos de Udemy. En primera instancia no se definieron llaves foraneas, por eso se descarto.
+    """
     id = models.CharField(primary_key=True, max_length=10)
     title = models.CharField(max_length=100)
     price = models.FloatField(max_length=5)
@@ -37,6 +43,11 @@ class Courses(models.Model):
 
 
 class Curso(models.Model):
+    """
+    Por Gerardo Andrés Félix Irigoyen
+    Se crea una clase con el nombre de Curso, esta clase servirá para crear la tabla de base de datos "Courses", la cual contiene todos los cursos 
+    extraidos de Udemy. A diferencia de la anterior se le declara llave foranea y campo de favoritos que es una relacion muchos a muchos. 
+    """
     id = models.CharField(primary_key=True, max_length=10)
     title = models.CharField(max_length=150)
     price = models.DecimalField(max_digits=8, decimal_places=2)
@@ -56,6 +67,11 @@ class Curso(models.Model):
 
 
 class Comment(models.Model):
+    """
+    Por Gerardo Andrés Félix Irigoyen
+    Se crea una clase con el nombre de Comment, esta clase servirá para crear la tabla de base de datos "Comment", lla cual contiene los comentarios hechos por los 
+    usuarios en la sección de cursos. Cuenta con dos llaves foraneas, la del usuario y la del curso.
+    """
     id = models.AutoField(primary_key=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     course = models.ForeignKey(Curso, on_delete=models.CASCADE, related_name="comments")
@@ -66,6 +82,11 @@ class Comment(models.Model):
 
     
 class Job(models.Model):
+    """
+    Por Gerardo Andrés Félix Irigoyen
+    Se crea una clase con el nombre de Job, esta clase servirá para crear la tabla de base de datos "Job", la cual contiene todos los puestos de trabajos
+    extraidos de Indeed. 
+    """
     id = models.CharField(primary_key=True, max_length=10)
     category = models.CharField(max_length=100, null=True)
     title = models.CharField(max_length=150)
