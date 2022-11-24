@@ -20,7 +20,7 @@ Configuración
                         <div class="col-md-6 info p-5"> 
                             <div class="row title"> 
                                 <div class="col">
-                                    <h2>{{ course.title}}</h2>
+                                    <h2>{{ course.title }}</h2>
                                 </div> 
                             </div> 
                             <p>{{ course.instructor }}</p>
@@ -51,38 +51,32 @@ Configuración
 
 <div class="mx-5 my-4 p-5 rounded-lg card">
     <h3 class="pb-2">Comentarios</h3>
-
+    {% if comments %}
+    <h1>hola</h1>
+    {% endif %}
+    {% for comments in course.comments.all %}
     <div class="d-flex bg-light p-3 my-2 rounded-lg border">
         <div class="ratio ratio-1x1 rounded-circle overflow-hidden border border-dark">
         <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png" alt="user" width="100" class="comment">
         </div>
         <div class="align-self-center">
-            <h4>Usuario</h4>
-            <span>22/10/2021</span>
+            <h4>{{ comments.user }}</h4>
         </div>
         <div class="py-3 px-5">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ratione voluptatum quam expedita, earum tempore cupiditate, a sapiente dolorem exercitationem quia ipsum debitis dolores officiis excepturi dicta? Error, magnam esse.</p>
+            <p>{{ comments.comment }}</p>
         </div>
     </div>
+    {% endfor %}
 
-    <div class="d-flex bg-light p-3 my-2 rounded-lg border">
-        <div class="ratio ratio-1x1 rounded-circle overflow-hidden border border-dark">
-        <img src="https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png" alt="user" width="100" class="comment">
-        </div>
-        <div class="align-self-center">
-            <h4>Usuario</h4>
-            <span>22/10/2021</span>
-        </div>
-        <div class="py-3 px-5">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ratione voluptatum quam expedita, earum tempore cupiditate, a sapiente dolorem exercitationem quia ipsum debitis dolores officiis excepturi dicta? Error, magnam esse.</p>
-        </div>
-    </div>
 </div>
-
+{% if request.user.is_authenticated %}
 <h3 class="ml-5 mt-5 pl-5 pb-3">Escribir comentario</h3>
 <div class="mb-5">
-    <form action="" class="mx-5 rounded-lg card">
-        <input type="text" name="search" class="form-control p-3" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon2">
+    <form action="{{ course.id }}/comment" method="post" class="mx-5 rounded-lg card">
+        {% csrf_token %}
+        <input type="text" name="comment" class="form-control p-3" placeholder="Comenetar" aria-label="Comentar">
     </form>
 </div>
+
+{% endif %}
 {%  endblock  %}

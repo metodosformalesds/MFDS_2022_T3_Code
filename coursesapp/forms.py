@@ -3,7 +3,7 @@ Este archivo contiene los formularios creados para el registro
 """
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
-from .models import Perfil, Skills
+from .models import Perfil, Skills, Comment
 from django.contrib.auth import get_user_model
 
 from django import forms
@@ -106,3 +106,10 @@ class HardSkill5_form(forms.ModelForm):
     class Meta:
         model = Skills
         fields = ['hard_skill5']
+
+
+class addCommentForm(forms.ModelForm):
+
+    class Meta: 
+        model = Comment
+        fields = ['comment']

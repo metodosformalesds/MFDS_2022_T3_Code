@@ -10,13 +10,13 @@ from django.contrib import messages #Importamos funciones para mostrar mensajes 
 from django.contrib.auth.decorators import login_required #Importamos una función que nos permite revisar si el usuario está con sesión activa
 from .forms import CreateUserForm # Importamos del archivo forms.py la función que nos permite importar formularios
 from .models import Curso # Importamos los modelos que creamos en models.py, Courses es el modelo anterior
-from .models import Job, Skills
+from .models import Job, Skills, Comment
 from django.views.decorators.csrf import csrf_exempt  #
 from django.contrib.postgres.search import TrigramSimilarity, TrigramDistance, SearchVector, SearchQuery, SearchRank
 from .forms import  UpdateUserFormAvatar, UpdateUserFormEmail, SetPasswordForm, SoftSkill1_form, SoftSkill2_form
 from .forms import UpdateProfileForm
 from .forms import UpdateUserForm, SoftSkill3_form, SoftSkill4_form, SoftSkill5_form
-from .forms import HardSkill1_form,HardSkill2_form,HardSkill3_form,HardSkill4_form,HardSkill5_form
+from .forms import HardSkill1_form,HardSkill2_form,HardSkill3_form,HardSkill4_form,HardSkill5_form, addCommentForm
 #@login_required(login_url='login') #@login_required nos indica que, lo que está dentro de login_required se ejecutará únicamente cuando el usuario está con sesión activa.
 def home(request): #Definimos el nombre de la función home que será nuestra vista principal
 	"""
@@ -206,7 +206,7 @@ def courseView(request, id):
 			render: Renderización del archivo "courseView.html"
 	"""
 	course = Curso.objects.get(id=id)
-	return render(request, 'courseView.html', {'course': course})
+	return render(request, 'courseView.html', {'course': course} )
 
 
 def jobs_for_title(request, title): 
@@ -534,3 +534,25 @@ def HardSkill5(request):
 		return render(request, 'hardskill5.html', {'skills_forms': skills_forms})
 	else:
 		return redirect('home')
+
+
+@csrf_exempt
+def addComment(request, id):
+
+	comment=Comment()
+	if request.user.is_authenticated: 
+		course = get_object_or_404(Curso, id=id)
+		if request.method == 'POST':
+			commentForm = addCommentForm(request.POST, instance=comment)
+			comment.course = course
+			comment.user = request.user
+			if commentForm.is_valid():
+				#comment.save()
+				commentForm.save()
+
+		messages.success(request, 'Your comment was created')
+		#return redirect('courseView/'+str(id)
+		return HttpResponseRedirect(request.META.get('HTTP_REFERER', '/'))
+
+
+

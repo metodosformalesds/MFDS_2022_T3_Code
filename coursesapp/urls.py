@@ -40,6 +40,7 @@ urlpatterns = [
     path('', views.home, name="home"), #Se crea la URL de home que tendrá lo que la view home
 	path('skills/', views.skills, name='skills'),
     path('', views.home, name="home"), #Se crea la URL de home que tendrá lo que la view home
+	path('courseView/<int:id>/comment', views.addComment, name='addComment'),
 
 	path('search/', views.searchBar, name='search'), #Barra de búsqueda
 	path('accounts/', include('allauth.urls')),

@@ -53,7 +53,7 @@ class Curso(models.Model):
 class Comment(models.Model):
     id = models.AutoField(primary_key=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    course = models.ForeignKey(Curso, on_delete=models.CASCADE)
+    course = models.ForeignKey(Curso, on_delete=models.CASCADE, related_name="comments")
     comment = models.TextField(max_length=500)
 
     def __str__(self):
