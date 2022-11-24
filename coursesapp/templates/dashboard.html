@@ -4,11 +4,11 @@
 
 <div class="main-banner px-4" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'); padding: 20vh 0; background-size: cover; background-position: center center;">
       <div class="col-md-14 mx-auto col-lg-6">
-        <form class="p-4 p-md-5 border rounded main-form-search" method="POST" action="{% url 'search' %}">
+        <form class="p-4 p-md-5 border rounded main-form-search" method="POST" action="{% url 'search' %}" id="search-bar-form">
           {% csrf_token %}
           <div class="pb-3">
-            <label for="" class="mr-3 text-success"><strong>Cursos</strong></label>
-            <label for=""><strong>Trabajos</strong></label>
+            <label for="" class="mr-3 text-success"><strong id="course-action">Cursos</strong></label>
+            <label for=""><strong id="job-action">Trabajos</strong></label>
           </div>  
           <div class="input-group mb-3">
             <input type="text" name="search" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon2">
@@ -19,6 +19,21 @@
             </div>
           </div>
         </form>
+        <script>
+          document.getElementById('job-action').onclick=function()
+          {
+            document.getElementById('search-bar-form').action = "{% url 'searchjob' %}"
+            document.getElementById('job-action').style.color = "green"
+            document.getElementById('course-action').style.color = "black"
+          }
+
+          document.getElementById('course-action').onclick=function()
+          {
+            document.getElementById('search-bar-form').action = "{% url 'search' %}"
+            document.getElementById('job-action').style.color = "black"
+            document.getElementById('course-action').style.color = "green"
+          }
+        </script>
       </div>
     </form>
   </div>

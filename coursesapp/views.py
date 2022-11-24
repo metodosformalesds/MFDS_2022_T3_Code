@@ -288,6 +288,33 @@ def searchBar(request):
 	else:
 		return render(request, 'courses.html')
 
+
+@csrf_exempt
+def searchBarJob(request): 
+	"""
+	Función searchBar: Muestra la lógica para la búsqueda de trabajos
+
+		Args:
+
+		Returns:
+			render: Renderización del archivo "jobs.html"
+	"""
+
+	if request.method == 'POST':
+		search = request.POST.get('search', '')
+
+		jobs = Job.objects.annotate(similarity=TrigramSimilarity('url', search),).filter(similarity__gte=0.1).order_by('-similarity')
+
+		if jobs:
+			return render(request, 'jobs.html', {'jobs': jobs})
+		else:
+			jobs = Job.objects.annotate(search=SearchVector('title', 'description', 'url')).filter(search=search) 
+			return render(request, 'jobs.html', {'jobs': jobs})
+
+		#save queries by user in the database
+	else:
+		return render(request, 'jobs.html')
+
 @csrf_exempt
 def profileConfigAvatar(request):
 

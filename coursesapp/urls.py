@@ -43,5 +43,6 @@ urlpatterns = [
 	path('courseView/<int:id>/comment', views.addComment, name='addComment'),
 
 	path('search/', views.searchBar, name='search'), #Barra de búsqueda
+	path('searchjob/', views.searchBarJob, name='searchjob'), #Barra de búsqueda trabajos
 	path('accounts/', include('allauth.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
