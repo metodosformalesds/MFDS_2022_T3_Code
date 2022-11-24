@@ -448,12 +448,34 @@ def favorite_add(request, id):
 	Returns:
 			HttpResponseRedirect: Redireccion a la pagina actual
 	"""
+	"""
+	Función favorite_add: Muestra la lógica para la búsqueda de cursos
+
+		Args:
+
+	Returns:
+			HttpResponseRedirect: Redireccion a la pagina actual
+	"""
 	course = get_object_or_404(Curso, id=id)
 	if course.favorites.filter(id=request.user.id).exists():
 		course.favorites.remove()
 	else:
 		course.favorites.add()
 	return HttpResponseRedirect(request.META['HTTP_REFERER'])
+
+@login_required
+def favorite_list(request):
+	"""
+	Función searchBar: Muestra la lógica para la búsqueda de trabajos
+
+		Args:
+
+		Returns:
+			render: Renderización del archivo "favorite.html"
+	"""	
+	new = Curso.objects.filter(favorites=request.user)
+	return render(request, 'favorite.html', {'new':new})
+
 
 """_summary_
 	Por Cinthia Elena Hernández Rodríguez
