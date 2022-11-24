@@ -12,6 +12,16 @@ import requests
 
 
 def main():
+    '''
+    Main function: Esta función controla el flujo para la extracción de datos, se le especifica el tamaño de la página y el numero de la pagina, 
+    estos dos parametros deben cumplir la condición: pageSize*pageNumber <= 10000. La variable search especifica la busqueda de los cursos. Category es
+    para control interno, no afecta en la extracción. Language especifica el idioma, puede ser "es: Español", "en: Inglés".
+
+    Args: 
+
+    Returns:
+
+    '''
     pageSize = str(100)
     pageNumber = str(1)
     search = "frontend"
@@ -27,6 +37,14 @@ def main():
 
 
 def headers(url):
+    '''
+    headers function: Esta función contiene los headers para establecer la conexión y hacer la consulta a la API
+
+    Args: url que especifica la consulta a la API
+
+    Returns:
+        Si la consulta tiene exito devuelve los resultados devuelve la respuesta, en caso contrario manda un error y el status. 
+    '''
     payload = {}
     headers = {
         'Authorization': 'Basic N3NZNFl1OFhmY2M4ZXMxWmNsVkdqUkY2czhyaUh3bVY3NnRWcnQyOTpxUkphVFozaTlJVHZFeXV0MFBhc1l4eW5Ha1RWNmdYZ3lTUG5ya2wyZnZOeTdES1o0SUNaVTR4aGFBYzhudDJJSmlFaTFkVGhiRk5FTXp3Yk1SQmpwTjFkQzBmUmRybXQ2VXFreDdtaVBHSVNVUzdMWTJIcVVDV1V2bUR5VjBTOQ==',
@@ -45,6 +63,15 @@ def headers(url):
 
 
 def getCourses(pageNumber, pageSize, search, language):
+    '''
+    getCourses function: Esta función manda la url con los parametros establecidos.
+
+    Args: pageNumber especifica el numero de la pagina, pageSize especifica el tamaño de la pagina, search especifica el tema de los cursos que deseamos 
+    obtener, language especifica el idioma de los cursos.
+
+    Returns: Devuelve la respuesta
+        
+    '''
     url = "https://www.udemy.com/api-2.0/courses/?page=" + pageNumber + "&page_size=" + pageSize + "&search=" + search + \
         "&category=Development&price=price-paid&is_affiliate_agreed=True&is_deals_agreed=True&language=" + \
         language + "&instructional_level=all&ordering=relevance&ratings=4.0"
@@ -54,6 +81,14 @@ def getCourses(pageNumber, pageSize, search, language):
 
 
 def getCourseRating(id):
+    '''
+    getCourseRating function: Esta función obtiene el rating de un curso
+
+    Args: id del curso
+
+    Returns: Devuelve el rating del curso
+        
+    '''
     url2 = "https://www.udemy.com/api-2.0/courses/" + \
         str(id) + "/?fields[course]=@all"
     indData = headers(url2)
@@ -64,6 +99,14 @@ def getCourseRating(id):
 
 
 def getCourseDescription(id):
+    '''
+    getCourseDescription function: Esta función obtiene la descipción de los cursos
+
+    Args: id del curso
+
+    Returns: devuelve la descripción de los cursos 
+        
+    '''
     url3 = "https://www.udemy.com/api-2.0/courses/" + \
         str(id) + "/?fields[course]=@all"
     Data3 = headers(url3)
@@ -83,6 +126,14 @@ def getCount(data):
 
 
 def IdAndDescriptionCSV(data):
+    '''
+    IdAndDescriptionCSV function: Esta función crea un documento para guardar solamente la descripcion y el id del curso para generar las etiquetas
+
+    Args: data, contiene la respuesta generada de la consulta a la API
+
+    Returns:
+        
+    '''
     with open('udemy3.csv', 'r+', encoding='utf-8') as f:
         for course in data['results']:
             description = getCourseDescription(course['id'])
@@ -90,6 +141,14 @@ def IdAndDescriptionCSV(data):
 
 
 def saveResultsCSV(data, category, language):
+    '''
+    saveResultsCSV function: Esta función crea un documento csv para guardar los resultados de la consulta a la API
+
+    Args: data, contiene la respuesta generada de la consulta a la API.
+
+    Returns:
+
+    '''
     with open('udemy2.csv', 'r+', encoding='utf-8') as f:
         if f.readline().startswith("id"):
             for course in data['results']:

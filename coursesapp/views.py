@@ -194,9 +194,10 @@ def courses(request):
 	courses = Curso.objects.all()[::] 
 	return render(request, 'courses.html', {'courses': courses})
 
-def courses_for_category(request, category): 
+def courses_for_category(request, category):
 	"""
-	Función courses_for_category: Lógica de la vista de los cursos de cada categoría
+	Por Gerardo Andrés Félix Irigoyen
+	Función courses_for_category: Esta función realiza una consulta en la tabla de cursos de acuerdo a la categoría que se le pasa como argumento
 
 		Args:
 		category: Indica la categoria que se está buscando.
@@ -292,7 +293,11 @@ def skills(request):
 @csrf_exempt
 def searchBar(request): 
 	"""
-	Función searchBar: Muestra la lógica para la búsqueda de cursos
+	Por Gerardo Andrés Félix Irigoyen
+	Función searchBar: Muestra la lógica para la búsqueda de cursos, la función obtiene la consulta hecha por un usuario mediante el metodo POST, 
+	la cual se almacena en la variable "search", luego se realiza una consulta a la base de datos para obtener los cursos que coincidan con la consulta, 
+	se utiliza un metodo de busqueda que contiene postgres llamado TrigramSimilarity para que pueda realizar la consulta aunque la busqueda no sea exacta, 
+	si no obtiene resultados realiza otra busqueda por vectores, que busca dentro de distintas columnas de la tabla.
 
 		Args:
 
