@@ -1,0 +1,2171 @@
+﻿WEBVTT
+
+7f062e68-3444-4f98-8981-2ecbdda56c9c-0
+00:00:02.300 --> 00:00:03.100
+De hacerlo.
+
+260b8ed3-2c8c-4fa3-a065-46267a78647f-0
+00:00:03.910 --> 00:00:08.247
+Para que no vaya a ser así como
+que. Ah, pues yo no sabía este,
+
+260b8ed3-2c8c-4fa3-a065-46267a78647f-1
+00:00:08.247 --> 00:00:12.516
+ya ven que me tocó hacer este el
+modelo del perfil y que tenía
+
+260b8ed3-2c8c-4fa3-a065-46267a78647f-2
+00:00:12.516 --> 00:00:15.160
+que añadir este. Los jacky, los
+skill.
+
+f07c26c4-7183-4a51-a28b-f36305b5cf57-0
+00:00:15.870 --> 00:00:21.603
+Y pues este estaba viendo que
+iba a haber un problema al
+
+f07c26c4-7183-4a51-a28b-f36305b5cf57-1
+00:00:21.603 --> 00:00:22.710
+momento de.
+
+c99c035c-ce4e-4c7d-9d1c-c3ce642fe863-0
+00:00:23.760 --> 00:00:27.545
+Pues como de querer meter varios
+skills, porque lo tenemos como
+
+c99c035c-ce4e-4c7d-9d1c-c3ce642fe863-1
+00:00:27.545 --> 00:00:28.610
+cadena, me parece.
+
+3f6a3c98-d065-47d5-8d1d-21a83e39915c-0
+00:00:29.310 --> 00:00:33.802
+Y entonces la forma de
+solucionarlo, pues sería siendo
+
+3f6a3c98-d065-47d5-8d1d-21a83e39915c-1
+00:00:33.802 --> 00:00:36.580
+un arreglo de cadenas, pero
+este.
+
+8d50fc54-b0aa-4699-bdc2-9dc214e7fc82-0
+00:00:37.540 --> 00:00:41.429
+Está bueno por el tiempo que
+tenemos y porque estuve así como
+
+8d50fc54-b0aa-4699-bdc2-9dc214e7fc82-1
+00:00:41.429 --> 00:00:45.067
+investigando un siento que no
+podré hacerlo, o sea, se me
+
+8d50fc54-b0aa-4699-bdc2-9dc214e7fc82-2
+00:00:45.067 --> 00:00:46.510
+dificultaría demasiado.
+
+c3dc19c7-9fa3-4356-ba74-f64164421ef1-0
+00:00:47.340 --> 00:00:51.680
+Entonces lo que se me ocurre es
+para terminar, esta
+
+c3dc19c7-9fa3-4356-ba74-f64164421ef1-1
+00:00:51.680 --> 00:00:56.605
+funcionalidad es limitarlo a
+ciertos skills meterlos en el
+
+c3dc19c7-9fa3-4356-ba74-f64164421ef1-2
+00:00:56.605 --> 00:00:57.190
+modelo.
+
+6811d541-a53e-423f-947a-0030348676c8-0
+00:00:58.170 --> 00:01:01.530
+Y que el usuario este pueda
+elegir.
+
+a4f111d8-1377-49ba-8ad4-24d6d51a0f43-0
+00:01:02.170 --> 00:01:05.700
+De ciertos skills. O sea, siento
+que.
+
+660d690c-1149-4ec3-886b-56f134f86de3-0
+00:01:06.380 --> 00:01:10.433
+Y habíamos comentado que que el
+usuario pues iba más bien como
+
+660d690c-1149-4ec3-886b-56f134f86de3-1
+00:01:10.433 --> 00:01:14.293
+poderle escribir los no, pero el
+problema con el sistema de
+
+660d690c-1149-4ec3-886b-56f134f86de3-2
+00:01:14.293 --> 00:01:18.217
+recomendación, si es que lo
+vamos a implementar, es que, por
+
+660d690c-1149-4ec3-886b-56f134f86de3-3
+00:01:18.217 --> 00:01:22.463
+ejemplo, si el usuario y que muy
+probablemente el profe ponga ese
+
+660d690c-1149-4ec3-886b-56f134f86de3-4
+00:01:22.463 --> 00:01:26.388
+ejemplo de que se escribe, no
+sé, por ejemplo andar en bici,
+
+660d690c-1149-4ec3-886b-56f134f86de3-5
+00:01:26.388 --> 00:01:30.441
+pues ese parámetro no lo puede
+tomar en cuenta para el sistema
+
+660d690c-1149-4ec3-886b-56f134f86de3-6
+00:01:30.441 --> 00:01:34.429
+de recomendación, entonces la
+solución que estoy dando es el.
+
+d49bc5f7-8495-48fc-9506-9731d1e1f017-0
+00:01:35.720 --> 00:01:38.745
+Dejarlo como un número fijo es
+que el que puede meter el
+
+d49bc5f7-8495-48fc-9506-9731d1e1f017-1
+00:01:38.745 --> 00:01:39.170
+usuario.
+
+714feda0-03a6-49e8-8cb0-a9a5d982a911-0
+00:01:39.760 --> 00:01:45.400
+Y también este dejar fijos este,
+los skills que puede elegir.
+
+36cd4e00-9f70-4fa3-98c9-a2c0a98b02fc-0
+00:01:46.010 --> 00:01:50.192
+Tanto soft como como los otros.
+Los Arts Kills. ¿Entonces no sé
+
+36cd4e00-9f70-4fa3-98c9-a2c0a98b02fc-1
+00:01:50.192 --> 00:01:54.309
+cómo vean ustedes, EH? Les digo
+esto apenas porque no me había
+
+36cd4e00-9f70-4fa3-98c9-a2c0a98b02fc-2
+00:01:54.309 --> 00:01:58.100
+dado cuenta que que esta
+funcionalidad no la tenía nadie.
+
+d13ee513-e9e2-4352-be6e-a38acf709f30-0
+00:01:58.770 --> 00:02:00.080
+Este.
+
+9a123237-f94f-4d26-be68-0ef75a60efe4-0
+00:02:01.190 --> 00:02:03.380
+¿Entonces, para para hacer
+laiho?
+
+a14b8f34-766b-450d-bd29-27fc3389d76a-0
+00:02:03.980 --> 00:02:09.049
+Y también éste estaba pensando
+en hacer la paginación porque ya
+
+a14b8f34-766b-450d-bd29-27fc3389d76a-1
+00:02:09.049 --> 00:02:13.168
+ven que están los cursos
+desplegados así pues todos
+
+a14b8f34-766b-450d-bd29-27fc3389d76a-2
+00:02:13.168 --> 00:02:18.000
+entonces, pues imagínense, ver,
+no sé. 500 cursos de estarle
+
+a14b8f34-766b-450d-bd29-27fc3389d76a-3
+00:02:18.000 --> 00:02:23.148
+dando para abajo, pues sí, sería
+una mala práctica de de diseño,
+
+a14b8f34-766b-450d-bd29-27fc3389d76a-4
+00:02:23.148 --> 00:02:24.020
+pero no sé.
+
+e5653e03-989c-4052-9c02-77e9b69a2e57-0
+00:02:24.860 --> 00:02:29.422
+O sea, no sé si quieran que que
+funcione de esa forma o si no,
+
+e5653e03-989c-4052-9c02-77e9b69a2e57-1
+00:02:29.422 --> 00:02:33.478
+pues no sé qué. ¿Qué otras
+opciones tienen para que eso
+
+e5653e03-989c-4052-9c02-77e9b69a2e57-2
+00:02:33.478 --> 00:02:34.420
+arreglar eso?
+
+70705cfa-723c-4b38-94a1-ea8eca815955-0
+00:02:35.730 --> 00:02:39.329
+Se me hace bien limitarlo, AO
+sea los skills que puedas
+
+70705cfa-723c-4b38-94a1-ea8eca815955-1
+00:02:39.329 --> 00:02:43.313
+agregar y hacer un catálogo de
+skills donde simplemente pueda
+
+70705cfa-723c-4b38-94a1-ea8eca815955-2
+00:02:43.313 --> 00:02:46.977
+elegir de cierto numero de
+kills, porque también se está
+
+70705cfa-723c-4b38-94a1-ea8eca815955-3
+00:02:46.977 --> 00:02:50.833
+agregando diferentes que pues
+como tú dices, el de una bici
+
+70705cfa-723c-4b38-94a1-ea8eca815955-4
+00:02:50.833 --> 00:02:52.890
+ese sería difícil empatarlo con.
+
+7cb51bb1-dd7d-429a-8030-11395d3a5f3e-0
+00:02:53.600 --> 00:02:57.208
+Los atributos que tenemos
+manejando siento que podemos
+
+7cb51bb1-dd7d-429a-8030-11395d3a5f3e-1
+00:02:57.208 --> 00:03:01.277
+hacer este definirlo en, o sea,
+limitarlo a 3 skills, ponerle
+
+7cb51bb1-dd7d-429a-8030-11395d3a5f3e-2
+00:03:01.277 --> 00:03:04.230
+así un título de tus 3
+principales skills y.
+
+92a0aeda-3167-4c74-a01d-012d986c4523-0
+00:03:05.110 --> 00:03:09.106
+Que el usuario las elija dentro
+de, pues la limitante que
+
+92a0aeda-3167-4c74-a01d-012d986c4523-1
+00:03:09.106 --> 00:03:13.447
+nosotros pongamos, por ejemplo,
+que pongamos pues, tecnologías
+
+92a0aeda-3167-4c74-a01d-012d986c4523-2
+00:03:13.447 --> 00:03:17.582
+python, promoción de objetos
+estructurada, y así, pero pues
+
+92a0aeda-3167-4c74-a01d-012d986c4523-3
+00:03:17.582 --> 00:03:21.923
+nosotros ponerlos, OK, OK, si
+les quería comentar porque dije,
+
+92a0aeda-3167-4c74-a01d-012d986c4523-4
+00:03:21.923 --> 00:03:25.919
+bueno, o sea, para intentar
+tenerlo lo más antes posible.
+
+35cc0700-76f1-4ce1-b2cf-f550a29554ef-0
+00:03:26.650 --> 00:03:30.930
+Y pues ya ahorita que ya se los
+comento ya para trabajar en eso.
+
+a9574885-4b6a-4ac7-a01f-f97b5466ffef-0
+00:03:31.600 --> 00:03:35.022
+Este, pero entonces va a quedar
+así, también para que sepan que
+
+a9574885-4b6a-4ac7-a01f-f97b5466ffef-1
+00:03:35.022 --> 00:03:36.680
+quedaría esa funcionalidad así.
+
+7d40a69c-3bc1-478e-b005-ae1c9470f528-0
+00:03:37.570 --> 00:03:41.379
+Y pues lo de la página acción
+también ese, la verdad es que no
+
+7d40a69c-3bc1-478e-b005-ae1c9470f528-1
+00:03:41.379 --> 00:03:42.710
+sé cómo hacerlo, pero.
+
+f6bcb90b-57a5-4e4a-b3f9-d88d624441a4-0
+00:03:43.440 --> 00:03:46.130
+Él no sé si ven.
+
+6cb2f167-3e7e-43f1-bba5-ea5aff511122-0
+00:03:46.740 --> 00:03:49.890
+Este útil que lo haga. ¿OO, no?
+
+0d603539-695e-4293-b953-ceaf29679ae9-0
+00:03:51.280 --> 00:03:53.270
+O sea, porque no puedo asegurar
+si.
+
+aeb22000-eb94-4b09-88ee-7afda5a71f61-0
+00:03:54.090 --> 00:03:56.547
+No, que si justo te iba a
+comentar eso que viéndolo, o
+
+aeb22000-eb94-4b09-88ee-7afda5a71f61-1
+00:03:56.547 --> 00:03:58.380
+sea, está muy bien porque pues
+sí, este.
+
+4ab77cb5-f4e6-4293-b883-96b64e3cf93a-0
+00:03:59.090 --> 00:04:03.044
+No está chido que tengas todos
+los cursos así desplegados está
+
+4ab77cb5-f4e6-4293-b883-96b64e3cf93a-1
+00:04:03.044 --> 00:04:06.433
+muy bien tener un una
+paginación, pero ahorita siento
+
+4ab77cb5-f4e6-4293-b883-96b64e3cf93a-2
+00:04:06.433 --> 00:04:10.449
+que podemos darle prioridad. ¿3
+cosas, OK? Ok, entonces, ese no
+
+4ab77cb5-f4e6-4293-b883-96b64e3cf93a-3
+00:04:10.449 --> 00:04:14.152
+o sí, o sea, creo que no, si lo
+descartamos por completo y
+
+4ab77cb5-f4e6-4293-b883-96b64e3cf93a-4
+00:04:14.152 --> 00:04:17.918
+aparte que el profe no hizo
+mención sobre eso. A siento que
+
+4ab77cb5-f4e6-4293-b883-96b64e3cf93a-5
+00:04:17.918 --> 00:04:21.684
+nos podemos enfocar ahorita,
+como dijo el profe, ya tenemos
+
+4ab77cb5-f4e6-4293-b883-96b64e3cf93a-6
+00:04:21.684 --> 00:04:25.512
+que acotar muchas cosas, bueno
+las menos posibles, pero creo
+
+4ab77cb5-f4e6-4293-b883-96b64e3cf93a-7
+00:04:25.512 --> 00:04:28.400
+que podemos definir una lista de
+prioridades.
+
+c9ec52b7-b91f-4b20-8dc1-5ae318e3c264-0
+00:04:29.150 --> 00:04:30.130
+Para el usuario.
+
+eb6e8e81-f10c-42d7-9412-b399fd82b40d-0
+00:04:30.740 --> 00:04:34.127
+No se se me hace una buena
+opción la que dijo el profe que
+
+eb6e8e81-f10c-42d7-9412-b399fd82b40d-1
+00:04:34.127 --> 00:04:36.310
+es nosotros tener usuarios de
+prueba.
+
+2e3f2575-9db4-4c24-b719-a655f6b5aafc-0
+00:04:37.890 --> 00:04:42.374
+Porque no sé que tan complicado
+sea esta parte del login y
+
+2e3f2575-9db4-4c24-b719-a655f6b5aafc-1
+00:04:42.374 --> 00:04:43.210
+registro a.
+
+3bcca711-a3d9-4a5d-9a91-95d81d79d4f4-0
+00:04:44.950 --> 00:04:48.520
+Porque pues si no se nos lleva
+tanto tiempo.
+
+17541fb7-42a3-4852-87e3-2792c15adddb-0
+00:04:49.150 --> 00:04:53.894
+Y yo siento que las tareas más
+importantes que podemos a la que
+
+17541fb7-42a3-4852-87e3-2792c15adddb-1
+00:04:53.894 --> 00:04:58.491
+le demos de prioridad a una y
+sin tenerla al 100, es tanto el
+
+17541fb7-42a3-4852-87e3-2792c15adddb-2
+00:04:58.491 --> 00:05:01.160
+registro de usuarios como el
+login.
+
+8299cec9-9146-4392-8058-8b6493acaf08-0
+00:05:01.830 --> 00:05:05.706
+O sea, eso sea para que, pues
+creemos y logramos todos los
+
+8299cec9-9146-4392-8058-8b6493acaf08-1
+00:05:05.706 --> 00:05:09.649
+usuarios que queramos o tener 5
+usuarios de prueba y que no
+
+8299cec9-9146-4392-8058-8b6493acaf08-2
+00:05:09.649 --> 00:05:13.000
+existe que no funcione bien el
+registrar el login.
+
+0fb8f77f-42de-4ec9-aa96-6486c6df187b-0
+00:05:14.160 --> 00:05:16.910
+Si es que no nos da el tiempo,
+pero darle prioridad al sistema
+
+0fb8f77f-42de-4ec9-aa96-6486c6df187b-1
+00:05:16.910 --> 00:05:19.530
+de recomendación, no sé cuál es
+la es parezca más factible.
+
+8f17b499-1820-47fc-b899-50ecb12bb921-0
+00:05:21.410 --> 00:05:24.900
+Ah y sinceramente, miro más
+sencillo arreglar la parte de
+
+8f17b499-1820-47fc-b899-50ecb12bb921-1
+00:05:24.900 --> 00:05:28.511
+login y registro que crea el
+sistema de recomendación, pero
+
+8f17b499-1820-47fc-b899-50ecb12bb921-2
+00:05:28.511 --> 00:05:32.362
+todo lo demás lo podemos dejar
+bien. Se te ha dado tanto login,
+
+8f17b499-1820-47fc-b899-50ecb12bb921-3
+00:05:32.362 --> 00:05:35.973
+registro, añadir a favoritos
+este mostrar cursos. Comentar,
+
+8f17b499-1820-47fc-b899-50ecb12bb921-4
+00:05:35.973 --> 00:05:39.824
+creo que eso sí estaría de base,
+que si lo yó si lo miro mas al
+
+8f17b499-1820-47fc-b899-50ecb12bb921-5
+00:05:39.824 --> 00:05:43.495
+alcance, te quiero el jueves
+porque sinceramente hoy a mí no
+
+8f17b499-1820-47fc-b899-50ecb12bb921-6
+00:05:43.495 --> 00:05:46.985
+me queda mucho tiempo porque
+también tengo que hacer otro
+
+8f17b499-1820-47fc-b899-50ecb12bb921-7
+00:05:46.985 --> 00:05:50.536
+proyecto y lo tengo que tragar
+ahorita a las 12 y me falta
+
+8f17b499-1820-47fc-b899-50ecb12bb921-8
+00:05:50.536 --> 00:05:51.740
+terminarlo y mañana.
+
+1978b634-3d92-48b3-9aa7-41b31da26565-0
+00:05:51.820 --> 00:05:52.870
+Ya sería.
+
+7d284d25-73d3-47ad-8a58-0a0adc936c4b-0
+00:05:54.800 --> 00:05:57.900
+Hacerlo a partir de las 6:00 que
+terminó mi siguiente clase y
+
+7d284d25-73d3-47ad-8a58-0a0adc936c4b-1
+00:05:57.900 --> 00:05:58.450
+desvelarme.
+
+63600cbc-b517-4db3-8e7f-a454fa66e7f6-0
+00:06:00.270 --> 00:06:03.034
+Bien, siento que puede ser eso.
+O descartamos totalmente,
+
+63600cbc-b517-4db3-8e7f-a454fa66e7f6-1
+00:06:03.034 --> 00:06:05.893
+hacemos otros cuatro usuarios.
+¿Terminamos las Funciones de
+
+63600cbc-b517-4db3-8e7f-a454fa66e7f6-2
+00:06:05.893 --> 00:06:08.943
+comentarios, agregar a favoritos
+y el sistema de recomendación,
+
+63600cbc-b517-4db3-8e7f-a454fa66e7f6-3
+00:06:08.943 --> 00:06:11.231
+pero yo si miro mucho más
+difícil el sistema de
+
+63600cbc-b517-4db3-8e7f-a454fa66e7f6-4
+00:06:11.231 --> 00:06:13.900
+recomendación que el login, pero
+no sec, creen ustedes?
+
+a4ea6e12-0bcf-4357-8a60-fc550ba8abf2-0
+00:06:15.550 --> 00:06:16.870
+Oye, pero.
+
+d42dd6bb-b27a-4b26-ae0f-95008ff69d8d-0
+00:06:17.630 --> 00:06:22.077
+¿A quién se refiere? O sea,
+porque el el login y el registro
+
+d42dd6bb-b27a-4b26-ae0f-95008ff69d8d-1
+00:06:22.077 --> 00:06:25.723
+se refería, o te refiere
+solamente al de Google y
+
+d42dd6bb-b27a-4b26-ae0f-95008ff69d8d-2
+00:06:25.723 --> 00:06:26.380
+Facebook.
+
+015c9ac2-70dd-474d-9d29-2b905fcbd883-0
+00:06:27.540 --> 00:06:30.380
+A ambos no porque ya funcionan.
+
+b64ecb39-20c4-44c4-ba03-6afc3ffbe50a-0
+00:06:31.320 --> 00:06:34.330
+O sea, si están funcionando bien
+registro y también el de correo.
+
+c257c4f0-e358-4d43-9061-6c39340cb7cc-0
+00:06:35.220 --> 00:06:35.550
+Sí.
+
+65629c34-0342-46f0-9595-0474ee638940-0
+00:06:37.450 --> 00:06:40.040
+O sea, ese error del Detroit
+nada más.
+
+24b7d985-25ce-4f57-b35e-5a1e5c19fadb-0
+00:06:40.670 --> 00:06:43.560
+No, no, no. O sea, si funciona
+ya en el de haploide.
+
+190c91ed-30f9-46a3-ab9e-74abf3e952fe-0
+00:06:44.580 --> 00:06:48.132
+¿Este, pues no me funciona,
+bueno, ahorita lo acabo de
+
+190c91ed-30f9-46a3-ab9e-74abf3e952fe-1
+00:06:48.132 --> 00:06:51.879
+intentar registrarme y si me
+registro y pues hacerlo bien
+
+190c91ed-30f9-46a3-ab9e-74abf3e952fe-2
+00:06:51.879 --> 00:06:56.077
+también, no? Con redes sociales
+no, eso sí, no lo he checado con
+
+190c91ed-30f9-46a3-ab9e-74abf3e952fe-3
+00:06:56.077 --> 00:06:56.530
+correo.
+
+68f67e51-6ff6-4d73-bc8c-a69e91830642-0
+00:06:57.220 --> 00:06:58.610
+Sí, con correos si funciona.
+
+a3dd8437-c6f7-46fe-99d1-8c2748341d1a-0
+00:06:59.310 --> 00:07:04.100
+¿A ver, deja lo intento un, este
+@Hotmail?
+
+a0dd49a2-8505-420a-8a55-00f410348709-0
+00:07:11.280 --> 00:07:14.737
+Y de hecho, ayer le comenté a
+felix que ya estaba, o sea, ya
+
+a0dd49a2-8505-420a-8a55-00f410348709-1
+00:07:14.737 --> 00:07:18.081
+está la configuración del
+perfil, pero ayer lo intente. En
+
+a0dd49a2-8505-420a-8a55-00f410348709-2
+00:07:18.081 --> 00:07:21.709
+la noche me estaba marcando un
+error, entonces ahorita le mande
+
+a0dd49a2-8505-420a-8a55-00f410348709-3
+00:07:21.709 --> 00:07:24.090
+mensaje y le dije, le dije que
+ya estaba.
+
+f692fc96-582f-410f-853c-05742fe02bc8-0
+00:07:24.840 --> 00:07:30.246
+Pero que me salía el mismo error
+que no salía de login o del she
+
+f692fc96-582f-410f-853c-05742fe02bc8-1
+00:07:30.246 --> 00:07:35.487
+S, REF, toquen y me dijo que ya
+lo había revisado, pero que lo
+
+f692fc96-582f-410f-853c-05742fe02bc8-2
+00:07:35.487 --> 00:07:37.650
+hizo como en 3 en 3, pues.
+
+8f7c775a-60fe-4d28-bbe8-4537edea87f9-0
+00:07:38.450 --> 00:07:42.465
+Vistas que hice en el punto
+pibe, que que lo añadió, pero no
+
+8f7c775a-60fe-4d28-bbe8-4537edea87f9-1
+00:07:42.465 --> 00:07:46.020
+he checado ya ahorita SIA
+funciona, pero por ejemplo.
+
+0ae9d475-fc17-42fe-9040-3a30b166eec8-0
+00:07:46.820 --> 00:07:50.393
+Este creo que sí está
+funcionando porque mira, deja
+
+0ae9d475-fc17-42fe-9040-3a30b166eec8-1
+00:07:50.393 --> 00:07:54.791
+comparto pantalla rápido, oye,
+es que ya mire que onda este con
+
+0ae9d475-fc17-42fe-9040-3a30b166eec8-2
+00:07:54.791 --> 00:07:55.410
+registro.
+
+cd243959-6c59-416a-9fe1-1adaf3387488-0
+00:07:56.960 --> 00:07:57.480
+¿Qué pasó?
+
+c1227494-312a-432c-9cac-d6841a3284ed-0
+00:07:58.100 --> 00:08:00.240
+¿Tiene validación de contraseña?
+
+2fd950cc-b45e-4ed9-8811-78b9911c8d75-0
+00:08:01.760 --> 00:08:05.273
+De que pues o sea, que no sea
+muy fácil, ajá, pero el problema
+
+2fd950cc-b45e-4ed9-8811-78b9911c8d75-1
+00:08:05.273 --> 00:08:08.451
+es que aparece hasta mero abajo
+y no, no se mostraban mi
+
+2fd950cc-b45e-4ed9-8811-78b9911c8d75-2
+00:08:08.451 --> 00:08:11.685
+pantalla ahorita cambio de
+pantalla y ya lo alcance a ver
+
+2fd950cc-b45e-4ed9-8811-78b9911c8d75-3
+00:08:11.685 --> 00:08:15.254
+el problema, sí, sí, pero mira,
+te digo que sí está funcionando
+
+2fd950cc-b45e-4ed9-8811-78b9911c8d75-4
+00:08:15.254 --> 00:08:18.600
+acá, porque por ejemplo ella yo
+puse esto de que te pusiera
+
+2fd950cc-b45e-4ed9-8811-78b9911c8d75-5
+00:08:18.600 --> 00:08:19.660
+imagen por defecto.
+
+60ebd792-c401-4a90-a582-e75e41b0c166-0
+00:08:20.530 --> 00:08:23.900
+Entonces ya la está jalando de
+la base de datos y.
+
+5a6e6849-1785-4bfd-8a7d-509be6a0218f-0
+00:08:25.060 --> 00:08:29.587
+Y pues no he checado esto, o
+sea, debería funcionar, pero no
+
+5a6e6849-1785-4bfd-8a7d-509be6a0218f-1
+00:08:29.587 --> 00:08:31.220
+sé a ver, por ejemplo.
+
+602bd791-c1ce-4514-8470-1c88f311771a-0
+00:08:34.080 --> 00:08:35.410
+¿O si me funcionaba bien?
+
+c765a63f-4382-4a86-aa56-a8625a266edb-0
+00:08:38.020 --> 00:08:40.650
+Ah, mira, por ejemplo, esto no
+funciona, el.
+
+2c866070-1c80-4c82-b8d2-e4eac2ffa88e-0
+00:08:42.540 --> 00:08:44.730
+Me imagino que no funciona
+también.
+
+469bccf2-69cc-47ac-a631-28cd238e9f11-0
+00:08:45.590 --> 00:08:47.600
+Este mágico, que tampoco
+funciona.
+
+4bc402ae-266f-4675-b802-27c8155ba6b5-0
+00:08:53.350 --> 00:08:58.969
+Ah, mira, eso sí funciona si te
+deja editar este el correo y
+
+4bc402ae-266f-4675-b802-27c8155ba6b5-1
+00:08:58.969 --> 00:09:00.720
+cambiar contraseña.
+
+a4d6f473-85fb-435a-ab5d-b9abde2d3ecc-0
+00:09:08.070 --> 00:09:09.880
+La imagen si te la deja cambiar.
+
+d7bd551c-c34a-4175-be1a-1f63e4dbb0ee-0
+00:09:10.940 --> 00:09:11.430
+Déjate.
+
+fc70892b-821c-4700-94a6-ad91f713a2c7-0
+00:09:12.660 --> 00:09:14.050
+Estoy quitando también.
+
+41be8092-d2af-4202-b657-4e6fd7af442f-0
+00:09:19.650 --> 00:09:20.230
+No.
+
+84c7967e-34d4-4351-abda-cc367b140c7a-0
+00:09:22.320 --> 00:09:23.780
+¿Es que hay problema con las
+imágenes?
+
+9b667d37-c356-4dff-bd2c-19a1c65bc5e4-0
+00:09:25.350 --> 00:09:28.440
+No te deje cambiar contraseña,
+la no la imagen.
+
+66d34565-940d-4f2a-9b89-eef1ede3daf6-0
+00:09:29.520 --> 00:09:30.210
+Ah OK.
+
+bbb277af-edad-4aed-8626-c15dc61d45ed-0
+00:09:38.100 --> 00:09:40.650
+Ah, mira si te cambiar
+contraseña, así te deja.
+
+a44a6935-88bf-4e85-bf8a-209d92550601-0
+00:09:41.400 --> 00:09:44.630
+¿Dices que cambiar imagen no,
+verdad? ¿Nobel?
+
+04458d14-f6b4-4e14-bb53-409caa3cb521-0
+00:09:48.150 --> 00:09:53.723
+Cambiar imagen y cambiar este
+país y eso nombre no, no deja
+
+04458d14-f6b4-4e14-bb53-409caa3cb521-1
+00:09:53.723 --> 00:09:54.560
+entonces.
+
+8e03afc9-37dd-4775-962a-4515452ad1a0-0
+00:09:55.560 --> 00:09:58.179
+¿Pues no tendríamos que
+comentarle a Félix para que le
+
+8e03afc9-37dd-4775-962a-4515452ad1a0-1
+00:09:58.179 --> 00:10:00.370
+añade eso del me imagino que es
+lo mismo del?
+
+6774ae81-c7f7-49e7-a133-3555dedc5539-0
+00:10:01.030 --> 00:10:01.760
+El token.
+
+ec6f67cb-8deb-4325-9f69-d77bbde2b075-0
+00:10:03.090 --> 00:10:05.460
+O sea, ya está la funcionalidad
+simplemente es el toque.
+
+cf39f87c-2321-4bfb-83bd-115a43f064fa-0
+00:10:06.550 --> 00:10:08.780
+Según yo, a ver, deja checo Aver
+que rota.
+
+fc3facb9-708b-4932-b27c-34564dd03016-0
+00:10:09.720 --> 00:10:09.910
+Que.
+
+63685d14-a610-4037-8fba-84f496397ea1-0
+00:10:11.520 --> 00:10:14.546
+¿Este y yo siento que sí podemos
+limitarlo únicamente a eso y el
+
+63685d14-a610-4037-8fba-84f496397ea1-1
+00:10:14.546 --> 00:10:15.710
+sistema de recomendación?
+
+ad8b0c7e-b13b-438f-9adc-6eb71287fc21-0
+00:10:18.910 --> 00:10:24.693
+No. Entonces, ese error de que
+no está jalando la librería
+
+ad8b0c7e-b13b-438f-9adc-6eb71287fc21-1
+00:10:24.693 --> 00:10:25.380
+depilo.
+
+04aafa86-5c3b-4d83-83da-a4ea688f4eff-0
+00:10:27.230 --> 00:10:28.790
+A lo mejor no instaló en el.
+
+46308353-10a4-4a06-aa5f-330a78fe925d-0
+00:10:29.590 --> 00:10:30.370
+Ser verde.
+
+82cb8ddc-f666-48ed-bd1c-0b1b42b0f496-0
+00:10:31.570 --> 00:10:32.040
+En.
+
+133b617b-ad67-4d89-a433-b33ba33335e4-0
+00:10:32.890 --> 00:10:37.747
+El club y de hecho es la de esa
+depilo, está fallando porque
+
+133b617b-ad67-4d89-a433-b33ba33335e4-1
+00:10:37.747 --> 00:10:42.685
+cuando hace rato este volvía a
+hacer, a clonar el repositorio
+
+133b617b-ad67-4d89-a433-b33ba33335e4-2
+00:10:42.685 --> 00:10:46.985
+ajá, no venía el piloto en
+requirements y lo tuve que
+
+133b617b-ad67-4d89-a433-b33ba33335e4-3
+00:10:46.985 --> 00:10:48.260
+instalar aparte.
+
+1ddb86d3-b741-4d25-9d89-102c270cb6ed-0
+00:10:49.710 --> 00:10:53.966
+Sí, pero nomás añade a la parte
+recurrente, si mira la imagen es
+
+1ddb86d3-b741-4d25-9d89-102c270cb6ed-1
+00:10:53.966 --> 00:10:57.895
+de pillow y este sí es del del
+token entonces, pues ya como
+
+1ddb86d3-b741-4d25-9d89-102c270cb6ed-2
+00:10:57.895 --> 00:10:59.140
+quiera, ya sabemos.
+
+6091ef55-2b4d-492f-9e98-94cb52e92ab5-0
+00:11:00.770 --> 00:11:05.126
+Jaa, pues yo estaría trabajando
+en esto el día de hoy en editar
+
+6091ef55-2b4d-492f-9e98-94cb52e92ab5-1
+00:11:05.126 --> 00:11:08.939
+skills que que que sea
+funcional, esto también me falta
+
+6091ef55-2b4d-492f-9e98-94cb52e92ab5-2
+00:11:08.939 --> 00:11:13.160
+editarlo, porque todavía no está
+calando este los parámetros.
+
+6d2d22cc-7e3c-4c68-9fd7-cec1c714bd68-0
+00:11:14.380 --> 00:11:19.020
+¿Y pues ya revisar, también me
+estaba fijando ahorita que en
+
+6d2d22cc-7e3c-4c68-9fd7-cec1c714bd68-1
+00:11:19.020 --> 00:11:23.584
+cursos y en y en trabajo se ve
+diferente la vista, entonces
+
+6d2d22cc-7e3c-4c68-9fd7-cec1c714bd68-2
+00:11:23.584 --> 00:11:25.029
+sería unificar eso?
+
+d6413c48-c3fb-41e9-8521-5ad7587da931-0
+00:11:26.480 --> 00:11:30.250
+Y pues no sé, los demás mirar
+raro.
+
+435c1b49-f841-4ccf-aee1-da73e2dc15ee-0
+00:11:30.830 --> 00:11:34.470
+Ay, es que el profe lo estaba
+poniendo el de jobs.
+
+52860a82-6d31-4cdb-9a09-8de2dd89babd-0
+00:11:35.150 --> 00:11:36.370
+Y luego se iba cursos.
+
+92de33b5-6534-41ce-b478-919a1c021b24-0
+00:11:37.240 --> 00:11:39.520
+Y como que cambiaba, mira a ver
+si cambia.
+
+ddbf019e-a511-4f5a-8033-e88fbe8da7ee-0
+00:11:40.240 --> 00:11:42.470
+Ah, entonces eso es centrado
+ahora sí, mira.
+
+086f317c-44d6-4acd-9637-6967419519bf-0
+00:11:43.110 --> 00:11:45.050
+Y no veo fijado en eso entonces.
+
+b8c82d83-dac8-430e-a0a0-d8d1a0919f50-0
+00:11:46.300 --> 00:11:47.730
+Este revisar eso.
+
+1c872e35-605f-4e10-b0c7-0ae9b043aab2-0
+00:11:48.880 --> 00:11:50.600
+Y pues, ia.
+
+7f2ea9e6-7ca9-49d5-847e-6acbee97f003-0
+00:11:51.830 --> 00:11:55.725
+De hecho, si eres un la ciudad
+decir que tal vez yo podía hacer
+
+7f2ea9e6-7ca9-49d5-847e-6acbee97f003-1
+00:11:55.725 --> 00:11:58.100
+eso la de fijarme en todo lo
+estético.
+
+a00b8796-f816-4352-884d-9dc38975d6e6-0
+00:11:58.850 --> 00:12:02.246
+Y cambiarlo, por ejemplo,
+Ahorita también ya hice un
+
+a00b8796-f816-4352-884d-9dc38975d6e6-1
+00:12:02.246 --> 00:12:06.475
+bueno. Fueron pequeñitos cambios
+y por ejemplo también el home no
+
+a00b8796-f816-4352-884d-9dc38975d6e6-2
+00:12:06.475 --> 00:12:10.384
+muestra el degradado, no sé si
+estés en local, le aparece la
+
+a00b8796-f816-4352-884d-9dc38975d6e6-3
+00:12:10.384 --> 00:12:13.140
+parte del form, este blanco y
+ahí no sale.
+
+a0b68307-f2c7-4e5a-ad83-6e41a3ae1dc2-0
+00:12:13.830 --> 00:12:16.080
+Déjame ver, eso, lo tengo
+abierto.
+
+05060fd4-7879-4f21-b0d7-65cbb140a0df-0
+00:12:17.030 --> 00:12:21.375
+Sí, sí, en el local sale blanco
+en el local blanco y en la playa
+
+05060fd4-7879-4f21-b0d7-65cbb140a0df-1
+00:12:21.375 --> 00:12:21.710
+sale.
+
+38111948-7533-4de1-b162-2e5fc39c5a28-0
+00:12:22.790 --> 00:12:25.652
+Eso lo voy, lo voy a mirar
+también, pero, o sea, todos los
+
+38111948-7533-4de1-b162-2e5fc39c5a28-1
+00:12:25.652 --> 00:12:28.660
+estéticos. Si les decía que si
+me podían cargar de esa parte.
+
+17df789e-4396-4800-94cd-6858c25f7548-0
+00:12:29.690 --> 00:12:31.730
+Si sabes cómo hacer esto.
+
+5c5b600d-4624-42e8-b4ff-61874300777e-0
+00:12:32.530 --> 00:12:35.925
+Sí, nada más, es un clic y ya te
+he mostrado su formularios
+
+5c5b600d-4624-42e8-b4ff-61874300777e-1
+00:12:35.925 --> 00:12:39.490
+diferentes ya nada más les falta
+la integración de la parte de
+
+5c5b600d-4624-42e8-b4ff-61874300777e-2
+00:12:39.490 --> 00:12:40.000
+trabajos.
+
+6a0b131c-0132-4155-ad64-85115e7e5b93-0
+00:12:42.120 --> 00:12:49.018
+Mhm, pues sí, creo que sería
+eso, y pues no sé cómo es tu
+
+6a0b131c-0132-4155-ad64-85115e7e5b93-1
+00:12:49.018 --> 00:12:52.230
+Adán con lo de los filtros.
+
+e6ce1c58-4701-4480-bd60-679b7822fb37-0
+00:12:56.100 --> 00:12:59.041
+¿Lo de los filtros no lo he
+trabajado, estuve trabajando con
+
+e6ce1c58-4701-4480-bd60-679b7822fb37-1
+00:12:59.041 --> 00:13:02.080
+la dea favoritos? ¿Bueno, no?
+Sí, sí, trabajé con los filtros.
+
+b786291d-c380-4b61-8d2a-8533731f05e7-0
+00:13:02.730 --> 00:13:07.296
+Pero lo intente con el de gratis
+y me salían pues resultados que
+
+b786291d-c380-4b61-8d2a-8533731f05e7-1
+00:13:07.296 --> 00:13:11.652
+no eran aparte, este cuando lo
+estaba haciendo recordé que lo
+
+b786291d-c380-4b61-8d2a-8533731f05e7-2
+00:13:11.652 --> 00:13:15.867
+tenía que hacer en base a la
+búsqueda. Entonces necesito en
+
+b786291d-c380-4b61-8d2a-8533731f05e7-3
+00:13:15.867 --> 00:13:20.153
+no, no había pensado bien en eso
+YY pues me faltaba que, por
+
+b786291d-c380-4b61-8d2a-8533731f05e7-4
+00:13:20.153 --> 00:13:22.050
+ejemplo, tomar la búsqueda.
+
+0f4ddac6-653e-4a9d-89a1-0fda337cd9f4-0
+00:13:22.750 --> 00:13:27.080
+En lo que está en la verdad y en
+base a eso que haga los filtros.
+
+3a4a6231-b42e-45c1-adb5-915e59d0edec-0
+00:13:28.960 --> 00:13:32.805
+¿Pero tú sí crees que que lo
+acabes? ¿Oo Necesitarías ayuda o
+
+3a4a6231-b42e-45c1-adb5-915e59d0edec-1
+00:13:32.805 --> 00:13:36.774
+en esa parte? ¿Si en el añadido
+a favoritos, como quiera les ya
+
+3a4a6231-b42e-45c1-adb5-915e59d0edec-2
+00:13:36.774 --> 00:13:40.744
+ahorita lo resuelvo, me desvelo
+resolviéndolo, pero sus mínimos
+
+3a4a6231-b42e-45c1-adb5-915e59d0edec-3
+00:13:40.744 --> 00:13:44.403
+detalles, pero en ese los
+filtros sin necesitar un poquito
+
+3a4a6231-b42e-45c1-adb5-915e59d0edec-4
+00:13:44.403 --> 00:13:48.248
+de ayuda, porque sí, sí, sí se
+me hizo un poquito complicado,
+
+3a4a6231-b42e-45c1-adb5-915e59d0edec-5
+00:13:48.248 --> 00:13:52.156
+más que nada por esa parte de si
+fuera el puro filtro, pues no
+
+3a4a6231-b42e-45c1-adb5-915e59d0edec-6
+00:13:52.156 --> 00:13:56.063
+hay problema, pero como es en
+base a la búsqueda YY es o si se
+
+3a4a6231-b42e-45c1-adb5-915e59d0edec-7
+00:13:56.063 --> 00:13:57.490
+me complica un poquito?
+
+63b18917-11fd-4aae-8068-f35e18cfc777-0
+00:13:58.890 --> 00:14:04.675
+¿Y en el de Google y Facebook?
+Si esos dices que nada más es
+
+63b18917-11fd-4aae-8068-f35e18cfc777-1
+00:14:04.675 --> 00:14:08.090
+cambiar el el host, no en las
+APIS.
+
+589517ab-b0cf-45b0-ab52-74689a498b88-0
+00:14:09.870 --> 00:14:13.416
+Sí, en las APIS necesito poner
+el link del de Floyd YY hacer
+
+589517ab-b0cf-45b0-ab52-74689a498b88-1
+00:14:13.416 --> 00:14:17.078
+las pruebas en caso de que me
+salga error, como que era ese ya
+
+589517ab-b0cf-45b0-ab52-74689a498b88-2
+00:14:17.078 --> 00:14:20.915
+es un poquito más este sí se ven
+algo, pues igual este me pongo a
+
+589517ab-b0cf-45b0-ab52-74689a498b88-3
+00:14:20.915 --> 00:14:24.635
+investigarlo o si alguno, este
+por ejemplo, saúl, que es el que
+
+589517ab-b0cf-45b0-ab52-74689a498b88-4
+00:14:24.635 --> 00:14:28.297
+más se le sabe a eso, pues si me
+puede ayudar en caso, pero en
+
+589517ab-b0cf-45b0-ab52-74689a498b88-5
+00:14:28.297 --> 00:14:31.785
+que ya en caso de que me atore
+mucho, pero no creo que haya
+
+589517ab-b0cf-45b0-ab52-74689a498b88-6
+00:14:31.785 --> 00:14:34.460
+problema, solamente sería
+cambiar el dominio.
+
+2a4190e9-cc6d-488e-accd-a1431b9f7f4b-0
+00:14:35.210 --> 00:14:39.952
+Ok, OK y aparte no mira a sorry,
+no más. Quería preguntar que si
+
+2a4190e9-cc6d-488e-accd-a1431b9f7f4b-1
+00:14:39.952 --> 00:14:41.120
+en esa parte de.
+
+9dd3ace3-4fce-4add-8821-02407735a39a-0
+00:14:42.030 --> 00:14:45.230
+Del API te limita un solo
+cambio, o sea, te lo restringe,
+
+9dd3ace3-4fce-4add-8821-02407735a39a-1
+00:14:45.230 --> 00:14:48.211
+que ya cuando una vez
+establezcas el el dominio ya no
+
+9dd3ace3-4fce-4add-8821-02407735a39a-2
+00:14:48.211 --> 00:14:51.301
+lo puedes cambiar o si te
+permite hacer modificaciones,
+
+9dd3ace3-4fce-4add-8821-02407735a39a-3
+00:14:51.301 --> 00:14:54.833
+porque hay unos APIS que, bueno,
+hay ocasiones donde no deja, y
+
+9dd3ace3-4fce-4add-8821-02407735a39a-4
+00:14:54.833 --> 00:14:58.090
+si la regamos ahí creo que sería
+otra vez desde el inicio.
+
+88dc7888-84a8-41ea-a584-4b73bcd98963-0
+00:15:00.220 --> 00:15:04.070
+De hecho, se me fijé eso desde
+el principio, la tenía la duda
+
+88dc7888-84a8-41ea-a584-4b73bcd98963-1
+00:15:04.070 --> 00:15:07.796
+de que si me dejaba editarlo,
+pero si si si me deja este lo
+
+88dc7888-84a8-41ea-a584-4b73bcd98963-2
+00:15:07.796 --> 00:15:09.660
+único que no me deja en la de.
+
+222fd411-fcb7-4386-8dc4-3b313e8699e2-0
+00:15:10.790 --> 00:15:13.959
+En la en la de Google me deja
+añadir otra url, el otro
+
+222fd411-fcb7-4386-8dc4-3b313e8699e2-1
+00:15:13.959 --> 00:15:14.420
+dominio.
+
+dbd15ce2-402f-4553-bdf9-c1fce44cbb32-0
+00:15:15.100 --> 00:15:17.875
+Este, pero por ejemplo en
+Facebook, nada más me deja
+
+dbd15ce2-402f-4553-bdf9-c1fce44cbb32-1
+00:15:17.875 --> 00:15:20.912
+añadir un dominio a la vez,
+entonces ahorita lo tengo con
+
+dbd15ce2-402f-4553-bdf9-c1fce44cbb32-2
+00:15:20.912 --> 00:15:23.950
+localhost, sería quitar el
+localhost editarlo obviamente.
+
+6bece191-d85e-46ea-b1c6-cc2e3663f879-0
+00:15:24.580 --> 00:15:27.707
+La esa parte del lápiz y añadir
+el dominio, pero así si me deja
+
+6bece191-d85e-46ea-b1c6-cc2e3663f879-1
+00:15:27.707 --> 00:15:30.590
+editarlo, fue lo primero que me
+fijé precisamente por eso.
+
+c79b216a-7af3-4cfd-82c2-188e23035ea0-0
+00:15:32.930 --> 00:15:36.123
+Mhm. O que este si quieres
+ahorita que venga bueno, más
+
+c79b216a-7af3-4cfd-82c2-188e23035ea0-1
+00:15:36.123 --> 00:15:39.316
+tardecita, no sé a qué hora se
+conecte gerardo, que los
+
+c79b216a-7af3-4cfd-82c2-188e23035ea0-2
+00:15:39.316 --> 00:15:42.680
+cheques, porque yo siento que
+esa parte de login con redes
+
+c79b216a-7af3-4cfd-82c2-188e23035ea0-3
+00:15:42.680 --> 00:15:45.190
+sociales y es prioritaria para
+el proyecto.
+
+cd1d75ed-d1c6-4ca5-9a62-d0d361dff2d2-0
+00:15:47.500 --> 00:15:49.740
+También definirlo y ver que.
+
+d7b078bf-2f36-4238-9882-23ffa4f6edb3-0
+00:15:52.360 --> 00:15:54.850
+Pues no sé, suites, alabanza,
+algún error o algo así.
+
+324a15ff-54b6-44bf-aee8-c2b4c6dacc09-0
+00:15:57.120 --> 00:16:00.844
+De hecho, estaba pensando que ya
+en el error que lanzaba cuando
+
+324a15ff-54b6-44bf-aee8-c2b4c6dacc09-1
+00:16:00.844 --> 00:16:03.230
+hacíamos el en el registro ya
+login con.
+
+cb47ef28-e82c-4115-a52d-ce01eb4b3e03-0
+00:16:04.170 --> 00:16:08.363
+Con bueno con el pro formulario
+este estaba pensando, a ver si
+
+cb47ef28-e82c-4115-a52d-ce01eb4b3e03-1
+00:16:08.363 --> 00:16:11.892
+no me lanza el mismo error al
+momento de querer este
+
+cb47ef28-e82c-4115-a52d-ce01eb4b3e03-2
+00:16:11.892 --> 00:16:13.290
+autenticarme con las.
+
+da03e7e1-dfd1-4f0f-a0b3-a4c3d00c5054-0
+00:16:14.690 --> 00:16:15.820
+Con las redes.
+
+55c852cf-fef5-4c28-8542-51b8b2b9f954-0
+00:16:17.180 --> 00:16:22.475
+Creo que era no recuerdo bien,
+Elena era el DSRSSS, miro, pero
+
+55c852cf-fef5-4c28-8542-51b8b2b9f954-1
+00:16:22.475 --> 00:16:27.602
+igual ese no es tan dificil de
+arreglar, nada más pones como
+
+55c852cf-fef5-4c28-8542-51b8b2b9f954-2
+00:16:27.602 --> 00:16:32.310
+una línea. ¿Es cierto que ajá?
+Sí, ah, no hay problema.
+
+f30b8988-d158-46d4-bba0-ccde085a5580-0
+00:16:33.450 --> 00:16:38.558
+Pero el problema es que, por
+ejemplo, ese ese refrito que lo
+
+f30b8988-d158-46d4-bba0-ccde085a5580-1
+00:16:38.558 --> 00:16:39.480
+pone en el.
+
+7ec0a452-3c27-4894-94ce-a0f1ae7ac6f9-0
+00:16:40.160 --> 00:16:44.773
+Creo que es en el bus, en el en
+el módulo no recuerdo cual mhm y
+
+7ec0a452-3c27-4894-94ce-a0f1ae7ac6f9-1
+00:16:44.773 --> 00:16:49.031
+el problema es que por ejemplo,
+están la autentificación de
+
+7ec0a452-3c27-4894-94ce-a0f1ae7ac6f9-2
+00:16:49.031 --> 00:16:53.503
+Google y Facebook, no hay un,
+no, hay un virus, entonces la la
+
+7ec0a452-3c27-4894-94ce-a0f1ae7ac6f9-3
+00:16:53.503 --> 00:16:58.045
+parte de sea la autenticación se
+hace en el en el SET inss y no
+
+7ec0a452-3c27-4894-94ce-a0f1ae7ac6f9-4
+00:16:58.045 --> 00:17:00.529
+sé si en esa parte se pueda
+poner.
+
+0ea92d76-d2b9-4368-bca8-e7aaeef26287-0
+00:17:05.190 --> 00:17:10.100
+Pues necesitaríamos revisarlo,
+ya que hagas el cambio.
+
+7cf2bdf8-54b5-4eb6-a85f-ec61a19a4b28-0
+00:17:13.120 --> 00:17:14.030
+Sí, sí, sí.
+
+f91df1ab-a252-41d8-9439-9bd4ba2b4bd7-0
+00:17:15.210 --> 00:17:18.650
+Ahora sí que sería, pues si
+quieren ahorita los voy a
+
+f91df1ab-a252-41d8-9439-9bd4ba2b4bd7-1
+00:17:18.650 --> 00:17:19.160
+ponerlo.
+
+01e1d53c-5799-438d-b675-93eefd4eacab-0
+00:17:20.770 --> 00:17:24.490
+¿Sí pues, si quieres este para
+para, en caso de que ella
+
+01e1d53c-5799-438d-b675-93eefd4eacab-1
+00:17:24.490 --> 00:17:27.820
+problema sea este, EH? Pues ver
+cómo solucionarlo.
+
+0175516a-0c98-4b58-bd4b-5fa6b3f20c87-0
+00:17:29.670 --> 00:17:32.914
+Sí, entonces ahorita nada más,
+también los dominios, bueno, el
+
+0175516a-0c98-4b58-bd4b-5fa6b3f20c87-1
+00:17:32.914 --> 00:17:33.430
+dominio y.
+
+0715d269-f648-4b21-8837-8816e45d4935-0
+00:17:34.430 --> 00:17:38.320
+Y pues este hago con mi vida lo
+que tengo y.
+
+54761e65-7d88-4a36-be6b-cebf437181a4-0
+00:17:39.870 --> 00:17:43.837
+Para empezar a colarlo saber si
+da error OO si funciona o que
+
+54761e65-7d88-4a36-be6b-cebf437181a4-1
+00:17:43.837 --> 00:17:47.804
+esté bien te quería preguntar
+nada más, algo sobre la base de
+
+54761e65-7d88-4a36-be6b-cebf437181a4-2
+00:17:47.804 --> 00:17:51.707
+datos de los trabajos, porque
+ahorita si nos sentaron con el
+
+54761e65-7d88-4a36-be6b-cebf437181a4-3
+00:17:51.707 --> 00:17:55.546
+profe está revisando que te
+muestra cómo el título, pero te
+
+54761e65-7d88-4a36-be6b-cebf437181a4-4
+00:17:55.546 --> 00:17:56.890
+muestra la categoría.
+
+cbe85962-f5dd-4f3b-873e-5fefd4b441d4-0
+00:17:57.660 --> 00:18:02.401
+No sé si no tenemos el título o
+se confundieron los campos, creo
+
+cbe85962-f5dd-4f3b-873e-5fefd4b441d4-1
+00:18:02.401 --> 00:18:04.590
+que si no me pasó eso primero.
+
+5c2312a3-a38d-4a37-9730-e955ebfca23e-0
+00:18:05.200 --> 00:18:09.700
+Es que primero, lo que pasó fue,
+fue esto la tengo los títulos,
+
+5c2312a3-a38d-4a37-9730-e955ebfca23e-1
+00:18:09.700 --> 00:18:11.670
+pero cuando los iba a subir.
+
+da75ed54-df42-448d-aa72-b4d016e3d41d-0
+00:18:12.610 --> 00:18:17.951
+A cómo habían hombres así, tú
+podrías buscar back end, pero el
+
+da75ed54-df42-448d-aa72-b4d016e3d41d-1
+00:18:17.951 --> 00:18:20.240
+back end te daba el título.
+
+e4c8f9bf-3706-471d-8220-4f00f1a86898-0
+00:18:20.990 --> 00:18:23.943
+¿Ah, te da un título, the fuck?
+Mientras el trabajo era más como
+
+e4c8f9bf-3706-471d-8220-4f00f1a86898-1
+00:18:23.943 --> 00:18:24.580
+tipo back end.
+
+54f132a6-3f6b-4f9c-83a3-9713e96a4d9a-0
+00:18:25.200 --> 00:18:29.189
+Entonces lo que hice nomas fue
+borrar los títulos y en la parte
+
+54f132a6-3f6b-4f9c-83a3-9713e96a4d9a-1
+00:18:29.189 --> 00:18:32.804
+de de títulos le puse la
+categoría, entonces ahora lo que
+
+54f132a6-3f6b-4f9c-83a3-9713e96a4d9a-2
+00:18:32.804 --> 00:18:33.740
+voy a hacer es.
+
+928de09d-f831-434c-8a3d-ef40fa32e572-0
+00:18:34.660 --> 00:18:38.116
+A borrar otra vez la parte de
+los títulos que tiene la
+
+928de09d-f831-434c-8a3d-ef40fa32e572-1
+00:18:38.116 --> 00:18:41.949
+categoría y poner los títulos
+originales y crear una columna
+
+928de09d-f831-434c-8a3d-ef40fa32e572-2
+00:18:41.949 --> 00:18:45.217
+añadida donde aparezcan las
+categorías. Entonces ya
+
+928de09d-f831-434c-8a3d-ef40fa32e572-3
+00:18:45.217 --> 00:18:47.040
+aparecerá el título completo.
+
+394809f3-212d-406e-8c06-01d687c6c670-0
+00:18:47.850 --> 00:18:51.450
+Muy bien, sí, porque sí, está
+raro que salga la categoría ahí.
+
+21a691b3-5690-4293-b009-2f1b7f0c0aa2-0
+00:18:52.170 --> 00:18:55.613
+Creí que era error mío d llamar
+a alguno de esos, pero no estuve
+
+21a691b3-5690-4293-b009-2f1b7f0c0aa2-1
+00:18:55.613 --> 00:18:59.004
+mirando los cómo se llama a los
+modelos y si el título creo que
+
+21a691b3-5690-4293-b009-2f1b7f0c0aa2-2
+00:18:59.004 --> 00:19:02.077
+sí, se confundió, te digo, no sé
+si habían puesto mal los
+
+21a691b3-5690-4293-b009-2f1b7f0c0aa2-3
+00:19:02.077 --> 00:19:04.780
+parámetros ahí, pero si hay
+personas, ese detalle.
+
+930ef631-fd0d-4414-94ea-04d10e3d6b09-0
+00:19:05.960 --> 00:19:09.897
+Este y io creo que podemos
+trabajar en esto, darle
+
+930ef631-fd0d-4414-94ea-04d10e3d6b09-1
+00:19:09.897 --> 00:19:10.670
+prioridad.
+
+441bfc35-394b-4e99-939e-0ae87150b1fd-0
+00:19:11.690 --> 00:19:12.400
+A.
+
+bad8303b-5cd6-438e-9be1-be42ab41a402-0
+00:19:14.510 --> 00:19:16.090
+No sé si quieran o no o.
+
+c438b35e-bb9e-43d7-80cb-3deab56c9db3-0
+00:19:17.240 --> 00:19:20.808
+Mire necesario otra reunión
+antes de la entrega para ver
+
+c438b35e-bb9e-43d7-80cb-3deab56c9db3-1
+00:19:20.808 --> 00:19:21.560
+otros cosas.
+
+04f42626-fdfe-4cc9-bf9c-85e9120cc596-0
+00:19:22.890 --> 00:19:27.538
+Fue, yo diría que sí, o sea de
+forma, así como rápida o pues
+
+04f42626-fdfe-4cc9-bf9c-85e9120cc596-1
+00:19:27.538 --> 00:19:32.110
+estar comentando aquí, pero
+tendré que ser aquí en el Grupo
+
+04f42626-fdfe-4cc9-bf9c-85e9120cc596-2
+00:19:32.110 --> 00:19:35.540
+para que el profe lo vea y no
+nos diga nada.
+
+45f99c77-4245-41db-b6a5-cfb4e8d26e56-0
+00:19:36.230 --> 00:19:37.500
+Este.
+
+861301d9-a912-43a0-af9f-63838fdaecb3-0
+00:19:38.490 --> 00:19:42.369
+Pues no sé, algún problema que
+que tengamos o algo así, por
+
+861301d9-a912-43a0-af9f-63838fdaecb3-1
+00:19:42.369 --> 00:19:45.020
+ejemplo, eso de los filtros yo
+creo que.
+
+7e2767f3-b83a-408c-881f-66bd2913c46c-0
+00:19:46.700 --> 00:19:51.148
+Pues no sé si sí estaba un
+poquillo complicado. ¿Habría que
+
+7e2767f3-b83a-408c-881f-66bd2913c46c-1
+00:19:51.148 --> 00:19:53.670
+ver también que este
+alternativa?
+
+187c56c6-5007-4d64-8d88-6f7121fbfaaf-0
+00:19:54.300 --> 00:19:58.050
+Ajá. ¿Qué alternativa podemos
+tener para eso?
+
+d0bcab84-4e96-4425-94d2-43212e64ef3a-0
+00:20:00.920 --> 00:20:05.295
+Que han documentado hay una
+reunión así como rápida si
+
+d0bcab84-4e96-4425-94d2-43212e64ef3a-1
+00:20:05.295 --> 00:20:06.330
+estaría bien.
+
+a2b9d707-2ff1-4b0b-9401-978b6fbc1a9d-0
+00:20:07.100 --> 00:20:11.496
+¿Oh OK, entonces ahorita para
+definir prioridades sobre qué se
+
+a2b9d707-2ff1-4b0b-9401-978b6fbc1a9d-1
+00:20:11.496 --> 00:20:13.730
+tiene que tener ese la parte de?
+
+2d207294-cd4e-42c6-888f-79896bcfebfa-0
+00:20:15.010 --> 00:20:16.680
+El registro login registro.
+
+e914d286-1d8e-42bc-b62c-f90b337f031a-0
+00:20:17.390 --> 00:20:17.620
+Mhm.
+
+32f5bca2-1411-4d51-9f2b-e47791cf7dbe-0
+00:20:20.040 --> 00:20:23.666
+Redes sociales lo estoy
+apuntando en el documento en el
+
+32f5bca2-1411-4d51-9f2b-e47791cf7dbe-1
+00:20:23.666 --> 00:20:27.746
+Excel de tareas que tenemos ahí,
+en la parte derecha, nada más
+
+32f5bca2-1411-4d51-9f2b-e47791cf7dbe-2
+00:20:27.746 --> 00:20:29.430
+para que tengan en cuenta.
+
+5b735b22-63d5-4151-928e-117f08b11fc4-0
+00:20:31.290 --> 00:20:33.130
+A revisar.
+
+41165f95-163e-4c0d-979e-11c1c14660fb-0
+00:20:34.000 --> 00:20:36.710
+De detalles estéticos.
+
+7480704f-b854-4336-ba36-4a0d0a0c0cba-0
+00:20:40.930 --> 00:20:41.510
+Mhm.
+
+3df8d9df-12f9-423f-b220-301e4f1550bd-0
+00:20:42.780 --> 00:20:47.320
+Sobre la base de datos este
+corregir títulos.
+
+b884e0f9-934d-4680-8cb0-f4c40a3eb0d1-0
+00:20:50.020 --> 00:20:54.000
+Corregir títulos en base a datos
+de trabajos.
+
+bce902c8-85b6-4122-bfa0-204c28f33c5c-0
+00:20:57.190 --> 00:20:58.040
+A.
+
+1c0e1082-4388-413e-9d66-97598a72913d-0
+00:20:59.940 --> 00:21:01.120
+El sistema de comentarios.
+
+607f444b-b4ad-4ccc-a08c-62f4254e6d9d-0
+00:21:07.660 --> 00:21:12.446
+¿Además, tenemos como prioridad
+la navegación, no es prioritaria
+
+607f444b-b4ad-4ccc-a08c-62f4254e6d9d-1
+00:21:12.446 --> 00:21:13.330
+el filtrado?
+
+5b6e92a7-cbbe-4c26-b4b7-7dd36f97171b-0
+00:21:14.990 --> 00:21:15.990
+Skillz.
+
+5e258a11-7675-425c-aff2-1aab1adcc97a-0
+00:21:17.990 --> 00:21:19.660
+Eso lo hace un poquito más
+bello.
+
+34fc7d6b-4c62-42ce-b10c-a6110ea52c37-0
+00:21:21.530 --> 00:21:22.540
+¿De fin?
+
+ab009247-e8ce-4d36-949e-a3b9c427b0bc-0
+00:21:35.520 --> 00:21:39.236
+Sabes de dónde podemos sacar la
+lista de skills que vamos a
+
+ab009247-e8ce-4d36-949e-a3b9c427b0bc-1
+00:21:39.236 --> 00:21:43.138
+manejar de la base de datos con
+la función que hizo Félix para
+
+ab009247-e8ce-4d36-949e-a3b9c427b0bc-2
+00:21:43.138 --> 00:21:45.120
+que extrajera los 3 principales.
+
+d51400ef-2f9b-45e1-b5e2-a3614482379f-0
+00:21:46.190 --> 00:21:49.846
+¿Ah, sí? Los 3 tags de los
+títulos de cursos. Creo que
+
+d51400ef-2f9b-45e1-b5e2-a3614482379f-1
+00:21:49.846 --> 00:21:52.240
+podemos hacer un query de todo
+eso.
+
+11ee4319-d016-4d3e-9cd7-22682f062cc6-0
+00:21:53.000 --> 00:21:55.670
+En donde te traiga, cada uno en
+singular.
+
+a7b92ff0-5e35-4e53-8d26-edcc50e2fac5-0
+00:21:56.680 --> 00:21:58.730
+Y eso es meterlos así de.
+
+356e0e1f-e8e7-4dbb-9931-c8e2773926e1-0
+00:22:00.090 --> 00:22:03.918
+Pues sí, meterlos en un listado
+y para utilizar esos mismos como
+
+356e0e1f-e8e7-4dbb-9931-c8e2773926e1-1
+00:22:03.918 --> 00:22:06.745
+tags de cursos y como skills
+para el sistema de
+
+356e0e1f-e8e7-4dbb-9931-c8e2773926e1-2
+00:22:06.745 --> 00:22:07.570
+recomendación.
+
+b9d5760a-6398-43b9-b97d-0d5e8c728b5c-0
+00:22:08.170 --> 00:22:11.100
+Así que, o sea, porque si son
+facilitaría.
+
+4d6bd7ae-3775-42d6-90bb-daae4bd3e7c2-0
+00:22:12.500 --> 00:22:18.130
+¿Ahorita en que más definir el
+usuario la parte de?
+
+64ac9049-8353-4a5d-bd66-1277dc02e5fe-0
+00:22:18.830 --> 00:22:19.680
+Editar.
+
+c93d08da-783a-41ec-b4e9-309a1fe737ed-0
+00:22:21.930 --> 00:22:23.430
+Información.
+
+a5c22fa4-1d38-4ab2-8718-9f3c2a0d10d8-0
+00:22:25.260 --> 00:22:28.910
+Esa parte de las skills se me
+hace mejor que.
+
+79b5b5f1-ce2e-4bbc-a507-370f6dbc900e-0
+00:22:29.720 --> 00:22:33.732
+¿En vez de que se enfoquen en
+las 2 en el jardín soft, que
+
+79b5b5f1-ce2e-4bbc-a507-370f6dbc900e-1
+00:22:33.732 --> 00:22:38.153
+nada más este nos enfoquemos en
+que en las carteras recomendadas
+
+79b5b5f1-ce2e-4bbc-a507-370f6dbc900e-2
+00:22:38.153 --> 00:22:42.573
+y que las skill este, pues esas
+cual cualesquiera pueden poner y
+
+79b5b5f1-ce2e-4bbc-a507-370f6dbc900e-3
+00:22:42.573 --> 00:22:46.450
+basarnos en las calles kill para
+hacer la recomendación?
+
+8b98f752-5a9b-419f-ab3e-30f99ffbfab5-0
+00:22:47.440 --> 00:22:51.222
+De hecho, sí está muy bien que
+se definan las artes kills como,
+
+8b98f752-5a9b-419f-ab3e-30f99ffbfab5-1
+00:22:51.222 --> 00:22:55.004
+de esta manera limitarla 3 y que
+sean con las que tengamos nada
+
+8b98f752-5a9b-419f-ab3e-30f99ffbfab5-2
+00:22:55.004 --> 00:22:58.373
+más nosotros añadidas y en
+software. Si lo podemos hacer
+
+8b98f752-5a9b-419f-ab3e-30f99ffbfab5-3
+00:22:58.373 --> 00:23:01.741
+como un formulario simple donde
+ingrese el texto para no
+
+8b98f752-5a9b-419f-ab3e-30f99ffbfab5-4
+00:23:01.741 --> 00:23:02.509
+complicarnos.
+
+d04cf91d-d95d-4fd4-b9b9-1d1296bee3b7-0
+00:23:03.930 --> 00:23:07.178
+O que incluso creo que si se
+hacen las cartillas, simplemente
+
+d04cf91d-d95d-4fd4-b9b9-1d1296bee3b7-1
+00:23:07.178 --> 00:23:09.170
+sería una copia de esa
+funcionalidad.
+
+69cf2f4a-b2c1-4cff-8d92-a33507b48a16-0
+00:23:10.520 --> 00:23:13.010
+Sí, no sé qué parte se la sabe
+más sencillo, pero.
+
+4d9f01c1-6ccc-47ff-b63b-dc846c61873d-0
+00:23:14.170 --> 00:23:14.640
+Pues igual.
+
+9323d31c-f4d0-4e8e-91f7-fdb670bd1377-0
+00:23:15.840 --> 00:23:18.890
+¿A editar el documento esto
+también lo haría yo?
+
+f2b898bd-c5f6-45c4-8f24-3285ef455659-0
+00:23:20.940 --> 00:23:23.545
+Con todos los cambios que
+estamos haciendo, yo creo que
+
+f2b898bd-c5f6-45c4-8f24-3285ef455659-1
+00:23:23.545 --> 00:23:24.430
+los cambiaría para.
+
+5b1a07f6-1cb2-420a-9156-b8dfd8ce297b-0
+00:23:25.400 --> 00:23:28.908
+El documento, si tienen, sí, sí.
+Voy a requerir editar un
+
+5b1a07f6-1cb2-420a-9156-b8dfd8ce297b-1
+00:23:28.908 --> 00:23:32.840
+diagrama, les mando mensaje ahí
+a quien lo haya hecho y para que
+
+5b1a07f6-1cb2-420a-9156-b8dfd8ce297b-2
+00:23:32.840 --> 00:23:33.990
+me los pase, Porfa.
+
+5ffb017b-8e8b-46b4-8ba3-86b9d7dfbe08-0
+00:23:36.020 --> 00:23:39.450
+Para que tener el como dijo el
+profe, tenerla es lo más apegado
+
+5ffb017b-8e8b-46b4-8ba3-86b9d7dfbe08-1
+00:23:39.450 --> 00:23:42.399
+al tener el proyecto más
+apegado, lo más apegado a las
+
+5ffb017b-8e8b-46b4-8ba3-86b9d7dfbe08-2
+00:23:42.399 --> 00:23:42.560
+es.
+
+43e62bf5-a047-4afb-9039-84914a236946-0
+00:23:44.840 --> 00:23:47.190
+No sé si crean que falta algo.
+
+1f3138b1-5467-4a89-9e5f-56e81594e1be-0
+00:23:49.410 --> 00:23:51.543
+Esto yo creo que lo tendremos
+que tener de fuerzas para
+
+1f3138b1-5467-4a89-9e5f-56e81594e1be-1
+00:23:51.543 --> 00:23:51.810
+mañana.
+
+77ea34d2-681f-4592-a7bf-f86ba5599026-0
+00:23:55.070 --> 00:23:59.187
+Y ahorita todo lo de la base de
+datos, ahorita la va a empezar a
+
+77ea34d2-681f-4592-a7bf-f86ba5599026-1
+00:23:59.187 --> 00:24:03.178
+hacer, probablemente 1 hora 1:30
+lo acabe entonces, después de
+
+77ea34d2-681f-4592-a7bf-f86ba5599026-2
+00:24:03.178 --> 00:24:06.599
+ahí a estoy disponible para
+cualquier ayuda que tiene
+
+77ea34d2-681f-4592-a7bf-f86ba5599026-3
+00:24:06.599 --> 00:24:07.930
+cualquier otra tarea.
+
+b7be6a9f-c637-4a16-880b-6177fb8e507e-0
+00:24:08.610 --> 00:24:10.160
+Para hacer todo lo más rápido
+posible.
+
+c4028807-c8ec-4481-9342-2108a4475ac5-0
+00:24:11.260 --> 00:24:11.690
+¿Ok?
+
+cf831d26-15ac-4d9c-b521-6ba9387f2228-0
+00:24:13.540 --> 00:24:17.394
+Bien en cuanto si alguien se
+desocupa o algo así tiene el
+
+cf831d26-15ac-4d9c-b521-6ba9387f2228-1
+00:24:17.394 --> 00:24:21.382
+tiempo, este si quieren mandar
+mensaje en la parte de bueno
+
+cf831d26-15ac-4d9c-b521-6ba9387f2228-2
+00:24:21.382 --> 00:24:23.110
+aquí en el Grupo de teams.
+
+3ac580f9-e422-4bf5-9094-d503d3f402be-0
+00:24:23.730 --> 00:24:26.993
+De que están libres o algo así
+para ver si pueden ayudar a
+
+3ac580f9-e422-4bf5-9094-d503d3f402be-1
+00:24:26.993 --> 00:24:29.040
+alguien más y sino empezar con
+algo.
+
+f479e4a1-e791-485c-80bd-0d12968ba1ba-0
+00:24:29.650 --> 00:24:33.000
+Para complementar, es la el
+sistema completo.
+
+dda09005-cbe7-4290-b8a8-d703b1a09c6c-0
+00:24:34.380 --> 00:24:36.240
+Aunque que está bien.
+
+20e4752f-8d7a-4e62-b152-ec707fa4658c-0
+00:24:37.650 --> 00:24:40.610
+Entonces, ahí están las
+prioridades, no sé si es falta
+
+20e4752f-8d7a-4e62-b152-ec707fa4658c-1
+00:24:40.610 --> 00:24:43.678
+haga falta una. Ese login y
+registro con redes sociales,
+
+20e4752f-8d7a-4e62-b152-ec707fa4658c-2
+00:24:43.678 --> 00:24:46.854
+revisar detalles estéticos,
+corregir títulos en la base de
+
+20e4752f-8d7a-4e62-b152-ec707fa4658c-3
+00:24:46.854 --> 00:24:49.706
+datos, el sistema de
+comentarios, definir las skills
+
+20e4752f-8d7a-4e62-b152-ec707fa4658c-4
+00:24:49.706 --> 00:24:52.559
+al usuario, editar la
+información del usuario o sea,
+
+20e4752f-8d7a-4e62-b152-ec707fa4658c-5
+00:24:52.559 --> 00:24:55.520
+pero esto ya sería, déjenlo.
+Pongo esto en producción.
+
+5b8e84e9-1e0a-4560-b25f-edf7b479b511-0
+00:25:00.630 --> 00:25:01.130
+Mhm.
+
+78bcbaa1-ee19-42fd-9402-5e9592c5111c-0
+00:25:02.170 --> 00:25:02.840
+Opción.
+
+c4ed5636-55c8-4ef5-8ae0-e6fc6bc78ea0-0
+00:25:04.780 --> 00:25:07.653
+Editar el documento esto también
+es en producción, que se
+
+c4ed5636-55c8-4ef5-8ae0-e6fc6bc78ea0-1
+00:25:07.653 --> 00:25:08.050
+refleja.
+
+da54fbb3-3130-493d-b2a6-66f72611ca00-0
+00:25:14.140 --> 00:25:16.430
+Y creo que sería todo.
+
+27623e6f-19c5-4e50-826b-c8e504d86b95-0
+00:25:22.840 --> 00:25:24.610
+A ver aquí de la lista de
+tareas.
+
+6ea93916-6b7c-49a4-b5ae-68e4c3e67d1b-0
+00:25:25.750 --> 00:25:28.977
+El motor de búsqueda o el motor
+de búsqueda también es
+
+6ea93916-6b7c-49a4-b5ae-68e4c3e67d1b-1
+00:25:28.977 --> 00:25:31.500
+importante búsqueda bueno, el
+búsqueda de.
+
+1f8f753a-2138-4355-af0a-f92538746df4-0
+00:25:33.090 --> 00:25:33.780
+Trabajos.
+
+e8d0df77-9dbb-40d2-9508-ec346ddce42c-0
+00:25:36.650 --> 00:25:38.330
+No bajos.
+
+6de612dd-02a0-4ab8-9984-6cd3d3053e32-0
+00:25:42.600 --> 00:25:44.230
+Importación a postres.
+
+3b565545-6ec0-4987-adca-a8a25821fea8-0
+00:25:48.620 --> 00:25:50.470
+¿Pero el sistema de
+recomendación?
+
+9ecbbc46-cd8e-4ceb-99a6-1f865add0172-0
+00:25:56.810 --> 00:25:58.568
+Pues el sistema de
+recomendación, no sé si quieren
+
+9ecbbc46-cd8e-4ceb-99a6-1f865add0172-1
+00:25:58.568 --> 00:25:59.500
+que lo meta como prioridad.
+
+2d50c3da-e92d-44a0-ae42-23336533a158-0
+00:26:00.970 --> 00:26:03.617
+Yo creo que teniendo todo esto,
+ahora sí nos podemos enfrascar
+
+2d50c3da-e92d-44a0-ae42-23336533a158-1
+00:26:03.617 --> 00:26:04.920
+en el sistema de recomendación.
+
+be76f486-5e40-4068-8e0a-3fd1f778c384-0
+00:26:05.580 --> 00:26:08.486
+Pero cuando ya tengamos todo
+esto, o sea, todo, todo todo que
+
+be76f486-5e40-4068-8e0a-3fd1f778c384-1
+00:26:08.486 --> 00:26:09.330
+nos falte ninguna.
+
+41413dfa-1045-40da-8826-90e0e81886d1-0
+00:26:11.180 --> 00:26:12.640
+Sí, si quieres no lo metas.
+
+65361fa7-e7af-4997-ba6a-70f0c3d5e885-0
+00:26:14.070 --> 00:26:15.640
+Las pruebas de testing.
+
+62206939-73be-43b5-886a-3a946842d5fd-0
+00:26:17.070 --> 00:26:17.770
+Steam.
+
+7e3470df-c31d-451d-937d-52e219cdfd24-0
+00:26:18.750 --> 00:26:23.000
+Y ya está. Lo del filtrado no,
+verdad, no.
+
+1d50f7da-dc3e-4795-812b-63a0bd121c67-0
+00:26:24.530 --> 00:26:26.030
+Y filtro también.
+
+74de88b5-18ca-4d53-b03a-d3b794276cec-0
+00:26:27.370 --> 00:26:33.580
+Oh OK, a ver el login y registro
+sería aparte de este.
+
+709727f7-019b-41b9-9547-85b54e7269fc-0
+00:26:34.660 --> 00:26:35.640
+A Dani.
+
+4ff0e16e-8429-41cf-b16e-39e8ac0624c0-0
+00:26:36.190 --> 00:26:38.370
+¿Félix para que ver que
+funcionen?
+
+6f7506c2-0f4e-4b75-83c7-a4ac09517c38-0
+00:26:39.310 --> 00:26:42.030
+¿En producción detalles
+estéticos es mío?
+
+b4184174-7954-442e-8367-f153ffc2961c-0
+00:26:44.100 --> 00:26:48.773
+El corregir títulos es de Alan,
+el sistema de comentarios es
+
+b4184174-7954-442e-8367-f153ffc2961c-1
+00:26:48.773 --> 00:26:49.080
+mío.
+
+363c298b-0a40-4d35-9d60-274221f34616-0
+00:26:51.130 --> 00:26:53.840
+Definir skills desde Elena.
+
+d42b578f-711d-47a6-826e-39bcc9f50623-0
+00:26:56.140 --> 00:26:59.170
+Editar información de usuario en
+también él ni Félix.
+
+700e60e4-8303-42cc-92c6-e2f192a45c41-0
+00:27:07.360 --> 00:27:08.600
+Claro, comentó, es mío.
+
+bee6af98-a7a0-40fd-8f14-99594067144f-0
+00:27:09.370 --> 00:27:12.462
+Si quieres verme ahí también
+porque se me hace que también
+
+bee6af98-a7a0-40fd-8f14-99594067144f-1
+00:27:12.462 --> 00:27:13.720
+voy a editar unas cosas.
+
+ca9a5956-7659-44b6-bb09-80d0a579eaeb-0
+00:27:15.180 --> 00:27:16.430
+Y Elena.
+
+b070fc80-c0c6-42be-9ba3-ee3062f89040-0
+00:27:17.320 --> 00:27:18.900
+Búsqueda de trabajos es mío.
+
+7e767e16-f9ff-4afc-a728-bb5cdae98829-0
+00:27:21.460 --> 00:27:22.670
+Testing. ¿Es mío?
+
+5dd11d62-eba6-474c-8c34-ce439dc6e4e6-0
+00:27:26.420 --> 00:27:27.650
+Y el filtro deseada.
+
+c8f883f0-3104-4e72-81c0-d8d0164e51dc-0
+00:27:30.460 --> 00:27:30.910
+Bien.
+
+610628e1-5957-46ea-a9d3-989f095c0ee9-0
+00:27:33.100 --> 00:27:34.150
+¿Entonces?
+
+8c1ca90c-c90e-4ff9-9899-febcd16073d6-0
+00:27:37.010 --> 00:27:37.850
+Ya no hace falta nada.
+
+145bf783-4f98-4145-8e9c-bd53dc7d6ab4-0
+00:27:40.590 --> 00:27:41.680
+Según yo no.
+
+61cd2cdb-f3d2-4575-be5e-152bf3334542-0
+00:27:43.570 --> 00:27:45.030
+¿Oh, OK, entonces todo?
+
+33b4d645-f7ff-47f0-95c0-105a4e95e654-0
+00:27:47.400 --> 00:27:51.105
+Para mañana, las que les gusta 8
+para tener más tiempo en la
+
+33b4d645-f7ff-47f0-95c0-105a4e95e654-1
+00:27:51.105 --> 00:27:51.470
+noche.
+
+5606657e-427b-4d72-8db9-9f8cdec32dce-0
+00:27:55.600 --> 00:27:56.050
+Sí.
+
+d75ad579-9745-447c-810d-9e37bb29452d-0
+00:27:56.740 --> 00:27:59.180
+¿Si se puede antes, pues mejor
+verdad, sí?
+
+675a19a6-5c34-4754-b4c7-8ae9cd0ee4a9-0
+00:27:59.750 --> 00:28:03.817
+Sí le digo en cual, comentando
+cualquier caso de que terminemos
+
+675a19a6-5c34-4754-b4c7-8ae9cd0ee4a9-1
+00:28:03.817 --> 00:28:06.550
+antes. Este, pues mandar mensaje
+ahí para.
+
+580cf455-ca9a-4034-8c80-a63c5435e275-0
+00:28:07.680 --> 00:28:09.340
+Poder completar otras tareas.
+
+4c1b1335-18ac-4d31-9775-bfb2a0a7bee1-0
+00:28:11.170 --> 00:28:15.090
+Sí, reunión ya podría más o
+menos como 840 más o menos.
+
+8ab6f6c5-0527-44da-bb09-4f7ac405d4f5-0
+00:28:16.010 --> 00:28:16.530
+Caca.
+
+8164bb33-d468-402e-9ebf-81ed006c377a-0
+00:28:19.280 --> 00:28:21.997
+Lo dejamos como a las 8:30
+entonces para mañana, para que
+
+8164bb33-d468-402e-9ebf-81ed006c377a-1
+00:28:21.997 --> 00:28:23.590
+estemos todos desde el
+principio.
+
+6bdf08d1-ee80-4d35-a018-9322ed68147e-0
+00:28:24.740 --> 00:28:26.490
+Lo esperamos 10 minutos a ver.
+
+10dcc4a0-5091-44c0-90d0-31ab97fb3851-0
+00:28:28.060 --> 00:28:28.670
+Y ya.
+
+0a8b606c-edec-43b4-b33b-07826b52874b-0
+00:28:31.650 --> 00:28:34.638
+Pues sí, sería todo. Entonces si
+quieren ya mañana nos vemos en
+
+0a8b606c-edec-43b4-b33b-07826b52874b-1
+00:28:34.638 --> 00:28:36.600
+esta parte y pues estamos
+comunicados en.
+
+7c21a20b-db42-483f-a82a-05701a03306f-0
+00:28:37.580 --> 00:28:40.398
+Web en aquí en teams, Ia sería
+la comunicación directa en
+
+7c21a20b-db42-483f-a82a-05701a03306f-1
+00:28:40.398 --> 00:28:40.690
+Times.
+
+34aabdad-5e28-4334-8678-cc4f2e502ccb-0
+00:28:41.340 --> 00:28:46.410
+Sale, está bien hasta mañana.
+Bye, bye.
