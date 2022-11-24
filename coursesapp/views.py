@@ -448,28 +448,16 @@ def favorite_add(request, id):
 	Returns:
 			HttpResponseRedirect: Redireccion a la pagina actual
 	"""
-	"""
-	Función favorite_add: Muestra la lógica para la búsqueda de cursos
-
-		Args:
-
-	Returns:
-			HttpResponseRedirect: Redireccion a la pagina actual
-	"""
-	"""
-	Función favorite_add: Muestra la lógica para la búsqueda de cursos
-
-		Args:
-
-	Returns:
-			HttpResponseRedirect: Redireccion a la pagina actual
-	"""
 	course = get_object_or_404(Curso, id=id)
 	if course.favorites.filter(id=request.user.id).exists():
 		course.favorites.remove()
 	else:
 		course.favorites.add()
 	return HttpResponseRedirect(request.META['HTTP_REFERER'])
+
+def favorite_list(request):
+	new = Curso.objects.filter(favorites=request.user)
+	return render(request, 'favorite.html', {'new', new})
 
 @csrf_exempt
 def SoftSkill1(request):
