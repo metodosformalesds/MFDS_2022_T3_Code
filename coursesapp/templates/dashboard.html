@@ -4,7 +4,7 @@
 
 <div class="main-banner px-4" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'); padding: 20vh 0; background-size: cover; background-position: center center;">
       <div class="col-md-14 mx-auto col-lg-6">
-        <form class="p-4 p-md-5 border rounded main-form-search" method="POST" action="{% url 'search' %}" id="search-bar-form">
+        <form class="p-4 p-md-5 border rounded main-form-search" method="POST" action="{% url 'search' %}" id="search-bar-form" style="background-color: rgba(255, 255, 255, 0.700);">
           {% csrf_token %}
           <div class="pb-3">
             <label for="" class="mr-3 text-success"><strong id="course-action">Cursos</strong></label>
@@ -71,7 +71,7 @@
   <div class="album px-5 bg-light">
     <div class="px-5">
       <h2 class="pb-5">Mira algunos Trabajos</h2>
-      <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+      <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3 pb-5">
 
         {% for job in jobs %}
             <div class="col"> 
