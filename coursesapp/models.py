@@ -8,6 +8,11 @@ from django.dispatch import receiver
 from django.db.models.signals import post_save
 
 class Perfil(models.Model):
+    """
+    Por Cinthia Elena Hernández Rodríguez
+    Se crea una clase con el nombre de Perfil, esta clase servirá para crear la tabla de base de datos "Perfil" con los campos de "user, skills, pais y avatar". Se debe tomar en cuenta que al querer
+    lograr que cada usuario tenga su Perfil, entonces se crea una relación 1-1 con el modelo de Usuario por medio del campo "user". De esa forma se logra que cada usuario, tenga su Perfil único.
+    """
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     skills = models.CharField(max_length=255, blank=True)
     pais = models.CharField(max_length=255, blank=True)
@@ -74,6 +79,11 @@ class Job(models.Model):
         return self.title
 
 class Skills(models.Model):
+    """
+    Por Cinthia Elena Hernández Rodríguez
+    Clase que contiene la estructura de la tabla Skills en la base de datos. Esta clase contiene 11 variables. Una hacia una relación 1-1 con el usuario del Modelo User y 10 restantes para almacenar
+    las skills de los usuarios (5 soft skills y 5 hard skills)
+    """
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     soft_skill1 = models.CharField(max_length=255, blank=True)
     soft_skill2 = models.CharField(max_length=255, blank=True)
@@ -91,6 +101,11 @@ class Skills(models.Model):
 
 @receiver(post_save, sender=User)
 def create_profile(sender, instance, **kwargs):
+    """
+    Por Cinthia Elena Hernández Rodríguez
+    Función que indica por medio del @receiver una señal. Una señal es una función que ejecuta una acción después de que sucede algo en la página. Para este caso
+    la señal cumple con la función de crear un objeto de tipo Perfil para el usuario registrado en la página. Cada usuario que se regsitre, crea un objeto de tipo Perfil y se enlazan por la variable User.
+    """
     if kwargs.get('created', False):
         Perfil.objects.get_or_create(user=instance)
 
@@ -98,6 +113,11 @@ def create_profile(sender, instance, **kwargs):
 
 @receiver(post_save, sender=User)
 def create_profile(sender, instance, **kwargs):
+    """
+    Por Cinthia Elena Hernández Rodríguez
+    Función que indica por medio del @receiver una señal. Una señal es una función que ejecuta una acción después de que sucede algo en la página. Para este caso
+    la señal cumple con la función de crear un objeto de tipo Skills para el usuario registrado en la página. Cada usuario que se registre, crea un objeto de tipo Skills y se enlazan por la variable User.
+    """
     if kwargs.get('created', False):
         Skills.objects.get_or_create(user=instance)
         print("Se enlaza el objeto Skills de usuario")
