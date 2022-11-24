@@ -218,19 +218,19 @@ def jobs_for_title(request, title):
 			render: Renderización del archivo "jobs.html"
 			return: retorna los trabajos filtrados por title.
 	"""
-	jobs = Title.objects.all()[:3]
+	jobs = title.objects.all()[:3]
 	#Depende de la categoría, realizamos la consulta a la base de datos
 	#Cambiar Title por Job
 	if title == 'backend':
-		jobs = Title.objects.filter(title='backend')
+		jobs = title.objects.filter(title='backend')
 	elif title == 'frontend':
-		jobs = Title.objects.filter(title='frontend')
+		jobs = title.objects.filter(title='frontend')
 	elif title == 'fullstack':
-		jobs = Title.objects.filter(title='fullstack')
+		jobs = title.objects.filter(title='fullstack')
 	elif title == 'datascience':
-		jobs = Title.objects.filter(title='datascience')
+		jobs = title.objects.filter(title='datascience')
 	elif title == 'cybersecurity':
-		jobs = Title.objects.filter(title='cybersecurity')
+		jobs = title.objects.filter(title='cybersecurity')
 
 	return render(request, 'jobs.html', {'jobs': jobs})
 
@@ -249,7 +249,7 @@ def jobs(request):
 
 	return render(request, 'jobs.html', {'jobs': result})
 
-
+@csrf_exempt
 def skills(request): 
 	"""
 	Función skills: Muestra la lógica para la edición de skills
