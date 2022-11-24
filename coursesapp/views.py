@@ -20,7 +20,7 @@ from .forms import HardSkill1_form,HardSkill2_form,HardSkill3_form,HardSkill4_fo
 #@login_required(login_url='login') #@login_required nos indica que, lo que está dentro de login_required se ejecutará únicamente cuando el usuario está con sesión activa.
 def home(request): #Definimos el nombre de la función home que será nuestra vista principal
 	"""
- Función home
+ 	Función home
 
 	Args:
 		request ()
@@ -37,7 +37,12 @@ def home(request): #Definimos el nombre de la función home que será nuestra vi
 @csrf_exempt
 def registerPage(request): # Se define el nombre de la función registerPage
 	"""
-	Función registerPage: Vista de la página de registro
+	Por Cinthia Elena Hernández Rodríguez
+
+	Función registerPage: Reedirecciona en caso de que el usuario este autenticado (loggeado) la página "home", esto para evitar que un usuario loggeado acceda. En caso de no estar loggeado
+	se obtiene el formulario "CreateUserForm" y se guarda en "form". Esta variable esperará una solicitud de tipo POST, si es de tipo POST se obtienen los datos y en caso de ser válido se guardan los datos
+	del formlario, además de ello, se recibe el username y el password para autenticar al usuario (iniciar sesión) y llevarlo al "home".
+	Todo esto sucede en el render que contiene el documento html register.html
 
 	Args:
 		request ()
@@ -69,7 +74,12 @@ def registerPage(request): # Se define el nombre de la función registerPage
 @csrf_exempt
 def loginPage(request): #Se crea la funcion loginPage para crear la vista de login
 	"""
- Función loginPage: Vista de la página de login
+	Por Cinthia Elena Rodriguez Hernandez
+
+	Función loginPage: Tiene como finalidad ser la vista de login, esta función recibe una solicitud de acceso cuando el usuario entra en el link y en caso de que ya se encuentre loggeado el usuario
+	entonces lo reedirigirá al "home", en caso de no estarlo, se obtiene de un formulario con solicitud de tipo POST (de envío de datos). Se obtiene el usuario y la contraseña de ese formulario y se autentica
+	al usuario por medio de la función "authenticate" que se almacena en la variable user. Se hace el login y en caso de hacerlo correctamente, se manda al "home". En caso contrario, se manda un mensaje de error.
+	Todo esto sucede en el render que contiene el documento html login.html
 
 	Args:
 		request ():
@@ -98,9 +108,13 @@ def loginPage(request): #Se crea la funcion loginPage para crear la vista de log
 
 def logoutUser(request):
 	"""
- Función logoutUser: Lógica al cerrar sesión activa
+	Por Cinthia Elena Hernández Rodríguez 
+
+	Función logoutUser: Su funcionalidad es cerrar sesión al usuario cuando este haga click en cerrar sesión.
+	Recibe una solicitud y se reedirecciona al login una vez que cerró sesión.
 
 	Args:
+		request ():
 
 	Returns:
 		redirect: Reedirige al login al usuario después de cerrar sesión con la función logout
@@ -110,12 +124,17 @@ def logoutUser(request):
 
 def profileUser(request): 
 	"""
-	Función profileUser: Lógica de la vista del perfil del usuario
+	Por Cinthia Elena Hernández Rodríguez
+
+	Función profileUser: Esta función tiene la funcionalidad de dar lógica a la vista que renderiza el perfil del usuario en el documento html "profile.html". La forma en la que lo hace es primero condicionando
+	su vista a que el usuario tenga sesión activa. Si no, el usuario es llevado al "home". Si tiene sesión iniciada, se guardan en unas variables algunos objetos de tipo curso que son mostrados al usuario
+	en su perfil.
 
 		Args:
-
+			request ():
 		Returns:
 			render: Renderización del archivo "profile.html"
+			redirect: si el usuario no esta autenticado lo reedirige a "home", la vista principal. 
 	"""
 
 	if request.user.is_authenticated: #Si el usuario esta loggeado
@@ -129,12 +148,19 @@ def profileUser(request):
 @csrf_exempt
 def profileConfig(request): 
 	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	Función profileConfig: Esta función sirve para brindar de lógica a la vista del documeto html "profileConfig.html". Primero condiciona su renderizado a si el usuario está loggeado, si no está loggeado, entonces
+	es llevado el "home". Si está loggeado, entonces se espera una solicitud de tipo POST en un formulario que servirá para editar los parámetros de "Nombre, Apellido y País" declarados en el modelo de Perfil y User.
+	Dichos formularios "UpdateUserForm" y "UpdateProfileForm" creados con anterioridad en forms.py esperan las variables antes mencionadas. Si ambos formularios son llenados correctamente (no basta uno), entonces
+	se guardan los datos. En caso contrario, se recarga la página y no realiza ninguna acción hasta que este llenado correctamente.
 	Función profileConfig: Lógica de la vista de la configuración del perfil del usuario
 
 		Args:
-
+			request ():
 		Returns:
 			render: Renderización del archivo "profileConfig.html"
+			redirect: si el usuario no esta autenticado lo reedirige a "home", la vista principal. 
 	"""
 	if request.user.is_authenticated: #Si el usuario esta loggeado
 		if request.method == 'POST': #si el método que se recibe es POST 
@@ -252,12 +278,13 @@ def jobs(request):
 @csrf_exempt
 def skills(request): 
 	"""
-	Función skills: Muestra la lógica para la edición de skills
+	 Por Cinthia Elena Hernández Rodríguez
+	 Función skills: Muestra la lógica para la edición de skills
 
 		Args:
-
+			request()
 		Returns:
-			render: Renderización del archivo "skills.html"
+			render: Renderización del archivo html "skills.html"
 	"""
 	return render(request, 'skills.html')
 
@@ -317,6 +344,19 @@ def searchBarJob(request):
 
 @csrf_exempt
 def profileConfigAvatar(request):
+	"""
+	  Por Cinthia Elena Hernández Rodríguez
+		
+		Función profileConfigAvatar: Renderizará el formulario de editar imagen de perfil. Para hacerlo correctamente, condiciona que el usuario este loggeado. Si lo está espera de un formulario tipo POST que
+		los datos que recibe de él coincidan con el formulario "UpdateUserFormAvatar", en este caso, un archivo de imagen. Si es así, lo guarda. Todo esto ocurre en la rendeización del documento html "profileConfigAvatar.html"
+		
+		Args:
+			request()
+		Returns:
+			render: Renderización del archivo html "profileConfigAvatar.html"
+			redirect: Si el formulario es validado correctamente se redirige al profile y se muestran los cambios
+			redirect: Si el usuario no esta autenticado se redirige al home
+	"""
 
 	if request.user.is_authenticated:
 		if request.method == 'POST': 
@@ -336,6 +376,20 @@ def profileConfigAvatar(request):
 
 @csrf_exempt
 def profileConfigEmail(request):
+	"""
+  	Por  Cinthia Elena Hernández Rodríguez
+
+	Función profileConfigEmail: Esta función permite dotar de lógica el formulario para editar el correo electrónico de un usuario. Esto lo hace, al igual que las demás funciones, que el usuario esté loggeado.
+	Si lo está entonces recibe de un formulario tipo POST los datos (correo), si es válido lo guarda. Esto se hace en la renderización del documento html profileConfigEmail.
+
+	Args:
+		request()
+	Returns:
+		render: Renderización del archivo html "profileConfigEmail.html"
+		redirect: Si el formulario es validado correctamente se redirige al profile y se muestran los cambios
+		redirect: Si el usuario no esta autenticado se redirige al home
+
+	"""
 
 	if request.user.is_authenticated: 
 		if request.method == 'POST': 
@@ -354,19 +408,35 @@ def profileConfigEmail(request):
 
 @csrf_exempt
 def password_change(request):
-    user = request.user
-    if request.method == 'POST':
-        form = SetPasswordForm(user, request.POST)
-        if form.is_valid():
-            form.save()
-            messages.success(request, "Your password has been changed")
-            return redirect('login')
-        else:
-            for error in list(form.errors.values()):
-                messages.error(request, error)
+	
+	"""
+	Por Cinthia Elena Hernández Rodríguez
 
-    form = SetPasswordForm(user)
-    return render(request, 'profileConfigPassword.html', {'form': form})
+	Función password_change: Para reaizar la funcionalidad de cambio de contraseña, se hizo uso del formulario SetPasswordForm, este formulario no fue diseñado por nosotros pues forma parte de los formularios
+	predeterminados de Django, esto porque las contraseñas deben ser cifradas y no únicamente pasadas en texto plano. Al igual que las funciones anteriores, se espera que el usuario este loggeado. Si lo está
+	entonces al igual que en los demás, se espera el formulario sea válido y entonces es guardado. Esto se hace renderizando "profileConfigPassword.html"
+	
+	Args:
+		request()
+	Returns:
+		render: Renderización del archivo html "profileConfigPassword.html"
+		redirect: Si el formulario es validado correctamente se redirige al profile y se muestran los cambios
+		redirect: Si el usuario no esta autenticado se redirige al home
+
+ 	"""
+	user = request.user
+	if request.method == 'POST':
+		form = SetPasswordForm(user, request.POST)
+		if form.is_valid():
+			form.save()
+			messages.success(request, "Your password has been changed")
+			return redirect('login')
+		else:
+			for error in list(form.errors.values()):
+				messages.error(request, error)
+
+	form = SetPasswordForm(user)
+	return render(request, 'profileConfigPassword.html', {'form': form})
 
 @login_required
 def favorite_add(request, id):
@@ -377,8 +447,33 @@ def favorite_add(request, id):
 		course.favorites.add()
 	return HttpResponseRedirect(request.META['HTTP_REFERER'])
 
+"""_summary_
+	Por Cinthia Elena Hernández Rodríguez
+	
+	Estas funciones sirven de lógica a los templates
+	de edición de skills (5 hard skills y 5 soft skills). Las siguientes 10 plantillas funcionan de la misma manera, variando únicamente en el dato que guardan en la base de datos por lo que su documentación
+	individual parece redundante. La funcionalidad general es revisar si el usuario esta loggeado. Si lo está, entonces esperará que el usuario mande un formulario de tipo POST que se renderiza del documento
+	html. Una vez llenado, se valida la información y se guarda.
+
+"""
+
 @csrf_exempt
 def SoftSkill1(request):
+	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	Esta función sirve de lógica al formulario que se renderiza del archivo html correspondiente. Al igual que los antecesores, recibe una solicitud de tipo POST en un formulario. Una vez recogida la solicitud,
+	se valida la información y se guarda en la base de datos. Una vez guardado correctamente, el usuario es llevado el "profile". Todo esto, esperando el usuario este loggeado, sino, es llevado automatizamente al
+	"home"
+
+	Args:
+		request()
+	Returns:
+		render: Renderización del archivo html de la skill correspondiente.
+		redirect: Si el formulario es validado correctamente se redirige al profile y se muestran los cambios
+		redirect: Si el usuario no esta autenticado se redirige al home
+
+	"""
 
 	if request.user.is_authenticated: 
 		if request.method == 'POST': 
@@ -401,6 +496,11 @@ def SoftSkill1(request):
 @csrf_exempt
 def SoftSkill2(request):
 
+	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	"""
+
 	if request.user.is_authenticated: 
 		if request.method == 'POST': 
 			skills_forms = SoftSkill2_form(request.POST, instance=request.user.skills)
@@ -420,6 +520,11 @@ def SoftSkill2(request):
 @csrf_exempt
 def SoftSkill3(request):
 
+	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	"""
+
 	if request.user.is_authenticated: 
 		if request.method == 'POST': 
 			skills_forms = SoftSkill3_form(request.POST, instance=request.user.skills)
@@ -438,6 +543,11 @@ def SoftSkill3(request):
 @csrf_exempt
 def SoftSkill4(request):
 
+	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	"""
+
 	if request.user.is_authenticated: 
 		if request.method == 'POST': 
 			skills_forms = SoftSkill4_form(request.POST, instance=request.user.skills)
@@ -455,6 +565,11 @@ def SoftSkill4(request):
 
 @csrf_exempt
 def SoftSkill5(request):
+
+	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	"""
 
 	if request.user.is_authenticated: 
 		if request.method == 'POST': 
@@ -475,6 +590,11 @@ def SoftSkill5(request):
 @csrf_exempt
 def HardSkill1(request):
 
+	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	"""
+
 	if request.user.is_authenticated: 
 		if request.method == 'POST': 
 			skills_forms = HardSkill1_form(request.POST, instance=request.user.skills)
@@ -493,6 +613,11 @@ def HardSkill1(request):
 @csrf_exempt
 def HardSkill2(request):
 
+	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	"""
+
 	if request.user.is_authenticated: 
 		if request.method == 'POST': 
 			skills_forms = HardSkill2_form(request.POST, instance=request.user.skills)
@@ -510,6 +635,11 @@ def HardSkill2(request):
 
 @csrf_exempt
 def HardSkill3(request):
+	
+	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	"""
 
 	if request.user.is_authenticated: 
 		if request.method == 'POST': 
@@ -529,6 +659,11 @@ def HardSkill3(request):
 @csrf_exempt
 def HardSkill4(request):
 
+	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	"""
+
 	if request.user.is_authenticated: 
 		if request.method == 'POST': 
 			skills_forms = HardSkill4_form(request.POST, instance=request.user.skills)
@@ -546,6 +681,11 @@ def HardSkill4(request):
 
 @csrf_exempt
 def HardSkill5(request):
+
+	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	"""
 
 	if request.user.is_authenticated: 
 		if request.method == 'POST': 
@@ -566,6 +706,11 @@ def HardSkill5(request):
 @csrf_exempt
 def addComment(request, id):
 
+	"""
+	Por Cinthia Elena Hernández Rodríguez
+
+	"""
+	
 	comment=Comment()
 	if request.user.is_authenticated: 
 		course = get_object_or_404(Curso, id=id)
