@@ -462,7 +462,7 @@ def favorite_add(request, id):
 
 def favorite_list(request):
 	new = Curso.objects.filter(favorites=request.user)
-	return render(request, 'favorite.html', {'new', new})
+	return render(request, 'favorite.html', {'new': new})
 
 @csrf_exempt
 def SoftSkill1(request):

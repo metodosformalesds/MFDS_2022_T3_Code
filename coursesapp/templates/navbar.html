@@ -16,7 +16,14 @@
               </div>
           </li>
           <li class="nav-item ml-5">
-          <form class="form-inline ml-3 border rounded main-form-search" method="POST" action="{% url 'search' %}">
+            <!-- Barra de busqueda -->
+          <form class="form-inline ml-3 border rounded main-form-search" method="POST" action="{% url 'search' %}" id="search-bar-form">
+            <script>
+              if(location.pathname=="/searchjob/" || location.pathname=="/jobs/") 
+              {
+              document.getElementById('search-bar-form').action = "{% url 'searchjob' %}"
+              }
+            </script>
             {% csrf_token %}
             <div class="input-group">
               <input type="text" name="search" class="form-control " placeholder="buscar">
